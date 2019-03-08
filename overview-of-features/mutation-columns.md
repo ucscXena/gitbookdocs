@@ -2,7 +2,7 @@
 
 ## Single gene display
 
-To display a single gene, enter that gene, choose your dataset and click 'done'. To see more than one gene, add another column.When displaying a single gene the gene model will be displayed at the top of the column. The gene model is a composite of all transcripts in Refseq with alternating light and dark shades of grey to show different exons. UTR regions are shorter in height than the CDS region. We display 2Kb upstream to show the promoter region. Use the column menu to toggle to show intronic regions.
+To display a single gene, enter that gene, choose your dataset and click 'done'. To see more than one gene, add another column.When displaying a single gene, the gene model will be displayed at the top of the column. The gene model is a composite of all transcripts of the gene. Alternating light and dark shades of grey to show different exons. UTR regions are shorter in height than the CDS region. We display 2Kb upstream to show the promoter region. Use the column menu to toggle to show intronic regions.
 
 ## Chromosome range display
 
