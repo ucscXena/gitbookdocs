@@ -10,30 +10,20 @@ is part of the [Xena HeatMap suite](https://xenabrowser.net/heatmap/).
 
 ## About
 
-Allows comparison individual gene sets and genes across two cohorts. 
+Allows comparison individual gene sets and genes across two cancer cohorts. 
 
-### Explanation of vertical gene set 
-
-- Explanation of geneset expansion 
-
-### Explanation of individual gene view
+![Xena GeneSet Tool Screenshot](images/screenshot1.png "Xena GeneSet Tool Screen Shot")
 
 
-## Features
+[TODO:]:<>(### Explanation of vertical gene set to include geneset data)
 
-### Gene Search 
+[TODO:]:<>(### Explanation of individual gene view)
 
-### Pathway Editor
-
-Allows users to edit custom gene sets to explore.  
-
-By default we provide cohort comparison of some cohorts, but not others.
-
-
-
-
-## Configuration
-
-- Color 
-
-- Show reciprocal geneset 
+[TODO]:<>(## Features)
+[TODO]:<>(### Gene Search )
+[TODO]:<>(### Pathway Editor)
+[TODO]:<>(Allows users to edit custom gene sets to explore.  )
+[TODO]:<>(By default we provide cohort comparison of some cohorts, but not others.)
+[TODO]:<>(## Configuration)
+[TODO]:<>(- Color )
+[TODO]:<>(- Show reciprocal geneset )
