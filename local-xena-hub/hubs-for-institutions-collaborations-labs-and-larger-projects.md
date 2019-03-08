@@ -145,5 +145,5 @@ in /etc/httpd/conf/httpd.conf
 
 ## I want a landing page for my hub
 
-If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the UCSC RNA-seq recompute hub here: [https://toil.xenahubs.net](https://toil.xenahubs.net) .
+If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the ATAC-seq hub: [https://atacseq.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_atacseq.xenahubs.net/info.mdown). 
 
