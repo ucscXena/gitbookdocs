@@ -32,6 +32,7 @@
   * [Basic Xena Browser](faq/basic-xena-browser.md)
   * [Basic data and datasets](faq/data-and-datasets.md)
   * [Advanced data and datasets](faq/advanced-data-and-datasets.md)
+  * [Gene Sets Tool](geneset/gene-sets-about.md)
 * [Viewing your own data](local-xena-hub/README.md)
   * [Getting Started](local-xena-hub/getting-started.md)
   * [Probes/transcripts/identifiers we recognize](local-xena-hub/supported-gene-and-probe-names.md)
