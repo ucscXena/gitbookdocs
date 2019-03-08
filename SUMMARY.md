@@ -28,7 +28,7 @@
   * [TumorMap](overview-of-features/tumormap.md)
   * [MuPIT](overview-of-features/untitled.md)
   * [Accessing data through python](overview-of-features/accessing-data-through-python.md)
-  * [Gene Sets Tool](geneset/gene-sets-about.md)
+  * [Gene Sets Tool](overview-of-features/gene-sets-about.md)
 * [FAQ](faq/README.md)
   * [Basic Xena Browser](faq/basic-xena-browser.md)
   * [Basic data and datasets](faq/data-and-datasets.md)
