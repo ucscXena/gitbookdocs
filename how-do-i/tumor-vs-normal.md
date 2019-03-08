@@ -26,7 +26,9 @@ In this example we will be looking to compare MYC gene expression between normal
 
 Start with the [TCGA TARGET GTEx study](https://xenabrowser.net/?bookmark=057c5fe67d5d79488b843d7a6e1a9840),  first, we filter the cohort and only keep the colon samples. The search term that was used to filter is: **colon**.
 
-![](../.gitbook/assets/colonfilter.gif)
+{% embed url="https://youtu.be/b\_vgeWpL\_B8" %}
+
+
 
 cheat link: [https://xenabrowser.net/?bookmark=9c75da8586d85ac10f1a6aa26059ba14](https://xenabrowser.net/?bookmark=9c75da8586d85ac10f1a6aa26059ba14)
 
