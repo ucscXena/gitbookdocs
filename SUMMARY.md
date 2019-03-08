@@ -3,7 +3,6 @@
 * [Welcome to the Help Pages for UCSC Xena](README.md)
 * [Tutorials](tutorials.md)
 * [Live Examples](live-examples.md)
-* [Gene Sets](geneset/gene-sets-about.md)
 * [How do I ...](how-do-i/README.md)
   * [How do I view my own data?](https://ucsc-xena.gitbook.io/project/local-xena-hub)
   * [How do I compare tumor vs normal expression?](how-do-i/tumor-vs-normal.md)
