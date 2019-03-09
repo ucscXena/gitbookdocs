@@ -26,9 +26,7 @@ A selected Gene Set is highlighted in blue (A).  The selected genes are on the r
 
 If "Reciprocal Gene Set" is selected, then gene sets that contain any of the hovered gene set are also highlighted.
 
-![Options](../geneset/images/Options1.png)
-
-<img src="../geneset/images/Options1.png" data-canonical-src="../geneset/images/Options1.png" width="400" height="400" />
+<img src="../geneset/images/Options1.png" data-canonical-src="../geneset/images/Options1.png" width="200" height="200" />
 
 Colors and scale may be altered from the dialogs in the option.  Data may be downloaded as JSON from the current view.
 
