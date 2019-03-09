@@ -16,26 +16,32 @@ Allows comparison individual gene sets and genes across two cancer cohorts.
 
 ![Overview](../geneset/images/Overview1.png)
 
-A) The selected gene
+GeneSets are list along the left-hand-side.
+Relevant scores from Cohort A on the left and Cohort B are on the right.
+Darker red indicates that expression of selected events are over-represented and darker blue is under-represented.
+A white color indicates that the expression is average for the expected samples.
 
-B) The selected gene
-
-C) The selected gene
-
-D) The selected gene
-
-## Cohort Selection
+Cohorts may be selected from the dialog next to the gene view.   
 
 ![Cohort Selection](../geneset/images/CohortSection.png)
 
-Source of the cohorts.
+A selected Gene Set is highlighted in blue (A).  
+The selected genes are on the right (D) with Cohort A along the top and Cohort B along the bottom.
+Highlighting the genes (D) or the the gene set (C) results in a green hover.  
+If a gene is highlighted, all of the gene sets that include that gene are hovered in green.
+If a gene set is highlighted, all genes from the current selection are highlighted. 
 
+If "Reciprocal Gene Set" is selected, then gene sets that contain any of the hovered gene set are also highlighted.
 
+![Options](../geneset/images/Options1.png)
 
-## Pathway Editor
+Colors and scale may be altered from the dialogs in the option.   
+Data may be downloaded as JSON from the current view.
 
-TODO
+Additional Gene Sets may be added or edited by selecting "Edit Pathways".
 
-## Drop Down Features
+## Gene Search
 
-TODO
+In both the Gene Set View Pathway Editing screen, genes can be searched for.  
+Once highlighted, the genes and gene sets containing those genes will be highlighted in pink. 
+
