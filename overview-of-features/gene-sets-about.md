@@ -64,17 +64,17 @@ Additional Gene Sets may be added or edited by selecting "Edit Pathways".
 
 ## Editing Pathways
 
-[!Editing Gene Sets](../geneset/images/EditGeneSet1.png)
+![Editing Gene Sets](../geneset/images/EditGeneSet1.png)
 
-[!Editing Gene Set Reflected](../geneset/images/EditGeneSetReflected.png)
+![Editing Gene Set Reflected](../geneset/images/EditGeneSetReflected.png)
 
 ## Gene Search
 
 In both the Gene Set View Pathway Editing screen, genes can be searched for.  
 Once highlighted, the genes and gene sets containing those genes will be highlighted in pink. 
 
-[!Gene Search Result](../geneset/images/GeneSetViewerGeneSearch.png)
+![Gene Search Result](../geneset/images/GeneSetViewerGeneSearch.png)
 
 In the Edit Pathway, there is a similar view, as well.
 
-[!Gene Search Edit Pathway](../geneset/images/EditPathwayGeneSearch.png)
+![Gene Search Edit Pathway](../geneset/images/EditPathwayGeneSearch.png)
