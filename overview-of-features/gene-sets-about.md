@@ -64,13 +64,20 @@ There are several options available in the drop-down menu.
 
 ![Options](../geneset/images/Options1_200.png)
 
-1. Colors and scale that represent genes and gene set scores may be altered from the dialogs in the option.  
+#####Edit Colors
+"Edit Colors" allows configuration of the color and scale that are used to represent genes and gene set scores.
 
-1. If "Reciprocal Gene Set" is selected, then gene sets that contain any of the hovered gene set are also highlighted.
 
-1. Data may be downloaded as JSON from the current view. 
+#####Reciprocal Gene Sets
+If "Reciprocal Gene Set" is selected, then gene sets that contain any genes in that hovered gene set are also highlighted.
+This could be useful when assessing other possible gene sets might be worth exploring.
 
-1. Gene sets or pathways may be edited with any available gene data by selecting "Edit Pathways".
+
+#####Cohort 1/2 Data 
+Data may be downloaded as JSON by selected "Cohort 1 Data" or "Cohort 2 Data".
+
+##### Edit Pathways
+Gene sets or pathways may be edited with any available gene data by selecting "Edit Pathways".
 
 In this example we added the gene set "Curated Gene Set" and added 3 genes to it.
 
