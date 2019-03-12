@@ -11,17 +11,17 @@ The Gene Set Tool allows direct comparison of individual gene sets and genes acr
 
 ![Overview](../geneset/images/Overview1.png)
 
-Gene sets are list along the left-hand-side (A), with Cohort A presented on the LHS and Cohort B on the RHS. 
+Gene sets are list along the left (A), with Cohort A presented on the left side and Cohort B on the right side. 
 Darker red indicates that expression of selected events have over-represented expression and darker blue is under-represented expression of variants.
 A white color indicates that the expression is average for the expected samples.
 
 As a user hovers over gene sets the highlighted gene set is indicated in green (C), while the selected gene set (by clicking on itt) is indicated in blue. 
-Genes for the selected gene set are shown in (D).  
-Statistics for the hovered gene sets are shown in (B).   
-Genes included in the hovered gene set are highlighted in green (D).
+Genes for the selected gene set are shown in (D).  Statistics for the hovered gene sets are shown in (B).   Genes included in the hovered gene set are highlighted in green (D).
 
 
-When hovering over genes, you either get the affected area for that gene for both cohorts 
+When hovering over genes labels, you get the affected area for that gene for both cohorts in the hovering box.  
+When hovering over the individual sample, you get the number of hits for the gene and name of the individual sample.
+
 ![Gene Label Hover](../geneset/images/GeneLabelHover.png)
 
 or the score for the individual sample.
@@ -31,7 +31,9 @@ or the score for the individual sample.
 
 ### Expanded Gene Set View
 
-To view the compiled set of samples you can expand the gene set view by clicking on the arrows at top.
+By clicking on the arrows at the top you can view the samples of individual gene sets.  
+
+As you can see, because gene sets with more genes will have more affected samples, we use an expected value to calculate whether or not a gene is over represented.
 
 ![Expanded Gene Set](../geneset/images/ExpandedGeneSetViewer.png)
  
@@ -46,27 +48,38 @@ There are two primary sources for cohort data:
 
 ### Filter selection
 
-Filters are selected from the cohort box, where counts for each and the combined amount are provided for each:
+Filters are selected from the cohort box, where counts for each and the combined amount are provided for each.  
+
+Currently we provide filters for copy number variants and somatic mutations.
 
 
 ![Filter Set](../geneset/images/FilterSelector.png)
 
 
-### Other Options
+### Additional Options
 
-If "Reciprocal Gene Set" is selected, then gene sets that contain any of the hovered gene set are also highlighted.
+There are several options available in the drop-down menu.
 
 ![Options](../geneset/images/Options1_200.png)
 
-Colors and scale may be altered from the dialogs in the option.  Data may be downloaded as JSON from the current view.
+1. Colors and scale that represent genes and gene set scores may be altered from the dialogs in the option.  
 
-Additional Gene Sets may be added or edited by selecting "Edit Pathways".
+1. If "Reciprocal Gene Set" is selected, then gene sets that contain any of the hovered gene set are also highlighted.
 
-## Editing Pathways
+1. Data may be downloaded as JSON from the current view. 
+
+1. Gene sets or pathways may be edited with any available gene data by selecting "Edit Pathways".
+
+In this example we added the gene set "Curated Gene Set" and added 3 genes to it.
 
 ![Editing Gene Sets](../geneset/images/EditGeneSet1.png)
 
+On clicking "Done", this is reflected below.
+
 ![Editing Gene Set Reflected](../geneset/images/EditGeneSetReflected.png)
+
+Gene set data can also be downloaded, edited by hand and re-uploaded. 
+
 
 ## Gene Search
 
@@ -75,6 +88,6 @@ Once highlighted, the genes and gene sets containing those genes will be highlig
 
 ![Gene Search Result](../geneset/images/GeneSetViewerGeneSearch.png)
 
-In the Edit Pathway, there is a similar view, as well.
+A similar view is provided when Editing the Pathway.
 
 ![Gene Search Edit Pathway](../geneset/images/EditPathwayGeneSearch.png)
