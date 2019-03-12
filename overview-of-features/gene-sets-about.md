@@ -15,8 +15,10 @@ Gene sets are list along the left (A), with Cohort A presented on the left side 
 Darker red indicates that expression of selected events have over-represented expression and darker blue is under-represented expression of variants.
 A white color indicates that the expression is average for the expected samples.
 
-As a user hovers over gene sets the highlighted gene set is indicated in green (C), while the selected gene set (by clicking on itt) is indicated in blue. 
-Genes for the selected gene set are shown in (D).  Statistics for the hovered gene sets are shown in (B).   Genes included in the hovered gene set are highlighted in green (D).
+As a user hovers over gene sets the highlighted gene set is indicated in green (C), while the selected gene set (by clicking on it) is indicated in blue. 
+Genes for the selected gene set are shown in (D).  They are sorted by the by the density of the top cohort from left to right and the bottom cohort matches the gene positions.
+Vertically, pixels are split by tissue samples from the cohort and darker pixes have additional hits for that sample. 
+Statistics for the hovered gene sets are shown in (B).   Genes included in the hovered gene set are highlighted in green (D).
 
 
 When hovering over genes labels, you get the affected area for that gene for both cohorts in the hovering box.  
