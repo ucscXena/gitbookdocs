@@ -14,7 +14,7 @@
   * [How do I view multiple types of cancer together?](how-do-i/how-do-i-view-more-than-one-type-of-cancer-together.md)
   * [How do I filter to just one cancer type](how-do-i/how-do-i-filter-to-just-one-cancer-type.md)
   * [How do I change the color threshold for a column?](how-do-i/how-do-i-change-the-color-threshold-for-a-column.md)
-  * [How do I freeze and unfreeze tooltip](how-do-i/freeze-and-un-freeze-tooltip.md)
+  * [How do I copy information from the tooltip?](how-do-i/freeze-and-un-freeze-tooltip.md)
   * [How do I cite UCSC Xena?](how-do-i/cite-xena.md)
 * [Overview of Features](overview-of-features/README.md)
   * [Visual Spreadsheet](http://xena.ghost.io/visual-spreadsheet/)
