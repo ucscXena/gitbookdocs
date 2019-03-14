@@ -6,7 +6,7 @@
 * [How do I ...](how-do-i/README.md)
   * [How do I view my own data?](https://ucsc-xena.gitbook.io/project/local-xena-hub)
   * [How do I compare tumor vs normal expression?](how-do-i/tumor-vs-normal.md)
-  * [How do I remove null data \(gray lines\) from view?](http://xena.ghost.io/removing-null-data-from-view/)
+  * [How do I remove null data \(gray lines\) from view?](how-do-i/how-do-i-remove-null-data-gray-lines-from-view.md)
   * [How do I make subgroups?](how-do-i/how-do-i-make-subgroups.md)
   * [How do I compare gene expression between subgroups?](how-do-i/how-do-i-compare-gene-expression-between-subgroups.md)
   * [How do I remove duplicate samples from a KM plot?](how-do-i/how-do-i-remove-duplicate-samples-from-a-km-plot.md)
