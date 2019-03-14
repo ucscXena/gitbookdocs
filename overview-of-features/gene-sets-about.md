@@ -37,10 +37,7 @@ As you can see, because gene sets with more genes will have more affected sample
 
 ### Cohort selection
 
-There are two primary sources for cohort data:
-
-* [https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443](https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443)
-* [https://xenabrowser.net/datapages/?cohort=Cancer Cell Line Encyclopedia \(Breast](https://xenabrowser.net/datapages/?cohort=Cancer%20Cell%20Line%20Encyclopedia%20%28Breast)\)
+User cohort dropdown
 
 ### Filter selection
 
@@ -92,4 +89,11 @@ Once highlighted, the genes and gene sets containing those genes will be highlig
 A similar view is provided when Editing the Pathway.
 
 ![Gene Search Edit Pathway](../.gitbook/assets/editpathwaygenesearch.png)
+
+
+
+### Sources for the somatic mutation and copy number variation data
+
+* [https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443](https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443)
+* [https://xenabrowser.net/datapages/?cohort=Cancer Cell Line Encyclopedia \(Breast](https://xenabrowser.net/datapages/?cohort=Cancer%20Cell%20Line%20Encyclopedia%20%28Breast)\)
 
