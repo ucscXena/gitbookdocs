@@ -1,22 +1,24 @@
 # Gene Sets Tool
 
-The Gene Sets Tool [https://xenageneset.berkeleybop.io/xena/](https://xenageneset.berkeleybop.io/xena/) allows comparison of cancer tissue cohorts.  
-It is part of the [Xena Visual Spreadsheet suite](https://xenabrowser.net/heatmap/).
+The Gene Sets Tool [https://xenageneset.berkeleybop.io/xena/](https://xenageneset.berkeleybop.io/xena/) compares somatic mutation and copy number variation profile of cancer related gene sets across two cancer cohorts.  
+It is part of the Xena Visualization suite.
 
-Source can be found on GitHub [https://github.com/ucscXena/XenaGoWidget](https://github.com/ucscXena/XenaGoWidget).
+Source code of the Gene Sets Tool is on [GitHub](https://github.com/ucscXena/XenaGoWidget).
 
 ## Overview
 
-The Gene Set Tool allows direct comparison of individual gene sets and genes across two cancer tissue sample cohorts \(Cohorts A and B\).
+The Gene Set Tool allows direct comparison of individual gene sets and genes across two cancer cohorts \(cohort A and cohort B\).
 
 ![Overview](../.gitbook/assets/overview1.png)
 
-Gene sets are list along the left \(A\), with Cohort A presented on the left side and Cohort B on the right side. Darker red indicates that expression of selected events have over-represented expression and darker blue is under-represented expression of variants. A white color indicates that the expression is average for the expected samples.
+**Section A** Gene sets are list on the left \(A\), with **Cohort A** presented on the left side and **Cohort B** on the right side. **Darker red indicates that the gene set is more perturbed** in the cohort than expected given somatic mutation and copy number variation background of the cohort samples, and **darker blue is less perturbed** then expected. White color indicates that the perturbation level is as expected.
 
-As a user hovers over gene sets the highlighted gene set is indicated in green \(C\), while the selected gene set \(by clicking on it\) is indicated in blue. Genes for the selected gene set are shown in \(D\). They are sorted by the by the density of the top cohort from left to right and the bottom cohort matches the gene positions. Vertically, pixels are split by tissue samples from the cohort and darker pixes have additional hits for that sample. Statistics for the hovered gene sets are shown in \(B\). Genes included in the hovered gene set are highlighted in green \(D\).
+**Section B** Detailed information in text for the moused over gene set or gene.
 
-When hovering over genes labels, you get the affected area for that gene for both cohorts in the hovering box.  
-When hovering over the individual sample, you get the number of hits for the gene and name of the individual sample.
+**Section C** As a user mouse over a gene set, it is outlined in green \(**C** and **D**\)
+
+**Section D** User click on the gene sets in A to select one to view in detail in **D**. The selected gene set is outlined in blue in A.  In D, genes are sorted from left to right according to the % samples perturbed \(from high to low\) in the top cohort. The bottom cohort matches the top cohort's gene positions. Vertical axis is samples. When mouse over a gene label, you get the detailed information for both cohorts in **B**.  
+When hovering over the individual sample, you get the number of hits for the gene and name of the individual sample in **B**.
 
 ![Gene Label Hover](../.gitbook/assets/genelabelhover.png)
 
