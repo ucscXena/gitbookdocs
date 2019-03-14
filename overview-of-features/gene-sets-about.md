@@ -35,11 +35,11 @@ As you can see, because gene sets with more genes will have more affected sample
 
 ![Expanded Gene Set](../.gitbook/assets/expandedgenesetviewer.png)
 
-### Cohort selection
+### Cohort Selection
 
 Use cohort dropdown
 
-### Change data type
+### Change Data Type
 
 Use Data Type dropdown
 
@@ -47,7 +47,23 @@ Currently we provide selections for copy number variants and somatic mutations.
 
 ![Filter Set](../.gitbook/assets/filterselector.png)
 
-### Additional Options
+### Edit Pathways
+
+Gene sets or pathways may be edited with any available gene data by selecting "Edit Pathways".
+
+In this example we added the gene set "Curated Gene Set" and added 3 genes to it.
+
+![Editing Gene Sets](../.gitbook/assets/editgeneset1.png)
+
+On clicking "Done", this is reflected below.
+
+![Editing Gene Set Reflected](../.gitbook/assets/editgenesetreflected.png)
+
+Gene set data can also be downloaded, edited by hand and re-uploaded.
+
+
+
+## Additional Options
 
 There are several options available in the drop-down menu.
 
@@ -61,23 +77,9 @@ There are several options available in the drop-down menu.
 
 If "Reciprocal Gene Set" is selected, then gene sets that contain any genes in that hovered gene set are also highlighted. This could be useful when assessing other possible gene sets might be worth exploring.
 
-#### Cohort 1/2 Data
+#### Cohort 1 and Cohort 2 Data
 
 Data may be downloaded as JSON by selected "Cohort 1 Data" or "Cohort 2 Data".
-
-#### Edit Pathways
-
-Gene sets or pathways may be edited with any available gene data by selecting "Edit Pathways".
-
-In this example we added the gene set "Curated Gene Set" and added 3 genes to it.
-
-![Editing Gene Sets](../.gitbook/assets/editgeneset1.png)
-
-On clicking "Done", this is reflected below.
-
-![Editing Gene Set Reflected](../.gitbook/assets/editgenesetreflected.png)
-
-Gene set data can also be downloaded, edited by hand and re-uploaded.
 
 ## Gene Search
 
@@ -92,7 +94,7 @@ A similar view is provided when Editing the Pathway.
 
 
 
-### Sources for the somatic mutation and copy number variation data
+## Sources for the somatic mutation and copy number variation data
 
 * [https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443](https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443)
 * [https://xenabrowser.net/datapages/?cohort=Cancer Cell Line Encyclopedia \(Breast](https://xenabrowser.net/datapages/?cohort=Cancer%20Cell%20Line%20Encyclopedia%20%28Breast)\)
