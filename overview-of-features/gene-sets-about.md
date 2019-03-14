@@ -17,12 +17,13 @@ The Gene Set Tool allows direct comparison of individual gene sets and genes acr
 
 **Section C** As a user mouse over a gene set, it is outlined in green \(**C** and **D**\)
 
-**Section D** User click on the gene sets in A to select one to view in detail in **D**. The selected gene set is outlined in blue in A.  In D, genes are sorted from left to right according to the % samples perturbed \(from high to low\) in the top cohort. The bottom cohort matches the top cohort's gene positions. Vertical axis is samples. When mouse over a gene label, you get the detailed information for both cohorts in **B**.  
-When hovering over the individual sample, you get the number of hits for the gene and name of the individual sample in **B**.
+**Section D** User click on the gene sets in A to select one to view in detail in **D**. The selected gene set is outlined in blue in A.  In D, genes are sorted from left to right according to the % samples perturbed \(from high to low\) in the top cohort. The bottom cohort matches the top cohort's gene positions. Vertical axis is samples. 
+
+When mouse over a gene label, you get the detailed information about that gene \(for both cohorts\).
 
 ![Gene Label Hover](../.gitbook/assets/genelabelhover.png)
 
-or the score for the individual sample.
+When hovering over the individual sample, you get the number of hits for the gene and name of the individual sample.
 
 ![Gene Sample Hover](../.gitbook/assets/genesamplehover.png)
 
