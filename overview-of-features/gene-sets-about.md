@@ -37,13 +37,13 @@ As you can see, because gene sets with more genes will have more affected sample
 
 ### Cohort selection
 
-User cohort dropdown
+Use cohort dropdown
 
-### Filter selection
+### Change data type
 
-Filters are selected from the cohort box, where counts for each and the combined amount are provided for each.
+Use Data Type dropdown
 
-Currently we provide filters for copy number variants and somatic mutations.
+Currently we provide selections for copy number variants and somatic mutations.
 
 ![Filter Set](../.gitbook/assets/filterselector.png)
 
