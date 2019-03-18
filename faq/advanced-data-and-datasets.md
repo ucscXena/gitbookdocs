@@ -32,5 +32,9 @@ The methylation 450k dataset has [90% of the probes from the 27k dataset](https:
 
 Many copy number estimation algorithms estimate copy number variation on a continuous scale even though it is measuring something discrete \(i.e. the number of copies of piece of chromosome or a gene in the cell\). The GISTIC 2 thresholded data attempts to assign discrete numbers to these fragments by thresholding the data. The estimated values -2,-1,0,1,2, represent homozygous deletion, single copy deletion, diploid normal copy, low-level copy number amplification, or high-level copy number amplification respectively. More information can be found in the [GISTIC 2 paper](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-4-r41) and at the [Broad Institute](http://gdac.broadinstitute.org/), which is the group that processed this data. 
 
+## Where is the transcript-level expression data?
+
+As of March 2019, our transcript-level data is in the [TCGA Pan-Cancer cohort](https://xenabrowser.net/datapages/?cohort=TCGA%20Pan-Cancer%20%28PANCAN%29). From here choose 'Advanced' and select any of the transcript-level expression datasets. Enter your transcript of interest as a Ensembl identifier \(not a gene\). 
+
 
 
