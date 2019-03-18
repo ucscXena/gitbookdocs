@@ -14,3 +14,7 @@ Click and drag any where in any column to zoom in in either direction. Zoom out 
 
 ![](../../.gitbook/assets/allzoominout.gif)
 
+## Tooltip
+
+The Tooltip in the upper left shows more information about the data under the mouse. [More information about using the data in the tooltip.](../../how-do-i/freeze-and-un-freeze-tooltip.md)
+
