@@ -10,11 +10,23 @@ To display a genomic region, enter the genomic region, choose your dataset and c
 
 ## Sorting
 
-CNV data is sorted by the average of the entire column. Mutation data is sorted by the genomic position of the mutation. For both the CNV and mutation data, you can choose to instead sort by the region you are zoomed to through the column menu.
+CNV data is sorted by the average of the entire column. 
+
+Mutation data is sorted by the genomic position of the mutation. For both the CNV and mutation data, you can choose to instead sort by the region you are zoomed to through the column menu.
 
 ## Coloring
 
-CNV is colored red to blue for amplification to deletion. Mutation data is colored by the functional impact. More information can be found here: [http://xena.ucsc.edu/how-we-characterize-mutations/](http://xena.ucsc.edu/how-we-characterize-mutations/)
+CNV is colored red to blue for amplification to deletion. 
+
+Mutation data is colored by the functional impact:
+
+* Red - Deleterious
+* Blue - Missense
+* Orange - Splice site mutation
+* Green - Silent
+* Gray - Unknown
+
+More detailed information
 
 ## Examples
 
