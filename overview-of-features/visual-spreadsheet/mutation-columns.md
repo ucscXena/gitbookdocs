@@ -26,7 +26,7 @@ Mutation data is colored by the functional impact:
 * Green - Silent
 * Gray - Unknown
 
-More detailed information
+[More detailed information](../../faq/basic-xena-browser.md#how-are-mutations-colored)
 
 ## Examples
 
