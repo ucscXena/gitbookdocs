@@ -1,5 +1,14 @@
 # Advanced data and datasets
 
+## What are the Source Repositories Xena pulls from?
+* GDC data portal (https://portal.gdc.cancer.gov/repository) for the GDC Hub data
+* GDC legacy archive (https://portal.gdc.cancer.gov/legacy-archive) for the TCGA Hub data
+* ICGC data portal (https://dcc.icgc.org/) for the ICGC Hub data
+* Pan Cancer Atlas publications’ data site (https://gdc.cancer.gov/node/905/) for the Pan-Cancer Atlas Hub data
+* TCGA ATAC-seq publication’s data site (https://gdc.cancer.gov/about-data/publications/ATACseq-AWG) for the ATAC-seq Hub data
+* Nature biotechnology publication (https://doi.org/10.1038/nbt.3772) for the UCSC Toil RNAseq Recompute Hub data
+* Various journal publications for UCSC Public Hub data
+
 ## For TCGA, which gene expression RNAseq dataset should I use for my analysis?
 
 #### Gene expression RNAseq \(IlluminaHiSeq\)
