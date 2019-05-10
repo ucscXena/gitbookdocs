@@ -4,6 +4,7 @@
 * [Tutorials](tutorials.md)
 * [Live Examples](live-examples.md)
 * [How do I ...](how-do-i/README.md)
+  * [How do I run a KM analysis?](how-do-i/how-do-i-run-a-km-analysis.md)
   * [How do I view my own data?](https://ucsc-xena.gitbook.io/project/local-xena-hub)
   * [How do I compare tumor vs normal expression?](how-do-i/tumor-vs-normal.md)
   * [How do I remove null data \(gray lines\) from view?](how-do-i/how-do-i-remove-null-data-gray-lines-from-view.md)

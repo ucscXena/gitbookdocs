@@ -4,7 +4,7 @@ The main highlighting feature can be used to either filter to the samples that y
 
 This video walks you through the basics of both:
 
-{% embed url="https://www.youtube.com/watch?v=P-MGKGuXZPo" %}
+{% embed url="https://www.youtube.com/watch?v=P-MGKGuXZPo" caption="" %}
 
 Here are the steps taken in the above walk-through:
 
@@ -35,7 +35,7 @@ Once you have your sample\(s\) of interest, click on the filter button to choose
 
 ## Supported search terms
 
-### Categorical features <a id="searchingcategoricalfeatures"></a>
+### Categorical features  <a id="searchingcategoricalfeatures"></a>
 
 Our search is 'contains' search, meaning the term you enter can be at the beginning, end or in the middle of a matched term. Our search is case-independent. An example is
 
@@ -45,7 +45,7 @@ will match 'Stage IIIA' and 'Stage IIA'. To specify a specific string, use quote
 
 > "Stage IIA"
 
-### Continuous features <a id="searchingcontinuousfeatures"></a>
+### Continuous features  <a id="searchingcontinuousfeatures"></a>
 
 You can specify a certain column and mathematical expression such as
 
@@ -92,7 +92,7 @@ To find all samples that do not have data for just one column, use:
 
 You can use this filter out columns with no data.
 
-### Sample IDs <a id="searchingsampleids"></a>
+### Sample IDs  <a id="searchingsampleids"></a>
 
 Whether the sample ID column is in view or not, it is always possible to enter a sample ID to find that one sample of interest. An example:
 
@@ -100,7 +100,7 @@ Whether the sample ID column is in view or not, it is always possible to enter a
 
 Try using 'alt-click' to freeze the tooltip for copying a sample ID. Paste into highlight feature to keep track of where that sample lies as you move columns around, changing the sort order.
 
-### Searching a specific column <a id="searchingaspecificcolumn"></a>
+### Searching a specific column  <a id="searchingaspecificcolumn"></a>
 
 To make it easy to search a specific column, we use shorthand to annotate the first column as 'A:', the second as 'B:', etc. An example is
 
@@ -108,7 +108,7 @@ To make it easy to search a specific column, we use shorthand to annotate the fi
 
 This will search ONLY the first column for the word 'YES'. Note that we will retain your original search if you move the columns around.
 
-### Boolean operators: OR and AND <a id="usingbooleanoperatorsandgrouping"></a>
+### Boolean operators: OR and AND  <a id="usingbooleanoperatorsandgrouping"></a>
 
 You can enter multiple search terms and we will match all of them with an implicit 'AND'. We also support 'OR'.
 
@@ -122,6 +122,5 @@ will search for samples that match 'Stage II' in any column and are 'Negative' f
 
 Once the subgroup column is created, users can further customize group labels from "true" or "false" to for exmaple "wild type" or "EGFR mutant" by adjusting the column display settings. To access these select the three dot menu at the top of the column and choose 'Display'
 
-There is also an advanced option to create multiple subgroups (such as three, four, etc). Please contact us for instructions on this beta feature!
-
+There is also an advanced option to create multiple subgroups \(such as three, four, etc\). Please contact us for instructions on this beta feature!
 
