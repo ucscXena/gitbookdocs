@@ -118,5 +118,10 @@ Use parentheses to group search terms. For example:
 
 will search for samples that match 'Stage II' in any column and are 'Negative' for either the second or third column.
 
+## Advanced Options once subgroups are created
+
+Once the subgroup column is created, users can further customize group labels from "true" or "false" to for exmaple "wild type" or "EGFR mutant" by adjusting the column display settings. To access these select the three dot menu at the top of the column and choose 'Display'
+
+There is also an advanced option to create multiple subgroups (such as three, four, etc). Please contact us for instructions on this beta feature!
 
 
