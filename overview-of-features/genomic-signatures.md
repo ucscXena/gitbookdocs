@@ -2,10 +2,6 @@
 
 Genomic signatures, sometimes expressed as a weighted sum of genes, are an algebra over genes, such as "ESR1 + 0.5\*ERBB2 - GRB7". Once a signature is entered, the value for each gene name for each sample are substituted and the algebraic expression is evaluated.
 
-{% hint style="warning" %}
-This feature does not work on the GDC TCGA cohorts. It only works on the TCGA cohorts not from the GDC.
-{% endhint %}
-
 ## Entering a signature
 
 1. Open the Add column menu
@@ -17,8 +13,6 @@ This feature does not work on the GDC TCGA cohorts. It only works on the TCGA co
 There must be a space on both sides of the "+" and "-".
 
 If we can not find a gene that is part of the signature, the 'missing gene will be included as a zero in the expression calculation and the label will list the genes as missing.
-
-Genomic signatures currently only work for HUGO gene names and gene expression datasets that have only one value for a gene \(ie. it does not work for exon expression datasets or where there are multiple probes that map to one gene\).
 {% endhint %}
 
 ## Example: TFAC30 Gene Signature
