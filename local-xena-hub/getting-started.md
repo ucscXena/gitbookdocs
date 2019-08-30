@@ -53,6 +53,14 @@ When you loaded your genomic data we asked what type of genes, transcripts or pr
 
 ### Help! I don't see my study listed
 
-You Local Xena Hub must be running to view any data that you have loaded into it. Please ensure it is started up. You can also check which studies are on your hub and what data is in them by going to the My Computer Hub page: [xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223).  
+You Local Xena Hub must be running to view any data that you have loaded into it. Please ensure it is started up. You can also check which studies are on your hub and what data is in them by going to the My Computer Hub page: [xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223).
+
+## How does Xena ensure the security of my data?
+
+Xena does not utilize a central rendering service, or require hubs to be publically accessible on the internet like, for example, the UCSC Genome Browser does.  Data flows in one direction, from hubs to the user agent. If the user installs a Xena Hub on their laptop, the hub is as secure as the laptop. If the user installs a Xena Hub on a local network, behind a firewall, the hub is as secure as the local network.
+
+## Is there any data that is considered to not be secure?
+
+Some metadata is considered to be not secure in the Xena model. This includes cohort names, samples names, and field identifiers such as gene names, probe IDs, gene transcript IDs, and phenotype IDs. This metadata is visible to other hubs in the following scenarios. When the user selects a cohort, all hubs are queried for samples on that cohort. When the user selects a data field, the hub holding the field is queried with the field ID \(gene, probe, transcript, phenotype\) and all cohort sample IDs. This means, for example, that two hubs holding data on the same cohort will see the union of sample IDs from that cohort. For these reasons, these metadata fields should not contain private information.  
 
 
