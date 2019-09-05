@@ -55,12 +55,17 @@ When you loaded your genomic data we asked what type of genes, transcripts or pr
 
 You Local Xena Hub must be running to view any data that you have loaded into it. Please ensure it is started up. You can also check which studies are on your hub and what data is in them by going to the My Computer Hub page: [xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223).
 
-## How does Xena ensure the security of my data?
+## Data security
 
-Xena does not utilize a central rendering service, or require hubs to be publically accessible on the internet like, for example, the UCSC Genome Browser does.  Data flows in one direction, from hubs to the user agent. If the user installs a Xena Hub on their laptop, the hub is as secure as the laptop. If the user installs a Xena Hub on a local network, behind a firewall, the hub is as secure as the local network.
+### How does Xena ensure the security of my data?
 
-## Is there any data that is considered to not be secure?
+Xena does not utilize a central rendering service, or require hubs to be publicly accessible on the internet like, for example, the UCSC Genome Browser does.  Data flows in one direction, from hubs to the user agent. If the user installs a Xena Hub on their laptop, the hub is as secure as the laptop. If the user installs a Xena Hub on a local network, behind a firewall, the hub is as secure as the local network.
 
-Some metadata is considered to be not secure in the Xena model. This includes cohort names, samples names, and field identifiers such as gene names, probe IDs, gene transcript IDs, and phenotype IDs. This metadata is visible to other hubs in the following scenarios. When the user selects a cohort, all hubs are queried for samples on that cohort. When the user selects a data field, the hub holding the field is queried with the field ID \(gene, probe, transcript, phenotype\) and all cohort sample IDs. This means, for example, that two hubs holding data on the same cohort will see the union of sample IDs from that cohort. For these reasons, these metadata fields should not contain private information.  
+The Xena Browser accesses data from a local Xena Hub on the same computer by requesting data from http://127.0.0.1. The local Xena Hub will make the data within it available at this address. The local Xena Hub will only answer requests made form the user's own computer. 
 
+Users will need to use a web browser that supports this if they wish to use a Xena Hub on the loopback interface. At the time of writing, this includes Chrome, and Firefox, but not Safari.
+
+### Is there any data that is considered to not be secure?
+
+A very limited set of metadata is considered to be not secure in the Xena architecture model. This includes cohort names and samples names. This metadata is visible to other hubs in the following scenarios. When the user selects a cohort, all hubs are queried for samples on that cohort. When the user selects a data field, the hub holding that field is queried with the field ID \(e.g. gene, probe, transcript, phenotype\) and all cohort sample IDs. This means, for example, that two hubs holding data on the same cohort will see the union of sample IDs from that cohort. While data queries are not made available publicly, a malicious person could gain entry to a Xena Hub and comb through logs for these queries. For these reasons, these metadata fields should not contain private information.
 
