@@ -1,5 +1,9 @@
 # How do I compare tumor vs normal expression?
 
+{% hint style="info" %}
+Xena will only allow you to compare samples for a set of genes that you define. If you want to do a differential expression analysis, you will need to do this outside of Xena
+{% endhint %}
+
 While TCGA is a good resource for tumor data, finding normal tissue expression data for comparision can be challenging. There are two main sources of normal expression data in Xena. The first is normal samples from TCGA itself. These samples are called "solid tissue normals" and are taken from normal tissues near the tumor. Solid tissue normal samples from TCGA are typically limited in number but some cancer types may have enough for a robust statistical comparison. Their proximity to tumor may introduce signals of tumor microenvironment in its transcriptome profile. The second way is to compare to [GTEx](https://gtexportal.org/home/) samples, which has expression data from normal tissue of individuals who do not have cancer. There are typically many more samples in GTEx then TCGA solid tissue normals, however, experimental sample processing are different from TCGA, which may lead to batch effects.
 
 You can use the study below for both of these ways. Data from the study is from the UCSC RNA-seq Compendium, where TCGA and GTEx samples are re-analyzed \(re-aligned to hg38 genome and expressions are called using RSEM and Kallisto methods\) by the same RNA-seq pipeline. Because all samples are processed using an uniform bioinformatic pipeline, batch effect due to different computational processing is eliminated.
