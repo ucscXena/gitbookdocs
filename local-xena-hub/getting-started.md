@@ -21,6 +21,10 @@ Data on a Local Xena Hub can only be viewed or accessed by the same computer on 
 
 The Local Xena Hub must be installed and running in order to load data, as well as any time you want to view data. The Local Xena Hub will remember previously loaded data.
 
+{% hint style="warning" %}
+We currently do not support Safari for viewing your own data. Please use Chrome or Firefox
+{% endhint %}
+
 ## **Installing a Local Xena Hub**
 
 Click on [**VIEW MY DATA**](https://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223) ****and you will be prompted to download and install a local Xena Hub. 
