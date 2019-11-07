@@ -4,7 +4,7 @@ Welcome to Xena. Below is an overview of what Xena is followed by a few tutorial
 
 If you have a specific question, check out our ['How do I ...' Guides](how-do-i/).
 
-## Video Overview of Xena
+## Video Overview of Xena \(5 min\)
 
 {% embed url="https://youtu.be/TSNc-EDjix4" %}
 
