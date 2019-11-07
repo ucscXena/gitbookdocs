@@ -105,7 +105,7 @@ Sort column on the zoomed region
 
 ## _**heatmap**_ **parameter**
 
-The heatmap parameter is a JSON-encoded object specifying global display options
+The _heatmap_ parameter is a JSON-encoded object specifying global display options
 
 ### **Properties**
 
