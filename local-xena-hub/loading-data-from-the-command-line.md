@@ -32,7 +32,8 @@ For existing cohorts, you need to enter the cohort name EXACTLY as it appears as
 #### Example
 
 ```text
-{"type":"mutationVector",  "cohort":"TCGA Breast Cancer"}
+{"type":"mutationVector", 
+ "cohort":"TCGA Breast Cancer"}
 ```
 
 ### **Reference**
@@ -42,7 +43,9 @@ If you are loading a mutation or segmented copy number file you will also need t
 #### Example
 
 ```text
-{"type":"mutationVector",  "cohort":"TCGA Breast Cancer",  "assembly":"hg19"}
+{"type":"mutationVector", 
+ "cohort":"TCGA Breast Cancer", 
+ "assembly":"hg19"}
 ```
 
 ### **Probemap**
@@ -52,13 +55,15 @@ If you are loading a file that has probes, transcripts, or exons and you would l
 Here is an example probemap file \(a delimitated file\): [https://toil.xenahubs.net/download/probeMap/gencode.v23.annotation.gene.probemap](https://toil.xenahubs.net/download/probeMap/gencode.v23.annotation.gene.probemap)
 
 ```text
-#id    gene    chrom    chromStart    chromEnd    strand id_1    AADACL3    chr1    12776118    12776347    +
+#id    gene    chrom    chromStart    chromEnd    strand 
+id_1    AADACL3    chr1    12776118    12776347    +
 ```
 
 We have many probemap files that you can see via our [xenaPython app](../overview-of-features/accessing-data-through-python.md). 
 
 ```text
-host =“https://reference.xenahubs.net”xenaPython.probemap_list(host)
+host =“https://reference.xenahubs.net”
+xenaPython.probemap_list(host)
 ```
 
 If you do not see a probemap that will work for you, please let us know.
@@ -76,7 +81,9 @@ Note that to reference a probemap you need load the probemap AND the data file. 
 #### Example data file .json
 
 ```text
-{"type":"genomicMatrix",  "cohort":"TCGA Breast Cancer",  ":probeMap":"/unc_v2_exon_hg19_probe_TCGA"}
+{"type":"genomicMatrix", 
+ "cohort":"TCGA Breast Cancer", 
+ ":probeMap":"/unc_v2_exon_hg19_probe_TCGA"}
 ```
 
 #### Example probemap
@@ -86,7 +93,8 @@ Note that to reference a probemap you need load the probemap AND the data file. 
 #### Example probemap .json file \(required to be in the same folder as the probemap\)
 
 ```text
-{ “type”:“probeMap”,   “assembly”:“hg19"}
+{ “type”:“probeMap”, 
+  “assembly”:“hg19"}
 ```
 
 ## **Commands to load data**
