@@ -39,16 +39,7 @@ There are three paths that can be configured: the database file, the log file, a
 Copy the content below to a file "start\_script"
 
 ```text
-#!/bin/bash
-
-PORT=7222
-LOGFILE=xena/xena7222.log 
-DOCROOT=xena/files
-DB=xena/myHub
-
-java -jar server.jar -r ${DOCROOT} -d ${DB} --no-gui -p ${PORT} -H 0.0.0.0 --logfile ${LOGFILE} > log 2>&1 &
-
-disown
+#!/bin/bashPORT=7222LOGFILE=xena/xena7222.log DOCROOT=xena/filesDB=xena/myHubjava -jar server.jar -r ${DOCROOT} -d ${DB} --no-gui -p ${PORT} -H 0.0.0.0 --logfile ${LOGFILE} > log 2>&1 &disown
 ```
 
 Link server.jar to cavm-x.xx.x-standalone.jar
@@ -126,21 +117,7 @@ An example apache configuration on AWS VM
 in /etc/httpd/conf/httpd.conf
 
 ```text
-<VirtualHost *:443>
-    ServerName tcga.xenahubs.net
-    SSLEngine on
-    SSLProxyEngine On
-    SSLProxyVerify none
-    SSLProxyCheckPeerCN off
-    SSLProxyCheckPeerName off
-    SSLProxyCheckPeerExpire off
-    SSLCertificateFile YOURCERTIFICATE
-    SSLCertificateKeyFile YOURKEY
-    # setup the proxy                                                                                                                                                                                          
-    ProxyPreserveHost On
-    ProxyPass / https://localhost:9000/
-    ProxyPassReverse / https://localhost:9001/
-</VirtualHost>
+<VirtualHost *:443>    ServerName tcga.xenahubs.net    SSLEngine on    SSLProxyEngine On    SSLProxyVerify none    SSLProxyCheckPeerCN off    SSLProxyCheckPeerName off    SSLProxyCheckPeerExpire off    SSLCertificateFile YOURCERTIFICATE    SSLCertificateKeyFile YOURKEY    # setup the proxy                                                                                                                                                                                              ProxyPreserveHost On    ProxyPass / https://localhost:9000/    ProxyPassReverse / https://localhost:9001/</VirtualHost>
 ```
 
 ## I want a landing page for my hub
