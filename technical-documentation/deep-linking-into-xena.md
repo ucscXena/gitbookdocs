@@ -111,7 +111,7 @@ _showWelcome: &lt;boolean&gt;_
 
 Show the welcome banner.
 
-_searchSampleList: &lt;\[string, ...\]&gt;_
+_searchSampleList: \[&lt;string&gt;, ...\]_
 
 Highlight the specified samples in the view.
 
