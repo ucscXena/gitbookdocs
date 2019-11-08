@@ -1,0 +1,48 @@
+<html>
+<script>
+	window.onload = function() {
+		var browser = 'https://xenabrowser.net/';
+		var columns = JSON.stringify([
+			{
+				"width": 136,
+				"columnLabel": "gene expression RNAseq - IlluminaHiSeq",
+				"fieldLabel": "TP53",
+				"showIntrons": true,
+				"host": "https://tcga.xenahubs.net",
+				"name": "TCGA.BRCA.sampleMap/HiSeqV2",
+				"fields": "TP53"
+			},
+			{
+				"width": 200,
+				"columnLabel": "somatic mutation (SNPs and small INDELs) - wustl curated",
+				"fieldLabel": "TP53",
+				"host": "https://tcga.xenahubs.net",
+				"name": "TCGA.BRCA.sampleMap/mutation_curated_wustl",
+				"fields": "TP53"
+			}
+		]);
+
+
+		var heatmap1 = JSON.stringify({
+			showWelcome: false,
+			searchSampleList: ["TCGA-C8-A131-01", "TCGA-BH-A0DL-01"]
+		});
+
+		var l1 = document.getElementById('link1');
+		l1.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap1);
+
+		var heatmap2 = JSON.stringify({
+			showWelcome: false,
+			search: "B:>10"
+		});
+
+		var l2 = document.getElementById('link2');
+		l2.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap2);
+	};
+</script>
+<body>
+	<a id=link1>Sample highlight example 1:</a> highlight samples of specific sample IDs, such as TCGA-C8-A131-01 or TCGA-BH-A0DL-01
+	<br>
+	<a id=link2>Sample highlight example 2:</a> highlight samples matching arbitary criteria, such as samples in Column B with values > 10
+</body>
+</html>
