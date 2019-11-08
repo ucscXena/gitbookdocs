@@ -24,7 +24,7 @@ The list of supported parameters below is not exhaustive. If you do not see your
   
 [Example 7](https://xenabrowser.net/heatmap/?columns=%5B%7B%22name%22%3A%22TCGA-BRCA.mutect2_snv.tsv%22%2C%22host%22%3A%22https%3A%2F%2Fgdc.xenahubs.net%22%2C%22fields%22%3A%22TP53%22%7D%2C%7B%22name%22%3A%22TCGA-BRCA.mutect2_snv.tsv%22%2C%22host%22%3A%22https%3A%2F%2Fgdc.xenahubs.net%22%2C%22fields%22%3A%22TP53%22%2C%22showIntrons%22%3Atrue%7D%5D&heatmap=%7B%22showWelcome%22%3Afalse%7D) Display introns in Column C; Hide welcome banner
 
-{% file src="../.gitbook/assets/linktest.html" caption="File showing how to build examples 1 - 7" %}
+{% file src="../.gitbook/assets/linktest.html" caption="HTML file showing how to build examples 1 - 7." %}
 
 **Example 8:**
 
