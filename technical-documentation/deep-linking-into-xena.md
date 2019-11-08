@@ -28,7 +28,7 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 Example 8: Highlight two samples
 
-Example 9: Turn off welcome banner
+Example 9: Highlight TARGET samples
 
 ## **Base URL and URL construction**
 
