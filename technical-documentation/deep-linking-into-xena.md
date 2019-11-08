@@ -119,7 +119,6 @@ Equivalent to typing this text into the 'Find' feature in Xena. In this example 
 
 ```text
 var heatmap_paramter = JSON.stringify({
-      mode: ‘chart’,
       showWelcome: false,
       searchSampleList: ["THR30_0820_S01", "THR30_0861_S01"]
   });
