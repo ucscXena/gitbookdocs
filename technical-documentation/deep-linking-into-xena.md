@@ -28,15 +28,6 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 **Example 8:**
 
-```text
-var heatmap_paramter = JSON.stringify({
-      mode: ‘chart’,
-      showWelcome: false,
-      searchSampleList: ["THR30_0820_S01", "THR30_0861_S01"]
-  });
-  var url = page + ‘?heatmap=’ + encodeURIComponent(heatmap_paramter);
-```
-
 ## **Base URL and URL construction**
 
 ```text
@@ -122,5 +113,15 @@ Highlights the specified samples in the view.
 _&lt;search: string&gt;_
 
 Equivalent to typing this text into the 'Find' feature in Xena. In this example it is highlighting the samples that for column B have a value of 'TARGET'. [More examples of possible search terms.](../overview-of-features/filter-and-subgrouping.md)  
+
+```text
+var heatmap_paramter = JSON.stringify({
+      mode: ‘chart’,
+      showWelcome: false,
+      searchSampleList: ["THR30_0820_S01", "THR30_0861_S01"]
+  });
+var url = page + ‘?columns=’ + encodeURIComponent(columns_parameter) + \
+      ‘?heatmap=’ + encodeURIComponent(heatmap_paramter);
+```
 
 
