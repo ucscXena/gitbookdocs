@@ -32,7 +32,8 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 ```text
 var page = ‘https://xenabrowser.net/heatmap/’;
-var url = page + ‘?columns=’ + encodeURIComponent(columns_parameter) + ‘&heatmap=’ + encodeURIComponent(heatmap_parameter);
+var url = page + ‘?columns=’ + encodeURIComponent(columns_parameter) + \
+    ‘&heatmap=’ + encodeURIComponent(heatmap_parameter);
 ```
 
 ## _**columns**_ **parameter**
