@@ -87,7 +87,7 @@ Display the gene average instead of the individual probes for a gene. You can us
 
 _&lt;normalize: ‘none’ \| ‘mean’ \| ‘log2’ \| ‘normal2’&gt;_
 
-How the data should be dynamically normalized on the fly, on top of any normalization that was already performed on the base dataset
+How the data should be dynamically normalized on the fly. 'mean' is x-mean (subtract mean), applied per (sub)column. 'log2' is log2(x+1).  'normal2' is (x-2).
 
 _&lt;showIntrons: boolean&gt;_
 
