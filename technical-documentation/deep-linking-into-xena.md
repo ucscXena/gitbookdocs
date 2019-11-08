@@ -40,9 +40,7 @@ var heatmap_paramter = JSON.stringify({
 ## **Base URL and URL construction**
 
 ```text
-var page = ‘
-https://xenabrowser.net/heatmap/
-’;
+var page = ‘https://xenabrowser.net/heatmap/’;
 var url = page + ‘?columns=’ + encodeURIComponent(columns_parameter) + ‘&heatmap=’ + encodeURIComponent(heatmap_parameter);
 ```
 
