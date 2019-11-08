@@ -26,7 +26,7 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 {% file src="../.gitbook/assets/linktest.html" caption="HTML file showing how to build examples 1 - 7." %}
 
-**Example 8:**
+Example 8: Hightlight two samples
 
 ## **Base URL and URL construction**
 
