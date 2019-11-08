@@ -111,7 +111,7 @@ Show the welcome banner.
 
 _&lt;searchSampleList: \[string, ...\]&gt;_
 
-Highlights the specified samples in the view. 
+Highlight the specified samples in the view. 
 
 _&lt;search: string&gt;_
 
@@ -120,8 +120,8 @@ Equivalent to typing this text into the 'Find' feature in Xena. In this example 
 ```text
 var heatmap_paramter = JSON.stringify({
       showWelcome: false,
-      searchSampleList: ["THR30_0820_S01", "THR30_0861_S01"]
-  });
+      search: "B:=TARGET"
+});
 var url = page + ‘?columns=’ + encodeURIComponent(columns_parameter) + \
       ‘?heatmap=’ + encodeURIComponent(heatmap_paramter);
 ```
