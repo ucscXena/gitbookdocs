@@ -28,7 +28,6 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 [Example 8:](https://xenabrowser.net/heatmap/?columns=%5B%7B%22width%22%3A136%2C%22columnLabel%22%3A%22gene%20expression%20RNAseq%20-%20IlluminaHiSeq%22%2C%22fieldLabel%22%3A%22TP53%22%2C%22showIntrons%22%3Atrue%2C%22host%22%3A%22https%3A%2F%2Ftcga.xenahubs.net%22%2C%22name%22%3A%22TCGA.BRCA.sampleMap%2FHiSeqV2%22%2C%22fields%22%3A%22TP53%22%7D%2C%7B%22width%22%3A200%2C%22columnLabel%22%3A%22somatic%20mutation%20%28SNPs%20and%20small%20INDELs%29%20-%20wustl%20curated%22%2C%22fieldLabel%22%3A%22TP53%22%2C%22host%22%3A%22https%3A%2F%2Ftcga.xenahubs.net%22%2C%22name%22%3A%22TCGA.BRCA.sampleMap%2Fmutation_curated_wustl%22%2C%22fields%22%3A%22TP53%22%7D%5D&heatmap=%7B%22showWelcome%22%3Afalse%2C%22searchSampleList%22%3A%5B%22TCGA-C8-A131-01%22%2C%22TCGA-BH-A0DL-01%22%5D%7D) highlight TCGA-C8-A131-01 or TCGA-BH-A0DL-01 samples
 
-  
 [Example 9:](https://xenabrowser.net/heatmap/?columns=%5B%7B%22width%22%3A136%2C%22columnLabel%22%3A%22gene%20expression%20RNAseq%20-%20IlluminaHiSeq%22%2C%22fieldLabel%22%3A%22TP53%22%2C%22showIntrons%22%3Atrue%2C%22host%22%3A%22https%3A%2F%2Ftcga.xenahubs.net%22%2C%22name%22%3A%22TCGA.BRCA.sampleMap%2FHiSeqV2%22%2C%22fields%22%3A%22TP53%22%7D%2C%7B%22width%22%3A200%2C%22columnLabel%22%3A%22somatic%20mutation%20%28SNPs%20and%20small%20INDELs%29%20-%20wustl%20curated%22%2C%22fieldLabel%22%3A%22TP53%22%2C%22host%22%3A%22https%3A%2F%2Ftcga.xenahubs.net%22%2C%22name%22%3A%22TCGA.BRCA.sampleMap%2Fmutation_curated_wustl%22%2C%22fields%22%3A%22TP53%22%7D%5D&heatmap=%7B%22showWelcome%22%3Afalse%2C%22search%22%3A%22B%3A%3E10%22%7D) highlight samples matching arbitrary criteria, such as samples in Column B with values &gt; 10
 
 {% file src="../.gitbook/assets/samplehighlight2.html" caption="HTML files showing how to build examples 7 & 8" %}
@@ -125,7 +124,7 @@ Equivalent to typing this text into the 'Find' feature in Xena. In this example 
 
 _filter: &lt;string&gt;_
 
-Like the _search_ parameter, but filter the view to the matching samples. Equivalent to selecting 'Filter' from the 'Find' UI. Columns that are only needed for filtering (not visualization) can be added to the _filterColumns_ parameter, and appear semantically after _columns_. For example, if _columns_ has length two they are labeled 'B' and 'C', and the first column in _filterColumns_ will be 'D'.
+Like the _search_ parameter, but filter the view to the matching samples. Equivalent to [selecting 'Filter' from the 'Find' UI](../overview-of-features/filter-and-subgrouping.md#general-functionality). Columns that are only needed for filtering \(not visualization\) can be added to the _filterColumns_ parameter, and appear semantically after _columns_. For example, if _columns_ has length two they are labeled 'B' and 'C', and the first column in _filterColumns_ will be 'D'.
 
 Both _search_ and _filter_ can be specified in the same url, in which case the samples will be filtered, and any remaining samples matching _search_ will be highlighted. Note that the _search_ expression should only reference _columns_, not _filterColumns_, since the latter are not available for visualization.
 
