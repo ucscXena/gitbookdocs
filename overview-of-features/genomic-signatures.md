@@ -12,7 +12,11 @@ Genomic signatures, sometimes expressed as a weighted sum of genes, are an algeb
 {% hint style="info" %}
 There must be a space on both sides of the "+" and "-".
 
-If we can not find a gene that is part of the signature, the 'missing gene will be included as a zero in the expression calculation and the label will list the genes as missing.
+Alternatively enter a list of genes and we will automatically add a '+' in between each gene when evaluating the signature
+{% endhint %}
+
+{% hint style="info" %}
+If we can not find a gene that is part of the signature, the missing gene will be included as a zero in the expression calculation and the label will list the genes as missing.
 {% endhint %}
 
 ## Example: TFAC30 Gene Signature
