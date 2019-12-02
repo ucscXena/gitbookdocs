@@ -6,6 +6,10 @@ description: >-
 
 # Live Examples
 
+## Workshop cheatsheet/handout
+
+{% file src=".gitbook/assets/xena\_workshop\_handout.pdf" caption="Handout for workshops" %}
+
 ## [MGMT gene expression ~ promoter DNA methylation in GBM](https://xenabrowser.net/?bookmark=0cd9e26f851c9ed86c1dd168f3193eb4)
 
 ![https://xenabrowser.net/?bookmark=b323960fe1897fafd5be78993e79d83a](.gitbook/assets/dna-methylation-01.png)
