@@ -8,7 +8,7 @@ description: >-
 
 ## Workshop cheatsheet/handout
 
-{% file src=".gitbook/assets/xena\_workshop\_handout.pdf" caption="Handout for workshops" %}
+{% file src=".gitbook/assets/xena\_workshop\_handout \(1\).pdf" caption="Xena Workshop Handout" %}
 
 ## [MGMT gene expression ~ promoter DNA methylation in GBM](https://xenabrowser.net/?bookmark=0cd9e26f851c9ed86c1dd168f3193eb4)
 

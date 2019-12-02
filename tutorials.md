@@ -6,7 +6,7 @@ If you have a specific question, check out our ['How do I ...' Guides](how-do-i/
 
 ## Workshop Cheatsheet/Handout
 
-{% file src=".gitbook/assets/xena\_workshop\_handout.pdf" caption="Handout for workshops" %}
+{% file src=".gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
 
 ## Video Overview of Xena \(5 min\)
 
