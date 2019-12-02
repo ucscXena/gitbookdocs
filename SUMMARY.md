@@ -48,4 +48,5 @@
 * [Technical Documentation](technical-documentation/README.md)
   * [Deep Linking into Xena](technical-documentation/deep-linking-into-xena.md)
 * [Contact Us](contact-us.md)
+* [Cite us](cite-us.md)
 
