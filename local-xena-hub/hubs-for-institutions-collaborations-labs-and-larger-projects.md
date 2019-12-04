@@ -107,6 +107,14 @@ java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 
 Please contact us at genome-cancer@soe.ucsc.edu for more assistance.
 
+## Delete data through command line
+
+To detele file.tsv
+
+```text
+java -jar server.jar -x /path/to/root/file.tsv
+```
+
 ## HTTP vs. HTTPS
 
 When a Xena Hub starts, it opens two consecutive ports, for http and https connections, e.g. 7222 and 7223. HTTP is always the lower number, and HTTPS is always the higher number.  This means your hub has two urls
