@@ -109,10 +109,16 @@ Please contact us at genome-cancer@soe.ucsc.edu for more assistance.
 
 ## Delete data through command line
 
-To detele file.tsv
+If your hub is run on the default 7222 port, you can delete data with
 
 ```text
 java -jar server.jar -x /path/to/root/file.tsv
+```
+
+If your hub is running on a different port, you delete data with
+
+```text
+java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 ```
 
 ## HTTP vs. HTTPS
