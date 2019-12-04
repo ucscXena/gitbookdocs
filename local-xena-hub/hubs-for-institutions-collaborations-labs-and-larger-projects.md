@@ -10,7 +10,7 @@ First, download the ucsc\_xena\_xxx.tar.gz file to your server, here:
 
 [https://genome-cancer.ucsc.edu/download/public/get-xena/index.html](https://genome-cancer.ucsc.edu/download/public/get-xena/index.html)
 
-The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**".  Uncompress and extract the .jar file \(cavm-xxx-standalone.jar\). The current version is 0.24.0. 
+The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**".  Uncompress and extract the .jar file \(cavm-xxx-standalone.jar\). The current version is 0.25.0. 
 
 ## Start the hub.
 
