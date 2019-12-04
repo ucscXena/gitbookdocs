@@ -75,7 +75,7 @@ To reference a probemap you need three files:
 3. Also have a .json file for the probemap so that we know how to load it
 
 {% hint style="warning" %}
-Note that to reference a probemap you need load the probemap AND the data file. You can load them in any order but both need to be loaded via the command line.
+Note that to reference a probemap you need to load the probemap first, then load the data file.
 {% endhint %}
 
 #### Example data file .json
