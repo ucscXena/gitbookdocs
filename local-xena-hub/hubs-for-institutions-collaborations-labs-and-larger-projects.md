@@ -81,7 +81,7 @@ Alternatively, you can connect your hub through https \(https://computer-externa
 
 ## Make your data ready
 
-You will need to make your data file ready just like for local Xena hub on your laptop. Please see general instructions on [viewing your own data](https://ucsc-xena.gitbook.io/project/local-xena-hub) and in particular [data format specifications](https://ucsc-xena.gitbook.io/project/local-xena-hub/data-format-specifications).
+You will need to make your data file ready just like for local Xena hub on your laptop. Please see instructions on [data format specifications](https://ucsc-xena.gitbook.io/project/local-xena-hub/data-format-specifications).
 
 You will also need to make your data's meta-data file \(xxx.json\) ready. Please see [Loading data from the command line](loading-data-from-the-command-line.md) for instructions.
 
