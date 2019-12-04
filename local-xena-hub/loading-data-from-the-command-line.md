@@ -119,6 +119,21 @@ Note that you will need to substitute the name of the .jar. file As of the time 
 
 Note you do not need to load the .json files. Xena will automatically look for these and load them.
 
+## **Commands to delete data**
+
+```text
+java -jar cavm-0.xx.0-standalone.jar -x ~/xena/files/file1.tsv
+```
+
+ → delete just file1.tsv
+
+```text
+java -jar cavm-0.xx.0-standalone.jar -x ~/xena/files/file1.tsv ~/xena/files/file2.tsv
+```
+
+ → delete file1.tsv and file2.tsv
+ 
+
 ## Help
 
 You can always type:
