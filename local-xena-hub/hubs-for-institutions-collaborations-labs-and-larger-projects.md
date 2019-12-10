@@ -165,4 +165,4 @@ If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's d
 ```
 <button class="hubButton" data-cohort="TCGA Lung Adenocarcinoma (LUAD)">Launch Xena</button>
 ```
-To add a clickable button in the hub landing page, make sure the button has classname <b>'hubButton'</b>. Once a user clicks the button, the visualization wizard will be launched.  The cohort that will be viewed is specified by the button's data parameter 'data-cohort'. 
+To add a clickable button in the hub landing page, make sure the button has classname <b>'hubButton'</b>. Once a user clicks the button, the visualization wizard will be launched.  You also need to specify the cohort to view, defined by the data parameter <b>'data-cohort'</b>. 
