@@ -161,3 +161,8 @@ in /etc/httpd/conf/httpd.conf
 
 If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the ATAC-seq hub: [https://atacseq.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_atacseq.xenahubs.net/info.mdown). 
 
+## How to add a 'Lauch Xena' button on the landing page
+```
+<button class="hubButton" data-cohort="TCGA Lung Adenocarcinoma (LUAD)">Launch Xena</button>
+```
+To add a clickable button in the hub landing page, make sure the button has classname <b>'hubButton'</b>. Once a user clicks the button, the visualization wizard will be launched.  The cohort that will be viewed is specified by the button's data parameter 'data-cohort'. 
