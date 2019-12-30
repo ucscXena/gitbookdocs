@@ -30,7 +30,7 @@ This tutorial video is available at NCI's CBIIT site here: [https://cbiit.webex.
 
 ### Advanced Slide Tutorial
 
-[https://docs.google.com/presentation/d/1rZaMmNbx3zZ21wnOudncWjV3Gt7buYFDYC5UjYxl\_lo/edit?usp=sharing](https://docs.google.com/presentation/d/1rZaMmNbx3zZ21wnOudncWjV3Gt7buYFDYC5UjYxl_lo/edit?usp=sharing)
+{% embed url="https://docs.google.com/presentation/d/1rZaMmNbx3zZ21wnOudncWjV3Gt7buYFDYC5UjYxl\_lo" %}
 
 ## Request a workshop
 
