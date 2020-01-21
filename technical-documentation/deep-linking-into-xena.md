@@ -36,9 +36,9 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 {% file src="../.gitbook/assets/samplehighlight2.html" caption="HTML files showing how to build examples 8 & 9" %}
 
-**Sample Filtering \(what samples to display in the view\) Examples**
+**Sample Filtering \(specify what samples to display in the view\) Examples**
 
-HTML file showing how to set up what samples to display in the view
+{% file src="../.gitbook/assets/sample_highlight_filter.html" caption="HTML file showing how to specify what samples to display in the view" %}
 
 ## **Base URL and URL construction**
 
