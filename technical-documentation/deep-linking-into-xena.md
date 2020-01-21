@@ -9,6 +9,7 @@ Xena has the ability to draw visualizations based on parameters passed through U
 The list of supported parameters below is not exhaustive. If you do not see your functionality supported below please [contact us](../contact-us.md)**.**
 
 ## **Examples**
+
 **Display Column Setup Examples**
 
 [Example 1](https://xenabrowser.net/heatmap/?columns=%5B%7B%22name%22%3A%22tcga_Kallisto_tpm%22%2C%22host%22%3A%22https%3A%2F%2Ftoil.xenahubs.net%22%2C%22fields%22%3A%22TP53%20FOXM1%22%7D%5D) One data column \(with two subcolumns\) display
@@ -35,8 +36,9 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 {% file src="../.gitbook/assets/samplehighlight2.html" caption="HTML files showing how to build examples 8 & 9" %}
 
-**Sample Filtering (samples to include in the view) Examples**
+**Sample Filtering \(what samples to display in the view\) Examples**
 
+HTML file showing how to set up what samples to display in the view
 
 ## **Base URL and URL construction**
 
