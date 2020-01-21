@@ -46,7 +46,7 @@
   * [Loading data from the command line](local-xena-hub/loading-data-from-the-command-line.md)
   * [FAQ/Troubleshooting Guide](local-xena-hub/faq-troubleshooting-guide.md)
 * [Technical Documentation](technical-documentation/README.md)
-  * [Deep Linking into Xena](technical-documentation/deep-linking-into-xena.md)
+  * [Untitled](technical-documentation/deep-linking-into-xena.md)
 * [Contact Us](contact-us.md)
 * [Cite us](cite-us.md)
 
