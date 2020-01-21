@@ -1,0 +1,91 @@
+<html>
+<script>
+	window.onload = function() {
+		var browser = 'http://dev.xenabrowser.net/';
+		var columns = JSON.stringify([
+			{
+				"width": 90,
+				"columnLabel": "",
+				"fieldLabel": "site id",
+				"host": "https://xena.treehouse.gi.ucsc.edu",
+				"name": "clinical_TumorCompendium_v10_PolyA_2019-07-25.tsv",
+				"fields": "site_id"
+			},
+			{
+				"width": 150,
+				"columnLabel": "gene expression RNAseq",
+				"fieldLabel": "ALK",
+				"host": "https://xena.treehouse.gi.ucsc.edu",
+				"name": "TumorCompendium_v10_PolyA_hugo_log2tpm_58581genes_2019-07-25.tsv",
+				"fields": "ALK"
+			}
+		]);
+
+
+		var heatmap1 = JSON.stringify({
+			showWelcome: false,
+			searchSampleList: ["THR30_0820_S01", "THR30_0861_S01"]
+		});
+
+		var l1 = document.getElementById('link1');
+		l1.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap1);
+
+		var heatmap2 = JSON.stringify({
+			showWelcome: false,
+			search: "B:=TARGET"
+		});
+
+		var l2 = document.getElementById('link2');
+		l2.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap2);
+
+		var heatmap3 = JSON.stringify({
+			filter: "B:TARGET",
+		});
+
+		var l3 = document.getElementById('link3');
+		l3.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap3);
+
+		var heatmap4 = JSON.stringify({
+			showWelcome: false,
+			filter: "B:TARGET OR B:TCGA",
+		});
+
+		var l4 = document.getElementById('link4');
+		l4.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap4);
+
+		var heatmap5 = JSON.stringify({
+			showWelcome: false,
+			filter: "B: TARGET",
+			searchSampleList: ["TARGET-40-0A4I6O-01A-01R"]
+		});
+
+		var l5 = document.getElementById('link5');
+		l5.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&heatmap=' + encodeURIComponent(heatmap5);
+
+		var filterColumns = JSON.stringify([{
+			"host": "https://xena.treehouse.gi.ucsc.edu",
+			"name": "clinical_TumorCompendium_v10_PolyA_2019-07-25.tsv",
+			"fields": "age_at_dx"
+		}]);
+		var heatmap6 = JSON.stringify({
+			showWelcome: false,
+			filter: "D:<5",
+		});
+		var l6 = document.getElementById('link6');
+		l6.href = browser + 'heatmap/?columns=' + encodeURIComponent(columns) + '&filterColumns=' + encodeURIComponent(filterColumns) + '&heatmap=' + encodeURIComponent(heatmap6);
+	};
+</script>
+<body>
+	<a id=link1>Sample highlight Example 1:</a> highlight samples of specific sample IDs, such as THR30_0820_S01 or THR30_0861_S01
+	<br><br>
+	<a id=link2>Sample highlight Example 2:</a> highlight samples matching an arbitary criteria, such as TARGET samples
+	<br><br>
+	<a id=link3>Sample filtering Example 1:</a> specify (filter to) what samples to show in a view using a predicate, such as TARGET samples
+	<br><br>
+	<a id=link4>Sample filtering Example 2:</a> specify samples in a view using a predicate that includes a boolean term, such as TARGET and TCGA samples (use boolean OR)
+	<br><br>
+	<a id=link5>Sample filtering and highlight at the same time:</a> specify samples in a view using a predicate (e.g. just show TARGET samples), as well as highlight specific samples by IDs, such as TARGET-40-0A4I6O-01A-01R
+	<br><br>
+	<a id=link6>Sample filtering using data in a hidden filter column:</a> useful when you want to filter samples using data not displayed on the screen. You can use <i>HIDDEN FILTER COLUMN</i>. For exmaple, filter the samples to < 5 years old, but you don't want to actually display the age column on the screen.  
+</body>
+</html>
