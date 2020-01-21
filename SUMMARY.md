@@ -45,8 +45,8 @@
   * [Hubs for institutions, collaborations, labs, and larger projects](local-xena-hub/hubs-for-institutions-collaborations-labs-and-larger-projects.md)
   * [Loading data from the command line](local-xena-hub/loading-data-from-the-command-line.md)
   * [FAQ/Troubleshooting Guide](local-xena-hub/faq-troubleshooting-guide.md)
-* [Untitled](technical-documentation/README.md)
-  * [Untitled](technical-documentation/deep-linking-into-xena.md)
+* [Technical Documentation](technical-documentation/README.md)
+  * [Deep Linking Into Xena](technical-documentation/deep-linking-into-xena.md)
 * [Contact Us](contact-us.md)
 * [Cite us](cite-us.md)
 

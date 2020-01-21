@@ -2,7 +2,7 @@
 description: How to programmatically specify Xena Browser views
 ---
 
-# Deep Linking into Xena
+# Deep Linking Into Xena
 
 Xena has the ability to draw visualizations based on parameters passed through URL. You will need to URL encode the parameters.
 
@@ -38,8 +38,7 @@ The list of supported parameters below is not exhaustive. If you do not see your
 
 **Sample Filtering \(specify what samples to display in the view\) Examples**
 
-{% file src="../.gitbook/assets/sample_highlight_filter.html" caption="HTML file showing how to specify what samples to display in the view" %}
-
+{% file src="../.gitbook/assets/sample\_highlight\_filter.html" caption="HTML file showing how to specify what samples to display in the view" %}
 
 ## **Base URL and URL construction**
 
