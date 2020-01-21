@@ -1,4 +1,1 @@
 # Technical Documentation
-
-Technical Documentation
-
