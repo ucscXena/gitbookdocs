@@ -59,7 +59,7 @@ Here is an example probemap file \(a delimitated file\): [https://toil.xenahubs.
 id_1    AADACL3    chr1    12776118    12776347    +
 ```
 
-We have many probemap files that you can see via our [xenaPython app](../overview-of-features/accessing-data-through-python.md). 
+We have many probemap files that you can see via our [xenaPython app](../overview-of-features/accessing-data-through-python.md).
 
 ```text
 host =“https://reference.xenahubs.net”
@@ -68,7 +68,7 @@ xenaPython.probemap_list(host)
 
 If you do not see a probemap that will work for you, please let us know.
 
-To reference a probemap you need three files: 
+To reference a probemap you need three files:
 
 1. Include the probemap reference in your data file .json
 2. Have the probemap file in the same directory as your data file and data file .json
@@ -105,7 +105,7 @@ Put both your .tsv and .json files in your\_home\_directory/xena/files. Then run
 java -jar cavm-0.xx.0-standalone.jar -l ~/xena/files/*
 ```
 
- → loads all files
+→ loads all files
 
 OR
 
@@ -113,7 +113,7 @@ OR
 java -jar cavm-0.xx.0-standalone.jar -l ~/xena/files/file1.tsv
 ```
 
- → loads just file1.tsv
+→ loads just file1.tsv
 
 Note that you will need to substitute the name of the .jar. file As of the time of writing \(September 20, 2018\), the name of the .jar file was cavm-0.22.0-standalone.jar. On linux this will be in the directory where you opened the archive. On Windows or MacOS, use your operating system’s file search capability to search for cavm\*jar. On Windows you will need to use the full path to your home directory, instead of “~”.
 
@@ -125,14 +125,13 @@ Note you do not need to load the .json files. Xena will automatically look for t
 java -jar cavm-0.xx.0-standalone.jar -x ~/xena/files/file1.tsv
 ```
 
- → delete just file1.tsv
+→ delete just file1.tsv
 
 ```text
 java -jar cavm-0.xx.0-standalone.jar -x ~/xena/files/file1.tsv ~/xena/files/file2.tsv
 ```
 
- → delete file1.tsv and file2.tsv
- 
+→ delete file1.tsv and file2.tsv
 
 ## Help
 
@@ -142,6 +141,5 @@ You can always type:
 java -jar cavm-0.xx.0-standalone.jar -h
 ```
 
-for help.  
-
+for help.
 

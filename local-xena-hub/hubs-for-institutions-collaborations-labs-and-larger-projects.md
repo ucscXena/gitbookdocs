@@ -10,7 +10,7 @@ First, download the ucsc\_xena\_xxx.tar.gz file to your server, here:
 
 [https://genome-cancer.ucsc.edu/download/public/get-xena/index.html](https://genome-cancer.ucsc.edu/download/public/get-xena/index.html)
 
-The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**".  Uncompress and extract the .jar file \(cavm-xxx-standalone.jar\). The current version is 0.25.0. 
+The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**". Uncompress and extract the .jar file \(cavm-xxx-standalone.jar\). The current version is 0.25.0.
 
 ## Start the hub.
 
@@ -69,7 +69,7 @@ Run "./start\_script"
 ./start_script
 ```
 
-Your hub is now running on "http:computer-external-ip:7222" and "https://computer-external-ip:7223".
+Your hub is now running on "http:computer-external-ip:7222" and "[https://computer-external-ip:7223](https://computer-external-ip:7223)".
 
 Go [here](https://xenabrowser.net/hub/), add "http:computer-external-ip:7222"
 
@@ -77,7 +77,7 @@ Go [here](https://xenabrowser.net/hub/), add "http:computer-external-ip:7222"
 
 ![](../.gitbook/assets/chromesecuritywarning-01-01.png)
 
-Alternatively, you can connect your hub through https \(https://computer-external-ip:7223\) to avoid the browser warning, and you need a certificate. See HTTPS section on --certfile and --keyfile options to start a hub with a certificate.
+Alternatively, you can connect your hub through https \([https://computer-external-ip:7223\](https://computer-external-ip:7223\)\) to avoid the browser warning, and you need a certificate. See HTTPS section on --certfile and --keyfile options to start a hub with a certificate.
 
 ## Make your data ready
 
@@ -123,19 +123,19 @@ java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 
 ## HTTP vs. HTTPS
 
-When a Xena Hub starts, it opens two consecutive ports, for http and https connections, e.g. 7222 and 7223. HTTP is always the lower number, and HTTPS is always the higher number.  This means your hub has two urls
+When a Xena Hub starts, it opens two consecutive ports, for http and https connections, e.g. 7222 and 7223. HTTP is always the lower number, and HTTPS is always the higher number. This means your hub has two urls
 
-http://ip:7222 or https://ip:7223
+[http://ip:7222](http://ip:7222) or [https://ip:7223](https://ip:7223)
 
 If you use the hub through http, web browsers will block connections to the hub unless the user clicks on the "shield" icon and approves a security exception.
 
-If you connect to the hub through https, you will need an HTTPS certificate and private key, to avoid browser security errors. Paths to the cert and key are set with --certfile and --keyfile.  This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon. 
+If you connect to the hub through https, you will need an HTTPS certificate and private key, to avoid browser security errors. Paths to the cert and key are set with --certfile and --keyfile. This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon.
 
-## How to set up my hub to have a url like https://tcga.xenahubs.net
+## How to set up my hub to have a url like [https://tcga.xenahubs.net](https://tcga.xenahubs.net)
 
-Alternatively, you can run the hub behind a reverse proxy, and attach the certificate to apache configuration. In this scenario, you start the hub without using --certfile and --keyfile options.  This is useful if you want your hub to have a url like "[https://tcga.xenahubs.net](https://tcga.xenahubs.net)". You set up your DNS to point the hostname \(tcga.xenahubs.net\) to ip address of the server on which the hub is running.
+Alternatively, you can run the hub behind a reverse proxy, and attach the certificate to apache configuration. In this scenario, you start the hub without using --certfile and --keyfile options. This is useful if you want your hub to have a url like "[https://tcga.xenahubs.net](https://tcga.xenahubs.net)". You set up your DNS to point the hostname \(tcga.xenahubs.net\) to ip address of the server on which the hub is running.
 
-An example apache configuration on AWS VM  
+An example apache configuration on AWS VM
 
 in /etc/httpd/conf/httpd.conf
 
@@ -159,10 +159,13 @@ in /etc/httpd/conf/httpd.conf
 
 ## I want a landing page for my hub
 
-If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the ATAC-seq hub: [https://atacseq.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_atacseq.xenahubs.net/info.mdown). 
+If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the ATAC-seq hub: [https://atacseq.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_atacseq.xenahubs.net/info.mdown).
 
 ## How to add a 'Lauch Xena' button on the landing page
-```
+
+```text
 <button class="hubButton" data-cohort="TCGA Lung Adenocarcinoma (LUAD)">Launch Xena</button>
 ```
-To add a clickable button in the hub landing page, make sure the button has classname <b>'hubButton'</b>. Once a user clicks the button, the visualization wizard will be launched.  You also need to specify the cohort to view, defined by the data parameter <b>'data-cohort'</b>. 
+
+To add a clickable button in the hub landing page, make sure the button has classname **'hubButton'**. Once a user clicks the button, the visualization wizard will be launched. You also need to specify the cohort to view, defined by the data parameter **'data-cohort'**.
+
