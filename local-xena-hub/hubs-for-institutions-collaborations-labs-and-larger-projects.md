@@ -157,7 +157,7 @@ in /etc/httpd/conf/httpd.conf
 </VirtualHost>
 ```
 
-## I want a landing page for my hub
+## A landing page for my hub
 
 If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the _UCSC Toil RNA-seq Recompute_ hub: [https://toil.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown).
 
@@ -169,7 +169,7 @@ If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's d
 
 To add a clickable button in the hub landing page, make sure the button has classname **'hubButton'**. You also need to specify the cohort to view, defined by the data parameter **'data-cohort'**. Once a user clicks the button, the visualization wizard will be launched.
 
-## I want a landing page for my study cohort
+## A landing page for my cohort
 
 You can also have a landing page for a study cohort. An example is the _TCGA TARGET GTEx_ cohort: [https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx](https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 
