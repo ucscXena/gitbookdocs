@@ -163,13 +163,17 @@ If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's d
 
 ### How do I add a 'Launch Xena' button like the TOIL landing page
 
-```text
-<button class="hubButton" data-cohort="TCGA Lung Adenocarcinoma (LUAD)">Launch Xena</button>
-```
+`<button class="hubButton" data-cohort="TCGA TARGET GTEx">Launch Xena</button>`
 
-To add a clickable button in the hub landing page, make sure the button has classname **'hubButton'**. You also need to specify the cohort to view, defined by the data parameter **'data-cohort'**. Once users click the button, the visualization wizard will be launched to the specified cohort.
+To add a clickable button in the hub landing page, make sure the button has classname **'hubButton'**. You also need to specify the cohort to view, defined by the data parameter **'data-cohort'**. Once users click the button, the visualization wizard will be launched to the specified cohort. You can change the button label.
 
 ## A landing page for my cohort
 
 You can also have a landing page for a study cohort. An example is the _TCGA TARGET GTEx_ cohort: [https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx](https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown). The study cohort landing page is also a markdown file, which must be hosted in the [https://github.com/ucscXena/cohortMetaData](https://github.com/ucscXena/cohortMetaData) repository on github. The markdown file called https://github.com/ucscXena/cohortMetaData/cohort\_$cohortName/info.mdown.
+
+### How do I add a "Launch" button like the _TCGA TARGET GTEx_  landing page
+
+`<button class="cohortButton" data-bookmark="bc7f3f46b042bcf5c099439c2816ff01">Example: compare FOXM1 expression</button>`
+
+The button must has a classname **'cohortButton'**. If you have the data parameter '**data-bookmark**', clicking the button will take the user to the bookmark view.  If you don't have the '**data-bookmark**' parameter, clicking the button will take the user to the visualization wizard with an empty spreadsheet. You can change the button label. You can as many button as you want. 
 
