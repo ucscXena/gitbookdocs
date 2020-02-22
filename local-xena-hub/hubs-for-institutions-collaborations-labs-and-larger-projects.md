@@ -171,5 +171,5 @@ To add a clickable button in the hub landing page, make sure the button has clas
 
 ## A landing page for my cohort
 
-You can also have a landing page for a study cohort. An example is the _TCGA TARGET GTEx_ cohort: [https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx](https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443). The correspoinding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown).
+You can also have a landing page for a study cohort. An example is the _TCGA TARGET GTEx_ cohort: [https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx](https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown). 
 
