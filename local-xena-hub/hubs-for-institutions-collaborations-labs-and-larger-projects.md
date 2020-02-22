@@ -161,7 +161,7 @@ in /etc/httpd/conf/httpd.conf
 
 If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the _UCSC Toil RNA-seq Recompute_ hub: [https://toil.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown).
 
-### How do I add a 'Launch Xena' button like the TOIL landing page
+### How do I add a 'Launch Xena' button like the _TOIL_ landing page
 
 `<button class="hubButton" data-cohort="TCGA TARGET GTEx">Launch Xena</button>`
 
