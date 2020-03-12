@@ -6,20 +6,6 @@ It queries genomics data hosted on public Xena Hubs, in a similar way as other t
 
 Source code of the Gene Sets Tool is on [GitHub](https://github.com/ucscXena/XenaGoWidget).
 
-## Analysis
-
-### Gene Expression 
-- BPA GENE EXPRESSION
-- PARADIGM IPL
-- REGULON ACTIVITY (only avaiable for LUAD)
-
-#### Gene Set Options
-
-### Mutation / CNV 
-- CNV ∩ MUTATION
-- COPY NUMBER
-- MUTATION
-
 
 ## Overview
 
@@ -109,6 +95,19 @@ A similar view is provided when Editing the Pathway.
 ![Gene Search Edit Pathway](../.gitbook/assets/editpathwaygenesearch.png)
 
 
+## Analysis
+
+### Gene Expression 
+- BPA GENE EXPRESSION
+- PARADIGM IPL
+- REGULON ACTIVITY (only avaiable for LUAD)
+
+#### Gene Set Options
+
+### Mutation / CNV 
+- CNV ∩ MUTATION
+- COPY NUMBER
+- MUTATION
 
 ## Sources for the somatic mutation and copy number variation data
 
