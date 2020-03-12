@@ -6,6 +6,21 @@ It queries genomics data hosted on public Xena Hubs, in a similar way as other t
 
 Source code of the Gene Sets Tool is on [GitHub](https://github.com/ucscXena/XenaGoWidget).
 
+## Analysis
+
+### Gene Expression 
+- BPA GENE EXPRESSION
+- PARADIGM IPL
+- REGULON ACTIVITY (only avaiable for LUAD)
+
+#### Gene Set Options
+
+### Mutation / CNV 
+- CNV ∩ MUTATION
+- COPY NUMBER
+- MUTATION
+
+
 ## Overview
 
 The Gene Set Tool allows direct comparison of individual gene sets and genes across two cancer cohorts \(cohort A and cohort B\).
