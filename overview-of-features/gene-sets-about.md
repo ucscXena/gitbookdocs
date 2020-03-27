@@ -2,10 +2,9 @@
 
 The Gene Sets Tool [https://xenageneset.berkeleybop.io/xena/](https://xenageneset.berkeleybop.io/xena/) compares somatic mutation and copy number variation profile of cancer related gene sets across two cancer cohorts.
 
-It queries genomics data hosted on public Xena Hubs, in a similar way as other tools in the Xena Visualization suite. And then it generates gene set visualizations of those data.  
+It queries genomics data hosted on public Xena Hubs, in a similar way as other tools in the Xena Visualization suite. And then it generates gene set visualizations of those data.
 
 Source code of the Gene Sets Tool is on [GitHub](https://github.com/ucscXena/XenaGoWidget).
-
 
 ## Overview
 
@@ -19,7 +18,7 @@ The Gene Set Tool allows direct comparison of individual gene sets and genes acr
 
 **Section C** As a user mouse over a gene set, it is outlined in green \(**C** and **D**\)
 
-**Section D** User click on the gene sets in A to select one to view in detail in **D**. The selected gene set is outlined in blue in A.  In D, genes are sorted from left to right according to the % samples perturbed \(from high to low\) in the top cohort. The bottom cohort matches the top cohort's gene positions. Vertical axis is samples. 
+**Section D** User click on the gene sets in A to select one to view in detail in **D**. The selected gene set is outlined in blue in A. In D, genes are sorted from left to right according to the % samples perturbed \(from high to low\) in the top cohort. The bottom cohort matches the top cohort's gene positions. Vertical axis is samples.
 
 When mouse over a gene label, you get the detailed information about that gene \(for both cohorts\).
 
@@ -63,8 +62,6 @@ On clicking "Done", this is reflected below.
 
 Gene set data can also be downloaded, edited by hand and re-uploaded.
 
-
-
 ## Additional Options
 
 There are several options available in the drop-down menu.
@@ -94,20 +91,21 @@ A similar view is provided when Editing the Pathway.
 
 ![Gene Search Edit Pathway](../.gitbook/assets/editpathwaygenesearch.png)
 
-
 ## Analysis
 
-### Gene Expression 
-- BPA GENE EXPRESSION
-- PARADIGM IPL
-- REGULON ACTIVITY (only avaiable for LUAD)
+### Gene Expression
+
+* BPA GENE EXPRESSION
+* PARADIGM IPL
+* REGULON ACTIVITY \(only avaiable for LUAD\)
 
 #### Gene Set Options
 
-### Mutation / CNV 
-- CNV ∩ MUTATION
-- COPY NUMBER
-- MUTATION
+### Mutation / CNV
+
+* CNV ∩ MUTATION
+* COPY NUMBER
+* MUTATION
 
 ## Sources for the somatic mutation and copy number variation data
 
