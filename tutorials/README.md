@@ -2,11 +2,11 @@
 
 Welcome to Xena. Below is an overview of what Xena is followed by a few tutorials. 
 
-If you have a specific question, check out our ['How do I ...' Guides](how-do-i/).
+If you have a specific question, check out our ['How do I ...' Guides](../how-do-i/).
 
 ## Workshop Cheatsheet/Handout
 
-{% file src=".gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
+{% file src="../.gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
 
 ## Video Tutorials
 

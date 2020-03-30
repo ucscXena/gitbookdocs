@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Welcome to the Help Pages for UCSC Xena](README.md)
-* [Tutorials](tutorials.md)
+* [Tutorials](tutorials/README.md)
+  * [HCA Tutorial](tutorials/hca-tutorial.md)
 * [Live Examples](live-examples.md)
 * [How do I ...](how-do-i/README.md)
   * [How do I make a KM plot?](https://ucsc-xena.gitbook.io/project/overview-of-features/kaplan-meier-plots)
