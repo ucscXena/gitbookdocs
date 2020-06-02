@@ -20,7 +20,9 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 
 ### Advanced Video Tutorial \(55 min\)
 
-This tutorial video is available at NCI's CBIIT site here: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754)
+Tutorial given for NCI CBIIT in May 2020: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/ba663219f2624425883b6f48c63ab46a](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/ba663219f2624425883b6f48c63ab46a)
+
+Same tutorial given for NCI CBIIT in October 2019: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754)
 
 ## Slide Tutorials 
 
