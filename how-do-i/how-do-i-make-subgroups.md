@@ -6,7 +6,7 @@ Xena uses the search and highlight feature to make subgroups
 
 As you type Xena will search all the data on the screen for your values and then highlight those that match. 
 
-You may need 'AND' or 'OR' to divide your samples. [This help page](http://xena.ucsc.edu/highlight-filter-help/) details a complete list of all the search terms we support. 
+You may need 'AND' or 'OR' to divide your samples. [This help page](https://ucsc-xena.gitbook.io/project/overview-of-features/filter-and-subgrouping#supported-search-terms) details a complete list of all the search terms we support. 
 
 After all the samples that you want to put in one subgroup are highlighted, you use the highlight menu to create a new column.
 
