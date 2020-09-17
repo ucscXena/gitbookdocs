@@ -45,7 +45,7 @@ will match 'Stage IIIA' and 'Stage IIA'. To specify a specific string, use quote
 
 > "Stage IIA"
 
-### Continuous features  <a id="searchingcontinuousfeatures"></a>
+### Numerical and Continuous features  <a id="searchingcontinuousfeatures"></a>
 
 You can specify a certain column and mathematical expression such as
 

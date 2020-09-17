@@ -12,7 +12,7 @@ To generate a KM plot, click on the column menu at the top of a column and choos
 
 ### Sample groups
 
-For continuous features, you will have the option of having 2 groups of samples, 3 groups of samples, or viewing the upper vs lower quartile. For 2 groups, we divide the samples on the median. For 3 groups, we divide samples into the upper third, middle third, and lower third. When viewing the upper vs lower quartile, note that we only include samples that are greater than \(not greater than or equal to\) the upper quartile, and the same for the lower quartile.
+For numerical or continuous features, you will have the option of having 2 groups of samples, 3 groups of samples, or viewing the upper vs lower quartile. For 2 groups, we divide the samples on the median. For 3 groups, we divide samples into the upper third, middle third, and lower third. When viewing the upper vs lower quartile, note that we only include samples that are greater than \(not greater than or equal to\) the upper quartile, and the same for the lower quartile.
 
 If more than one sample has the same value, we put the samples in a group together, even if this means the groups end up being unequal in size.
 
