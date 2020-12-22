@@ -20,10 +20,6 @@ We list the units and normalization at the bottom of the column. You can also go
 
 ![](../.gitbook/assets/aboutmenu.gif)
 
-## **How do I open the download files?**
-
-Our files are tab-delimited or '.tsv'. We recommend opening them in your favorite spreadsheet program, such as Microsoft Excel, which will automatically convert the tabs into new columns. Please note that if you have many thousands of samples, Microsoft Excel will likely have difficulty opening the file. In this case, the command line may work better for you.
-
 ## How do I calculate fold change \(FC\)?
 
 The following instructions assume that your data has been log transformed. All the RNAseq data in Xena public data hubs have already been log transformed, either by us or by the data providers. You can always confirm this by viewing the dataset details page \(start at our [Explore Data pages](https://xenabrowser.net/datapages/) and drill down until you get to the details page for the dataset\).
