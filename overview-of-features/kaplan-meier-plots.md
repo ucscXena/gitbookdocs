@@ -24,7 +24,7 @@ We remove samples with 'null' data for all plots.
 
 ### Type of survival
 
-We default to Overall Survival though users can select different end points if they are available. An example of this is in the [TCGA PanCancer Study](https://xenabrowser.net/heatmap/?bookmark=bdfafba0e4256523a202948e8fa5d26c).
+We default to Overall Survival. Users can select different end points if they are available. An example of this is in the [TCGA PanCancer Study](https://xenabrowser.net/heatmap/?bookmark=bdfafba0e4256523a202948e8fa5d26c).
 
 ### Survival time cutoff
 

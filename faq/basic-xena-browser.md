@@ -1,11 +1,5 @@
 # Basic Xena Browser
 
-## What is the Kaplan–Meier \(KM\) plot statistics on the Xena Browser?
-
-When there are multiple curves or lines in a KM plot, Xena Browser compares the different Kaplan–Meier curves using the log-rank test. The Browser reports the test statistics \(𝜒 2\)  and p-value \(𝜒 2 distribution\). Data is retrieved in real-time from Xena Hub\(s\) to a user's web browser and the test is performed in the browser to maintain your data privacy.
-
-The statistics the Xena Browser reports are equivalent to R's survival package, [survdiff](https://stat.ethz.ch/R-manual/R-devel/library/survival/html/survdiff.html), with rho=0 \(default in R\). 
-
 ## **Which datasets are used in the basic wizard?**
 
 We annotate datasets used in the basic Visual Spreadsheet wizard with a red asterisk in our datasets pages. For an example see: [https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20\(LAML\)](https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20%28LAML%29)
