@@ -33,7 +33,7 @@
   * [Transcript View](overview-of-features/transcript-view.md)
   * [Gene Sets Tool](overview-of-features/gene-sets-about.md)
 * [FAQ](faq/README.md)
-  * [Basic Xena Browser](faq/basic-xena-browser.md)
+  * [Xena Browser](faq/basic-xena-browser.md)
   * [Basic data and datasets](faq/data-and-datasets.md)
   * [Advanced data and datasets](faq/advanced-data-and-datasets.md)
 * [Public Data we host](public-data-we-host/README.md)

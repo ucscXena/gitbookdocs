@@ -20,7 +20,23 @@ Mutation data is colored by the functional impact:
 * Green - Silent
 * Gray - Unknown
 
-[More detailed information](../../faq/basic-xena-browser.md#how-are-mutations-colored)
+### **More detail on coloring**
+
+**Red** --&gt; Nonsense\_Mutation, frameshift\_variant, stop\_gained, splice\_acceptor\_variant, splice\_acceptor\_variant&intron\_variant, splice\_donor\_variant, splice\_donor\_variant&intron\_variant, Splice\_Site, Frame\_Shift\_Del, Frame\_Shift\_Ins
+
+**Blue** --&gt; splice\_region\_variant, splice\_region\_variant&intron\_variant, missense, non\_coding\_exon\_variant, missense\_variant, Missense\_Mutation, exon\_variant, RNA, Indel, start\_lost, start\_gained, De\_novo\_Start\_OutOfFrame, Translation\_Start\_Site, De\_novo\_Start\_InFrame, stop\_lost, Nonstop\_Mutation, initiator\_codon\_variant, 5\_prime\_UTR\_premature\_start\_codon\_gain\_variant, disruptive\_inframe\_deletion, inframe\_deletion, inframe\_insertion, In\_Frame\_Del, In\_Frame\_Ins
+
+**Green** --&gt; synonymous\_variant, 5\_prime\_UTR\_variant, 3\_prime\_UTR\_variant, 5'Flank, 3'Flank, 3'UTR, 5'UTR, Silent, stop\_retained\_variant
+
+**Orange** --&gt; others, SV, upstream_gene_variant, downstream\_gene\_variant, intron\_variant, intergenic\_region
+
+**For the gene-level mutation datasets \(Somatic gene-level non-silent mutation\):**
+
+**Red \(=1\)** --&gt; indicates that a non-silent somatic mutation \(nonsense, missense, frame-shif indels, splice site mutations, stop codon readthroughs, change of start codon, inframe indels\) was identified in the protein coding region of a gene, or any mutation identified in a non-coding gene
+
+**White \(=0\)** --&gt; indicates that none of the above mutation calls were made in this gene for the specific sample
+
+**Pink \(=0.5\)** --&gt; some samples have two aliquots. In the event that in one aliquot a mutation was called and in the other no mutation was called, we assign a value of 0.5.
 
 ## CNV Examples
 
