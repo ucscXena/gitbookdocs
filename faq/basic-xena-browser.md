@@ -1,6 +1,6 @@
 # Xena Browser
 
-## Why can't I interact with the browser? I can see one column of data but I can't do anything?
+## Why can't I interact with the browser? I can see one column of data but I can't do anything.
 
 The Visual Spreadsheet wizard asks that you add at least TWO columns of data before interacting with the browser. This is because Xena was designed to allow you to find correlations within the data and you need more than one type of data on the screen to find a trend. 
 

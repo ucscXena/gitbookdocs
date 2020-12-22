@@ -36,7 +36,7 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 
 ## After you made your Visual Spreadsheet
 
-### Understanding the data in a column
+### Basics
 
 #### If you entered a single gene
 
@@ -54,9 +54,13 @@ To display a genomic region, enter the genomic region, choose your dataset and c
 
 When displaying a single gene, the gene model will be displayed at the top of the column. The gene model is a composite of all transcripts of the gene. Boxes show different exons with UTR regions being short and CDS regions being tall. We display 2Kb upstream to show the promoter region. Use the column menu to toggle to show intronic regions.
 
-## What does the value of 0.5 mean for this dataset \(expression, CNV, methylation\)?
+### Data values
 
-Individual values for each dataset mean different things. The legend at the bottom of the dataset will tell you the units for your particular dataset. If this does not answer your question we recommend going to the dataset details page to learn more about the dataset. To get there, click on the column menu and choose 'About'.
+Individual values for each dataset mean different things. The legend at the bottom of the dataset will tell you the units for your particular dataset, including any normalization that was performed. 
+
+If this does not answer your question we recommend going to the dataset details page to learn more about the dataset. To get there, click on the column menu and choose 'About'.
+
+![](../../.gitbook/assets/aboutmenu.gif)
 
 ### Sample sorting
 
