@@ -20,7 +20,7 @@
   * [How do I cite UCSC Xena?](how-do-i/cite-xena.md)
 * [Overview of Features](overview-of-features/README.md)
   * [Overview of Visual Spreadsheet](overview-of-features/visual-spreadsheet/README.md)
-    * [Mutation and Copy Number Variation Columns](overview-of-features/visual-spreadsheet/mutation-columns.md)
+    * [Coloring for Mutation Columns](overview-of-features/visual-spreadsheet/mutation-columns.md)
   * [Kaplan Meier Plots](overview-of-features/kaplan-meier-plots.md)
   * [Chart View: Box plots, Scatter plots, and bar charts](overview-of-features/chart-view-box-plots-scatter-plots-and-bar-charts.md)
   * [Searching, highlighting, filtering and subgrouping](overview-of-features/filter-and-subgrouping.md)

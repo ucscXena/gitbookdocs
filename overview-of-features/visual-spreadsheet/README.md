@@ -8,9 +8,13 @@ Get started by going to the [Xena Browser](https://xenabrowser.net/heatmap/) and
 
 ## Making a Visual Spreadsheet
 
+The wizard on the screen will guide you to choose a cohort of samples to view and TWO columns of data to view on those samples. Note that if you do not choose at least two columns, the wizard will not exit and let you interact with the data.
+
 ### Selecting a cohort
 
 ### Adding a Gene or Position
+
+HUGO gene names. Or the names in the dataset. Go to dataset pages to learn more about names that will be recognized
 
 ### Selecting a Dataset
 
@@ -31,6 +35,28 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 ![Red asterisk indicating this dataset is the one used in the Basic Wizard](../../.gitbook/assets/redasterisk.png)
 
 ## After you made your Visual Spreadsheet
+
+### Understanding the data in a column
+
+#### If you entered a single gene
+
+#### If you entered multiple genes
+
+Note that if you entered more than one gene and selected a mutation dataset, we will only show the first gene. If you wish to see multiple mutation columns, please enter each gene individually and click 'done'
+
+#### If you entered a chromosome or chromosome position
+
+To display a genomic region, enter the genomic region, choose your dataset and click 'done'. We accept entire chromosomes \(e.g. chr1\), arms of chromosomes \(e.g. chr19q\), or chromosomes coordinates. Coordinates need to be in this format: chr1:100-4,000. When displaying a chromosome range, genes will be shown in dark blue at the top of the column. Hovering over a gene will display the gene name in the tooltip. Alt-click to freeze the tooltip to click on the gene name and learn more about that gene. Note that introns are always shown in this mode.
+
+#### If you chose a phenotype data
+
+#### Mutation and CNV data
+
+When displaying a single gene, the gene model will be displayed at the top of the column. The gene model is a composite of all transcripts of the gene. Boxes show different exons with UTR regions being short and CDS regions being tall. We display 2Kb upstream to show the promoter region. Use the column menu to toggle to show intronic regions.
+
+## What does the value of 0.5 mean for this dataset \(expression, CNV, methylation\)?
+
+Individual values for each dataset mean different things. The legend at the bottom of the dataset will tell you the units for your particular dataset. If this does not answer your question we recommend going to the dataset details page to learn more about the dataset. To get there, click on the column menu and choose 'About'.
 
 ### Sample sorting
 
