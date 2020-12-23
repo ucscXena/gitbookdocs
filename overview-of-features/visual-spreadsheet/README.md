@@ -40,7 +40,7 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 
 ## After you made your Visual Spreadsheet
 
-### Basics
+### Orientation
 
 #### If you entered a single gene
 
