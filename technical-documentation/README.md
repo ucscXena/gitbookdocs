@@ -1,2 +1,2 @@
-# Technical documentation
+# Technical Documentation
 

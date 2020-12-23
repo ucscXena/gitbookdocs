@@ -30,7 +30,7 @@ These are numeric data called on genomic regions \(e.g. exon expression or gene-
 * RPPA
 * and more ...
 
-[Contact us](../contact-us.md) if you're unsure if we will support your data
+Contact us if you're unsure if we will support your data
 
 An example of a genomic matrix file \(in this case, expression\):
 
@@ -52,7 +52,7 @@ These are data on a sample or patient that is categorical in nature \(e.g. Tumor
 * genomic signatures \(EMT signature score, stemness score, etc\)
 * other \(whether a sample has an ERG-TMPRSS2 fusion, whether a sample has WGS data available, etc\)
 
-This is our most flexible data type. If you are wondering if your data is considered to be 'phenotypic' please [contact us](../contact-us.md).
+This is our most flexible data type. If you are wondering if your data is considered to be 'phenotypic' please contact us.
 
 An example of a phenotype matrix file:
 
@@ -106,5 +106,5 @@ Example mutation data with required columns:
 
 ## **Advanced Other data**
 
-We support a number of other specialty data types such as structural variants. Please [contact us](../contact-us.md) if you have this data so we can help you load it.
+We support a number of other specialty data types such as structural variants. Please contact us if you have this data so we can help you load it.
 

@@ -4,7 +4,7 @@
 
 In general we recommend the TCGA Pan-Cancer \(PANCAN\) study for most analysis. Unless you need a specific type of data or need to run a type of analysis listed below, we recommend the TCGA Pan-Cancer \(PANCAN\) study.
 
-Access the TCGA Pan-Cancer \(PANCAN\) here: 
+[Start with the TCGA Pan-Cancer \(PANCAN\) study](https://xenabrowser.net/?bookmark=6367b31838ba994d2fee4aacf653d65b)
 
 #### Why?
 
@@ -18,7 +18,7 @@ Note that if you use the TCGA Pan-Cancer \(PANCAN\) to study a specific cancer t
 
 Our second most recommended datasets are the cancer-specific GDC studies. These avoid the need to filter down to a single cancer type and contain the harmonized data from the [Genomic Data Commons](https://portal.gdc.cancer.gov/).
 
-[Access to the GDC studies](https://dev.xenabrowser.net/datapages/?host=https%3A%2F%2Fgdc.xenahubs.net)
+[Start with the GDC studies](https://dev.xenabrowser.net/datapages/?host=https%3A%2F%2Fgdc.xenahubs.net)
 
 ## Choosing a study by type of data
 
