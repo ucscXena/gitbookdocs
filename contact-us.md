@@ -2,9 +2,7 @@
 description: We'd love to hear from you!
 ---
 
-# Contact Us
-
-Whether you have a question or a comment, we'd love to hear from you.
+# Contact us
 
 ### Post to our public forum 
 
