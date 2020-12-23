@@ -35,7 +35,7 @@
 * [FAQ](faq/README.md)
   * [Xena Browser](faq/basic-xena-browser.md)
   * [Data and datasets](faq/advanced-data-and-datasets.md)
-* [Public Data we host](public-data-we-host/README.md)
+* [Overview of public data](public-data-we-host/README.md)
   * [TCGA](public-data-we-host/tcga.md)
   * [More studies](public-data-we-host/more-studies.md)
 * [Viewing your own data](local-xena-hub/README.md)
