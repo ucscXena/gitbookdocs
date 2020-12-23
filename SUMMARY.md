@@ -33,6 +33,7 @@
   * [Transcript View](overview-of-features/transcript-view.md)
   * [Gene Sets Tool](overview-of-features/gene-sets-about.md)
 * [Overview of public data](public-data-we-host/README.md)
+  * [Types of data we have](public-data-we-host/types-of-data-we-have.md)
   * [TCGA](public-data-we-host/tcga.md)
   * [More studies](public-data-we-host/more-studies.md)
   * [Choosing a study/cohort](public-data-we-host/choosing-a-study-cohort.md)
