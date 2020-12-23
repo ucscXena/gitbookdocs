@@ -2,7 +2,7 @@
 
 ## General recommendations
 
-In general we recommend the TCGA Pan-Cancer \(PANCAN\) study for most analysis. Unless you need a specific type of data or need to run a type of analysis listed below, we recommend the TCGA Pan-Cancer \(PANCAN\) study.
+We recommend the TCGA Pan-Cancer \(PANCAN\) study for most analysis. Unless you need a specific type of data or need to run a type of analysis listed below, we recommend the TCGA Pan-Cancer \(PANCAN\) study.
 
 [Start with the TCGA Pan-Cancer \(PANCAN\) study](https://xenabrowser.net/?bookmark=6367b31838ba994d2fee4aacf653d65b)
 
