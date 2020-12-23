@@ -38,6 +38,7 @@
 * [Overview of public data](public-data-we-host/README.md)
   * [TCGA](public-data-we-host/tcga.md)
   * [More studies](public-data-we-host/more-studies.md)
+  * [Choosing a study/cohort](public-data-we-host/choosing-a-study-cohort.md)
 * [Viewing your own data](local-xena-hub/README.md)
   * [Getting Started](local-xena-hub/getting-started.md)
   * [Probes/transcripts/identifiers we recognize](local-xena-hub/supported-gene-and-probe-names.md)

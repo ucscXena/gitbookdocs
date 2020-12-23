@@ -8,7 +8,7 @@ Get started by going to the [Xena Browser](https://xenabrowser.net/heatmap/) and
 
 ## Making a Visual Spreadsheet
 
-The wizard on the screen will guide you to choose a cohort of samples to view and TWO columns of data to view on those samples. Note that if you do not choose at least two columns, the wizard will not exit and let you interact with the data.
+The wizard on the screen will guide you to choose a study to view and TWO columns of data to view on those samples. Note that if you do not choose at least two columns, the wizard will not exit and let you interact with the data.
 
 ### Selecting a cohort
 
