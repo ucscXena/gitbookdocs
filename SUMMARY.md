@@ -5,7 +5,7 @@
   * [HCA Tutorial](tutorials/hca-tutorial.md)
 * [Live Examples](live-examples.md)
 * [How do I ...](how-do-i/README.md)
-  * [How do I make a KM plot?](https://ucsc-xena.gitbook.io/project/overview-of-features/kaplan-meier-plots)
+  * [How do I make a KM plot?](how-do-i/how-do-i-make-a-km-plot.md)
   * [How do I view my own data?](https://ucsc-xena.gitbook.io/project/local-xena-hub)
   * [How do I compare tumor vs normal expression?](how-do-i/tumor-vs-normal.md)
   * [How do I remove null data \(gray lines\) from view?](how-do-i/how-do-i-remove-null-data-gray-lines-from-view.md)
