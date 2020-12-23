@@ -1,4 +1,4 @@
-# Overview of Visual Spreadsheet
+# Visual Spreadsheet
 
 This dynamic, powerful, and flexible view is our default view into the data.
 
