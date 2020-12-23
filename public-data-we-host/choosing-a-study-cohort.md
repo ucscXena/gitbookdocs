@@ -1,7 +1,5 @@
 # Choosing a study/cohort
 
-coming soon!
-
 ## General recommendations
 
 In general we recommend the TCGA Pan-Cancer \(PANCAN\) study for most analysis. Unless you need a specific type of data or need to run a type of analysis listed below, we recommend the TCGA Pan-Cancer \(PANCAN\) study.
