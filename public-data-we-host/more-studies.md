@@ -16,7 +16,7 @@ The Pan-Cancer Analysis of Whole Genomes \(PCAWG\) study is an international col
 
 The NCI's Genomic Data Commons \(GDC\) provides the cancer research community with a unified data repository that enables data sharing across cancer genomic studies in support of precision medicine.
 
-The GDC supports several cancer genome programs at the NCI Center for Cancer Genomics \([CCG](http://cancer.gov/aboutnci/organization/ccg/)\), including The Cancer Genome Atlas \([TCGA](https://gdc.cancer.gov/cancer-genome-atlas-tcga)\) and Therapeutically Applicable Research to Generate Effective Treatments \([TARGET](https://gdc.cancer.gov/therapeutically-applicable-research-generate-effective-treatments-target)\).
+The GDC supports several cancer genome programs at the NCI Center for Cancer Genomics \([CCG](http://cancer.gov/aboutnci/organization/ccg/)\), including The Cancer Genome Atlas \([TCGA](https://gdc.cancer.gov/cancer-genome-atlas-tcga)\) and Therapeutically Applicable Research to Generate Effective Treatments \([TARGET](https://gdc.cancer.gov/therapeutically-applicable-research-generate-effective-treatments-target)\), and the Multiple Myeloma Research Foundation study that follow patients over the course of their disease \([MMFR COMMPASS](https://dev.xenabrowser.net/datapages/?cohort=GDC%20MMRF-COMMPASS&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)\).
 
 ## [MET500](https://xenabrowser.net/datapages/?cohort=MET500%20%28expression%20centric%29) 
 
