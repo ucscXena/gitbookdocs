@@ -12,9 +12,13 @@ The wizard on the screen will guide you to choose a cohort of samples to view an
 
 ### Selecting a cohort
 
+TBD
+
 ### Adding a Gene or Position
 
-HUGO gene names. Or the names in the dataset. Go to dataset pages to learn more about names that will be recognized
+Please use HUGO gene names or the probe names in the dataset. Go to dataset pages to learn more about names that will be recognized.
+
+To display a genomic region, enter the genomic region, choose your dataset and click 'done'. We accept entire chromosomes \(e.g. chr1\), arms of chromosomes \(e.g. chr19q\), or chromosomes coordinates. Coordinates need to be in this format: chr1:100-4,000. 
 
 ### Selecting a Dataset
 
@@ -40,15 +44,19 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 
 #### If you entered a single gene
 
+TBD
+
 #### If you entered multiple genes
 
 Note that if you entered more than one gene and selected a mutation dataset, we will only show the first gene. If you wish to see multiple mutation columns, please enter each gene individually and click 'done'
 
 #### If you entered a chromosome or chromosome position
 
-To display a genomic region, enter the genomic region, choose your dataset and click 'done'. We accept entire chromosomes \(e.g. chr1\), arms of chromosomes \(e.g. chr19q\), or chromosomes coordinates. Coordinates need to be in this format: chr1:100-4,000. When displaying a chromosome range, genes will be shown in dark blue at the top of the column. Hovering over a gene will display the gene name in the tooltip. Alt-click to freeze the tooltip to click on the gene name and learn more about that gene. Note that introns are always shown in this mode.
+When displaying a chromosome range, genes will be shown in dark blue at the top of the column. Hovering over a gene will display the gene name in the tooltip. Alt-click to freeze the tooltip to click on the gene name and learn more about that gene. Note that introns are always shown in this mode.
 
 #### If you chose a phenotype data
+
+TBD
 
 #### Mutation and CNV data
 
