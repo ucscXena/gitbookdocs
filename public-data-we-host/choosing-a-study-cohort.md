@@ -39,5 +39,5 @@ The table below assumes that you are interested in TCGA data. These data types m
 | Analysis | Study |
 | :--- | :--- |
 | Compare Tumor vs Normal | TCGA, TARGET, GTEx |
-| I need Grc38 coordinates | Any GDC study |
+| I need GRCh38 coordinates | Any GDC study |
 
