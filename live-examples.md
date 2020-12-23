@@ -4,7 +4,7 @@ description: >-
   using UCSC Xena
 ---
 
-# Live examples
+# Live Examples
 
 ## Workshop cheatsheet/handout
 

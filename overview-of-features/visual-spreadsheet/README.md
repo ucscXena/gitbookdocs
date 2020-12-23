@@ -8,11 +8,11 @@ Get started by going to the [Xena Browser](https://xenabrowser.net/heatmap/) and
 
 ## Making a Visual Spreadsheet
 
-The wizard on the screen will guide you to choose a study to view and TWO columns of data to view on those samples. Note that if you do not choose at least two columns, the wizard will not exit and let you interact with the data.
+The wizard on the screen will guide you to choose a cohort of samples to view and TWO columns of data to view on those samples. Note that if you do not choose at least two columns, the wizard will not exit and let you interact with the data.
 
 ### Selecting a cohort
 
-You can select a cohort either by choosing 'Help me select a cohort' and searching our cohorts for you cancer type, etc. or by choosing 'I know the study I want to use' and searching for the partial or full name of the cohort you are interested in.
+TBD
 
 ### Adding a Gene or Position
 
@@ -22,11 +22,9 @@ To display a genomic region, enter the genomic region, choose your dataset and c
 
 ### Selecting a Dataset
 
-To finish making a column you will need to select one or more datasets. 
-
 #### Basic Datasets
 
-We have pre-selected default datasets for most cohorts. These datasets are selected based because they are the most used datasets. Typically there is a default mutation, copy number, and expression dataset. 
+We have pre-selected default datasets for most cohorts. These datasets are selected based because they are the most used datasets. Typically there is a default mutation, copy number, and expression dataset.
 
 #### Advanced Datasets
 
@@ -40,33 +38,35 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 
 ![Red asterisk indicating this dataset is the one used in the Basic Wizard](../../.gitbook/assets/redasterisk.png)
 
-## After you made a Visual Spreadsheet
+## After you made your Visual Spreadsheet
 
-### Overview
-
-Samples are on the y-axis and your columns of data are on the x-axis. We line up all columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
+### Orientation
 
 #### If you entered a single gene
 
-If you entered a single gene, that gene will be listed at the top of the column. If there are multiple probes mapped to that gene in the dataset you selected they will be displayed as subcolumns ordered left to right in the direction of transcription.
-
-If you selected a positional dataset, such as segmented copy number variation or mutation we will display the gene model will be displayed at the top of the column. The gene model is a composite of all transcripts of the gene. Boxes show different exons with UTR regions being short and CDS regions being tall. We display 2Kb upstream to show the promoter region. Use the column menu to toggle to show intronic regions.
+TBD
 
 #### If you entered multiple genes
-
-If you entered multiple genes, each gene will be listed as a subcolumn for that dataset. If there are multiple probes mapped to that gene in the dataset \(i.e. if you entered a single gene then you would see the probes as subcolumns\), then the probes are averaged for a single value per gene. 
 
 Note that if you entered more than one gene and selected a mutation dataset, we will only show the first gene. If you wish to see multiple mutation columns, please enter each gene individually and click 'done'
 
 #### If you entered a chromosome or chromosome position
 
-When displaying a chromosome range, genes will be shown at the top of the column, with dark blue genes being on the forward strand and red genes being on the reverse strand. Hovering over a gene will display the gene name in the tooltip. Note that introns are always shown in this mode.
+When displaying a chromosome range, genes will be shown in dark blue at the top of the column. Hovering over a gene will display the gene name in the tooltip. Alt-click to freeze the tooltip to click on the gene name and learn more about that gene. Note that introns are always shown in this mode.
+
+#### If you chose a phenotype data
+
+TBD
+
+#### Mutation and CNV data
+
+When displaying a single gene, the gene model will be displayed at the top of the column. The gene model is a composite of all transcripts of the gene. Boxes show different exons with UTR regions being short and CDS regions being tall. We display 2Kb upstream to show the promoter region. Use the column menu to toggle to show intronic regions.
 
 ### Data values
 
 Individual values for each dataset mean different things. The legend at the bottom of the dataset will tell you the units for your particular dataset, including any normalization that was performed. 
 
-More information about a dataset can be found in the dataset details page. To get there, click on the column menu and choose 'About'.
+If this does not answer your question we recommend going to the dataset details page to learn more about the dataset. To get there, click on the column menu and choose 'About'.
 
 ![](../../.gitbook/assets/aboutmenu.gif)
 
@@ -86,5 +86,5 @@ Click and drag any where in any column to zoom in in either direction. Zoom out 
 
 ### Tooltip
 
-The Tooltip at the top of the Visual Spreadsheet shows more information about the data under the mouse. Links are links to the UCSC Genome Browser to learn more about that gene or genomic position. Alt-click to freeze and unfreeze the tooltip to be able to click on the links. [Click here for more information about interacting with the tooltip](../../how-do-i/freeze-and-un-freeze-tooltip.md).
+The Tooltip at the top of the Visual Spreadsheet shows more information about the data under the mouse. [More information about using the data in the tooltip.](../../how-do-i/freeze-and-un-freeze-tooltip.md)
 
