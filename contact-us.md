@@ -2,19 +2,25 @@
 description: We'd love to hear from you!
 ---
 
-# Contact Us
+# Contact us
 
-Whether you have a question or a comment, we'd love to hear from you.
+### Post to our public forum 
 
-### [Post a question to our forum](https://groups.google.com/forum/?fromgroups#!forum/ucsc-cancer-genomics-browser) 
+[https://groups.google.com/g/ucsc-cancer-genomics-browser](https://groups.google.com/g/ucsc-cancer-genomics-browser)
 
-### [Email us a private question](mailto:genome-cancer@soe.ucsc.edu)
+### Privately email us
 
-### [Sign up for our monthly newsletter](http://xena.ucsc.edu/#subscribe)
+genome-cancer@soe.ucsc.edu
 
-### [Follow us on twitter](https://twitter.com/UCSCXena)
+### Sign up for our monthly newsletter
 
-### Citing us
+[http://xena.ucsc.edu/\#whatsnew](http://xena.ucsc.edu/#whatsnew)
+
+### Follow us on twitter
+
+[https://twitter.com/UCSCXena](https://twitter.com/UCSCXena)
+
+### Cite us
 
 You've run your analysis and are ready to publish your paper - congratulations! Cite the paper below to thank Xena and keep our project funded.
 
