@@ -1,12 +1,14 @@
 # Coloring for Mutation Columns
 
-Mutation data is colored by the functional impact:
+Samples that have mutation data are white all the way across the column with a dot or line for the mutation, depending on the size of the mutation. Mutation data is colored by the functional impact. 
 
 * Red - Deleterious
 * Blue - Missense
 * Orange - Splice site mutation
 * Green - Silent
 * Gray - Unknown
+
+Samples for which there is no mutation data are gray all the way across the column and are marked as 'null'.
 
 ### **More details for 'S**omatic mutation \(SNP and INDEL\)' datasets
 

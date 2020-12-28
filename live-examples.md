@@ -42,7 +42,11 @@ description: >-
 
 ## [Mutation pile-ups in intron enhancers in ICGC lymphoma](https://xenabrowser.net/heatmap/?bookmark=dfc37064d62ea0c0302881c05277b7b3)
 
-![https://xenabrowser.net/heatmap/?bookmark=dfc37064d62ea0c0302881c05277b7b3](.gitbook/assets/screen-shot-2020-01-29-at-1.29.50-pm.png)
+![https://xenabrowser.net/heatmap/?bookmark=27d8bc5b7904f768374a1eeae9baed81](.gitbook/assets/icgcintronmutation.png)
+
+Xena mutation views supports examination of both coding and non-coding mutations from whole genome analysis. We support viewing mutations from both gene- or coordinate- centric perspective. In the gene-centric view, you can dynamically toggle to show or hide introns from the view. This figure shows the frequent intron mutations in 321 samples from the ICGC lymphoma cohorts. These 'pile-ups' would be not be visible if viewing mutations only in the exome. These intron mutations overlap with known enhancers regions \(Mathelier 2015\).‌
+
+Mathelier A, Lefebvre C, Zhang AW, Arenillas DJ, Ding J, Wasserman WW, Shah SP. Cis-regulatory somatic mutations and gene-expression alteration in B-cell lymphomas Genome Biology. 2015; 16:84.
 
 ## [Stemness scores across TCGA cancer types](https://xenabrowser.net/?bookmark=7deeea053f221ba9fc506be855f353ac)
 
