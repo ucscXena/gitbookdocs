@@ -66,7 +66,7 @@ When displaying a chromosome range, genes will be shown at the top of the column
 
 ### Data values
 
-Individual values for each dataset mean different things. The legend at the bottom of the dataset will tell you the units for your particular dataset, including any normalization that was performed. 
+Individual values for each dataset mean different things. The legend at the bottom of the dataset will tell you the units for your particular dataset, including any normalization that was performed. If a sample does not have data for a column, it will show as gray and be labeled as 'null'.
 
 More information about a dataset can be found in the dataset details page. To get there, click on the column menu and choose 'About'.
 
