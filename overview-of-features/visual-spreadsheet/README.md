@@ -8,6 +8,8 @@ Get started by going to the [Xena Browser](https://xenabrowser.net/heatmap/) and
 
 ![](../../.gitbook/assets/screen-shot-2020-12-27-at-10.21.41-am.png)
 
+![](../../.gitbook/assets/cbiit-may-2020.png)
+
 ## Making a Visual Spreadsheet
 
 The wizard on the screen will guide you to choose a study to view and TWO columns of data to view on those samples. Note that if you do not choose at least two columns, the wizard will not exit and let you interact with the data.
