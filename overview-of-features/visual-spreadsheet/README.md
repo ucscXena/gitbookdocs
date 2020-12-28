@@ -90,3 +90,7 @@ Click and drag any where in any column to zoom in in either direction. Zoom out 
 
 The Tooltip at the top of the Visual Spreadsheet shows more information about the data under the mouse. Links are links to the UCSC Genome Browser to learn more about that gene or genomic position. Alt-click to freeze and unfreeze the tooltip to be able to click on the links. [Click here for more information about interacting with the tooltip](../../how-do-i/freeze-and-un-freeze-tooltip.md).
 
+### Resize a column
+
+You can change the size of a column by clicking on the bottom right corner of a column and dragging to a new size.
+
