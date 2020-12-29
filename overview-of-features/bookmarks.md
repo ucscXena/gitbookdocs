@@ -1,6 +1,10 @@
-# Bookmarks
+---
+description: >-
+  Bookmarks are a great way to save a particular view in Xena, either for
+  yourself or to share with others.
+---
 
-Bookmarks are a great way to save a particular view in Xena, either for yourself or to share with others.
+# Bookmarks
 
 ## Creating a bookmark
 

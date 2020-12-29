@@ -1,3 +1,7 @@
+---
+description: A 3D protein viewer developed by Rachel Karchin's lab
+---
+
 # MuPIT
 
 We use the [MuPIT 3D protein viewer](http://mupit.icm.jhu.edu/) from [Rachel Karchin's lab](http://karchinlab.org/) at John Hopkins to provide this visualization to our users. From their Help Page:

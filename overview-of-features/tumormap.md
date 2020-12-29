@@ -1,3 +1,7 @@
+---
+description: A tool developed by the Stuart Lab to view samples in a 2D layout
+---
+
 # TumorMap
 
 UCSC TumorMap is a separate project developed by the Stuart Lab at UCSC. We link to them to help users gain another perspective on the data they are seeing in Xena. From their [Overview page](https://tumormap.ucsc.edu/help/overview.html):
