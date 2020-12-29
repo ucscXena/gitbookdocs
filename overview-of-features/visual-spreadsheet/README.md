@@ -44,6 +44,10 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 
 ![Red asterisk indicating this dataset is the one used in the Basic Wizard](../../.gitbook/assets/redasterisk.png)
 
+### Video of making a Visual Spreadsheet
+
+![](../../.gitbook/assets/basictutorialpart1a.gif)
+
 ## After you made a Visual Spreadsheet
 
 ### Overview
@@ -90,11 +94,13 @@ As the sample sort order is controlled by the left most columns, it can be usefu
 
 To move a column click on the column header and drag a column to the right or left.
 
+![](../../.gitbook/assets/basictutorialpart1ba.gif)
+
 ### Zooming
 
-Click and drag any where in any column to zoom in in either direction. Zoom out to all samples by clicking the 'Clear Zoom' at the top. Zoom out to the whole column by clicking the red 'x' at the top of a column
+Click and drag any where in any column to zoom in in either direction. Zoom out to all samples by clicking the 'Clear Zoom' at the top. Zoom out to the whole column by clicking the red 'x' at the top of a column.
 
-![](../../.gitbook/assets/allzoominout.gif)
+![](../../.gitbook/assets/basictutorialpart1bc.gif)
 
 ### Tooltip
 
@@ -103,4 +109,6 @@ The Tooltip at the top of the Visual Spreadsheet shows more information about th
 ### Resize a column
 
 You can change the size of a column by clicking on the bottom right corner of a column and dragging to a new size.
+
+![](../../.gitbook/assets/basictutorialpart1bb.gif)
 
