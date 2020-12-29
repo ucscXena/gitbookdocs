@@ -2,8 +2,8 @@
 
 * [Welcome to the Help Pages for UCSC Xena](README.md)
 * [Tutorials](tutorials/README.md)
-  * [Basic Tutorial](tutorials/basic-tutorial.md)
-  * [HCA Tutorial](tutorials/hca-tutorial.md)
+  * [Basic Tutorial: Part 1](tutorials/basic-tutorial.md)
+  * [Single-cell HCA Tutorial](tutorials/hca-tutorial.md)
 * [Live examples](live-examples.md)
 * [How do I ...](how-do-i/README.md)
   * [How do I make a KM plot?](how-do-i/how-do-i-make-a-km-plot.md)

@@ -84,6 +84,12 @@ Numerical data \(e.g. 1.2, 3.5, etc\) are ordered in descending order \(e.g. 3.5
 
 To reverse the ordering for any column, click the column menu at the top of the column and chose 'Reverse sort'
 
+### Move a column/change the sample sorting
+
+As the sample sort order is controlled by the left most columns, it can be useful to explore the data by moving a different column to the left. 
+
+To move a column click on the column header and drag a column to the right or left.
+
 ### Zooming
 
 Click and drag any where in any column to zoom in in either direction. Zoom out to all samples by clicking the 'Clear Zoom' at the top. Zoom out to the whole column by clicking the red 'x' at the top of a column

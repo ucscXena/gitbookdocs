@@ -4,7 +4,7 @@ description: >-
   cohort
 ---
 
-# HCA Tutorial
+# Single-cell HCA Tutorial
 
 ## Video of walk through
 
