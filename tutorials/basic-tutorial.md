@@ -106,25 +106,29 @@ To further explore the relationship between the gene expression, mutation, and c
 
 {% tabs %}
 {% tab title="Question 1" %}
-Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GDC TCGA ....
+Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GDC TCGA Lower Grade Glioma
 {% endtab %}
 
 {% tab title="Answer 1" %}
-Ending Screenshot
+**Ending Screenshot**
 
-Bookmark 
+![](../.gitbook/assets/screen-shot-2020-12-29-at-2.42.24-pm.png)
+
+[https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Question 2" %}
-Change the Visual Spreadsheet from Question 1 so that the samples are sorted by ... rather than ...
+Change the Visual Spreadsheet from Question 1 so that the samples are sorted by mutations rather than gene expression
 {% endtab %}
 
 {% tab title="Answer 2" %}
-Ending Screenshot
+**Ending Screenshot**
 
-Bookmark
+![](../.gitbook/assets/screen-shot-2020-12-29-at-2.44.52-pm.png)
+
+[https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)
 {% endtab %}
 {% endtabs %}
 
