@@ -10,7 +10,7 @@ This tutorial is intended for those who have never used Xena before but who have
 
 ## Prerequisites
 
-This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
+This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutorial-section-1.md). This tutorial begins where the Basic Tutorial: Section 1 ends.
 
 ## Estimated time needed
 
