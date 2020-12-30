@@ -1,47 +1,47 @@
 ---
-description: Please excuse the mess - in progress!
+description: In progress
 ---
 
-# Basic Tutorial: Part 1
+# Basic Tutorial: Section 2
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before. We will cover how to create your first Visual Spreadsheet \(link\) with gene expression, mutation, and copy number variation data.
+This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial. We will cover how to filter to just the samples you are interested in, how to create subgroups, and how to run a Kaplan-Meier survival analysis.
 
 ## Prerequisites
 
-This tutorial assumes a basic understanding of 
-
-* cancer processes that can lead to altered gene expression, such as copy number variation or mutation
-* values in gene expression, mutation, and copy number variation data
-* The Cancer Genome Atlas \(TCGA\)
+This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
 
 ## Estimated time needed
 
-**Part A**: 5 min
+**Part A**: 15 min
 
-**Part B**: 10 min
+**Part B**: 15 min
+
+**Part C:** 5 min
 
 ## Learning goals
 
 ### Part A
 
-* Create a Visual Spreadsheet
-* Compare data across columns
+* Search for samples of interest
+* Filter to keep or remove those samples of interest
 
 ### Part B
 
-* Move columns
-* Resize columns
-* Zoom in and out
+* Make subgroups
+* Renaming subgroups
+
+### Part C
+
+* Running a Kaplan-Meier survival analysis
+* Using a custom time endpoint
 
 ## Tutorial
 
-### Biological Background
+In section 1 we found that we found that samples that have aberrations in EGFR \(mutations or amplifications\) have higher expression.
 
-We are going to be examining _EGFR_ aberrations in lung adenocarcinomas using TCGA. We will be looking at mutation and copy number aberrations and how they affect gene expression.
-
-{% embed url="https://docs.google.com/presentation/d/1wKUwb2ThTZ4joU5ExyDWPS7tuQ5keHnrpzJ7dMtMErA/edit?usp=sharing" %}
+Now we are going to investigate whether those samples with aberrations have a worse survival prognosis.
 
 ### Part A
 
@@ -103,32 +103,4 @@ To further explore the relationship between the gene expression, mutation, and c
 ![](../.gitbook/assets/basictutorialpart1bc.gif)
 
 ## Test your knowledge
-
-{% tabs %}
-{% tab title="Question 1" %}
-Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GDC TCGA Lower Grade Glioma
-{% endtab %}
-
-{% tab title="Answer 1" %}
-**Ending Screenshot**
-
-![](../.gitbook/assets/screen-shot-2020-12-29-at-2.42.24-pm.png)
-
-[https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)
-{% endtab %}
-{% endtabs %}
-
-{% tabs %}
-{% tab title="Question 2" %}
-Change the Visual Spreadsheet from Question 1 so that the samples are sorted by mutations rather than gene expression
-{% endtab %}
-
-{% tab title="Answer 2" %}
-**Ending Screenshot**
-
-![](../.gitbook/assets/screen-shot-2020-12-29-at-2.44.52-pm.png)
-
-[https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)
-{% endtab %}
-{% endtabs %}
 
