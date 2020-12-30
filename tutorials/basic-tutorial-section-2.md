@@ -1,5 +1,5 @@
 ---
-description: In progress
+description: Under construction
 ---
 
 # Basic Tutorial: Section 2
@@ -92,15 +92,9 @@ To further explore the relationship between the gene expression, mutation, and c
 
 #### Video of step 1
 
-![](../.gitbook/assets/basictutorialpart1ba.gif)
-
 #### Video of step 2
 
-![](../.gitbook/assets/basictutorialpart1bb.gif)
-
 #### Video of steps 3-6
-
-![](../.gitbook/assets/basictutorialpart1bc.gif)
 
 ## Test your knowledge
 

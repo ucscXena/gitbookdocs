@@ -6,7 +6,7 @@ description: Learn to create your first views in Xena
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before. We will cover how to create your first Visual Spreadsheet \(link\) with gene expression, mutation, and copy number variation data.
+This tutorial is intended for those who have never used Xena before. We will cover how to create your first Visual Spreadsheet with gene expression, mutation, and copy number variation data.
 
 ## Prerequisites
 
@@ -90,21 +90,21 @@ To further explore the relationship between the gene expression, mutation, and c
 
 #### Video of step 1
 
-![](../.gitbook/assets/basictutorialpart1ba.gif)
+![](../.gitbook/assets/basictutorials1ba.gif)
 
 #### Video of step 2
 
-![](../.gitbook/assets/basictutorialpart1bb.gif)
+![](../.gitbook/assets/basictutorials1bb.gif)
 
 #### Video of steps 3-6
 
-![](../.gitbook/assets/basictutorialpart1bc.gif)
+![](../.gitbook/assets/basictutorials1bc.gif)
 
 ## Test your knowledge
 
 {% tabs %}
 {% tab title="Question 1" %}
-Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GDC TCGA Lower Grade Glioma
+Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GDC TCGA Lower Grade Glioma.
 {% endtab %}
 
 {% tab title="Answer 1" %}
@@ -118,7 +118,7 @@ Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GD
 
 {% tabs %}
 {% tab title="Question 2" %}
-Change the Visual Spreadsheet from Question 1 so that the samples are sorted by mutations rather than gene expression
+Change the Visual Spreadsheet from Question 1 so that the samples are sorted by mutations rather than gene expression.
 {% endtab %}
 
 {% tab title="Answer 2" %}

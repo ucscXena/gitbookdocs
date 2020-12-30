@@ -96,13 +96,13 @@ As the sample sort order is controlled by the left most columns, it can be usefu
 
 To move a column click on the column header and drag a column to the right or left.
 
-![](../../.gitbook/assets/basictutorialpart1ba.gif)
+![](../../.gitbook/assets/basictutorials1ba.gif)
 
 ### Zooming
 
 Click and drag any where in any column to zoom in in either direction. Zoom out to all samples by clicking the 'Clear Zoom' at the top. Zoom out to the whole column by clicking the red 'x' at the top of a column.
 
-![](../../.gitbook/assets/basictutorialpart1bc.gif)
+![](../../.gitbook/assets/basictutorials1bc.gif)
 
 ### Tooltip
 
@@ -112,5 +112,5 @@ The Tooltip at the top of the Visual Spreadsheet shows more information about th
 
 You can change the size of a column by clicking on the bottom right corner of a column and dragging to a new size.
 
-![](../../.gitbook/assets/basictutorialpart1bb.gif)
+![](../../.gitbook/assets/basictutorials1bb.gif)
 
