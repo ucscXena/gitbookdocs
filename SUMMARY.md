@@ -2,7 +2,7 @@
 
 * [Welcome to the Help Pages for UCSC Xena](README.md)
 * [Tutorials](tutorials/README.md)
-  * [Basic Tutorial: Part 1](tutorials/basic-tutorial.md)
+  * [Basic Tutorial: Part 1](tutorials/basic-tutorial-part-1.md)
   * [Single-cell HCA Tutorial](tutorials/hca-tutorial.md)
 * [Live examples](live-examples.md)
 * [How do I ...](how-do-i/README.md)
