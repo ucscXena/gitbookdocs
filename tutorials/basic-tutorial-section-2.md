@@ -6,7 +6,7 @@ description: Under construction
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial. We will cover how to filter to just the samples you are interested in, how to create subgroups, and how to run a Kaplan-Meier survival analysis.
+This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial. We will cover how to filter to just the samples you are interested in, how to create subgroups, and how to run a Kaplan Meier survival analysis.
 
 ## Prerequisites
 
@@ -34,67 +34,107 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ### Part C
 
-* Running a Kaplan-Meier survival analysis
+* Running a Kaplan Meier survival analysis
 * Using a custom time endpoint
 
 ## Tutorial
 
-In section 1 we found that we found that samples that have aberrations in EGFR \(mutations or amplifications\) have higher expression.
+In the Basic Tutorial Section 1 we found that we found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
 
 Now we are going to investigate whether those samples with aberrations have a worse survival prognosis.
 
+{% hint style="warning" %}
+To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
+{% endhint %}
+
 ### Part A
 
-Our goal is to build a Visual Spreadsheet and understand the relationship between the columns
+Our goal is to remove samples with no data \(i.e. null\) from the view. This will make the view look cleaner and remove irrelevant samples from our Kaplan Meier survival analysis.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=1420a515a2cd26f4bf12d267a857e5f8)
 
-![https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba](../.gitbook/assets/screen-shot-2020-12-29-at-1.08.37-pm.png)
+![https://xenabrowser.net/?bookmark=1420a515a2cd26f4bf12d267a857e5f8](../.gitbook/assets/screen-shot-2020-12-30-at-1.22.29-pm.png)
 
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
-2. Type 'GDC TCGA Lung Adenocarcinoma', select this study from the drop down menu, and click 'Done'
-3. Type 'EGFR', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'Done'
+1. ... 
+2. Delete the search term. This will remove the black tick marks for matching samples.
 
 #### Video of steps
 
-![](../.gitbook/assets/basictutorialpart1a.gif)
-
-#### How to read a Visual Spreadsheet
-
-Samples are on the y-axis and your columns of data are on the x-axis. We line up all columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
-
-#### Biological interpretation
-
-We can see that samples that have high expression of _EGFR_ \(red, column B\) tend to either have amplifications of _EGFR_ \(red,  column C\) or mutations in _EGFR_ \(blue tick marks, column D\)
-
 {% hint style="success" %}
-More information:
+**More information**
 
-* [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)
-* [Colors and values in columns](../overview-of-features/visual-spreadsheet/#data-values)
-* [Sample sorting](../overview-of-features/visual-spreadsheet/#sample-sorting)
+* [Searching for and filtering samples](../overview-of-features/filter-and-subgrouping.md)
 {% endhint %}
 
 ### Part B
 
-To further explore the relationship between the gene expression, mutation, and copy number variation data for _EGFR_, we will move columns to change the sort order, resize columns, and zoom in both for the entire Visual Spreadsheet and within a column.
+Our goal is to create two subgroups, those samples with aberrations in _EGFR_ and those samples without aberrations in _EGFR_. We will then name the subgroups.
+
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
+
+![https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](../.gitbook/assets/screen-shot-2020-12-30-at-1.28.28-pm.png)
 
 #### Steps
 
-1. **Move columns.** Click on column C, copy number variation, and drag it to the left so that it becomes the first column after the samples column \(i.e. column B\). Note that the samples are now sorted by the values in this column.
-2. **Resize columns.** Click on the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger. 
-3. **Zoom in on a column.** Click and drag within column D. Release to zoom.
-4. **Zoom out on a column.** Click the red zoom out text at the top of column D.
-5. **Zoom in on samples.** Click and drag vertically in any column in the Visual Spreadsheet to zoom in on these samples.
-6. **Zoom out on samples.** To zoom out click either 'Zoom out' or 'Clear zoom' at the top of the Visual Spreadsheet.
+1. **...**
+2. Delete the search term. This will remove the black tick marks for matching samples.
 
-#### Video of step 1
+#### Video of steps
 
-#### Video of step 2
+### Part C
 
-#### Video of steps 3-6
+Now that we have our subgroups of those with and without aberrations in _EGFR_, we will run a Kaplan Meier survival analysis. Note that TCGA survival data is in days, hence the x-axis will be in days.
+
+{% hint style="success" %}
+**More information**
+
+* [Kaplan Meier survival analysis](../overview-of-features/kaplan-meier-plots.md)
+{% endhint %}
+
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39)
+
+![https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
+
+#### Steps
+
+1. Click on the column menu at the top of column B
+2. Choose 'Kaplan Meier Plot'
+3. Click at the bottom of the Kaplan Meier plot on 'Custom survival time cutoff'
+4. Enter 3650, as this is 10 years
+
+#### Video of steps
 
 ## Test your knowledge
+
+{% tabs %}
+{% tab title="Question 1" %}
+Starting at the end of Part A, filter down to only those samples that have a missense mutation.
+{% endtab %}
+
+{% tab title="Answer 1" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Question 2" %}
+Starting at the end of Part A, create two subgroups: those with _EGFR_ expression greater than 17 and those with _EGFR_ expression less than 17.
+{% endtab %}
+
+{% tab title="Answer 2" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Question 3" %}
+Starting at the end of Part A, run a Kaplan Meier analysis on _EGFR_ expression column.
+{% endtab %}
+
+{% tab title="Answer 3" %}
+
+{% endtab %}
+{% endtabs %}
 

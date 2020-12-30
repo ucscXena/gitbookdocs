@@ -68,7 +68,7 @@ Samples are on the y-axis and your columns of data are on the x-axis. We line up
 We can see that samples that have high expression of _EGFR_ \(red, column B\) tend to either have amplifications of _EGFR_ \(red,  column C\) or mutations in _EGFR_ \(blue tick marks, column D\)
 
 {% hint style="success" %}
-More information:
+**More information**
 
 * [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)
 * [Colors and values in columns](../overview-of-features/visual-spreadsheet/#data-values)
