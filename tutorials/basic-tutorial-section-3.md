@@ -48,15 +48,15 @@ We found that samples that have aberrations in _EGFR_ \(mutations or amplificati
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=dc05bbdcf590f7df4506fbcd721f60b5)
 
-![](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
+![https://xenabrowser.net/?bookmark=d31da9334a490d3cc5b5b75446e679a1](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
 
 #### Steps
 
 1. Click the graph icon in the upper right corner to enter Chart View.
-2. Click on 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
-3. Click on the dropdown for 'Show data from' and choose 'column C: EGFR - gene expression RNAseq - HTSeq - FPKM-UQ'.
-4. Click on the dropdown for 'Subgroup samples by' and choose 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup'.
-5. Click on 'Done'. 
+2. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
+3. Click the dropdown for 'Show data from' and choose 'column C: EGFR - gene expression RNAseq - HTSeq - FPKM-UQ'.
+4. Click the dropdown for 'Subgroup samples by' and choose 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup'.
+5. Click 'Done'. 
 
 #### Video of steps
 
@@ -68,11 +68,25 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
 
-#### Steps
+![https://xenabrowser.net/?bookmark=ab3dc8bc827a2aaa9ae75d8c82629a3d](../.gitbook/assets/screen-shot-2021-01-13-at-12.01.47-pm.png)
 
-1. ... 
+**Steps**
 
-#### Video of steps
+1. Click the 'x' in the upper right corner to exit Chart View.
+2. Hover between columns B and C until 'Click to insert a column' becomes visible. Click on it.
+3. Choose 'Phenotypic'
+4. Type 'gender' into the search bar.
+5. Select 'gender.demographic' from the dropdown menu.
+6. Click 'Done'.
+7. Click the column menu at the top of column C and choose 'Chart & Statistics'. Note that this is just another way to enter Chart View.
+8. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
+9. 'column C: gender.demographic' should already be selected for  'Show data from'. If not, select it.
+10. 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
+11. Click 'Done'. 
+
+#### Video of steps 1-6
+
+#### Video of steps 7-11
 
 ## Test your knowledge
 

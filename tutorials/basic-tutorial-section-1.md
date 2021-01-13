@@ -12,9 +12,9 @@ This tutorial is intended for those who have never used Xena before. We will cov
 
 This tutorial assumes a basic understanding of 
 
-* cancer processes that can lead to altered gene expression, such as copy number variation or mutation
-* values in gene expression, mutation, and copy number variation data
-* The Cancer Genome Atlas \(TCGA\)
+* cancer processes that can lead to altered gene expression, such as copy number variation or mutations
+* the meaning of the values in gene expression, mutation, and copy number variation data
+* the goals of the the Cancer Genome Atlas \(TCGA\)
 
 ## Estimated time needed
 
@@ -81,8 +81,8 @@ To further explore the relationship between the gene expression, mutation, and c
 
 #### Steps
 
-1. **Move columns.** Click on column C, copy number variation, and drag it to the left so that it becomes the first column after the samples column \(i.e. column B\). Note that the samples are now sorted by the values in this column.
-2. **Resize columns.** Click on the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger. 
+1. **Move columns.** Click column C, copy number variation, and drag it to the left so that it becomes the first column after the samples column \(i.e. column B\). Note that the samples are now sorted by the values in this column.
+2. **Resize columns.** Click the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger. 
 3. **Zoom in on a column.** Click and drag within column D. Release to zoom.
 4. **Zoom out on a column.** Click the red zoom out text at the top of column D.
 5. **Zoom in on samples.** Click and drag vertically in any column in the Visual Spreadsheet to zoom in on these samples.
