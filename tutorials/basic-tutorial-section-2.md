@@ -30,12 +30,12 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 ### Part B
 
 * Make subgroups
-* Renaming subgroups
+* Rename subgroups
 
 ### Part C
 
-* Running a Kaplan Meier survival analysis
-* Using a custom time endpoint
+* Run a Kaplan Meier survival analysis
+* Use a custom time endpoint
 
 ## Tutorial
 
@@ -85,7 +85,7 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 
 ### Part C
 
-Now that we have our subgroups of those with and without aberrations in _EGFR_, we will run a Kaplan Meier survival analysis. Note that TCGA survival data is in days, hence the x-axis will be in days.
+Now that we have our subgroups we will run a Kaplan Meier survival analysis. Note that TCGA survival data is in days, hence the x-axis will be in days.
 
 {% hint style="success" %}
 **More information**
@@ -105,6 +105,8 @@ Now that we have our subgroups of those with and without aberrations in _EGFR_, 
 4. Enter 3650, as this is 10 years
 
 #### Video of steps
+
+![](../.gitbook/assets/kmplot%20%281%29.gif)
 
 ## Test your knowledge
 
