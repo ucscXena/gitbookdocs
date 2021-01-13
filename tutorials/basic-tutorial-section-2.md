@@ -57,8 +57,9 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 
 #### Steps
 
-1. ... 
-2. Delete the search term. This will remove the black tick marks for matching samples.
+1. Type 'null' into the samples search bar. This will highlight samples that have 'null' values in any column on the screen. Null means that there is no data for that sample for that column.
+2. Click the filter menu and select 'Remove samples'.
+3. Delete the search term. This will remove the black tick marks for matching samples.
 
 #### Video of steps
 
@@ -78,8 +79,14 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 
 #### Steps
 
-1. **...**
-2. Delete the search term. This will remove the black tick marks for matching samples.
+1. Type **'**\(mis OR infra\) OR C:&gt;0.5'  into the samples search bar. This will select samples that either have a missense or inframe deletion '\(mis OR infra\)', or where copy number variation \(column C\) is greater than 0.5. Note that I arbitrarily choose a cutoff of 0.5.
+2. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\)
+3. Rename the display
+4. Delete the search term. This will remove the black tick marks for matching samples.
+
+For more information on how to search, go here:
+
+{% page-ref page="../overview-of-features/filter-and-subgrouping.md" %}
 
 #### Video of steps
 
