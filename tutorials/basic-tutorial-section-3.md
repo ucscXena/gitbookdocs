@@ -90,5 +90,33 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 
 #### Video of steps 7-11
 
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+![](../.gitbook/assets/barchart.gif)
+
 ## Test your knowledge
+
+{% tabs %}
+{% tab title="Question" %}
+
+{% endtab %}
+
+{% tab title="Answer" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Question" %}
+
+{% endtab %}
+
+{% tab title="Answer" %}
+
+{% endtab %}
+{% endtabs %}
 
