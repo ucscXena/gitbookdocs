@@ -90,33 +90,37 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 
 #### Video of steps 7-11
 
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 ![](../.gitbook/assets/barchart.gif)
 
 ## Test your knowledge
 
 {% tabs %}
 {% tab title="Question" %}
-
+Starting at the end of Part A, create a violin plot that compares copy number variation between samples that have _EGFR_ aberrations and those that do not.
 {% endtab %}
 
 {% tab title="Answer" %}
+**Ending Screenshot**
 
+![](../.gitbook/assets/screen-shot-2021-01-13-at-2.20.27-pm.png)
+
+[https://xenabrowser.net/?bookmark=07b189f18423721b05c23fe4a1f0b0aa](https://xenabrowser.net/?bookmark=07b189f18423721b05c23fe4a1f0b0aa)
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Question" %}
-
+Starting at the end of Part B, add the phenotype data 'age\_at\_initial\_pathologic\_diagnosis' to the plot.
 {% endtab %}
 
 {% tab title="Answer" %}
+**Ending Screenshot**
 
+Note that your column order may be different.
+
+![](../.gitbook/assets/screen-shot-2021-01-13-at-2.17.07-pm.png)
+
+[https://xenabrowser.net/?bookmark=e3a364e74e74a9dbeb7f23b8c286456e](https://xenabrowser.net/?bookmark=e3a364e74e74a9dbeb7f23b8c286456e)
 {% endtab %}
 {% endtabs %}
 
