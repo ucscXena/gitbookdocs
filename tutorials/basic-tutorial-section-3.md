@@ -39,14 +39,16 @@ In the Basic Tutorial: Section 2 we created two subgroups: those with aberration
 Now we are going to use the subgroups created in the Basic Tutorial: Section 2 to see if there is a statistical difference in expression between the two subgroups and whether males or females have more aberrations.
 
 {% hint style="warning" %}
-To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=4d23b9a54196cd6a77b13ea896174cba](https://xenabrowser.net/?bookmark=4d23b9a54196cd6a77b13ea896174cba)
+To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
 {% endhint %}
 
 ### Part A
 
 We found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression. Now we are going to investigate if this difference in expression statistically significant.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=dc05bbdcf590f7df4506fbcd721f60b5)
+
+![](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
 
 #### Steps
 
@@ -57,6 +59,8 @@ We found that samples that have aberrations in _EGFR_ \(mutations or amplificati
 5. Click on 'Done'. 
 
 #### Video of steps
+
+![](../.gitbook/assets/makeboxplot.gif)
 
 ### Part B
 
