@@ -95,11 +95,11 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 ## Test your knowledge
 
 {% tabs %}
-{% tab title="Question" %}
+{% tab title="Question 1" %}
 Starting at the end of Part A, create a violin plot that compares copy number variation between samples that have _EGFR_ aberrations and those that do not.
 {% endtab %}
 
-{% tab title="Answer" %}
+{% tab title="Answer 1" %}
 **Ending Screenshot**
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-2.20.27-pm.png)
@@ -109,11 +109,11 @@ Starting at the end of Part A, create a violin plot that compares copy number va
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Question" %}
+{% tab title="Question 2" %}
 Starting at the end of Part B, add the phenotype data 'age\_at\_initial\_pathologic\_diagnosis' to the plot.
 {% endtab %}
 
-{% tab title="Answer" %}
+{% tab title="Answer 2" %}
 **Ending Screenshot**
 
 Note that your column order may be different.
