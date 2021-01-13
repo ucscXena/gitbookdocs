@@ -86,6 +86,8 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 
 #### Video of steps 1-6
 
+![](../.gitbook/assets/addgender.gif)
+
 #### Video of steps 7-11
 
 ## Test your knowledge

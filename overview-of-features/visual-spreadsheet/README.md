@@ -114,3 +114,9 @@ You can change the size of a column by clicking on the bottom right corner of a 
 
 ![](../../.gitbook/assets/basictutorials1bb.gif)
 
+### Add another column
+
+You can add another column of data by clicking on 'Click to add column' either on the right edge of the visual spreadsheet or by hovering between columns until 'Click to insert column' displays'.
+
+![](../../.gitbook/assets/addgender.gif)
+
