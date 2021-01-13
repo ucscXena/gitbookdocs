@@ -20,11 +20,11 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Learning goals
 
-### Part A
+**Part A**
 
 * Create a box plot using the Charts and Statistics View
 
-### Part B
+**Part B**
 
 * Add another column of data to the view
 * Add phenotype data to the view

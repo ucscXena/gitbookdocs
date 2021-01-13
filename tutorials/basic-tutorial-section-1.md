@@ -24,12 +24,12 @@ This tutorial assumes a basic understanding of
 
 ## Learning goals
 
-### Part A
+**Part A**
 
 * Create a Visual Spreadsheet
 * Compare data across columns
 
-### Part B
+**Part B**
 
 * Move columns
 * Resize columns

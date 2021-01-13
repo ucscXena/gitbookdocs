@@ -22,17 +22,17 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Learning goals
 
-### Part A
+**Part A**
 
 * Search for samples of interest
 * Filter to keep or remove those samples of interest
 
-### Part B
+**Part B**
 
 * Make subgroups
 * Rename subgroups
 
-### Part C
+**Part C**
 
 * Run a Kaplan Meier survival analysis
 * Use a custom time endpoint
