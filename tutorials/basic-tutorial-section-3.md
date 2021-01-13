@@ -22,7 +22,7 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ### Part A
 
-* Create a box plot and violin plot using the Charts and Statistics View
+* Create a box plot using the Charts and Statistics View
 
 ### Part B
 
@@ -39,7 +39,7 @@ In the Basic Tutorial: Section 2 we created two subgroups: those with aberration
 Now we are going to use the subgroups created in the Basic Tutorial: Section 2 to see if there is a statistical difference in expression between the two subgroups and whether males or females have more aberrations.
 
 {% hint style="warning" %}
-To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
+To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=4d23b9a54196cd6a77b13ea896174cba](https://xenabrowser.net/?bookmark=4d23b9a54196cd6a77b13ea896174cba)
 {% endhint %}
 
 ### Part A
@@ -50,7 +50,11 @@ We found that samples that have aberrations in _EGFR_ \(mutations or amplificati
 
 #### Steps
 
-1. ...
+1. Click the graph icon in the upper right corner to enter Chart View.
+2. Click on 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
+3. Click on the dropdown for 'Show data from' and choose 'column C: EGFR - gene expression RNAseq - HTSeq - FPKM-UQ'.
+4. Click on the dropdown for 'Subgroup samples by' and choose 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup'.
+5. Click on 'Done'. 
 
 #### Video of steps
 

@@ -99,10 +99,10 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 
 #### Steps
 
-1. Click on the column menu at the top of column B
-2. Choose 'Kaplan Meier Plot'
-3. Click at the bottom of the Kaplan Meier plot on 'Custom survival time cutoff'
-4. Enter 3650, as this is 10 years
+1. Click on the column menu at the top of column B.
+2. Choose 'Kaplan Meier Plot'.
+3. Click at the bottom of the Kaplan Meier plot on 'Custom survival time cutoff'.
+4. Enter 3650, as this is 10 years.
 
 #### Video of steps
 
