@@ -6,11 +6,11 @@ description: Under construction
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial \(completion of Section 2 is strongly recommended but not required\). We will cover how to make box plots and bar charts using our Charts and Statistics View and how to add another column of data, in particular phenotype data, to the view.
+This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial \(completion of Section 2 is recommended but not required\). We will cover how to make box plots and bar charts using our Charts and Statistics View and how to add another column of data, in particular phenotype data, to the view.
 
 ## Prerequisites
 
-This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutorial-section-1.md). Completion of [Basic Tutorial: Section 2](basic-tutorial-section-2.md) is strongly recommended but not required. This tutorial begins where the Basic Tutorial: Section 2 ends. A live link to the end of Basic Tutorial: Section 2 is provided at the beginning of this tutorial.
+This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutorial-section-1.md). Completion of [Basic Tutorial: Section 2](basic-tutorial-section-2.md) is recommended but not required. This tutorial begins where the Basic Tutorial: Section 2 ends. A live link to the end of Basic Tutorial: Section 2 is provided at the beginning of this tutorial.
 
 ## Estimated time needed
 
