@@ -116,7 +116,11 @@ Starting at the end of Part A, filter down to only those samples that have a mis
 {% endtab %}
 
 {% tab title="Answer 1" %}
+Search term: "missense"
 
+**Ending screenshot**
+
+Link to bookmark
 {% endtab %}
 {% endtabs %}
 
@@ -126,7 +130,11 @@ Starting at the end of Part A, create two subgroups: those with _EGFR_ expressio
 {% endtab %}
 
 {% tab title="Answer 2" %}
+Search term: "missense"
 
+**Ending screenshot**
+
+Link to bookmark
 {% endtab %}
 {% endtabs %}
 
@@ -136,7 +144,11 @@ Starting at the end of Part A, run a Kaplan Meier analysis on _EGFR_ expression 
 {% endtab %}
 
 {% tab title="Answer 3" %}
+**Ending screenshot**
 
+![](../.gitbook/assets/screen-shot-2021-01-13-at-9.26.07-am.png)
+
+[https://xenabrowser.net/?bookmark=fdd47d50c1c538d8112aabc24d540132](https://xenabrowser.net/?bookmark=fdd47d50c1c538d8112aabc24d540132)
 {% endtab %}
 {% endtabs %}
 

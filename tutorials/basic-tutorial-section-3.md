@@ -22,7 +22,7 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ### Part A
 
-* Create a box plot using the Charts and Statistics View
+* Create a box plot and violin plot using the Charts and Statistics View
 
 ### Part B
 
