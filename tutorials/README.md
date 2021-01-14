@@ -27,7 +27,7 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 ### Advanced Video Tutorial \(55 min\)
 
 {% hint style="warning" %}
-Starting Tuesday, January 19  2021, the release of a new Chart View and filter/subgrouping menu options will make these video tutorials less useful.
+Starting Tuesday, January 19  2021, the release of a new Chart View and filter/subgrouping menu options will make the Advanced Video Tutorials less useful.
 {% endhint %}
 
 Tutorial given for NCI CBIIT in May 2020: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217)
