@@ -6,9 +6,23 @@ description: >-
 
 # Finding samples for filtering and subgrouping
 
-The search bar and icons at the top of the screen can be used to either filter to the samples that you want or to create subgroups.
+## General Functionality
 
-This video walks you through the basics of both:
+Use the box below \(in red\) to first select/highlight your samples of interest and then either zoom, filter to just these samples, or create a new subgroup column.
+
+![Location of Find-Filter-Subgroup search bar](../.gitbook/assets/findlocation.png)
+
+This bar allows you to search all data on the screen for your search term of interest \(ie. 'female' or 'missense'\). You can also enter your sample ID to see where your sample of interest falls in the plot. Samples that match your criteria are highlighted and then marked with a black bar.
+
+Once you have your sample\(s\) of interest, click on the filter button to choose from the options in the caret menu next to it to:
+
+**Filter:** remove samples which do not match your criteria
+
+**Zoom:** zoom to the samples that meet your criteria. Shift-click to zoom out.
+
+**New column:** create a new column where samples that meet your criteria are annotated as 'TRUE' and samples that don't meet your criteria are annotated as 'FALSE'. This is a great way to create subgroups for comparison via box plot or KM analysis.
+
+## Video Tutorial
 
 {% embed url="https://www.youtube.com/watch?v=P-MGKGuXZPo" caption="" %}
 
@@ -22,22 +36,6 @@ Here are the steps taken in the above walk-through:
 6. Clear this filter
 7. Subgroup. Make a new column where the highlighted samples are marked as 'true' and those that are not are marked as 'false'.
 8. Examine new subgroups in Chart mode
-
-## General Functionality
-
-Use the box below \(in red\) to first select/highlight your samples of interest and then either zoom, filter to just these samples, or create a new column.
-
-![Location of Find-Filter-Subgroup search bar](../.gitbook/assets/findlocation.png)
-
-This bar allows you to search all data on the screen for your search term of interest \(ie. 'female' or 'missense'\). You can also enter your sample ID to see where your sample of interest falls in the plot. Samples that match your criteria are highlighted and then marked with a black bar.
-
-Once you have your sample\(s\) of interest, click on the filter button to choose from the options in the caret menu next to it to:
-
-**Filter:** remove samples which do not match your criteria
-
-**Zoom:** zoom to the samples that meet your criteria. Shift-click to zoom out.
-
-**New column:** create a new column where samples that meet your criteria are annotated as 'TRUE' and samples that don't meet your criteria are annotated as 'FALSE'. This is a great way to create subgroups for comparison via box plot or KM analysis.
 
 ## Supported search terms
 
