@@ -1,6 +1,12 @@
+---
+description: 'Videos, slides, and other materials to get you started using UCSC Xena'
+---
+
 # Tutorials
 
 Welcome to Xena. Below is an overview of what Xena is followed by a few tutorials. 
+
+We recommend starting with the [Basic Tutorial Sections](basic-tutorial-section-1.md) listed in the left panel.
 
 If you have a specific question, check out our ['How do I ...' Guides](../how-do-i/).
 
@@ -19,6 +25,10 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 {% embed url="https://youtu.be/cDAp09rtjdo" caption="" %}
 
 ### Advanced Video Tutorial \(55 min\)
+
+{% hint style="warning" %}
+Starting Tuesday, January 19  2021, the release of a new Chart View and filter/subgrouping menu options will make these video tutorials less useful.
+{% endhint %}
 
 Tutorial given for NCI CBIIT in May 2020: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217)
 
