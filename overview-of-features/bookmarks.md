@@ -12,6 +12,10 @@ To bookmark a view, click on 'Bookmark' in the top navigation bar. From here you
 
 When you click 'Bookmark' you will then need to click 'Copy Bookmark' to copy the bookmark URL to your copy buffer. Large views may take a second or two to generate a URL.
 
+{% hint style="info" %}
+Note that your filter and subgroup history, as well as the last Chart View you created, if any, will be saved as part of the bookmark.
+{% endhint %}
+
 {% hint style="danger" %}
 Bookmarks are only guaranteed for 3 months
 {% endhint %}
