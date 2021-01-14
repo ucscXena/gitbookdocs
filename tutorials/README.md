@@ -32,6 +32,8 @@ Same tutorial given for NCI CBIIT in October 2019: [https://cbiit.webex.com/reco
 
 ### Advanced Slide Tutorial
 
+This slide deck assumes that you have completed the Basic Tutorial Sections 1-3. This slide deck goes through more advanced walkthroughs.
+
 {% embed url="https://docs.google.com/presentation/d/1Esd3HIhlJCp4xIYj2yeizj5yvP17a0grWzQxa3KoChc/" %}
 
 ## Request a workshop
