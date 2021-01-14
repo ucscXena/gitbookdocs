@@ -1,6 +1,12 @@
-# Searching, highlighting, filtering and subgrouping
+---
+description: >-
+  How to find samples that you want to remove or keep in the view. How to make
+  subgroups.
+---
 
-The main highlighting feature can be used to either filter to the samples that you want or to create subgroups.
+# Finding samples for filtering and subgrouping
+
+The search bar and icons at the top of the screen can be used to either filter to the samples that you want or to create subgroups.
 
 This video walks you through the basics of both:
 
@@ -84,13 +90,11 @@ To find all samples that do not have a mutation, use the negation of the gene an
 
 To find all samples that do not have data in one or more columns, use:
 
-> !=null
+> null
 
-To find all samples that do not have data for just one column, use:
+and choose 'Remove samples'. To find all samples that do not have data for just one column, use:
 
-> B:!=null
-
-You can use this filter out columns with no data.
+> B:null
 
 ### Sample IDs  <a id="searchingsampleids"></a>
 
@@ -108,7 +112,7 @@ To make it easy to search a specific column, we use shorthand to annotate the fi
 
 This will search ONLY the first column for the word 'YES'. Note that we will retain your original search if you move the columns around.
 
-### Boolean operators: OR and AND  <a id="usingbooleanoperatorsandgrouping"></a>
+### Boolean operators: OR, AND, and !=  <a id="usingbooleanoperatorsandgrouping"></a>
 
 You can enter multiple search terms and we will match all of them with an implicit 'AND'. We also support 'OR'.
 
@@ -117,6 +121,12 @@ Use parentheses to group search terms. For example:
 > "Stage II" \(B:Negative OR C:Negative\)
 
 will search for samples that match 'Stage II' in any column and are 'Negative' for either the second or third column.
+
+You can also use '!=' to negate a term such as:
+
+> !=null
+
+which will match all samples that have data across all columns.
 
 ## Advanced Options once subgroups are created
 

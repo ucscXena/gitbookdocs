@@ -25,7 +25,7 @@
     * [Coloring for Mutation Columns](overview-of-features/visual-spreadsheet/mutation-columns.md)
   * [Kaplan Meier Plots](overview-of-features/kaplan-meier-plots.md)
   * [Chart & Statistics View](overview-of-features/chart-view.md)
-  * [Searching, highlighting, filtering and subgrouping](overview-of-features/filter-and-subgrouping.md)
+  * [Finding samples for filtering and subgrouping](overview-of-features/filter-and-subgrouping.md)
   * [Genomic Signatures](overview-of-features/genomic-signatures.md)
   * [Bookmarks](overview-of-features/bookmarks.md)
   * [Download Data](overview-of-features/download-data.md)
