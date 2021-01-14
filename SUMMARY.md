@@ -24,7 +24,7 @@
   * [Visual Spreadsheet](overview-of-features/visual-spreadsheet/README.md)
     * [Coloring for Mutation Columns](overview-of-features/visual-spreadsheet/mutation-columns.md)
   * [Kaplan Meier Plots](overview-of-features/kaplan-meier-plots.md)
-  * [Chart View: Box plots, Scatter plots, and bar charts](overview-of-features/chart-view-box-plots-scatter-plots-and-bar-charts.md)
+  * [Chart & Statistics View](overview-of-features/chart-view.md)
   * [Searching, highlighting, filtering and subgrouping](overview-of-features/filter-and-subgrouping.md)
   * [Genomic Signatures](overview-of-features/genomic-signatures.md)
   * [Bookmarks](overview-of-features/bookmarks.md)
