@@ -24,6 +24,8 @@ Once you have your sample\(s\) of interest, click on the filter button to choose
 
 ## Video Tutorial
 
+Note that a new option in the filter and subgroup menu allows users to remove samples that match their search term. Video is otherwise relevant.
+
 {% embed url="https://www.youtube.com/watch?v=P-MGKGuXZPo" caption="" %}
 
 Here are the steps taken in the above walk-through:
