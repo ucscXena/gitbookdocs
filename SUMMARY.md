@@ -6,7 +6,7 @@
   * [Basic Tutorial: Section 2](tutorials/basic-tutorial-section-2.md)
   * [Basic Tutorial: Section 3](tutorials/basic-tutorial-section-3.md)
   * [Single-cell HCA Tutorial](tutorials/hca-tutorial.md)
-* [Live examples](live-examples.md)
+  * [Live examples](tutorials/live-examples.md)
 * [How do I ...](how-do-i/README.md)
   * [How do I make a KM plot?](how-do-i/how-do-i-make-a-km-plot.md)
   * [How do I compare tumor vs normal expression?](how-do-i/tumor-vs-normal.md)
