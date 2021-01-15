@@ -36,7 +36,7 @@ cheat link: [https://xenabrowser.net/?bookmark=9c75da8586d85ac10f1a6aa26059ba14]
 
 ### 2. Add gene
 
-All we have to do now is to 'Click to Add Column' to add our favorite gene \(e.g. MYC\), click 'gene expression' and click 'Done'.
+All we have to do now is to 'Click to Add Column' to add our favorite gene \(e.g. _MYC_\), click 'gene expression' and click 'Done'.
 
 ![](../.gitbook/assets/addgene.gif)
 
