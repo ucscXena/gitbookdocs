@@ -59,23 +59,25 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 
 1. Type 'null' into the samples search bar. This will highlight samples that have 'null' values in any column on the screen. Null means that there is no data for that sample for that column.
 2. Click the filter menu and select 'Remove samples'.
-3. Delete the search term. This will remove the black tick marks for matching samples.
+3. Delete the search term.
 
 #### Video of steps
+
+![](../.gitbook/assets/filteringoutnull.gif)
 
 {% hint style="success" %}
 **More information**
 
-* [Searching for and filtering samples](../overview-of-features/filter-and-subgrouping.md)
+* [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping.md)\*\*\*\*
 {% endhint %}
 
 ### Part B
 
 Our goal is to create two subgroups, those samples with aberrations in _EGFR_ and those samples without aberrations in _EGFR_. We will then name the subgroups.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=38be4e92f265543aa88f058bd618945d)
 
-![https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](../.gitbook/assets/screen-shot-2020-12-30-at-1.28.28-pm.png)
+![https://xenabrowser.net/?bookmark=38be4e92f265543aa88f058bd618945d](../.gitbook/assets/screen-shot-2020-12-30-at-1.28.28-pm.png)
 
 #### Steps
 
@@ -84,9 +86,11 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 3. Rename the display
 4. Delete the search term. This will remove the black tick marks for matching samples.
 
-For more information on how to search, go here:
+{% hint style="success" %}
+**More information**
 
-{% page-ref page="../overview-of-features/filter-and-subgrouping.md" %}
+* [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping.md)\*\*\*\*
+{% endhint %}
 
 #### Video of steps
 
@@ -97,7 +101,7 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 {% hint style="success" %}
 **More information**
 
-* [Kaplan Meier survival analysis](../overview-of-features/kaplan-meier-plots.md)
+* \_\_[_Kaplan Meier survival analysis_](../overview-of-features/kaplan-meier-plots.md)\_\_
 {% endhint %}
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39)

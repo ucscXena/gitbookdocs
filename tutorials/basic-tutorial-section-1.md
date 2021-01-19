@@ -70,9 +70,9 @@ We can see that samples that have high expression of _EGFR_ \(red, column B\) te
 {% hint style="success" %}
 **More information**
 
-* [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)
-* [Colors and values in columns](../overview-of-features/visual-spreadsheet/#data-values)
-* [Sample sorting](../overview-of-features/visual-spreadsheet/#sample-sorting)
+* \*\*\*\*[**Visual Spreadsheet**](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)\*\*\*\*
+* \*\*\*\*[**Colors and values in columns**](../overview-of-features/visual-spreadsheet/#data-values)\*\*\*\*
+* \*\*\*\*[**Sample sorting**](../overview-of-features/visual-spreadsheet/#sample-sorting)\*\*\*\*
 {% endhint %}
 
 ### Part B
