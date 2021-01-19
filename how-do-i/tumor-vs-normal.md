@@ -46,7 +46,5 @@ cheat link: [https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6]
 
 Clicking on the 'Chart' in the upper right will make a box plot comparing average gene expression across our groups, complete with a p-value to test for significance.
 
-![](../.gitbook/assets/chart.gif)
-
 cheat link: [https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c](https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c)
 

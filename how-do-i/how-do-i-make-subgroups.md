@@ -1,28 +1,40 @@
 # How do I make subgroups?
 
-Xena uses the search and highlight feature to make subgroups
+You will use the find samples feature \(highlighted below\) to make subgroups:
 
-![Where the search feature is located](../.gitbook/assets/highlightlocation%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2021-01-19-at-3.36.32-pm.png)
 
-As you type Xena will search all the data on the screen for your values and then highlight those that match. 
+First, search for all the samples you want in one of your subgroups. Next, click the Filter + Subgroup menu and choose 'New subgroup column'.
 
-You may need 'AND' or 'OR' to divide your samples. [This help page](https://ucsc-xena.gitbook.io/project/overview-of-features/filter-and-subgrouping#supported-search-terms) details a complete list of all the search terms we support. 
+This will create a new column will be created with your subgroups. All the samples that matched your search term will be in one subgroup and all the samples that did not match your search term will in the other subgroup. The samples that matched your search term will be labeled as 'true' and those that did not will be labeled as 'false'.
 
-After all the samples that you want to put in one subgroup are highlighted, you use the highlight menu to create a new column.
+Your new column can be used for a [KM analysis](how-do-i-make-a-km-plot.md) or to [compare gene expression](https://ucsc-xena.gitbook.io/project/how-to-pages-1/how-do-i-compare-gene-expression-between-subgroups).
 
-![](../.gitbook/assets/highlightmenulocation%20%281%29.png)
+{% hint style="info" %}
+More information:
+
+* [How to search for samples](../overview-of-features/filter-and-subgrouping.md)
+* [Recognized search terms for filtering and subgrouping](../overview-of-features/filter-and-subgrouping.md#supported-search-terms)
+{% endhint %}
 
 ## Example
 
-Below is a demo of this in TCGA Lower Grade Glioma. We are going to create a subgroup of samples that have a nonsense or frameshift mutation in ATRX and another subgroup of those that do not. 
+In this example we are creating two subgroups: those that have EGFR aberrations \(either mutations or copy number amplifications\) and those that do not in TCGA Lung Adenocarcinoma. 
 
-![](../.gitbook/assets/subgroups1.gif)
+![](../.gitbook/assets/makesubgroups.gif)
 
-### [Beginning of video bookmark](https://xenabrowser.net/heatmap/)
+#### Steps
 
-### [End of video bookmark](https://xenabrowser.net/heatmap/?bookmark=d7c79a54a72523d6e41a4917ed74eaff) 
+1. Type **'**\(mis OR infra\) OR C:&gt;0.5'  into the samples search bar. This will select samples that either have a missense or inframe deletion '\(mis OR infra\)', or where copy number variation \(column C\) is greater than 0.5. Note that I arbitrarily choose a cutoff of 0.5.
+2. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\).
 
-This new subgroup column can then be used for a KM analysis \(use the column menu\) or to [compare gene expression](https://ucsc-xena.gitbook.io/project/how-to-pages-1/how-do-i-compare-gene-expression-between-subgroups).
+{% hint style="info" %}
+For more information see our [Basic Tutorial: Section 2](../tutorials/basic-tutorial-section-2.md), where this example was pulled from.
+{% endhint %}
+
+
+
+
 
 
 

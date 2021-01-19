@@ -10,8 +10,6 @@ description: >-
 
 Use the box below \(in red\) to first select/highlight your samples of interest and then either zoom, filter to just these samples, or create a new subgroup column.
 
-![Location of Find-Filter-Subgroup search bar](../.gitbook/assets/findlocation.png)
-
 This bar allows you to search all data on the screen for your search term of interest \(ie. 'female' or 'missense'\). You can also enter your sample ID to see where your sample of interest falls in the plot. Samples that match your criteria are highlighted and then marked with a black bar.
 
 Once you have your sample\(s\) of interest, click on the filter button to choose from the options in the caret menu next to it to:
