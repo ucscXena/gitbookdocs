@@ -82,9 +82,10 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 #### Steps
 
 1. Type **'**\(mis OR infra\) OR C:&gt;0.5'  into the samples search bar. This will select samples that either have a missense or inframe deletion '\(mis OR infra\)', or where copy number variation \(column C\) is greater than 0.5. Note that I arbitrarily choose a cutoff of 0.5.
-2. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\)
-3. Rename the display
-4. Delete the search term. This will remove the black tick marks for matching samples.
+2. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\).
+3. Click the column menu and chose 'Display'.
+4. Rename the display so that samples that are 'true' are instead labeled as 'EGFR Aberrations' and the samples that are 'false' are instead labeled as 'No EGFR Aberrations'. Click 'Done'
+5. Delete the search term. This will remove the black tick marks for matching samples.
 
 {% hint style="success" %}
 **More information**
@@ -92,7 +93,13 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 * [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping.md)\*\*\*\*
 {% endhint %}
 
-#### Video of steps
+#### Video of steps 1-2
+
+![](../.gitbook/assets/makesubgroups.gif)
+
+#### Video of steps 2-5
+
+![](../.gitbook/assets/renamesubgroups.gif)
 
 ### Part C
 
@@ -101,7 +108,7 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 {% hint style="success" %}
 **More information**
 
-* \_\_[_Kaplan Meier survival analysis_](../overview-of-features/kaplan-meier-plots.md)\_\_
+* \*\*\*\*[**Kaplan Meier survival analysis**](../overview-of-features/kaplan-meier-plots.md)\*\*\*\*
 {% endhint %}
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39)
@@ -129,9 +136,11 @@ Starting at the end of Part A, filter down to only those samples that have a mis
 {% tab title="Answer 1" %}
 Search term: "missense"
 
-**Ending screenshot**
+\*\*\*\*[**Ending screenshot**](https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735)\*\*\*\*
 
-Link to bookmark
+![](../.gitbook/assets/screen-shot-2021-01-19-at-3.26.47-pm.png)
+
+[https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735](https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735)
 {% endtab %}
 {% endtabs %}
 
@@ -141,11 +150,13 @@ Starting at the end of Part A, create two subgroups: those with _EGFR_ expressio
 {% endtab %}
 
 {% tab title="Answer 2" %}
-Search term: "missense"
+Search term: "B:&gt;17"
 
-**Ending screenshot**
+\*\*\*\*[**Ending screenshot**](https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6)\*\*\*\*
 
-Link to bookmark
+![](../.gitbook/assets/screen-shot-2021-01-19-at-3.29.27-pm.png)
+
+[https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6](https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6)
 {% endtab %}
 {% endtabs %}
 
