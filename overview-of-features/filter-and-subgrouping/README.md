@@ -20,6 +20,12 @@ You can search for samples by either typing in the search bar or by clicking on 
 More information on [supported search terms](supported-search-terms-for-finding-samples.md)
 {% endhint %}
 
+### Example of dropper mode
+
+[Beginning of the video](https://xenabrowser.net/heatmap/?bookmark=8d5101e8e819a66eceb96869a968654d)
+
+![](../../.gitbook/assets/dropper.gif)
+
 ## Filter + Subgroup menu
 
 Once you have your sample\(s\) of interest, click on the filter + subgroup menu and choose to:
