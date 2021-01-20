@@ -22,7 +22,7 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 
 ### Beginner Video Tutorial \(17 min\)
 
-{% embed url="https://youtu.be/cDAp09rtjdo" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=m36vtNmxnzI" %}
 
 ### Advanced Video Tutorial \(55 min\)
 
