@@ -1,4 +1,10 @@
-# How do I make subgroups on 2 columns \(ie. geneA high and geneB high\)?
+---
+description: >-
+  Instead of making just subgroups with geneA high vs low, this page will show
+  you how to make subgroups with geneA high & geneB high
+---
+
+# How do I make subgroups with geneA high and geneB high?
 
 You may want to create subgroups based on the expression of 2 genes so that you create the following 4 subgroups:
 
