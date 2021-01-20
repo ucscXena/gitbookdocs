@@ -13,18 +13,16 @@ If you do not know which one you wish to use, we recommend starting with the TCG
 
 ### 1. Add the phenotype column that details the cancer type
 
-Please see the study specific instructions for which column
+Please see the study specific instructions for which column this is.
 
-### 2. Use the filter functionality to select the cancer type\(s\)
+### 2. Use the filter functionality to select the cancer type
 
-Using the filter search bar:
+Use the filter search bar to search for the cancer type you are interested in. Be sure to type the term as it shows in the phenotype column you added in step 1.
 
 ![](../.gitbook/assets/highlightlocation.png)
 
-Search for the cancer type you are interested in, making sure that it is listed in the phenotype column.
-
 {% hint style="info" %}
-You can enter multiple cancer types separated by 'OR'. Example: 'lgg OR gbm'
+Separate each cancer type by 'OR'. Example: 'lgg OR gbm'
 {% endhint %}
 
 More help can be found at:
@@ -33,7 +31,7 @@ More help can be found at:
 
 ### 3. Filter to just those samples
 
-Click the Filter button next to the search bar and select 'Filter'
+Click the Filter + Subgroup menu next to the search bar and select 'Keep Samples'
 
 ![](../.gitbook/assets/highlightmenulocation.png)
 
