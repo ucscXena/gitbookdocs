@@ -1,7 +1,7 @@
 # How do I compare gene expression between subgroups?
 
 {% hint style="warning" %}
-This page assumes you have already made subgroups. If you need help making subgroups, please go to the ['How do I make subgroups'](how-do-i-make-subgroups.md) help page.
+This page assumes you have a column on screen that has the groups you would like to compare \(such as 'sample type' for comparing tumor vs normal'\) or have already made subgroups \(such as 'has mutations in _EGFR_'\). If you need help making subgroups, please go to the ['How do I make subgroups'](how-do-i-make-subgroups.md) help page.
 {% endhint %}
 
 Next, make sure that the gene or genes that you want to use in the comparison are on screen. Click on the charts icon in the top right  and choose 'Compare subgroups'. Click the dropdown for 'Show data from' and choose you gene expression column. Click the dropdown for 'Subgroup samples by' and choose your subgroup column. Choose if you would like a box plot or violin plot and click 'Done'. 
