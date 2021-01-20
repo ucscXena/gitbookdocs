@@ -1,5 +1,5 @@
 ---
-description: Under construction
+description: 'Covers filtering, subgrouping, and making Kaplan Meier plots'
 ---
 
 # Basic Tutorial: Section 2

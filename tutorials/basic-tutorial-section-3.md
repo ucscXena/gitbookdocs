@@ -1,5 +1,5 @@
 ---
-description: Under construction
+description: Covers Chart View and adding new columns of data to a view
 ---
 
 # Basic Tutorial: Section 3
