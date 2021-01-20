@@ -13,8 +13,8 @@ Your new column can be used for a [KM analysis](how-do-i-make-a-km-plot.md) or t
 {% hint style="info" %}
 More information:
 
-* [How to search for samples](../overview-of-features/filter-and-subgrouping.md)
-* [Recognized search terms for filtering and subgrouping](../overview-of-features/filter-and-subgrouping.md#supported-search-terms)
+* [How to search for samples](../overview-of-features/filter-and-subgrouping/)
+* [Recognized search terms for filtering and subgrouping](../overview-of-features/filter-and-subgrouping/#supported-search-terms)
 {% endhint %}
 
 ## Example

@@ -18,7 +18,7 @@ If more than one sample has the same value, we put the samples in a group togeth
 
 For categorical features, we only show the first 10 categories.
 
-For mutation features, we divide samples into those with any mutation and those without. To make more refined groups \(e.g. samples with nonsense mutations vs those without\), [create your own subgroups ](filter-and-subgrouping.md)and run a KM plot on the new column
+For mutation features, we divide samples into those with any mutation and those without. To make more refined groups \(e.g. samples with nonsense mutations vs those without\), [create your own subgroups ](filter-and-subgrouping/)and run a KM plot on the new column
 
 We remove samples with 'null' data for all plots.
 

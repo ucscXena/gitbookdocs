@@ -20,7 +20,7 @@ Bookmark: [https://xenabrowser.net/heatmap/?bookmark=12583e1bb07f2ae755a503fc553
 
 We can see here that some patients have both Primary and Recurrent Tumors. 
 
-2. Filter to only samples that are 'Primary tumor' by typing 'primary' into the filter search box. [More help on filtering](../overview-of-features/filter-and-subgrouping.md). Next, click the filter icon next to the filter search box and chose 'Filter'. This will filter out all samples that are not primary tumor.
+2. Filter to only samples that are 'Primary tumor' by typing 'primary' into the filter search box. [More help on filtering](../overview-of-features/filter-and-subgrouping/). Next, click the filter icon next to the filter search box and chose 'Filter'. This will filter out all samples that are not primary tumor.
 
 ![](../.gitbook/assets/filtertoprimary.gif)
 

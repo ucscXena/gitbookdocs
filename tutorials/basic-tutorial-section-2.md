@@ -68,7 +68,7 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 {% hint style="success" %}
 **More information**
 
-* [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping.md)\*\*\*\*
+* [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping/)\*\*\*\*
 {% endhint %}
 
 ### Part B
@@ -90,7 +90,7 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 {% hint style="success" %}
 **More information**
 
-* [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping.md)\*\*\*\*
+* [**Searching for and filtering samples**](../overview-of-features/filter-and-subgrouping/)\*\*\*\*
 {% endhint %}
 
 #### Video of steps 1-2

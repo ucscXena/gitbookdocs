@@ -128,11 +128,11 @@ Highlight the specified samples in the view.
 
 _search: &lt;string&gt;_
 
-Equivalent to typing this text into the 'Find' feature in Xena. In this example it is highlighting the samples that for column B have a value of 'TARGET'. [More examples of possible search terms.](../overview-of-features/filter-and-subgrouping.md)
+Equivalent to typing this text into the 'Find' feature in Xena. In this example it is highlighting the samples that for column B have a value of 'TARGET'. [More examples of possible search terms.](../overview-of-features/filter-and-subgrouping/)
 
 _filter: &lt;string&gt;_
 
-Like the _search_ parameter, but filter the view to the matching samples. Equivalent to [selecting 'Filter' from the 'Find' UI](../overview-of-features/filter-and-subgrouping.md#general-functionality). Columns that are only needed for filtering \(not visualization\) can be added to the _filterColumns_ parameter, and appear semantically after _columns_. For example, if _columns_ has length two they are labeled 'B' and 'C', and the first column in _filterColumns_ will be 'D'.
+Like the _search_ parameter, but filter the view to the matching samples. Equivalent to [selecting 'Filter' from the 'Find' UI](../overview-of-features/filter-and-subgrouping/#general-functionality). Columns that are only needed for filtering \(not visualization\) can be added to the _filterColumns_ parameter, and appear semantically after _columns_. For example, if _columns_ has length two they are labeled 'B' and 'C', and the first column in _filterColumns_ will be 'D'.
 
 Both _search_ and _filter_ can be specified in the same url, in which case the samples will be filtered, and any remaining samples matching _search_ will be highlighted. Note that the _search_ expression should only reference _columns_, not _filterColumns_, since the latter are not available for visualization.
 

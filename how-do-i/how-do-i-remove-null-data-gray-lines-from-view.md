@@ -22,5 +22,5 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 
 ![](../.gitbook/assets/filteringoutnull.gif)
 
-## More information on [supported search terms](../overview-of-features/filter-and-subgrouping.md#supported-search-terms)
+## More information on [supported search terms](../overview-of-features/filter-and-subgrouping/#supported-search-terms)
 

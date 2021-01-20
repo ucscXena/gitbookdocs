@@ -17,7 +17,7 @@ To compare tumor vs normal, you will need to filter down to just the samples you
 {% hint style="info" %}
 More information:
 
-* [Filtering and subgrouping](../overview-of-features/filter-and-subgrouping.md)
+* [Filtering and subgrouping](../overview-of-features/filter-and-subgrouping/)
 * [Compare gene expression between subgroups](how-do-i-compare-gene-expression-between-subgroups.md)
 {% endhint %}
 
