@@ -1,6 +1,10 @@
-# How do I filter to just one cancer type
+---
+description: >-
+  For users who wish to use the datasets in a Pan-Can cohort but need to view
+  just one cancer type.
+---
 
-Many times users will start with one of the PanCan datasets but need to filter to just one cancer type. 
+# How do I filter to just one cancer type
 
 ## Generalized Steps
 
@@ -22,7 +26,7 @@ More help can be found at:
 
 ### 3. Filter to just those samples
 
-Click the Filter button next to the search bar and select 'Filter'
+Click the Filter + subgroup menu next to the search bar and select 'Keep Samples'
 
 ![](../.gitbook/assets/highlightmenulocation.png)
 
