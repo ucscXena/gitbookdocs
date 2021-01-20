@@ -25,7 +25,7 @@ There are four gene expression datasets in this study. Two are normalized using 
 
 ## Walk-through example
 
-In this example we will be looking to compare MYC gene expression between normal colon tissue from GTEx to TCGA colon adenocarcinoma.
+In this example we will be looking to compare _MYC_ gene expression between normal colon tissue from GTEx to TCGA colon adenocarcinoma.
 
 ### 1. Filter
 
@@ -45,7 +45,11 @@ cheat link: [https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6]
 
 ### 3. Chart
 
-Clicking on the 'Chart' in the upper right will make a box plot comparing average gene expression across our groups, complete with a p-value to test for significance.
+1. Click the graph icon in the upper right corner to enter Chart View.
+2. Click 'Compare subgroups', since we want to compare tumor vs normal samples
+3. Click the dropdown for 'Show data from' and choose 'column F: MYC - gene expression RNAseq - RSEM norm\_count'.
+4. Click the dropdown for 'Subgroup samples by' and choose 'column C: Sample Type'.
+5. Click 'Done'. 
 
 cheat link: [https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c](https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c)
 
