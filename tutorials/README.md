@@ -27,22 +27,16 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 ### Advanced Video Tutorial \(55 min\)
 
 {% hint style="warning" %}
-Starting Tuesday, January 19  2021, the release of a new Chart View and filter/subgrouping menu options will make the Advanced Video Tutorials less useful. 
+Starting Wednesday, January 20,  2021, the release of a new Chart View and filter/subgrouping menu options will make the Advanced Video Tutorials less useful. 
 
-We recommend using the slides or [Basic Tutorial Sections](basic-tutorial-section-1.md) in the left panel to begin instead.
+We recommend using the slides or [Basic Tutorial Sections](basic-tutorial-section-1.md) in the left panel.
 {% endhint %}
 
 Tutorial given for NCI CBIIT in May 2020: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217)
 
 Same tutorial given for NCI CBIIT in October 2019: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754)
 
-## Slide Tutorials 
-
-### Beginner Slide Tutorial
-
-{% embed url="https://docs.google.com/presentation/d/1J0cbcWLkf4zL3q9sOCU8tRg7nvjYqlySMurRTTtDCrg/edit\#slide=id.g380b85c9b0\_3\_0" %}
-
-### Advanced Slide Tutorial
+## Advanced Slide Tutorial
 
 This slide deck assumes that you have completed the Basic Tutorial Sections 1-3. This slide deck goes through more advanced walkthroughs.
 
