@@ -30,7 +30,7 @@ Click the Filter button next to the search bar and select 'Filter'
 
 Click on 'Click on Add column' to the right of the last column to add more data, such as gene expression, to the view.
 
-## TCGA Pan-Cancer \(PANCAN\) Study Specific Steps/Link
+## For TCGA Pan-Cancer \(PANCAN\) ... 
 
 For the TCGA PanCan \(PANCAN\), you will want to add the phenotype column:
 
@@ -40,7 +40,7 @@ For the TCGA PanCan \(PANCAN\), you will want to add the phenotype column:
 [Here is a bookmark ](https://xenabrowser.net/heatmap/?bookmark=d34a38000eca5f2bfcf936d5e06066dc)that will take you to the TCGA PanCan \(PANCAN\) Study with that phenotype column already selected.
 {% endhint %}
 
-## GDC TCGA PanCan \(PANCAN\) Study Specific Steps/Link
+## For GDC TCGA PanCan \(PANCAN\) ... 
 
 For the GDC TCGA PanCan \(PANCAN\), you will want to add the phenotype column:
 
