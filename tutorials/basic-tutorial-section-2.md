@@ -83,15 +83,10 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 #### Steps
 
 1. Type **'**\(mis OR infra\) OR C:&gt;0.5'  into the samples search bar. This will select samples that either have a missense or inframe deletion '\(mis OR infra\)', or where copy number variation \(column C\) is greater than 0.5. Note that I arbitrarily choose a cutoff of 0.5.
-
-{% hint style="danger" %}
-You must have the **copy number variation column as column C** for the search term  **'**\(mis OR infra\) OR C:&gt;0.5' to work. The 'C' in 'C:&gt;0.5' is instructing Xena to search in column C for values that are greater than 0.5.
-{% endhint %}
-
-1. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\).
-2. Click the column menu and chose 'Display'.
-3. Rename the display so that samples that are 'true' are instead labeled as 'EGFR Aberrations' and the samples that are 'false' are instead labeled as 'No EGFR Aberrations'. Click 'Done'
-4. Delete the search term. This will remove the black tick marks for matching samples.
+2. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\).
+3. Click the column menu and chose 'Display'.
+4. Rename the display so that samples that are 'true' are instead labeled as 'EGFR Aberrations' and the samples that are 'false' are instead labeled as 'No EGFR Aberrations'. Click 'Done'
+5. Delete the search term. This will remove the black tick marks for matching samples.
 
 {% hint style="success" %}
 **More information**
@@ -100,11 +95,11 @@ You must have the **copy number variation column as column C** for the search te
 * \*\*\*\*[**Supported search terms**](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)\*\*\*\*
 {% endhint %}
 
-#### Video of steps 1
+#### Video of steps 1-2
 
 ![](../.gitbook/assets/makesubgroups.gif)
 
-#### Video of steps 2-4
+#### Video of steps 2-5
 
 ![](../.gitbook/assets/renamesubgroups.gif)
 

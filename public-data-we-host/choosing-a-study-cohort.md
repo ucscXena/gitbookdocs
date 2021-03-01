@@ -22,6 +22,10 @@ Our second most recommended datasets are the cancer-specific GDC studies. These 
 [GDC Data Hub](https://xenabrowser.net/datapages/?host=https%3A%2F%2Fgdc.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 {% endhint %}
 
+More information comparing the data in the GDC to the Pan-Cancer Atlas can be found here:
+
+{% embed url="https://gdc.cancer.gov/about-data/publications/HG38QC" %}
+
 ## Choosing a study by type of data
 
 The table below assumes that you are interested in TCGA data. These data types may also appear in other studies, but these are the recommended studies. 
@@ -36,10 +40,13 @@ The table below assumes that you are interested in TCGA data. These data types m
 | ATAC-seq | GDC Pan-Cancer \(PANCAN\) | ATAC-seq | Advanced |
 | Varied Survival endpoints | TCGA Pan-Cancer \(PANCAN\) | NA \(run KM plot\) | -- |
 
-## Choosing a study based on a specific analysis need
+## Choosing a study based on a specific analysis or sample type
 
 | Analysis | Study |
 | :--- | :--- |
 | Compare Tumor vs Normal | TCGA, TARGET, GTEx |
-| I need GRCh38 coordinates | Any GDC study |
+| GRCh38 coordinates | Any GDC study |
+| Cell Lines | CCLE |
+
+
 
