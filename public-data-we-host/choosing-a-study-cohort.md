@@ -22,6 +22,8 @@ Our second most recommended datasets are the cancer-specific GDC studies. These 
 [GDC Data Hub](https://xenabrowser.net/datapages/?host=https%3A%2F%2Fgdc.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 {% endhint %}
 
+### Differences between GDC and Pan-Cancer Atlas
+
 More information comparing the data in the GDC to the Pan-Cancer Atlas can be found here:
 
 {% embed url="https://gdc.cancer.gov/about-data/publications/HG38QC" %}
