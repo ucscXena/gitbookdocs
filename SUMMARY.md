@@ -12,6 +12,7 @@
   * [How do I compare tumor vs normal expression?](how-do-i/tumor-vs-normal.md)
   * [How do I remove null data \(gray lines\) from view?](how-do-i/how-do-i-remove-null-data-gray-lines-from-view.md)
   * [How do I make subgroups?](how-do-i/how-do-i-make-subgroups.md)
+  * [How do I make more than 2 subgroups?](how-do-i/how-do-i-make-more-than-2-subgroups.md)
   * [How do I compare gene expression between subgroups?](how-do-i/how-do-i-compare-gene-expression-between-subgroups.md)
   * [How do I make subgroups with geneA high and geneB high?](how-do-i/how-do-i-make-subgroups-with-4-groups.md)
   * [How do I remove duplicate samples from a KM plot?](how-do-i/how-do-i-remove-duplicate-samples-from-a-km-plot.md)
