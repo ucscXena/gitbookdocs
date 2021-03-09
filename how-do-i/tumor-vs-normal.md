@@ -10,7 +10,7 @@ While TCGA is a good resource for tumor data, finding normal tissue expression d
 
 ## Using the  TCGA TARGET GTEx study
 
-You can use the  [TCGA TARGET GTEx study](https://xenabrowser.net/?bookmark=057c5fe67d5d79488b843d7a6e1a9840) for both types of 'normal' samples. Data from the study is from the UCSC RNA-seq Compendium, where TCGA and GTEx samples are re-analyzed \(re-aligned to hg38 genome and expressions are called using RSEM and Kallisto methods\) by the same RNA-seq pipeline. Because all samples are processed using a uniform bioinformatic pipeline, batch effect due to different computational processing is eliminated.
+You can use the  [TCGA TARGET GTEx study](https://xenabrowser.net/?bookmark=057c5fe67d5d79488b843d7a6e1a9840) for both types of 'normal' samples. Data from the study is from the UCSC RNA-seq Compendium, where TCGA, TARGET, and GTEx samples are re-analyzed \(re-aligned to hg38 genome and expressions are called using RSEM and Kallisto methods\) by the same RNA-seq pipeline. Because all samples are processed using a uniform bioinformatic pipeline, batch effect due to different computational processing is eliminated.
 
 To compare tumor vs normal, you will need to filter down to just the samples you want to compare and then compare gene expression between your groups of samples.
 
@@ -41,7 +41,7 @@ All we have to do now is to 'Click to Add Column' to add our favorite gene \(e.g
 
 ![](../.gitbook/assets/addgene.gif)
 
-cheat link: [https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6](https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6)
+Link to ending screen: [https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6](https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6)
 
 ### 3. Chart
 
@@ -51,5 +51,5 @@ cheat link: [https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6]
 4. Click the dropdown for 'Subgroup samples by' and choose 'column C: Sample Type'.
 5. Click 'Done'. 
 
-cheat link: [https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c](https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c)
+Link to ending screen: [https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c](https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c)
 

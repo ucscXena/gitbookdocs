@@ -2,7 +2,7 @@
 
 ## [UCSC RNA-seq recompute compendium](https://toil.xenahubs.net/) 
 
-TCGA, TARGET and GTEx RNA-seq data are uniformly re-aligned to hg38 genome, and re-processed using RSEM and Kallisto methods with gencode v23 annotations to generate expression estimates for ~60,000 genes and ~200,000 transcripts, including many LncRNAs. Xena hosts and displays gene and transcript expression results of this analysis.
+TCGA, TARGET, and GTEx RNA-seq data are uniformly re-aligned to hg38 genome, and re-processed using RSEM and Kallisto methods with gencode v23 annotations to generate expression estimates for ~60,000 genes and ~200,000 transcripts, including many LncRNAs. Xena hosts and displays gene and transcript expression results of this analysis.
 
 ## [ICGC](https://icgc.xenahubs.net/) 
 
