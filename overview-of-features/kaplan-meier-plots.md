@@ -32,11 +32,7 @@ We default to the last time any individual in the plot was known to be alive. Yo
 
 ### PDF
 
-You can generate a high quality PDF by clicking the PDF icon.
-
-### Download
-
-You can download the data used to generate the KM plot using the download icon. It will download the [Event and Time to Event columns](../local-xena-hub/km-plots-using-data-from-a-local-xena-hub.md#time-to-event-and-event), in addition to the sample ID, patient ID, groups, and underlying data.
+You can generate a high quality PDF by clicking the 'PDF' button.
 
 ## Statistics used
 

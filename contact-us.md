@@ -18,7 +18,13 @@ genome-cancer@soe.ucsc.edu
 
 ### Follow us on twitter
 
-[https://twitter.com/UCSCXena](https://twitter.com/UCSCXena)
+[Follow @UCSCXena](https://twitter.com/UCSCXena?ref_src=twsrc%5Etfw)
+
+#### Tag us when you announce a publication or research
+
+Do you use Xena to further your research? Tag us when you publish and we'll help promote you. We also will select a number of publications each month to feature in on our Publication Page
+
+{% embed url="https://ucscxena.github.io/" %}
 
 ### Cite us
 

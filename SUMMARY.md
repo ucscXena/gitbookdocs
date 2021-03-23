@@ -54,6 +54,7 @@
   * [FAQ/Troubleshooting Guide](local-xena-hub/faq-troubleshooting-guide.md)
 * [Technical documentation](technical-documentation/README.md)
   * [Deep Linking Into Xena](technical-documentation/deep-linking-into-xena.md)
+* [Publication Page](https://ucscxena.github.io/)
 * [Contact us](contact-us.md)
 * [Cite us](cite-us.md)
 
