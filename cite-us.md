@@ -6,7 +6,7 @@ You've run your analysis and are ready to publish your paper - congratulations! 
 
 You can also read our paper for free at bioRxiv: [https://www.biorxiv.org/content/10.1101/326470v6](https://www.biorxiv.org/content/10.1101/326470v6)
 
-#### Tag us when you announce a publication or research
+## Tag us when you announce a publication or research
 
 Do you use Xena to further your research? [Tag us on Twitter](https://twitter.com/UCSCXena) when you publish and we'll help promote you. We also will select a number of publications each month to feature in on our Publication Page
 
