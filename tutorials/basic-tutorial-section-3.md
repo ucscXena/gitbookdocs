@@ -66,7 +66,7 @@ We found that samples that have aberrations in _EGFR_ \(mutations or amplificati
 
 We will now investigate how _EGFR_ aberrations compare between men and women. 
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=8ac908b928e0332e8dfa3e306488d543)
 
 ![https://xenabrowser.net/?bookmark=ab3dc8bc827a2aaa9ae75d8c82629a3d](../.gitbook/assets/screen-shot-2021-01-13-at-12.01.47-pm.png)
 
