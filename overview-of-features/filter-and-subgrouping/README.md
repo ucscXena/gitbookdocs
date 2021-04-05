@@ -4,7 +4,7 @@ description: >-
   subgroups.
 ---
 
-# Finding samples for filtering and subgrouping
+# Filtering and subgrouping
 
 Use the search box at the top of the screen to first select/highlight your samples of interest. Then filter to keep or removes these samples, create a new subgroup column, or zoom.
 
