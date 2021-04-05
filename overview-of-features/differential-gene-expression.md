@@ -26,3 +26,5 @@ We disable running our differential gene expression analysis on your own data si
 
 The gene expression dataset chosen for a specific study/cohort is the same gene expression dataset as the one in the [Basic Datasets menu](visual-spreadsheet/#selecting-a-dataset). 
 
+The Advanced Visualization parameters only apply to the PCA or t-SNE plot. They do not apply to any other analyses.
+
