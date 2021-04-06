@@ -16,6 +16,14 @@ This tutorial assumes a basic understanding of
 * the meaning of the values in gene expression, mutation, and copy number variation data
 * the goals of the the Cancer Genome Atlas \(TCGA\)
 
+These resources can help you gain a basic understanding of these concepts:
+
+{% embed url="https://connect.springerpub.com/content/book/978-0-8261-6868-9/chapter/ch01" %}
+
+{% embed url="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/studied-cancers" %}
+
+{% embed url="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/using-tcga/types" %}
+
 ## Estimated time needed
 
 **Part A**: 5 min
