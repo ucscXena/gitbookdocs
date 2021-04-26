@@ -36,7 +36,7 @@
   * [MuPIT](overview-of-features/untitled.md)
   * [Accessing data through python](overview-of-features/accessing-data-through-python.md)
   * [Transcript View](overview-of-features/transcript-view.md)
-  * [Gene Sets Tool](overview-of-features/gene-sets-about.md)
+  * [Xena Gene Set Viewer](overview-of-features/gene-sets-about.md)
 * [Overview of public data](public-data-we-host/README.md)
   * [Types of data we have](public-data-we-host/types-of-data-we-have.md)
   * [TCGA](public-data-we-host/tcga.md)

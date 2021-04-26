@@ -1,95 +1,43 @@
-# Gene Sets Tool
+# Xena Gene Set Viewer
 
-The Gene Sets Tool [https://xenageneset.berkeleybop.io/xena/](https://xenageneset.berkeleybop.io/xena/) compares somatic mutation and copy number variation profile of cancer related gene sets across two cancer cohorts.
+The Xena Gene Sets Viewer [https://xenageneset.berkeleybop.io/xena/](https://xenageneset.berkeleybop.io/xena/) compares gene expression, somatic mutation, and copy number variation profile of cancer related gene sets across cancer cohorts.  It queries genomics data hosted on public Xena Hubs, in a similar way as other tools in the Xena Visualization suite. And then it generates gene set visualizations of those data.
 
-It queries genomics data hosted on public Xena Hubs, in a similar way as other tools in the Xena Visualization suite. And then it generates gene set visualizations of those data.
+Source code:
 
-Source code of the Gene Sets Tool is on [GitHub](https://github.com/ucscXena/XenaGoWidget).
+* [Xena Gene Set Viewer](https://github.com/ucscXena/XenaGoWidget)
+* [Xena Analysis Server](https://github.com/ucscXena/xena-analysis-grails)
 
 ## Overview
 
-The Gene Set Tool allows direct comparison of individual gene sets and genes across two cancer cohorts \(cohort A and cohort B\).
+The Gene Set Viewer allows comparison of individual gene sets or pathways and their genes across two cancer tumor sample cohorts as well as comparison within the same sub cohorts.
 
-![Overview](../.gitbook/assets/overview1.png)
+![](../.gitbook/assets/overview.png)
 
-**Section A** Gene sets are list on the left \(A\), with **Cohort A** presented on the left side and **Cohort B** on the right side. **Darker red indicates that the gene set is more perturbed** in the cohort than expected given somatic mutation and copy number variation background of the cohort samples, and **darker blue is less perturbed** then expected. White color indicates that the perturbation level is as expected.
+As an overview, Figure 1 shows two cohorts, the left \(olive background, TCGA Ovarian Cancer\)  and the right \(tan background , TCGA Prostate Cancer\).    Figure 1A shows the selection for the analysis, Gene Set, view limit, and filter \(differential versus similar\).  Figure 1B shows the view comparing the Mean Gene Set Score in the center and individual samples on the right.   1C shows the individual samples, with the hover result showing the sample and score in 1E.  1D provides a link directly into Xena for the given gene set.  1F provides a sharable URL link.   1G provides a login for use in uploading.
 
-**Section B** Detailed information in text for the moused over gene set or gene.
+![Figure 2.  Xena view of Gene Expression gene sets realized by clicking on Figure 1D shows](../.gitbook/assets/image%20%288%29.png)
 
-**Section C** As a user mouse over a gene set, it is outlined in green \(**C** and **D**\)
 
-**Section D** User click on the gene sets in A to select one to view in detail in **D**. The selected gene set is outlined in blue in A. In D, genes are sorted from left to right according to the % samples perturbed \(from high to low\) in the top cohort. The bottom cohort matches the top cohort's gene positions. Vertical axis is samples.
 
-When mouse over a gene label, you get the detailed information about that gene \(for both cohorts\).
+![Figure 3. Opening a gene set figure Figure 1 to show individual gene expression by sample.](../.gitbook/assets/image%20%287%29.png)
 
-![Gene Label Hover](../.gitbook/assets/genelabelhover.png)
+![Figure 4. Clicking on an open gene target from 3 shows the gene set and the individual genes. ](../.gitbook/assets/image%20%2811%29.png)
 
-When hovering over the individual sample, you get the number of hits for the gene and name of the individual sample.
+![Figure 5. Clicking Edit in Figure 1 or  3 allows changing cohort, as well as individual sub cohorts.](../.gitbook/assets/image%20%289%29.png)
 
-![Gene Sample Hover](../.gitbook/assets/genesamplehover.png)
+![Figure 6 Analysis can be changed from Figure 1A.  Here we see CNV and Mutation together.](../.gitbook/assets/image%20%286%29.png)
 
-### Expanded Gene Set View
+![Figure 7 Hovering over CNV + Mutation view shows types of mutation and CNV.](../.gitbook/assets/image%20%2814%29.png)
 
-By clicking on the arrows at the top you can view the samples of individual gene sets.
+![Figure 8 A user that is logged in may upload a tab delimited GMT file which is analyzed and available.](../.gitbook/assets/image%20%2810%29.png)
 
-As you can see, because gene sets with more genes will have more affected samples, we use an expected value to calculate whether or not a gene is over represented.
+Figure 8 shows analysis of a GMT file using the BPA method \[[citation](https://www.nature.com/articles/s41467-019-12924-w): thanks to Verena Friedl\].   This is only available to logged in users and they may only see their own analysis and are limited to 100 pathways.  Logins are any valid google login.    Several public pathway sets are available including those curated from the Gene Ontology Consortium \(thanks to Laurent-Philippe Albou\) as well as those from the Hallmark \[cite\] and Pancan \[cite\] analyses.
 
-![Expanded Gene Set](../.gitbook/assets/expandedgenesetviewer.png)
+![figure 9 &apos;+&apos; symbol in Figure 1A allows editing of gene sets from pre-analyzed set.](../.gitbook/assets/image%20%2812%29.png)
 
-### Cohort Selection
 
-Use cohort dropdown
 
-### Change Data Type
 
-Use Data Type dropdown
-
-Currently we provide selections for copy number variants and somatic mutations.
-
-![Filter Set](../.gitbook/assets/filterselector.png)
-
-### Edit Pathways
-
-Gene sets or pathways may be edited with any available gene data by selecting "Edit Pathways".
-
-In this example we added the gene set "Curated Gene Set" and added 3 genes to it.
-
-![Editing Gene Sets](../.gitbook/assets/editgeneset1.png)
-
-On clicking "Done", this is reflected below.
-
-![Editing Gene Set Reflected](../.gitbook/assets/editgenesetreflected.png)
-
-Gene set data can also be downloaded, edited by hand and re-uploaded.
-
-## Additional Options
-
-There are several options available in the drop-down menu.
-
-![Options](../.gitbook/assets/options1_200.png)
-
-#### Edit Colors
-
-"Edit Colors" allows configuration of the color and scale that are used to represent genes and gene set scores.
-
-#### Reciprocal Gene Sets
-
-If "Reciprocal Gene Set" is selected, then gene sets that contain any genes in that hovered gene set are also highlighted. This could be useful when assessing other possible gene sets might be worth exploring.
-
-#### Cohort 1 and Cohort 2 Data
-
-Data may be downloaded as JSON by selected "Cohort 1 Data" or "Cohort 2 Data".
-
-## Gene Search
-
-In both the Gene Set View Pathway Editing screen, genes can be searched for.  
-Once highlighted, the genes and gene sets containing those genes will be highlighted in pink.
-
-![Gene Search Result](../.gitbook/assets/genesetviewergenesearch.png)
-
-A similar view is provided when Editing the Pathway.
-
-![Gene Search Edit Pathway](../.gitbook/assets/editpathwaygenesearch.png)
 
 ## Analysis
 
@@ -97,9 +45,7 @@ A similar view is provided when Editing the Pathway.
 
 * BPA GENE EXPRESSION
 * PARADIGM IPL
-* REGULON ACTIVITY \(only avaiable for LUAD\)
-
-#### Gene Set Options
+* REGULON ACTIVITY \(only avaiable for the LUAD Cohort\)
 
 ### Mutation / CNV
 
