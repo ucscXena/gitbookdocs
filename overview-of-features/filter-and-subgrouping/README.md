@@ -10,7 +10,7 @@ Use the search box at the top of the screen to first select/highlight your sampl
 
 ![](../../.gitbook/assets/screen-shot-2021-01-19-at-3.36.32-pm.png)
 
-The bar highlighted above allows you to search all data on the screen for your search term. Note that it will not search data that is not on the screen. Samples that match your criteria are marked with a black bar in the Visual Spreadsheet.
+The bar highlighted above allows you to search **all data on the screen** for your search term. Note that it will not search data that is not on the screen. Samples that match your criteria are marked with a black bar in the Visual Spreadsheet.
 
 ## Searching for samples
 
@@ -30,11 +30,13 @@ More information on [supported search terms](supported-search-terms-for-finding-
 
 Once you have your sample\(s\) of interest, click on the filter + subgroup menu and choose to:
 
-**Keep Samples:** Keep only the samples which match your criteria.
+**Keep samples:** Keep only the samples which match your criteria.
 
-**Removes Samples:** Remove the samples which match your criteria.
+**Remove samples:** Remove the samples which match your criteria.
 
-**Clear Sample Filter:** Remove ALL filters currently applied.
+**Clear sample filter:** Remove ALL filters currently applied.
+
+**Remove Samples with nulls:** Removes samples that have no data for one or more columns. Equivalent to typing 'null' in the search bar and choosing 'Remove samples'.
 
 **Zoom:** Zoom to the samples that meet your criteria. Shift-click to zoom out.
 
