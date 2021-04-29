@@ -15,14 +15,16 @@ Viewing your own data is easy! Simply:
 
 We support most types of [genomic and/or phenotypic/clinical/annotation data](data-format-specifications.md). Genomic data needs to be values called on genes, transcripts, exons, probes or some other identifier. Phenotypic/clinical/annotation data can be almost anything, including patient data \(e.g. age, set, etc\), clinical data \([survival data for a KM plot](km-plots-using-data-from-a-local-xena-hub.md)\), and other data such as gene fusion calls, regulon activity, immune scores, and more. Samples can be bulk tissue, cell lines, cells, and more. We do not visualize raw data such as FASTQs or BAMs.
 
-Data can be your own or from another source, like [GEO](https://www.ncbi.nlm.nih.gov/geo/) or a publication.  
+Data can be your own or from another source, like [GEO](https://www.ncbi.nlm.nih.gov/geo/) or a publication.
+
+We support tab-delimited and Microsoft Excel files \(.xlsx and .xls\).   
   
 Data on a Local Xena Hub can only be viewed or accessed by the same computer on which it is running, keeping private data secure.
 
 The Local Xena Hub must be installed and running in order to load data, as well as any time you want to view data. The Local Xena Hub will remember previously loaded data.
 
 {% hint style="warning" %}
-We currently do not support Safari for viewing your own data. Please use Chrome or Firefox
+Please use Chrome or Firefox to view your own data.
 {% endhint %}
 
 ## **Installing a Local Xena Hub**

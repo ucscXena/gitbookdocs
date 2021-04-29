@@ -6,7 +6,7 @@ There are 2 basic data formats and 2 advanced data formats. Each of these format
 
 We support most types of genomic and phenotype/clinical/sample annotations. For genomic data we support calls made on the raw data including but not limited to expression calls, mutation calls, etc. This is what TCGA calls ‘Level 3’ data and is typically a value on gene, transcript, probe, etc. We do not support FASTQ, BAMs, or other ‘raw’ files. Please contact us if you have any questions.
 
-All data types must be **tab-delimited**. Generally files of this type have a file name ending in .tsv or .txt, though we do not require this. We do not support Excel files \(.xls or .xlsx\) files. You can export a Microsoft Excel file as a tab-delimited file using the 'Save as ...' function.
+We support tab-delimited and Microsoft Excel files \(.xlsx and .xls\). Tab-delimited files generally have a file name ending in .tsv or .txt, though we do not require this. Note that we load tab-delimited files much faster than Excel files. You can export a Microsoft Excel file as a tab-delimited file using the 'Save as ...' function.
 
 Please do not have any duplicate genes/probes/identifiers or samples. We will allow you to load with duplicates but will only display the first one encountered in the file.
 
