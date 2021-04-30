@@ -50,6 +50,8 @@ To create more than 2 subgroups, please see our ['How do I make subgroups with g
 
 Once you have either filtered, created a subgroup column, or zoomed to samples, your search term will be added to the search history. Access the search history by clicking the downward facing arrow at the upper right of the search bar.
 
+![](../../.gitbook/assets/screen-shot-2021-04-30-at-11.37.27-am.png)
+
 Note this search history will be preserved in [bookmarks](../bookmarks.md).
 
 ## Changing subgroup labels
