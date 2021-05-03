@@ -72,6 +72,12 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 * \*\*\*\*[**Supported search terms**](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)\*\*\*\*
 {% endhint %}
 
+#### Shortcut for Part A
+
+Instead of typing 'null' and removing those samples from the view, you can also use the 'Remove samples with nulls' shortcut in the filter menu.
+
+![](../.gitbook/assets/removenullsshortcut.gif)
+
 ### Part B
 
 Our goal is to create two subgroups, those samples with aberrations in _EGFR_ and those samples without aberrations in _EGFR_. We will then name the subgroups.
