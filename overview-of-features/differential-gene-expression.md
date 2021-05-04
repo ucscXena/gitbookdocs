@@ -14,6 +14,8 @@ Due to compute limitations you can only run a total of 2000 samples through the 
 
 This will start the analysis, which make take a while to run depending on the size of the dataset. As the results are completed, the web page will update. Scroll to see more results. Once the analysis is finished it will say 'Done' at the top of the page.
 
+![](../.gitbook/assets/dea.gif)
+
 ## Running it on your own data
 
 We disable running our differential gene expression analysis on your own data since we send the data in the analysis to various websites, which may or may not be secure. There are 3 options to run our analysis on your own data:
