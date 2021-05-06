@@ -1,6 +1,6 @@
 # Hubs for institutions, collaborations, labs, and larger projects
 
-If you are looking to share data on a Xena Hub with a specific group of people. Xena Hubs can be set up on any server or in the cloud. You control who has access to the Xena Hub by controlling who has access to the server on which it is hosted.
+Institutional Xena Hubs allow you to share data, visualizations, and analyses with a specific group of people. Xena Hubs can be set up on any server or in the cloud. You control who has access to the Xena Hub by controlling who has access to the server on which it is hosted.
 
 To make your data publicly available, simply make the server open to the web.
 
@@ -12,7 +12,7 @@ First, download the ucsc\_xena\_xxx.tar.gz file to your server, here:
 
 The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**". Uncompress and extract the .jar file \(cavm-xxx-standalone.jar\). The current version is 0.25.0.
 
-## Start the hub.
+## Start the hub
 
 The hub can be started with "java -jar cavm-xxx-standalone.jar". Passing option --help will display usage information.
 
