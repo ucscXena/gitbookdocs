@@ -54,6 +54,7 @@
   * [Loading data from the command line](local-xena-hub/loading-data-from-the-command-line.md)
   * [FAQ/Troubleshooting Guide](local-xena-hub/faq-troubleshooting-guide.md)
 * [Technical documentation](technical-documentation/README.md)
+  * [Setting up Xena for your institution](technical-documentation/setting-up-xena-for-your-institution.md)
   * [Deep Linking Into Xena](technical-documentation/deep-linking-into-xena.md)
 * [Publication Page](https://ucscxena.github.io/)
 * [Contact us](contact-us.md)
