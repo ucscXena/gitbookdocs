@@ -1,6 +1,6 @@
 # Xena Gene Set Viewer
 
-The Xena Gene Sets Viewer [https://xenageneset.berkeleybop.io/xena/](https://xenageneset.berkeleybop.io/xena/) compares gene expression, somatic mutation, and copy number variation profile of cancer related gene sets across cancer cohorts.  It queries genomics data hosted on public Xena Hubs, in a similar way as other tools in the Xena Visualization suite. And then it generates gene set visualizations of those data.
+The Xena Gene Sets Viewer [https://xenagoweb.xenahubs.net/xena](https://xenagoweb.xenahubs.net/xena) compares gene expression, somatic mutation, and copy number variation profile of cancer related gene sets across cancer cohorts.  It queries genomics data hosted on public Xena Hubs, in a similar way as other tools in the Xena Visualization suite. And then it generates gene set visualizations of those data.
 
 Source code:
 
