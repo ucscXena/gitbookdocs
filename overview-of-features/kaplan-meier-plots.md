@@ -6,7 +6,7 @@ Kaplan Meier Survival Analyses are a way of comparing the survival of groups of 
 
 To generate a KM plot, click on the column menu at the top of a column and choose 'Kaplan Meier Plot'. 
 
-![](../.gitbook/assets/atacseqfgd4km.gif)
+![](../.gitbook/assets/kmplot%20%282%29.gif)
 
 ## Features
 
