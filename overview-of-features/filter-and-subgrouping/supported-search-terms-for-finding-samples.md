@@ -35,7 +35,7 @@ To find all samples with mutations with the protein change, enter:
 
 To find all samples where the functional impact has 'frame' or 'nonsense'
 
-> D:frame OR nonsense
+> D:frame OR D:nonsense
 
 To find all samples that have a mutation, search the gene annotation:
 
