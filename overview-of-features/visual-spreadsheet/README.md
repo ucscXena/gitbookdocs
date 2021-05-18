@@ -22,7 +22,7 @@ You can select a cohort either by choosing 'Help me select a cohort' and searchi
 
 ### Adding a Gene or Position
 
-Please use HUGO gene names or the probe names in the dataset. Go to dataset pages to learn more about names that will be recognized.
+Please use HUGO gene names or the probe names in the dataset. You can enter one gene or multiple genes. Separate multiple genes with a space, comma, tab, or new line.
 
 To display a genomic region, enter the genomic region, choose your dataset and click 'done'. We accept entire chromosomes \(e.g. chr1\), arms of chromosomes \(e.g. chr19q\), or chromosomes coordinates. Coordinates need to be in this format: chr1:100-4,000. 
 
