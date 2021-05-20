@@ -2,13 +2,15 @@
 
 To run a differential gene expression analysis, click on the 3 dot column menu at the top of a categorical column \(not a numerical column\) and choose 'Differential Expression'.
 
-This will take you to new page where you will define the two subgroups you would like to compare. After you have your subgroups, scroll to the bottom and click 'submit'.
+This will take you to new page where you will define the target and baseline subgroups you would like to compare \(note that you can select multiple categories for a single subgroup\).
 
-{% hint style="info" %}
-Note that you can select more than one category per subgroup \(i.e. you can compare Luminal A and Luminal B to Her2\).
+After you have your subgroups, scroll to the bottom and click 'submit'.
+
+{% hint style="warning" %}
+Note that our analysis is directional and will only compare the target subgroup to the baseline subgroup and NOT vice versa.
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Due to compute limitations you can only run a total of 2000 samples through the analysis pipeline.
 {% endhint %}
 
