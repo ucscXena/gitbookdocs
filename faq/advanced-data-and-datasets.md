@@ -84,5 +84,9 @@ This gives you a 3-fold change.
 
 Please note that in this case we are reporting the log\(fold change\). Biologists often use the log\(fold change\) because without taking the log, down regulated genes would have values between 0 and 1, whereas up regulated genes would have any value between 1 and infinity. This distribution makes graphing and further statistical analysis difficult. Taking the log typically makes the resulting values more normally distributed, which is better for further analysis.
 
+## Can I get access to the raw TOIL data?
+
+Yes! We host it on AWS. [Contact us](../contact-us.md) for more information.
+
 
 
