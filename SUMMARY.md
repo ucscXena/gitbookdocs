@@ -56,6 +56,7 @@
 * [Technical documentation](technical-documentation/README.md)
   * [Setting up Xena for your institution](technical-documentation/setting-up-xena-for-your-institution.md)
   * [Deep Linking Into Xena](technical-documentation/deep-linking-into-xena.md)
+  * [Metadata Specification](metadata-specification.md)
 * [Publication Page](https://ucscxena.github.io/)
 * [YouTube Channel](https://www.youtube.com/channel/UCHA_o6sZkrkccIuANBuTuTw)
 * [Contact us](contact-us.md)
