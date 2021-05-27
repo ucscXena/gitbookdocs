@@ -13,7 +13,7 @@ For each map
 
 **"label"** free text. Display label of the map, should be easily readable by users
 
-**"dataSubType"** a string. Describe the natur of the map, must be **embedding**, **spatial_map** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file 
+**"dataSubType"** a string. Describe the natur of the map, must be **embedding**, **spatial** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file 
 
 **"dimension"** a list of strings. They are the column headers of the dimention columns in the data file. They are used to retrieve data from db.
 
