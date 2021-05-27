@@ -35,3 +35,23 @@ example
 ```
 
 ## survival time unit
+Surival time unit is displayed on the x-axis of the KM plot. You specify it in metadata file under the **"units"** attribute. 
+
+**"units"** free text , KM plot x-axis unit, e.g. years, months, days
+
+example
+```json
+{
+    "cohort": "TCGA Breast Cancer (BRCA)", 
+    "dataSubType": "phenotype", 
+    "label": "Curated survival data", 
+    "type": "clinicalMatrix", 
+    "units": {
+        "OS": "days",
+        "DSS": "days",
+        "DFI": "days",
+        "PFI": "days"
+    }
+}
+
+```
