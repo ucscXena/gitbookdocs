@@ -23,7 +23,7 @@ example
     "type": "clinicalMatrix",
     "cohort": "name of the cohort",
     "label": "display label of the file",
-    "dataSubType": "the section the dataset is displayed under in Xena Datapages",
+    "dataSubType": "the section the dataset is displayed under in Xena Datapages, describe what data is in the life",
     "map": [
       {
         "label": "display label of the map",
