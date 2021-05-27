@@ -1,0 +1,9 @@
+---
+description: metadata (.json file) specification for maps and survival time unit 
+---
+
+# Metadata specification
+
+## maps
+
+## survival time unit
