@@ -4,6 +4,34 @@ description: metadata (.json file) specification for maps and survival time unit
 
 # Metadata specification
 
-## maps
+## MAPs
+MAPs are tsne, umap, pca embeddings in 2D or 3E, or spatial maps for spatical data.
+
+**map** is a list in the .json metadata file
+
+For each map
+
+**"label"** free text. Display label of the map, should be easily readable by users
+
+**"dataSubType"** a string. Describe the natur of the map, must be **embedding**, **spatial_map** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file 
+
+**"dimension"** a list of strings. They are the column headers of the dimention columns in the data file. They are used to retrieve data from db.
+
+example
+```json
+{
+    "type": "clinicalMatrix",
+    "cohort": "name of the cohort",
+    "label": "display label of the file",
+    "dataSubType": "embedding",
+    "map": [
+      {
+        "label": "display label of the map",
+        "dataSubType": "embedding",
+        "dimension": ["UMAP_1","UMAP_2","UMAP_3"]
+      }
+    ]
+}
+```
 
 ## survival time unit
