@@ -5,7 +5,7 @@ description: metadata (.json file) specification for maps and survival time unit
 # Metadata specification
 
 ## MAPs
-MAPs are tsne, umap, pca embeddings in 2D or 3E, or spatial maps for spatical data.
+MAPs are tsne, umap, pca embeddings in 2D or 3D, or spatial maps for spatical data.
 
 **map** is a list in the .json metadata file
 
