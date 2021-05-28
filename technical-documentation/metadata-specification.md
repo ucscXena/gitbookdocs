@@ -1,10 +1,11 @@
 ---
-description: metadata (.json file) specification for maps and survival time unit 
+description: metadata (.json file) specification for maps and survival time unit
 ---
 
-# Metadata specification
+# Metadata Specification
 
 ## MAPs
+
 MAPs are tsne, umap, pca embeddings in 2D or 3D, or spatial maps for spatical data.
 
 **map** is a list in the .json metadata file
@@ -13,12 +14,13 @@ For each map
 
 **"label"** free text. Display label of the map, should be easily readable by users
 
-**"dataSubType"** a string. Describe the natur of the map, must be **embedding**, **spatial** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file 
+**"dataSubType"** a string. Describe the natur of the map, must be **embedding**, **spatial** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file
 
 **"dimension"** a list of strings. They are the column headers of the dimention columns in the data file. They are used to retrieve data from db.
 
 example
-```json
+
+```javascript
 {
     "type": "clinicalMatrix",
     "cohort": "name of the cohort",
@@ -35,12 +37,14 @@ example
 ```
 
 ## survival time unit
-Surival time unit is displayed on the x-axis of the KM plot. You specify it in metadata file under the **"units"** attribute. 
+
+Surival time unit is displayed on the x-axis of the KM plot. You specify it in metadata file under the **"units"** attribute.
 
 **"units"** free text , KM plot x-axis unit, e.g. years, months, days
 
 example
-```json
+
+```javascript
 {
     "cohort": "TCGA Breast Cancer (BRCA)", 
     "dataSubType": "phenotype", 
@@ -53,5 +57,5 @@ example
         "PFI": "days"
     }
 }
-
 ```
+

@@ -23,7 +23,7 @@ Please see the study specific instructions for which column this is.
 
 Use the filter search bar to search for the cancer type you are interested in. Be sure to type the term as it shows in the phenotype column you added in step 1.
 
-![](../.gitbook/assets/highlightlocation%20%282%29.png)
+![](../.gitbook/assets/highlightlocation%20%282%29%20%282%29.png)
 
 {% hint style="info" %}
 Separate each cancer type by 'OR'. Example: 'lgg OR gbm'
