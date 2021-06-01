@@ -18,6 +18,7 @@
   * [How do I remove duplicate samples from a KM plot?](how-do-i/how-do-i-remove-duplicate-samples-from-a-km-plot.md)
   * [How do I view multiple types of cancer together?](how-do-i/how-do-i-view-more-than-one-type-of-cancer-together.md)
   * [How do I filter to just one cancer type](how-do-i/how-do-i-filter-to-just-one-cancer-type.md)
+  * [How do I view my data with the data from TCGA?](how-do-i/how-do-i-view-my-data-with-the-data-from-tcga.md)
   * [How do I change the column color?](how-do-i/how-do-i-change-the-column-color.md)
   * [How do I interact with the tooltip?](how-do-i/freeze-and-un-freeze-tooltip.md)
   * [How do I cite UCSC Xena?](how-do-i/cite-xena.md)
