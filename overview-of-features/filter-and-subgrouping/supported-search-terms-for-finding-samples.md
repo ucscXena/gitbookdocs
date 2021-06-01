@@ -16,7 +16,7 @@ You can specify a certain column and mathematical expression such as
 
 > A:&gt;2
 
-which will highlight all values greater than 2 in the first column. We support the following operators
+which will find all values greater than 2 in the first column. We support the following operators
 
 * = \(equal\)
 * &gt;= \(less than or equal\)
