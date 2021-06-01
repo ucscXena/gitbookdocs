@@ -1,3 +1,9 @@
+---
+description: >-
+  Difficult if adding in new samples. Easy if adding new data on samples we
+  already have.
+---
+
 # How do I view my data with the data from TCGA?
 
 ## Adding in new samples
