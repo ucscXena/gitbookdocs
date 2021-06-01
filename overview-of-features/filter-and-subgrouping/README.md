@@ -6,7 +6,7 @@ description: >-
 
 # Filtering and subgrouping
 
-Use the search box at the top of the screen to first select/highlight your samples of interest. Then filter to keep or removes these samples, create a new subgroup column, or zoom.
+Use the search box at the top of the screen to first select/find your samples of interest. Then filter to keep or removes these samples, create a new subgroup column, or zoom.
 
 ![](../../.gitbook/assets/screen-shot-2021-01-19-at-3.36.32-pm.png)
 
