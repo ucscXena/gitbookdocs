@@ -33,9 +33,9 @@ To find all samples with mutations with the protein change, enter:
 
 > V600E
 
-To find all samples where the functional impact has 'frame' or 'nonsense'
+To find all samples where the functional impact has the text 'frame' or 'nonsense' in it:
 
-> D:frame OR D:nonsense
+> frame OR nonsense
 
 To find all samples that have a mutation, search the gene annotation:
 
