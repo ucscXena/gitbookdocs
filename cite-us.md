@@ -1,3 +1,9 @@
+---
+description: >-
+  Please cite us! Citations are an important metric to our funders. Citing us
+  helps us continue to support Xena.
+---
+
 # Cite us
 
 You've run your analysis and are ready to publish your paper - congratulations! Cite the paper below to thank Xena and keep our project funded.
@@ -8,7 +14,7 @@ You can also read our paper for free at bioRxiv: [https://www.biorxiv.org/conten
 
 ## Tag us when you announce a publication or research
 
-Do you use Xena to further your research? [Tag us on Twitter](https://twitter.com/UCSCXena) when you publish and we'll help promote you. We also will select a number of publications each month to feature in on our Publication Page
+Do you use Xena to further your research? [Tag us on Twitter](https://twitter.com/UCSCXena) when you publish and we'll promote you on our Publication Page. 
 
 {% embed url="https://ucscxena.github.io/" %}
 
