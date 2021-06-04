@@ -32,6 +32,10 @@ Recording of tutorial given for NCI in **May 2021**: [https://cbiit.webex.com/cb
 
 This slide deck assumes that you have completed the Basic Tutorial Sections 1-3. This slide deck goes through more advanced walkthroughs.
 
+{% hint style="warning" %}
+This slide deck does not cover our newest feature, [Differential Gene Expression Analysis](../overview-of-features/differential-gene-expression.md).
+{% endhint %}
+
 {% embed url="https://docs.google.com/presentation/d/1Esd3HIhlJCp4xIYj2yeizj5yvP17a0grWzQxa3KoChc/" %}
 
 ## Request a workshop
