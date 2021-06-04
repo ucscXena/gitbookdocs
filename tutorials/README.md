@@ -26,7 +26,7 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 
 ### Advanced Video Tutorial \(55 min\)
 
-Recording of tutorial given for NCI in **May 2021**: [https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754](https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754)
+Recording of tutorial given for NCI in **May 2021**, which includes closed captioning: [https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754](https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754)
 
 ## Advanced Slide Tutorial
 
