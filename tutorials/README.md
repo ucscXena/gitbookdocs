@@ -26,15 +26,7 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 
 ### Advanced Video Tutorial \(55 min\)
 
-{% hint style="warning" %}
-Starting Wednesday, January 20,  2021, the release of a new Chart View and filter/subgrouping menu options will make the Advanced Video Tutorials less useful. 
-
-We recommend using the slides or [Basic Tutorial Sections](basic-tutorial-section-1.md) in the left panel.
-{% endhint %}
-
-Tutorial given for NCI CBIIT in May 2020: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/c14f597b9b334d05b4c8ffce7a7f8217)
-
-Same tutorial given for NCI CBIIT in October 2019: [https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/play/d5a83a983b924f3dabe053dce439f754)
+Recording of tutorial given for NCI in **May 2021**: [https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754](https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754)
 
 ## Advanced Slide Tutorial
 
