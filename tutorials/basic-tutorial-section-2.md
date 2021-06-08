@@ -1,5 +1,7 @@
 ---
-description: 'Covers filtering, subgrouping, and making Kaplan Meier plots'
+description: >-
+  Learn how to remove samples with no data, subgroup samples, and make Kaplan
+  Meier plots
 ---
 
 # Basic Tutorial: Section 2
@@ -25,7 +27,7 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 **Part A**
 
 * Search for samples of interest
-* Filter to keep or remove those samples of interest
+* Remove samples with no data
 
 **Part B**
 

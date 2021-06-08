@@ -30,7 +30,11 @@ More information:
 * [Running a Differential Gene Expression Analysis](../overview-of-features/differential-gene-expression.md)
 {% endhint %}
 
-## Walk-through example
+## Tutorial
+
+{% page-ref page="../tutorials/tutorial-tumor-vs-normal.md" %}
+
+
 
 In this example we will be looking to compare _MYC_ gene expression between normal colon tissue from GTEx to TCGA colon adenocarcinoma.
 

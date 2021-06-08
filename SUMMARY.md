@@ -5,6 +5,7 @@
   * [Basic Tutorial: Section 1](tutorials/basic-tutorial-section-1.md)
   * [Basic Tutorial: Section 2](tutorials/basic-tutorial-section-2.md)
   * [Basic Tutorial: Section 3](tutorials/basic-tutorial-section-3.md)
+  * [Tutorial: Tumor vs Normal](tutorials/tutorial-tumor-vs-normal.md)
   * [Single-cell HCA Tutorial](tutorials/hca-tutorial.md)
   * [Live examples](tutorials/live-examples.md)
 * [How do I ...](how-do-i/README.md)

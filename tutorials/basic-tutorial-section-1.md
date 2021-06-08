@@ -61,7 +61,7 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 
 1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
 2. Type 'GDC TCGA Lung Adenocarcinoma', select this study from the drop down menu, and click 'Done'.
-3. Type 'EGFR', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'Done'.
+3. Type '_EGFR_', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'Done'.
 
 #### Video of steps
 

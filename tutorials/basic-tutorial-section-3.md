@@ -1,5 +1,5 @@
 ---
-description: Covers Chart View and adding new columns of data to a view
+description: Learn how to use Chart View and add new columns of data to a view
 ---
 
 # Basic Tutorial: Section 3
@@ -74,21 +74,18 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 
 1. Click the 'x' in the upper right corner to exit Chart View.
 2. Hover between columns B and C until 'Click to insert a column' becomes visible. Click on it.
-3. Choose 'Phenotypic'
-4. Type 'gender' into the search bar.
-5. Select 'gender.demographic' from the dropdown menu.
-6. Click 'Done'.
-7. Click the column menu at the top of column C and choose 'Chart & Statistics'. Note that this is just another way to enter Chart View.
-8. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
-9. 'column C: gender.demographic' should already be selected for  'Show data from'. If not, select it.
-10. 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
-11. Click 'Done'. 
+3. Choose 'Phenotypic', type 'gender' into the search bar, select 'gender.demographic' from the dropdown menu, and click 'Done'.
+4. Click the column menu at the top of column C and choose 'Chart & Statistics'. Note that this is just another way to enter Chart View.
+5. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
+6. 'column C: gender.demographic' should already be selected for  'Show data from'. If not, select it.
+7. 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
+8. Click 'Done'. 
 
-#### Video of steps 1-6
+#### Video of steps 1-3
 
 ![](../.gitbook/assets/addgender.gif)
 
-#### Video of steps 7-11
+#### Video of steps 4-8
 
 ![](../.gitbook/assets/barchart.gif)
 
