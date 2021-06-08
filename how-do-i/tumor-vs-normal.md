@@ -21,7 +21,7 @@ There are four gene expression datasets in this study. Two are normalized using 
 
 ## Running a Differential Gene Expression Analysis
 
-We only allow users to run our Differential Gene Expression Analysis on less than 2,000 samples total. Thus, you will need to filter to run this analysis on this dataset.
+If you are looking to compare just a few genes, you can use our [chart view](../overview-of-features/chart-view.md) to run your analysis. If you are looking to run a genome-wide differential gene expression analysis, you can use our [DEA feature](../overview-of-features/differential-gene-expression.md). Note that we only allow users to run our Differential Gene Expression Analysis on less than 2,000 samples total. Thus, you will need to filter to run this analysis on this dataset.
 
 {% hint style="info" %}
 More information:
