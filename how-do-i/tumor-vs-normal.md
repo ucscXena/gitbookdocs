@@ -34,33 +34,3 @@ More information:
 
 {% page-ref page="../tutorials/tutorial-tumor-vs-normal.md" %}
 
-
-
-In this example we will be looking to compare _MYC_ gene expression between normal colon tissue from GTEx to TCGA colon adenocarcinoma.
-
-### 1. Filter
-
-Start with the [TCGA TARGET GTEx study](https://xenabrowser.net/?bookmark=057c5fe67d5d79488b843d7a6e1a9840), first, we filter the cohort and only keep the colon samples. The search term that was used to filter is: **colon**.
-
-![](../.gitbook/assets/colonfilter.gif)
-
-cheat link: [https://xenabrowser.net/?bookmark=9c75da8586d85ac10f1a6aa26059ba14](https://xenabrowser.net/?bookmark=9c75da8586d85ac10f1a6aa26059ba14)
-
-### 2. Add gene
-
-Click 'Click to Add Column',  add a gene \(e.g. _MYC_\), click 'gene expression' and click 'Done'.
-
-![](../.gitbook/assets/addgene.gif)
-
-Link to ending screen: [https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6](https://xenabrowser.net/?bookmark=25d653e7869a0a3e65f56b202aad30f6)
-
-### 3. Chart
-
-1. Click the graph icon in the upper right corner to enter Chart View.
-2. Click 'Compare subgroups', since we want to compare tumor vs normal samples
-3. Click the dropdown for 'Show data from' and choose 'column F: MYC - gene expression RNAseq - RSEM norm\_count'.
-4. Click the dropdown for 'Subgroup samples by' and choose 'column C: Sample Type'.
-5. Click 'Done'. 
-
-Link to ending screen: [https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c](https://xenabrowser.net/?bookmark=c64978e15bfa3ac0d49d0fc84f74506c)
-
