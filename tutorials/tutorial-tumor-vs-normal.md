@@ -26,7 +26,7 @@ This tutorial assumes basic understanding of how to build and read a [Visual Spr
 
 **Part A**
 
-* Build a visual spreadsheet with the columns primary site, sample type, study, and gene expression the TCGA TARGET GTEx study.
+* Build a visual spreadsheet with the columns primary site, sample type, study, and gene expression for the TCGA TARGET GTEx study.
 * Filter to just colon samples.
 
 **Part B**
@@ -35,7 +35,7 @@ This tutorial assumes basic understanding of how to build and read a [Visual Spr
 
 ## Tutorial
 
-We will compare _MYC_ gene expression between GTEx normal colon samples and TCGA colon adenocarcinoma primary tumor samples.
+We will compare _MYC_ gene expression between TCGA and GTEx normal colon samples and TCGA colon adenocarcinoma tumor samples.
 
 ### Part A
 
@@ -51,7 +51,7 @@ Our goal is to build a visual spreadsheet with the columns 'primary site', 'samp
 2. Type 'TCGA TARGET GTEx', select this study from the drop down menu, and click 'Done'.
 3. Type '_MYC_', select the checkbox for Gene Expression and click 'Done'.
 4. Choose 'Phenotypic' and select the checkboxes for 'sample type', 'study' and 'Primary site', and click 'Done'.
-5. Type 'colon' in the Find, Filter, and Subgroup search bar and choose 'Keep samples'.
+5. Type 'colon' in the samples search bar and choose 'Keep samples'.
 
 #### Video of steps 1-4
 
@@ -63,7 +63,7 @@ Our goal is to build a visual spreadsheet with the columns 'primary site', 'samp
 
 ### Part B
 
-Our goal is now see if the difference in gene expression, where normal samples tend to have lower _MYC_ expression, is statistically significant.
+Our goal is to see if the difference in gene expression, where normal samples tend to have lower _MYC_ expression, is statistically significant.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=5037e150565a8331ca94d869dfb0a209)
 
@@ -71,7 +71,7 @@ Our goal is now see if the difference in gene expression, where normal samples t
 
 #### Steps
 
-1. Click the column menu for column B \(MYC gene expression\) and choose 'Charts & Stats'
+1. Click the column menu for column B \(_MYC_ gene expression\) and choose 'Charts & Stats'
 2. Click 'Compare subgroups', click the dropdown for 'Show data from' and choose 'column B: MYC - gene expression RNAseq - RSEM norm\_count' if it is not already selected
 3. Click the dropdown for 'Subgroup samples by' and choose 'column C: Sample Type'.
 4. Leave the chart type as 'box plot', and click 'Done'. 
