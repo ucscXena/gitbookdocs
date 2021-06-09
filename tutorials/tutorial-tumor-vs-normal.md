@@ -1,5 +1,7 @@
 ---
-description: Under construction
+description: >-
+  Learn how to compare tumor samples to normal samples using our TCGA TARGET
+  GTEx study
 ---
 
 # Tutorial: Tumor vs Normal
