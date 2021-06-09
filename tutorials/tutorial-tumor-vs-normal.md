@@ -8,7 +8,7 @@ description: >-
 
 ## Description
 
-We will cover how to view tumor and normal samples side by side and how to compare gene expression for one or more genes between tumor and normal samples. 
+This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to view tumor and normal samples side by side and how to compare gene expression for one or more genes between tumor and normal samples. 
 
 We will be using both GTEx samples as our normal samples as well as TCGA matched normal samples. More information on GTEx normal samples can be found here:
 
