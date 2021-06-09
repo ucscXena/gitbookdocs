@@ -82,3 +82,17 @@ Our goal is now see if the difference in gene expression, where normal samples t
 
 ## Test your knowledge
 
+{% tabs %}
+{% tab title="Question 1" %}
+Compare EGFR gene expression between tumor and normal lung samples.
+{% endtab %}
+
+{% tab title="Answer 1" %}
+**Ending Screenshot**
+
+![](../.gitbook/assets/screen-shot-2021-06-09-at-11.57.59-am.png)
+
+[https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)
+{% endtab %}
+{% endtabs %}
+
