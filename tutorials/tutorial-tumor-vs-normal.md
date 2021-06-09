@@ -14,7 +14,7 @@ We will be using both GTEx samples as our normal samples as well as TCGA matched
 
 ## Prerequisites
 
-This tutorial assumes completion of the Basic Tutorials, especially the [Basic Tutorial: Section 3](basic-tutorial-section-3.md).
+This tutorial assumes basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). This can be achieved through completion of the Basic Tutorials, especially the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
 
 ## Estimated time needed
 
@@ -55,7 +55,11 @@ Our goal is to build a visual spreadsheet with the columns 'primary site', 'samp
 
 #### Video of steps 1-4
 
+![](../.gitbook/assets/tvn_make_vs.gif)
+
 #### Video of step 5
+
+![](../.gitbook/assets/tvn_filter_colon.gif)
 
 ### Part B
 
@@ -73,6 +77,8 @@ Our goal is now see if the difference in gene expression, where normal samples t
 4. Leave the chart type as 'box plot', and click 'Done'. 
 
 #### Video of steps 1-4
+
+![](../.gitbook/assets/tvn_chart.gif)
 
 ## Test your knowledge
 
