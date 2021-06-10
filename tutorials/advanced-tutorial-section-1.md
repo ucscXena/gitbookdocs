@@ -31,14 +31,14 @@ _ERG_ is an oncogene that expressed at low levels in normal prostate tissue. Som
 #### [​Ending Screenshot​](https://xenabrowser.net/?bookmark=6ea137951fb4ddad4c8a6baaac3914f4) <a id="ending-screenshot"></a>
 
 {% hint style="info" %}
-Note that column D may look slight different for you, depending on how large you make the column and where exactly you zoom to.‌
+Note that column D may look slight different, depending on how resize and zoom the column.
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2021-06-10-at-12.46.32-pm.png)
 
 #### Steps <a id="steps"></a>
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
+1. Start at [https://xenabrowser.net/](https://xenabrowser.net/)
 2. Type 'TCGA Prostate Cancer \(PRAD\)', select this study from the drop down menu, and click 'Done'.
 3. Type '_ERG_', select the checkbox for Gene Expression and click 'Done'.
 4. Type '_ERG_', click 'Show Advanced', select the checkbox for 'IlluminaHiSeq' under 'exon expression RNAseq', and click 'Done'.
@@ -47,21 +47,44 @@ Note that column D may look slight different for you, depending on how large you
 7. Click on the  handle in the lower right corner of column E, copy number for chromosome 21. Move it to the right to make the column bigger. 
 8. Click and drag within column E, copy number for chromosome 21 to zoom into the intra-chromosomal deletion.
 
-#### Video of steps <a id="video-of-steps"></a>
+#### Video of steps 1-4 <a id="video-of-steps"></a>
 
-‌
+![](../.gitbook/assets/advanced_1.gif)
+
+#### ‌**Video of steps 5-8**
+
+![](../.gitbook/assets/advanced_2.gif)
+
+{% hint style="info" %}
+More information:
+
+* [Advanced dataset menu](../overview-of-features/visual-spreadsheet/#advanced-datasets)
+* [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/)
+{% endhint %}
 
 ## Test your knowledge <a id="test-your-knowledge"></a>
 
 {% tabs %}
-{% tab title="Question" %}
-Add copy number data for_TMPRSS2_ and _ERG_ to more closely examine the breakpoints within each gene.
+{% tab title="Question 1" %}
+Add copy number data for chromosome 1.
 {% endtab %}
 
-{% tab title="Answer" %}
-\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=a8efad0aae4e396aa2aa1ae06a7ddf12)\*\*\*\*
+{% tab title="Answer 1" %}
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=95d77b2d3107653fa2a7be51424f0a04)\*\*\*\*
 
-![](../.gitbook/assets/screen-shot-2021-06-10-at-12.49.41-pm.png)
+![](../.gitbook/assets/screen-shot-2021-06-10-at-3.49.57-pm.png)
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Question 2" %}
+Add DNA Methylation data for _ERG_.
+{% endtab %}
+
+{% tab title="Answer 2" %}
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=3b8cf8fa103e5fe2d718337551af34a4)\*\*\*\*
+
+![](../.gitbook/assets/screen-shot-2021-06-10-at-3.48.18-pm.png)
 {% endtab %}
 {% endtabs %}
 
