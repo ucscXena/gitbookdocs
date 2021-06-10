@@ -76,11 +76,11 @@ Samples are on the y-axis and your columns of data are on the x-axis. We line up
 We can see that samples that have high expression of _EGFR_ \(red, column B\) tend to either have amplifications of _EGFR_ \(red,  column C\) or mutations in _EGFR_ \(blue tick marks, column D\)
 
 {% hint style="success" %}
-**More information**
+More information
 
-* \*\*\*\*[**Visual Spreadsheet**](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)\*\*\*\*
-* \*\*\*\*[**Colors and values in columns**](../overview-of-features/visual-spreadsheet/#data-values)\*\*\*\*
-* \*\*\*\*[**Sample sorting**](../overview-of-features/visual-spreadsheet/#sample-sorting)\*\*\*\*
+* [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)
+* [Colors and values in columns](../overview-of-features/visual-spreadsheet/#data-values)
+* [Sample sorting](../overview-of-features/visual-spreadsheet/#sample-sorting)
 {% endhint %}
 
 ### Part B
@@ -122,11 +122,9 @@ Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GD
 {% endtab %}
 
 {% tab title="Answer 1" %}
-**Ending Screenshot**
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2020-12-29-at-2.42.24-pm.png)
-
-[https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)
 {% endtab %}
 {% endtabs %}
 
@@ -136,11 +134,9 @@ Change the Visual Spreadsheet from Question 1 so that the samples are sorted by 
 {% endtab %}
 
 {% tab title="Answer 2" %}
-**Ending Screenshot**
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2020-12-29-at-2.44.52-pm.png)
-
-[https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)
 {% endtab %}
 {% endtabs %}
 

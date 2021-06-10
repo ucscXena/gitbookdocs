@@ -68,10 +68,10 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 ![](../.gitbook/assets/filteringoutnull.gif)
 
 {% hint style="success" %}
-**More information**
+More information
 
-* \*\*\*\*[**Filtering and subgrouping samples**](../overview-of-features/filter-and-subgrouping/)\*\*\*\*
-* \*\*\*\*[**Supported search terms**](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)\*\*\*\*
+* [Filtering and subgrouping samples](../overview-of-features/filter-and-subgrouping/)
+* [Supported search terms](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)
 {% endhint %}
 
 #### Shortcut for Part A
@@ -110,10 +110,10 @@ You must have the **copy number variation column as column C** for the search te
 ![](../.gitbook/assets/renamesubgroups.gif)
 
 {% hint style="success" %}
-**More information**
+More information
 
-* \*\*\*\*[**Filtering and subgrouping samples**](../overview-of-features/filter-and-subgrouping/)\*\*\*\*
-* \*\*\*\*[**Supported search terms**](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)\*\*\*\*
+* [Filtering and subgrouping samples](../overview-of-features/filter-and-subgrouping/)
+* [Supported search terms](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)
 {% endhint %}
 
 ### Part C
@@ -136,9 +136,9 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 ![](../.gitbook/assets/kmplot%20%281%29.gif)
 
 {% hint style="success" %}
-**More information**
+More information
 
-* \*\*\*\*[**Kaplan Meier survival analysis**](../overview-of-features/kaplan-meier-plots.md)\*\*\*\*
+* [Kaplan Meier survival analysis](../overview-of-features/kaplan-meier-plots.md)
 {% endhint %}
 
 ## Test your knowledge
@@ -154,8 +154,6 @@ Search term: "missense"
 \*\*\*\*[**Ending screenshot**](https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2021-01-19-at-3.26.47-pm.png)
-
-[https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735](https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735)
 {% endtab %}
 {% endtabs %}
 
@@ -170,8 +168,6 @@ Search term: "B:&gt;17"
 \*\*\*\*[**Ending screenshot**](https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2021-01-19-at-3.29.27-pm.png)
-
-[https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6](https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6)
 {% endtab %}
 {% endtabs %}
 
@@ -181,11 +177,9 @@ Starting at the end of Part A, run a Kaplan Meier analysis on _EGFR_ expression 
 {% endtab %}
 
 {% tab title="Answer 3" %}
-**Ending screenshot**
+\*\*\*\*[**Ending screenshot**](https://xenabrowser.net/?bookmark=fdd47d50c1c538d8112aabc24d540132)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-9.26.07-am.png)
-
-[https://xenabrowser.net/?bookmark=fdd47d50c1c538d8112aabc24d540132](https://xenabrowser.net/?bookmark=fdd47d50c1c538d8112aabc24d540132)
 {% endtab %}
 {% endtabs %}
 

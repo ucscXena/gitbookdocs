@@ -90,11 +90,9 @@ Compare EGFR gene expression between tumor and normal lung samples.
 {% endtab %}
 
 {% tab title="Answer" %}
-**Ending Screenshot**
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2021-06-09-at-11.57.59-am.png)
-
-[https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)
 {% endtab %}
 {% endtabs %}
 

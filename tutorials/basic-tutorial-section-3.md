@@ -109,11 +109,9 @@ Starting at the end of Part A, create a violin plot that compares copy number va
 {% endtab %}
 
 {% tab title="Answer 1" %}
-**Ending Screenshot**
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=07b189f18423721b05c23fe4a1f0b0aa)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-2.20.27-pm.png)
-
-[https://xenabrowser.net/?bookmark=07b189f18423721b05c23fe4a1f0b0aa](https://xenabrowser.net/?bookmark=07b189f18423721b05c23fe4a1f0b0aa)
 {% endtab %}
 {% endtabs %}
 
@@ -123,13 +121,13 @@ Starting at the end of Part B, add the phenotype data 'age\_at\_initial\_patholo
 {% endtab %}
 
 {% tab title="Answer 2" %}
-**Ending Screenshot**
-
-Note that your column order may be different.
+\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=e3a364e74e74a9dbeb7f23b8c286456e)\*\*\*\*
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-2.17.07-pm.png)
 
-[https://xenabrowser.net/?bookmark=e3a364e74e74a9dbeb7f23b8c286456e](https://xenabrowser.net/?bookmark=e3a364e74e74a9dbeb7f23b8c286456e)
+{% hint style="info" %}
+Note that your column order may be different.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
