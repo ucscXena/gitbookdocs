@@ -55,7 +55,7 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
 
-![https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba](../.gitbook/assets/screen-shot-2020-12-29-at-1.08.37-pm.png)
+![](../.gitbook/assets/screen-shot-2020-12-29-at-1.08.37-pm.png)
 
 #### Steps
 

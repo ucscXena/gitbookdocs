@@ -55,7 +55,7 @@ Our goal is to remove samples with no data \(i.e. null\) from the view. This wil
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=1420a515a2cd26f4bf12d267a857e5f8)
 
-![https://xenabrowser.net/?bookmark=1420a515a2cd26f4bf12d267a857e5f8](../.gitbook/assets/screen-shot-2020-12-30-at-1.22.29-pm.png)
+![](../.gitbook/assets/screen-shot-2020-12-30-at-1.22.29-pm.png)
 
 #### Steps
 
@@ -86,7 +86,7 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=38be4e92f265543aa88f058bd618945d)
 
-![https://xenabrowser.net/?bookmark=38be4e92f265543aa88f058bd618945d](../.gitbook/assets/screen-shot-2020-12-30-at-1.28.28-pm.png)
+![](../.gitbook/assets/screen-shot-2020-12-30-at-1.28.28-pm.png)
 
 #### Steps
 
@@ -122,7 +122,7 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39)
 
-![https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
+![](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
 
 #### Steps
 
