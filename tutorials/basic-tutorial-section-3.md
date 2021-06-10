@@ -6,7 +6,7 @@ description: Learn how to use Chart View and add new columns of data to a view
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial \(completion of Section 2 is recommended but not required\). We will cover how to make box plots and bar charts using our Charts and Statistics View and how to add another column of data, in particular phenotype data, to the view.
+This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial. We will cover how to make box plots and bar charts using our Charts and Statistics View and how to add another column of data, in particular phenotype data, to the view.
 
 ## Prerequisites
 
@@ -62,6 +62,12 @@ We found that samples that have aberrations in _EGFR_ \(mutations or amplificati
 
 ![](../.gitbook/assets/makeboxplot.gif)
 
+{% hint style="success" %}
+More information
+
+* [Chart and Statistics View](../overview-of-features/chart-view.md)
+{% endhint %}
+
 ### Part B
 
 We will now investigate how _EGFR_ aberrations compare between men and women. 
@@ -88,6 +94,12 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 #### Video of steps 4-8
 
 ![](../.gitbook/assets/barchart.gif)
+
+{% hint style="success" %}
+More information
+
+* [Chart and Statistics View](../overview-of-features/chart-view.md)
+{% endhint %}
 
 ## Test your knowledge
 

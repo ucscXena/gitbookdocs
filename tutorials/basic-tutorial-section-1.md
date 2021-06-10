@@ -108,6 +108,12 @@ To further explore the relationship between the gene expression, mutation, and c
 
 ![](../.gitbook/assets/basictutorials1bc.gif)
 
+{% hint style="success" %}
+More information
+
+* [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/)
+{% endhint %}
+
 ## Test your knowledge
 
 {% tabs %}

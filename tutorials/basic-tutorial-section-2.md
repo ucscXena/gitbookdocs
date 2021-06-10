@@ -101,13 +101,6 @@ You must have the **copy number variation column as column C** for the search te
 3. Rename the display so that samples that are 'true' are instead labeled as 'EGFR Aberrations' and the samples that are 'false' are instead labeled as 'No EGFR Aberrations'. Click 'Done'
 4. Delete the search term. This will remove the black tick marks for matching samples.
 
-{% hint style="success" %}
-**More information**
-
-* \*\*\*\*[**Filtering and subgrouping samples**](../overview-of-features/filter-and-subgrouping/)\*\*\*\*
-* \*\*\*\*[**Supported search terms**](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)\*\*\*\*
-{% endhint %}
-
 #### Video of steps 1
 
 ![](../.gitbook/assets/makesubgroups.gif)
@@ -116,15 +109,16 @@ You must have the **copy number variation column as column C** for the search te
 
 ![](../.gitbook/assets/renamesubgroups.gif)
 
-### Part C
-
-Now that we have our subgroups we will run a Kaplan Meier survival analysis. Note that TCGA survival data is in days, hence the x-axis will be in days.
-
 {% hint style="success" %}
 **More information**
 
-* \*\*\*\*[**Kaplan Meier survival analysis**](../overview-of-features/kaplan-meier-plots.md)\*\*\*\*
+* \*\*\*\*[**Filtering and subgrouping samples**](../overview-of-features/filter-and-subgrouping/)\*\*\*\*
+* \*\*\*\*[**Supported search terms**](../overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)\*\*\*\*
 {% endhint %}
+
+### Part C
+
+Now that we have our subgroups we will run a Kaplan Meier survival analysis. Note that TCGA survival data is in days, hence the x-axis will be in days.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39)
 
@@ -140,6 +134,12 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 #### Video of steps
 
 ![](../.gitbook/assets/kmplot%20%281%29.gif)
+
+{% hint style="success" %}
+**More information**
+
+* \*\*\*\*[**Kaplan Meier survival analysis**](../overview-of-features/kaplan-meier-plots.md)\*\*\*\*
+{% endhint %}
 
 ## Test your knowledge
 
