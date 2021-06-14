@@ -1,5 +1,7 @@
 ---
-description: Under construction
+description: >-
+  Learn how to view whole chromosomes and view advanced datasets such as exon
+  expression
 ---
 
 # Advanced Tutorial: Section 1
