@@ -16,7 +16,7 @@ We will be using both GTEx samples as our normal samples as well as TCGA matched
 
 ## Prerequisites
 
-This tutorial assumes basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). This can be achieved through completion of the Basic Tutorials, especially the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
+This tutorial assumes a basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). This can be achieved through completion of the Basic Tutorials, especially the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
 
 ## Estimated time needed
 

@@ -12,7 +12,7 @@ This tutorial is intended for those who have a basic understanding of how to use
 
 ## Prerequisites <a id="prerequisites"></a>
 
-This tutorial assumes completion of the [Basic Tutorial: Section 1](https://app.gitbook.com/@ucsc-xena/s/project/tutorials/basic-tutorial-section-1). Completion of [Basic Tutorial: Section 2](https://app.gitbook.com/@ucsc-xena/s/project/tutorials/basic-tutorial-section-2) and [Basic Tutorial: Section 3](basic-tutorial-section-3.md) is recommended but not required. 
+This tutorial assumes a basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). This can be achieved through completion of the Basic Tutorials, especially the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
 
 ## Estimated time needed <a id="estimated-time-needed"></a>
 
