@@ -110,7 +110,7 @@ Whether you have viewed your own data before or not, you should arrive at a scre
 
 ![](../.gitbook/assets/screen-shot-2021-06-16-at-11.51.59-am.png)
 
-{% hint style="success" %}
+{% hint style="info" %}
 If you have already loaded data previously, you may see datasets and cohorts listed at the bottom of the screen
 {% endhint %}
 
@@ -154,7 +154,7 @@ We will look at 1p-19q co-deletion  in Chinese glioma patients and compare this 
 
 ![](../.gitbook/assets/screen-shot-2021-06-16-at-1.32.44-pm.png)
 
-#### Ending Screenshot for Kaplan Meier Analysis \(end of step 12\)
+#### Ending Screenshot for Kaplan Meier Analysis \(end of step 13\)
 
 ![](../.gitbook/assets/screen-shot-2021-06-16-at-1.33.50-pm.png)
 
@@ -175,11 +175,20 @@ Note that we are unable to provide links to these ending screenshots, similar to
 9. Click the dropdown for 'Show data from' and choose 'column B: IDH1 - CGGA.mRNAseq\_693.RSEM-genes.20200506.txt'.
 10. Click the dropdown for 'Subgroup samples by' and choose 'column C: 1p19q\_codeletion\_status - CGGA.mRNAseq\_693\_clinical.20200506.txt'.
 11. Click 'Done'. 
-12. Run a Kaplan Meier analysis comparing patients with high IDH1 expression to those with low IDH1 expression. To do this, click on the column menu for column B \(IDH1 expression\) and choose 'KM plot'
+12. Close the chart using the 'x' in the upper left corner.
+13. Run a Kaplan Meier analysis comparing patients with high IDH1 expression to those with low IDH1 expression. To do this, click on the column menu for column B \(IDH1 expression\) and choose 'KM plot'
 
 #### Video of steps 1-5
 
 ![](../.gitbook/assets/view_own_data_vs.gif)
+
+#### Video of steps 6-11
+
+![](../.gitbook/assets/view_own_data_2.gif)
+
+#### Video of steps 12-13
+
+![](../.gitbook/assets/view_own_data_3.gif)
 
 ## Test your knowledge
 
