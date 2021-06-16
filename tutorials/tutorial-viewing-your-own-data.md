@@ -190,15 +190,3 @@ Note that we are unable to provide links to these ending screenshots, similar to
 
 ![](../.gitbook/assets/view_own_data_3.gif)
 
-## Test your knowledge
-
-{% tabs %}
-{% tab title="Question" %}
-
-{% endtab %}
-
-{% tab title="Answer" %}
-
-{% endtab %}
-{% endtabs %}
-
