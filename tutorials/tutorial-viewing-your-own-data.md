@@ -1,5 +1,7 @@
 ---
-description: Under Construction
+description: >-
+  Learn how to view your own data using data from the Chinese Glioma Genome
+  Atlas (CGGA)
 ---
 
 # Tutorial: Viewing your own data
