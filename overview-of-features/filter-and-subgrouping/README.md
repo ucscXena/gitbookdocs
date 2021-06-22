@@ -6,7 +6,7 @@ description: >-
 
 # Filtering and subgrouping
 
-Use the search box at the top of the screen to first select/find your samples of interest. Then filter to keep or removes these samples, create a new subgroup column, or zoom.
+Use the search box at the top of the screen to first pick/find your samples of interest. Then filter to keep or removes these samples, create a new subgroup column, or zoom.
 
 ![](../../.gitbook/assets/screen-shot-2021-01-19-at-3.36.32-pm.png)
 
@@ -14,13 +14,13 @@ The bar highlighted above allows you to search **all data on the screen** for yo
 
 ## Searching for samples
 
-You can search for samples by either typing in the search bar or by clicking on the dropper icon to enter the select samples mode. The select samples mode will allow you to click on a column to select samples. The search term for your selected samples will appear in the search bar. To exit the select samples mode, click on the dropper icon again.
+You can search for samples by either typing in the search bar or by clicking on the dropper icon to enter the pick samples mode. The pick samples mode will allow you to click on a column to select samples. The search term for your picked samples will appear in the search bar. To exit the pick samples mode, click on the dropper icon again.
 
 {% hint style="info" %}
 More information on [supported search terms](supported-search-terms-for-finding-samples.md)
 {% endhint %}
 
-### Example of select samples mode
+### Example of pick samples mode
 
 [Beginning of the video](https://xenabrowser.net/heatmap/?bookmark=8d5101e8e819a66eceb96869a968654d)
 

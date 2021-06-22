@@ -24,7 +24,7 @@ Create a visual spreadsheet that include a chromosome-wide column and data from 
 
 ## Tutorial <a id="tutorial"></a>
 
-We investigate the _ERG-TMPRSS2_ gene fusion and _TMPRSS2_ promoter hijacking in TCGA Prostate Cancer.
+We will investigate the _ERG-TMPRSS2_ gene fusion and _TMPRSS2_ promoter hijacking in TCGA Prostate Cancer.
 
 _ERG_ is an oncogene that expressed at low levels in normal prostate tissue. Some prostate cancer samples have higher expression of _ERG_. These samples tend to have an intra-chromosomal deletion that fuses _ERG_ to _TMPRSS2_. As _TMPRSS2_ is expressed at high levels in normal prostate tissue, this allows _ERG_ to hijack the _TMPRSS2_ promoter which leads to increased _ERG_ expression.
 
