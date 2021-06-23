@@ -71,6 +71,8 @@ Our goal is to see if the difference in gene expression, where normal samples te
 
 ![](../.gitbook/assets/screen-shot-2021-06-08-at-2.02.19-pm.png)
 
+We can now see that tumor samples, both recurrent, primary, and metastatic, have higher expression compared to normal tissue, both matched normal tissue from TCGA and unmatched normal tissue from GTEx.
+
 #### Steps
 
 1. Click the column menu for column B \(_MYC_ gene expression\) and choose 'Charts & Stats'

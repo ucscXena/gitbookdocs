@@ -38,6 +38,8 @@ Note that column D may look slight different, depending on how resize and zoom t
 
 ![](../.gitbook/assets/screen-shot-2021-06-10-at-12.46.32-pm.png)
 
+We can now see that there are many samples with relatively high expression of _ERG_ \(column B\), and that if we look more closely that this relatively high expression is not uniform across the exons of _ERG_, but instead is in the exons closer to the 3' end of the gene \(column C\). Looking at column D, we can see that these samples that have relatively high expression also have an interchromosomal deletion of part of chromosome 21. If we hover over the genes at either end of the deletion, we can see that the end points fall within _ERG_ and _TMPRSS2_. 
+
 #### Steps <a id="steps"></a>
 
 1. Start at [https://xenabrowser.net/](https://xenabrowser.net/)
