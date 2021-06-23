@@ -119,7 +119,7 @@ We will run a differential expression analysis comparing Basal samples to Lumina
 3. Click 'Submit'.
 
 {% hint style="info" %}
-Note it can take a while for the analysis to run. Wait until it says 'Complete' at the top.
+Note it can take a while for the analysis to run. Wait until it says 'Success' at the top.
 {% endhint %}
 
 #### Video of steps

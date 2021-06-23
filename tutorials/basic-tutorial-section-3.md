@@ -50,6 +50,8 @@ We found that samples that have aberrations in _EGFR_ \(mutations or amplificati
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
 
+We can now see that samples with _EGFR_ aberrations have statistically higher expression.
+
 #### Steps
 
 1. Click the graph icon in the upper right corner to enter Chart View.
@@ -75,6 +77,8 @@ We will now investigate how _EGFR_ aberrations compare between men and women.
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=8ac908b928e0332e8dfa3e306488d543)
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-12.01.47-pm.png)
+
+We can now see that _EGFR_ aberrations are more common in females.
 
 **Steps**
 

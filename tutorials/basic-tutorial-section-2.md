@@ -124,6 +124,8 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
 
+We can now see that there is no survival difference between samples with _EGFR_ aberrations and those without.
+
 #### Steps
 
 1. Click the column menu at the top of column B.
