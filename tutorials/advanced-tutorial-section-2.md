@@ -1,5 +1,8 @@
 ---
-description: Under construction
+description: >-
+  Learn how to use the pick samples feature, how to view multiple genes in a
+  single column, how to view a signature, and how to run a differential
+  expression analysis
 ---
 
 # Advanced Tutorial: Section 2
@@ -52,11 +55,12 @@ We will make a visual spreadsheet where we can explore the relationship between 
 
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
+1. Start at [https://xenabrowser.net/](https://xenabrowser.net/)
 2. Type 'TCGA Breast Cancer \(BRCA\)', select this study from the drop down menu, and click 'Done'.
 3. Choose 'Phenotypic', select 'sample\_type' from the dropdown menu, and click 'Done'.
 4. Choose 'Phenotypic', type 'pam' into the search bar, select 'PAM50Call\_RNAseq' from the dropdown menu, and click 'Done'. This will exit the wizard.
 5. Click on 'Click to insert a column' after column C. Copy and paste the 50 genes, choose 'Gene Expression', and click 'Done'.
+6. Click the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger. 
 
 {% hint style="info" %}
 List of 50 genes use to calculate the PAM50 subtype call:
@@ -64,19 +68,31 @@ List of 50 genes use to calculate the PAM50 subtype call:
 UBE2T BIRC5 NUF2 CDC6 CCNB1 TYMS MYBL2 CEP55 MELK NDC80 RRM2 UBE2C CENPF PTTG1 EXO1 ORC6L ANLN CCNE1 CDC20 MKI67 KIF2C ACTR3B MYC EGFR KRT5 PHGDH CDH3 MIA KRT17 FOXC1 SFRP1 KRT14 ESR1 SLC39A6 BAG1 MAPT PGR CXXC5 MLPH BCL2 MDM2 NAT1 FOXA1 BLVRA MMP11 GPR160 FGFR4 GRB7 TMEM45B ERBB2
 {% endhint %}
 
+#### Video of steps 1-4
+
+![](../.gitbook/assets/advanced_section2_1.gif)
+
+#### Video of steps 5-6
+
+![](../.gitbook/assets/advanced_section2_2.gif)
+
 #### Steps continued
 
-1. Enter Type 'primary' into the samples search bar. This will highlight samples that are Primary Tumor.
-2. Click the filter menu and select 'Keep samples'.
-3. Click the filter menu and select 'Remove samples with nulls'
+1. Click on the picker icon next to the filter menu to enter pick samples mode. 
+2. Click on the Primary Tumor samples.
+3. Click the filter menu and select 'Keep samples'.
+4. Exit pick samples mode by clicking on the picker icon again.
+5. Click the filter menu and select 'Remove samples with nulls'.
+
+#### Video of steps 1-5
+
+![](../.gitbook/assets/advanced_section2_3.gif)
 
 {% hint style="success" %}
 More information:
 
 * [Filtering samples](../overview-of-features/filter-and-subgrouping/)
 {% endhint %}
-
-#### Video of steps
 
 ### Part B
 
@@ -100,7 +116,9 @@ TFAC30 gene expression signature:
 
 We can see that samples that are labeled as 'Her2' and 'Basal' are predicted to respond more poorly to TFAC chemotherapy.
 
-#### Video of steps
+#### Video of step 1
+
+![](../.gitbook/assets/advanced_section2_4.gif)
 
 {% hint style="success" %}
 More information
@@ -122,7 +140,9 @@ We will run a differential expression analysis comparing Basal samples to Lumina
 Note it can take a while for the analysis to run. Wait until it says 'Success' at the top.
 {% endhint %}
 
-#### Video of steps
+#### Video of steps 1-3
+
+![](../.gitbook/assets/advanced_section2_5.gif)
 
 {% hint style="success" %}
 More information
