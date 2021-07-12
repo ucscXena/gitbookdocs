@@ -13,8 +13,8 @@ This tutorial is intended for those who have never used Xena before. We will cov
 This tutorial assumes a basic understanding of 
 
 * cancer processes that can lead to altered gene expression, such as copy number variation or mutations
-* the meaning of the values in gene expression, mutation, and copy number variation data
-* the goals of the the Cancer Genome Atlas \(TCGA\)
+* RNAseq gene expression, copy number variation, and mutational genomic sequencing data.
+* the Cancer Genome Atlas \(TCGA\)
 
 These resources can help you gain a basic understanding of these concepts:
 
