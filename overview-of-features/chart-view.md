@@ -14,9 +14,9 @@ Once you enter Chart View, it will ask you a series of questions about what type
 
 **Compare subgroups** will allow you to compare groups of samples, either those that you have made or via a categorical feature, such as sample type. It will build the appropriate graph depending on whether you have selected a continuous numerical or categorical column. This option will let you make box plots, violin plots, and bar charts.
 
-**See a distribution** will let you see the distribution of the data in a single column.
+**See a distribution** will let you see a histogram distribution of the data in a single column. The column can have sub-columns, either multiple probes or multiple genes, which will instead create a plot with multiple box plots.
 
-**Make a scatterplot** will make a scatterplot from two continuous numerical columns.
+**Make a scatterplot** will make a scatterplot from two continuous numerical columns. The second column can have multiple sub-columns, either multiple probes or multiple genes, which will create overlapping scatterplots
 
 If an option is grayed out, this means that you do not have enough or the right type of data on the screen. Return to the Visual Spreadsheet and add more data.
 
