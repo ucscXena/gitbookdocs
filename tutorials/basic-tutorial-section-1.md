@@ -20,6 +20,8 @@ These resources can help you gain a basic understanding of these concepts:
 
 {% embed url="https://connect.springerpub.com/content/book/978-0-8261-6868-9/chapter/ch01" %}
 
+{% embed url="https://www.ebi.ac.uk/training/online/courses/functional-genomics-i-introduction-and-design/what-is-functional-genomics/" %}
+
 {% embed url="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/studied-cancers" %}
 
 {% embed url="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga/using-tcga/types" %}
