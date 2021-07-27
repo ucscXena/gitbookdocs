@@ -32,7 +32,7 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Tutorial
 
-In the Basic Tutorial: Section 1 we found that we found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
+In the Basic Tutorial: Section 1 we found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
 
 In the Basic Tutorial: Section 2 we created two subgroups: those with aberrations and those without aberrations in _EGFR_. We ran a Kaplan Meier survival analysis and found that there was no survival difference between these two groups. 
 
