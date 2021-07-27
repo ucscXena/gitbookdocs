@@ -96,7 +96,7 @@ Our goal is to create two subgroups, those samples with aberrations in _EGFR_ an
 You must have the **copy number variation column as column C** for the search term  **'**\(mis OR infra\) OR C:&gt;0.5' to work. The 'C' in 'C:&gt;0.5' is instructing Xena to search in column C for values that are greater than 0.5.
 {% endhint %}
 
-1. Click the filter menu and select 'New column subgroup'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\).
+1. Click the filter menu and select 'New subgroup column'. This will create a new column that has samples that met our search term marked as 'true' \(ie. those that have an _EGFR_ aberration\) and those that did not meet our search term as 'false' \(ie. those that do not have an _EGFR_ aberration\).
 2. Click the column menu for the column we just created \(column B\) and chose 'Display'.
 3. Rename the display so that samples that are 'true' are instead labeled as 'EGFR Aberrations' and the samples that are 'false' are instead labeled as 'No EGFR Aberrations'. Click 'Done'
 4. Delete the search term. This will remove the black tick marks for matching samples.
