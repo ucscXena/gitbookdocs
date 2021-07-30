@@ -52,8 +52,7 @@ Example, map without image
       {
         "label": "display label of the map",
         "dataSubType": "embedding",
-        "dimension": ["UMAP_1","UMAP_2","UMAP_3"],
-        
+        "dimension": ["UMAP_1","UMAP_2","UMAP_3"] 
       }
     ]
 }
@@ -74,29 +73,29 @@ Example, map with microscopy image
        	"image": [
 		    {
 		        "label": "display label of the image",
-                "channel":
-                {
-                    "red":"CD45",
-                    "green":"Pan-Cytokeratin",
-                    "blue":"DAPI"
-                },
-                "path": "image file path",
-                "size": [24240, 24240],
-                "offset": [0,0],
-                "image_scalef": 1,
-            },
-            {
-                "label": "display label of the image",
-                "channel":
-                {
-                    "red":"CD45",
-                    "green":"Pan-Cytokeratin"
-                },
-                "path": "image file path",
-                "size": [2000, 2000],
-                "offset": [0,0],
-                "image_scalef": 0.08250825
-            }]
+			"channel":
+			{
+			    "red":"CD45",
+			    "green":"Pan-Cytokeratin",
+			    "blue":"DAPI"
+			},
+			"path": "image file path",
+			"size": [24240, 24240],
+			"offset": [0,0],
+			"image_scalef": 1,
+		    },
+		    {
+			"label": "display label of the image",
+			"channel":
+			{
+			    "red":"CD45",
+			    "green":"Pan-Cytokeratin"
+			},
+			"path": "image file path",
+			"size": [2000, 2000],
+			"offset": [0,0],
+			"image_scalef": 0.08250825
+		    }]
       }]
 }
 ```
