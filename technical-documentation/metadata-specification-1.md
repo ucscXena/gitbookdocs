@@ -20,7 +20,7 @@ For each map
 
 If it is a spatial map, there might be microscopy image(s) associated with each map. 
 
-**"image"**  (optional) an array of images, each image is a json object. See below.
+**"image"**  (optional, only relevant to a spatial map) an array of images, each image is a json object. See below.
 
 <br>
 
@@ -58,7 +58,7 @@ Example, map without image
 }
 ```
 
-Example, map with microscopy image
+Example, spatial map with matching microscopy image
 ```javascript
 {
     "type": "clinicalMatrix",
