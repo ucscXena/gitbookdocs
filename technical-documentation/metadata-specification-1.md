@@ -32,7 +32,7 @@ For each image
 
 **"path"** file path to the image file
 
-**"size"** an array of intergers. Image size in pixels. If the spatial map is 2D, the image is 2D with size of [int, int]
+**"size"** an array of intergers. Image size in pixels.
 
 **"offset"** an array of intergers. Image offset in pixels. The offset converts spatial map coordinate to its corresponding pixel position in the full-resolution image.
 
