@@ -64,7 +64,7 @@ For more information on other supported column headers for our Kaplan Meier anal
 
 {% page-ref page="../local-xena-hub/km-plots-using-data-from-a-local-xena-hub.md" %}
 
-[**Ending data after manipulation**](https://drive.google.com/file/d/1FnQZ2vi6uOhuMFORheIoT0fprx_GVd85/view?usp=sharing)\*\*\*\*
+[**Genomic and Clinical data to load into Xena**](https://drive.google.com/file/d/1FnQZ2vi6uOhuMFORheIoT0fprx_GVd85/view?usp=sharing)\*\*\*\*
 
 #### Steps to format the file
 
@@ -80,6 +80,10 @@ For more information on other supported column headers for our Kaplan Meier anal
 
 {% hint style="success" %}
 There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is ready to be loaded into the Local Xena Hub on your computer as is.
+{% endhint %}
+
+{% hint style="info" %}
+[**Genomic and Clinical data to load into Xena** ](https://drive.google.com/file/d/1FnQZ2vi6uOhuMFORheIoT0fprx_GVd85/view?usp=sharing)
 {% endhint %}
 
 ### Part B
@@ -123,7 +127,7 @@ If you have already loaded data previously, you may see datasets and cohorts lis
 3. Choose 'Phenotypic Data' and click 'Next'.
 4. Choose 'The first column is sample IDs' and click 'Next'
 5. Choose 'These are the first data on these samples.', change the study name to 'CGGA', and click 'Import'.
-6. Choose 'XXXX load more data'
+6. Choose 'Load more data'
 7. Click 'Select Data File', choose 
 
    'CGGA.mRNAseq\_693.**RSEM-genes**.20200506.txt', and click 'Next'.

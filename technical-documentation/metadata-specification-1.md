@@ -18,17 +18,15 @@ For each map
 
 **"dimension"** a list of strings. They are the column headers of the dimention columns in the data file. They are used to retrieve data from db.
 
-If it is a spatial map, there might be microscopy image(s) associated with each map. 
+If it is a spatial map, there might be microscopy image\(s\) associated with each map.
 
-**"image"**  (optional, only relevant to a spatial map) an array of images, each image is a json object. See below.
-
-<br>
+**"image"** \(optional, only relevant to a spatial map\) an array of images, each image is a json object. See below.
 
 For each image
 
 **"label"** free text. Display label of the image, should be easily readable by users
 
-**"channel"** json object. Key-value pairs. Key is color, value is of each color channel is represented, such as DAPI. 
+**"channel"** json object. Key-value pairs. Key is color, value is of each color channel is represented, such as DAPI.
 
 **"path"** file path to the image file
 
@@ -36,9 +34,7 @@ For each image
 
 **"offset"** an array of intergers. Image offset in pixels. The offset converts spatial map coordinate to its corresponding pixel position in the full-resolution image.
 
-**"image_scalef"**: floating point number. A scaling factor that converts pixel positions in the original, full-resolution image to pixel positions in this image.
-
-<br>
+**"image\_scalef"**: floating point number. A scaling factor that converts pixel positions in the original, full-resolution image to pixel positions in this image.
 
 Example, map without image
 
@@ -59,6 +55,7 @@ Example, map without image
 ```
 
 Example, spatial map with matching microscopy image
+
 ```javascript
 {
     "type": "clinicalMatrix",
@@ -70,36 +67,35 @@ Example, spatial map with matching microscopy image
         "label": "display label of the map",
         "dataSubType": "embedding",
         "dimension": ["UMAP_1","UMAP_2","UMAP_3"],
-       	"image": [
-		    {
-		        "label": "display label of the image",
-			"channel":
-			{
-			    "red":"CD45",
-			    "green":"Pan-Cytokeratin",
-			    "blue":"DAPI"
-			},
-			"path": "image file path",
-			"size": [24240, 24240],
-			"offset": [0,0],
-			"image_scalef": 1,
-		    },
-		    {
-			"label": "display label of the image",
-			"channel":
-			{
-			    "red":"CD45",
-			    "green":"Pan-Cytokeratin"
-			},
-			"path": "image file path",
-			"size": [2000, 2000],
-			"offset": [0,0],
-			"image_scalef": 0.08250825
-		    }]
+           "image": [
+            {
+                "label": "display label of the image",
+            "channel":
+            {
+                "red":"CD45",
+                "green":"Pan-Cytokeratin",
+                "blue":"DAPI"
+            },
+            "path": "image file path",
+            "size": [24240, 24240],
+            "offset": [0,0],
+            "image_scalef": 1,
+            },
+            {
+            "label": "display label of the image",
+            "channel":
+            {
+                "red":"CD45",
+                "green":"Pan-Cytokeratin"
+            },
+            "path": "image file path",
+            "size": [2000, 2000],
+            "offset": [0,0],
+            "image_scalef": 0.08250825
+            }]
       }]
 }
 ```
-
 
 ## survival time unit
 
