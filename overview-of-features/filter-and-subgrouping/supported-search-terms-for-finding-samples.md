@@ -57,15 +57,15 @@ and choose 'Remove samples'. To find all samples that do not have data for just 
 
 ## Sample IDs 
 
-Whether the sample ID column is in view or not, it is always possible to enter a sample ID to find that one sample of interest. Some examples:
+Enter a sample ID to find a sample of interest. An example:
 
 > TCGA-DB-A4XH
 
-Or
+If you are searching for multiple sample IDs, you will need to separate each by an 'OR'. You can copy and paste a list of sample IDs into the search bar as long as they are separated by a space, tab, or return \(new line\).
 
-> TCGA-DB-A4XH TCGA-2F-A9KO-01 TCGA-02-0001
+> TCGA-DB-A4XH OR TCGA-2F-A9KO-01 OR TCGA-02-0001
 
-Try using 'alt-click' to freeze the tooltip for copying a sample ID. 
+[Use 'alt-click' to freeze](../../how-do-i/freeze-and-un-freeze-tooltip.md) for copying a sample ID from the tooltip. 
 
 ## Search a specific column 
 
