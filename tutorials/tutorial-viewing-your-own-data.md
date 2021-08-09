@@ -64,7 +64,7 @@ For more information on other supported column headers for our Kaplan Meier anal
 
 {% page-ref page="../local-xena-hub/km-plots-using-data-from-a-local-xena-hub.md" %}
 
-[**Genomic and Clinical data to load into Xena**](https://drive.google.com/file/d/1FnQZ2vi6uOhuMFORheIoT0fprx_GVd85/view?usp=sharing)\*\*\*\*
+\*\*\*\*[**Genomic and Clinical data to load into Xena**](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)\*\*\*\*
 
 #### Steps to format the file
 
@@ -83,7 +83,7 @@ There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is r
 {% endhint %}
 
 {% hint style="info" %}
-[**Genomic and Clinical data to load into Xena** ](https://drive.google.com/file/d/1FnQZ2vi6uOhuMFORheIoT0fprx_GVd85/view?usp=sharing)
+\*\*\*\*[**Genomic and Clinical data to load into Xena** ](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)\*\*\*\*
 {% endhint %}
 
 ### Part B
