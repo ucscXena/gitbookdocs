@@ -20,6 +20,8 @@ For each map
 
 If it is a spatial map, there might be microscopy image\(s\) associated with each map.
 
+**"spot_diameter_fullres"** (optional, for visium  platform) a floting point number. The number of pixels that span the diameter of a tissue spot in the original, full-resolution image.
+
 **"image"** \(optional, only relevant to a spatial map\) an array of images, each image is a json object. See below.
 
 For each image
@@ -67,7 +69,8 @@ Example, spatial map with matching microscopy image
         "label": "display label of the map",
         "dataSubType": "embedding",
         "dimension": ["UMAP_1","UMAP_2","UMAP_3"],
-           "image": [
+        "spot_diameter_fullres": 178.37655999999998,
+        "image": [
             {
                 "label": "display label of the image",
             "channel":
