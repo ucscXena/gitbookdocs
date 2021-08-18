@@ -1,18 +1,15 @@
 ---
-description: 'Videos, slides, and other materials to get you started using UCSC Xena'
+description: >-
+  Step-by-step tutorials, videos, and other materials to get you started using
+  UCSC Xena. If you have a specific question, check out our 'How do I ...'
+  Guides
 ---
 
 # Tutorials
 
-Welcome to Xena. Below is an overview of what Xena is followed by a few tutorials. 
+## [Basic Step-by-Step Tutorial](basic-tutorial-section-1.md)
 
-We recommend starting with the [Basic Tutorial Sections](basic-tutorial-section-1.md) listed in the left panel.
-
-If you have a specific question, check out our ['How do I ...' Guides](../how-do-i/).
-
-## Workshop Cheatsheet/Handout
-
-{% file src="../.gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
+## [Advanced Step-by-Step Tutorial](advanced-tutorial-section-1.md)
 
 ## Video Tutorials
 
@@ -26,17 +23,15 @@ If you have a specific question, check out our ['How do I ...' Guides](../how-do
 
 ### Advanced Video Tutorial \(55 min\)
 
-Recording of tutorial given for NCI in **May 2021**, which includes closed captioning: [https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754](https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754)
+Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
-## Advanced Slide Tutorial
+[https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754](https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754)
 
-This slide deck assumes that you have completed the Basic Tutorial Sections 1-3. This slide deck goes through more advanced walkthroughs.
 
-{% hint style="warning" %}
-This slide deck does not cover our newest feature, [Differential Gene Expression Analysis](../overview-of-features/differential-gene-expression.md).
-{% endhint %}
 
-{% embed url="https://docs.google.com/presentation/d/1Esd3HIhlJCp4xIYj2yeizj5yvP17a0grWzQxa3KoChc/" %}
+## Workshop Cheatsheet/Handout
+
+{% file src="../.gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
 
 ## Request a workshop
 

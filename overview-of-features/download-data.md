@@ -10,7 +10,7 @@ description: There are 4 ways to download data
 
 2. Download data in an entire Visual Spreadsheet In a Visual Spreadsheet, clicking on the download icon in the upper right corner of the spreadsheet.
 
-![](../.gitbook/assets/screen-shot-2019-11-01-at-2.51.29-pm%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2019-11-01-at-2.51.29-pm%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 3. Bulk download a whole dataset file Click top banner "**Data Sets**" to navigate to the dataset of your interest, where a **download url** link is in the page. You can also reach the dataset page by clicking on the column Hamburger menu, then "**About**".  Click on the **download url** to download the entire dataset. Or use "wget", "curl" to download from command line. 
 
