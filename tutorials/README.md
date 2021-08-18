@@ -11,6 +11,10 @@ description: >-
 
 ## [Advanced Step-by-Step Tutorial](advanced-tutorial-section-1.md)
 
+## [How do I ... guides](../how-do-i/)
+
+These guides are useful if you have a specific question.
+
 ## Video Tutorials
 
 ### Video Overview of Xena \(5 min\)
