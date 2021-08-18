@@ -11,10 +11,6 @@ description: >-
 
 ## [Advanced Step-by-Step Tutorial](advanced-tutorial-section-1.md)
 
-## [How do I ... guides](../how-do-i/)
-
-These guides are useful if you have a specific question.
-
 ## Video Tutorials
 
 ### Video Overview of Xena \(5 min\)
@@ -31,11 +27,13 @@ Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
 [https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754](https://cbiit.webex.com/cbiit/lsr.php?RCID=acf4ea46dd9e41338662f0ba1ac59754)
 
-
-
 ## Workshop Cheatsheet/Handout
 
 {% file src="../.gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
+
+## How do I ...
+
+[How do I ... guides](../how-do-i/) are useful if you have a specific question.
 
 ## Request a workshop
 
