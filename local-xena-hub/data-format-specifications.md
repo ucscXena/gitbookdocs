@@ -12,7 +12,7 @@ Please do not have any duplicate genes/probes/identifiers or samples. We will al
 
 Please use a blank or ‘NA’ for no data.
 
-We assume you use a '.' to indicate a decimal place as opposed to a ',' , which is used in some  languages.
+We assume you use a '.' to indicate a decimal place as opposed to a ',' , which is used in some languages.
 
 Here is a[ folder](https://drive.google.com/file/d/0BxeGFxkAhivXVkwyMmh2cVZ6U00) with example data in addition to the examples below.
 
@@ -76,7 +76,7 @@ Example segmented copy number data with required columns:
 
 | **sample** | **chr** | **start** | **end** | **value** |
 | :--- | :--- | :--- | :--- | :--- |
-| **TCGA-V4-A9EL-01** | **chr1** | **61735**   | **16815530** | **0.041** |
+| **TCGA-V4-A9EL-01** | **chr1** | **61735** | **16815530** | **0.041** |
 | **TCGA-V4-A9EL-01** | **chr1** | **16816090** | **17190862** | **-0.4227** |
 | **TCGA-V4-A9EF-01** | **chr4** | **86979944** | **115173700** | **0.0414** |
 
@@ -84,7 +84,7 @@ Example segmented copy number data with required columns:
 
 For positional data, we require 6 columns: sample, chr, start, end, reference, alt. Note that your column headers must be these names exactly!
 
-Other columns that may follow are: gene, effect, DNA\_VAF, RNA\_VAF, and Amino\_Acid\_Change. These other columns are not required but will enhance the visualization of this data, such as the “effect” column will color the mutations by effect \(the default color is gray\). The effect terms are "Nonsense" (color red), "Frameshift" (red), "Splice" (orange), "missense" (blue), "Silent" (green), and etc. The full list of accetpted terms can be found [here in our code](https://github.com/ucscXena/ucsc-xena-client/blob/master/js/models/mutationVector.js#L85).
+Other columns that may follow are: gene, effect, DNA\_VAF, RNA\_VAF, and Amino\_Acid\_Change. These other columns are not required but will enhance the visualization of this data, such as the “effect” column will color the mutations by effect \(the default color is gray\). The effect terms are "Nonsense" \(color red\), "Frameshift" \(red\), "Splice" \(orange\), "missense" \(blue\), "Silent" \(green\), and etc. The full list of accetpted terms can be found [here in our code](https://github.com/ucscXena/ucsc-xena-client/blob/master/js/models/mutationVector.js#L85).
 
 {% hint style="info" %}
 Note that Xena will not call the gene, variant effect, etc for you. All metadata must be included in the file

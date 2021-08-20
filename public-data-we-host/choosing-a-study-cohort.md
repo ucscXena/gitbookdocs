@@ -48,7 +48,8 @@ The table below assumes that you are interested in TCGA data. These data types m
 | :--- | :--- |
 | Compare Tumor vs Normal | TCGA, TARGET, GTEx |
 | GRCh38 coordinates | Any GDC study |
-| Cell Lines | CCLE |
+| Cell Line | CCLE |
+| Disease specific survival, disease free survival, progression free survival | TCGA Pan-Cancer \(PANCAN\) |
 
 
 
