@@ -16,7 +16,7 @@ Note that if you use the TCGA Pan-Cancer \(PANCAN\) to study a specific cancer t
 
 **If you don't want to filter ...**
 
-Our second most recommended datasets are the cancer-specific GDC studies. These avoid the need to filter down to a single cancer type and contain the harmonized data from the Genomic Data Commons.
+Our second most recommended datasets are the cancer-specific GDC TCGA studies. These avoid the need to filter down to a single cancer type and contain harmonized data from the Genomic Data Commons.
 
 {% hint style="info" %}
 [GDC Data Hub](https://xenabrowser.net/datapages/?host=https%3A%2F%2Fgdc.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
