@@ -13,9 +13,9 @@ description: >-
 
 ## Video Tutorials
 
-### Video Overview of Xena \(5 min\)
+### Video Overview of Xena \(2 min\)
 
-{% embed url="https://youtu.be/TSNc-EDjix4" %}
+{% embed url="https://vimeo.com/592993410" %}
 
 ### Beginner Video Tutorial \(17 min\)
 
