@@ -13,15 +13,15 @@ description: >-
 
 ## Video Tutorials
 
-### Video Overview of Xena \(2 min\)
+### Overview of Xena \(2 min\)
 
 {% embed url="https://vimeo.com/592993410" %}
 
-### Beginner Video Tutorial \(17 min\)
+### Beginner Tutorial \(17 min\)
 
 {% embed url="https://www.youtube.com/watch?v=m36vtNmxnzI" %}
 
-### Advanced Video Tutorial \(55 min\)
+### Advanced Tutorial \(55 min\)
 
 Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
