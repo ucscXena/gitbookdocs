@@ -20,7 +20,9 @@ For each map
 
 If it is a spatial map, there might be microscopy image\(s\) associated with each map.
 
-**"spot\_diameter\_fullres"** \(optional, relevant to visium platform\) a floting point number. The number of pixels that span the diameter of a tissue spot in the original, full-resolution image.
+**"micrometer\_per\_pixel_fullres"** \(optional, only relevent to spatial map\) a floting point number. The physical size of a pixel in micrometer (µm) in a full-resolution image.
+
+**"spot\_diameter\_fullres"** \(optional, relevant to spatial map, visium platform\) a floting point number. The number of pixels that span the diameter of a tissue spot in the original, full-resolution image. The parameter will be used in rendering scale bar is the spatil map.
 
 **"image"** \(optional, only relevant to a spatial map\) an array of images, each image is a json object. See below.
 
@@ -70,6 +72,7 @@ Example, spatial map with matching microscopy image
         "dataSubType": "embedding",
         "dimension": ["UMAP_1","UMAP_2","UMAP_3"],
         "spot_diameter_fullres": 178.37655999999998,
+        "micrometer_per_pixel_fullres": 0.3083364764966877,
         "image": [
             {
                 "label": "display label of the image",
@@ -100,7 +103,7 @@ Example, spatial map with matching microscopy image
 }
 ```
 
-## survival time unit
+## SURVIVAL TIME UNIT
 
 Surival time unit is displayed on the x-axis of the KM plot. You specify it in metadata file under the **"units"** attribute.
 
