@@ -6,7 +6,7 @@ description: Step-by-step instructions to viewing your own data
 
 ## **Overview**
 
-Viewing your own data is easy! Simply:
+Get started viewing your own data:
 
 1. [Install a Local Xena Hub on your computer](getting-started.md#installing-a-local-xena-hub)
 2. [Start the Local Xena Hub](getting-started.md#starting-running-a-local-xena-hub)
@@ -17,23 +17,23 @@ We support most types of [genomic and/or phenotypic/clinical/annotation data](da
 
 Data can be your own or from another source, like [GEO](https://www.ncbi.nlm.nih.gov/geo/) or a publication.
 
-We support tab-delimited and Microsoft Excel files \(.xlsx and .xls\).   
+We support tab-delimited \(.tsv and .txt\) and Microsoft Excel files \(.xlsx and .xls\).   
   
 Data on a Local Xena Hub can only be viewed or accessed by the same computer on which it is running, keeping private data secure.
 
 The Local Xena Hub must be installed and running in order to load data, as well as any time you want to view data. The Local Xena Hub will remember previously loaded data.
 
 {% hint style="warning" %}
-Please use Chrome or Firefox to view your own data.
+Please use Chrome to view your own data.
 {% endhint %}
 
 ## **Installing a Local Xena Hub**
 
-Click on [**VIEW MY DATA**](https://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223) ****and you will be prompted to download and install a local Xena Hub. 
+Click on [**VIEW MY DATA**](https://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223)**. Y**ou will be prompted to download and install a local Xena Hub. 
 
 Double click on the download to begin the installation of the Xena Hub. Follow the wizard to finish the install.
 
-### System requirements
+### System requirements for Xena Hub
 
 * Mac: OSX 10.7 and above
 * Windows: 64-bit
@@ -41,7 +41,7 @@ Double click on the download to begin the installation of the Xena Hub. Follow t
 
 ## **Starting/running a Local Xena Hub**
 
-After installing a local Xena Hub, go back to [**VIEW MY DATA**](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223) to auto-start the Hub. If it does not automatically start, refresh the page or double click on the Xena Hub application on your computer. The Xena Hub application should be in your Applications folder for Mac and Windows. Note that it typically takes a minute or two to start up.
+After installing a local Xena Hub, go back to [**VIEW MY DATA**](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223) to auto-start the Hub. If it does not automatically start, refresh the page or double click on the Xena Hub application on your computer. The Xena Hub application should be in your Applications folder for Mac and Windows. Note that it will take up to one minute to start up.
 
 ## **Loading data into a Local Xena Hub**
 
@@ -51,7 +51,7 @@ You can also load data [via the command line](loading-data-from-the-command-line
 
 ## **Viewing data from a Local Xena Hub**
 
-Click on [**VISUALIZATION**](https://xenabrowser.net/). If your study is not already selected as step 1 of the wizard, then select it from the drop down and click 'Done'. Note that if you did not enter a study name your data will be under 'New Study'.
+Click on [**VISUALIZATION**](https://xenabrowser.net/). If your study is not already selected as step 1 of the wizard, then select it from the drop down and click 'Done'. Note that if you did not enter a study name your data will be under 'My Study'.
 
 ### Gene names and identifiers for genomic data
 
@@ -59,7 +59,7 @@ When you loaded your genomic data we asked what type of genes, transcripts or pr
 
 ### Help! I don't see my study listed
 
-You Local Xena Hub must be running to view any data that you have loaded into it. Please ensure it is started up. You can also check which studies are on your hub and what data is in them by going to the My Computer Hub page: [xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223).
+You Local Xena Hub must be running to view any data that you have loaded into it. Please ensure it is running on your computer. You can also check which studies are on your hub and what data is in them by going to the [My Computer Hub page](https://xenabrowser.net/datapages/?host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223).
 
 ## Data security
 

@@ -20,7 +20,7 @@ For each map
 
 If it is a spatial map, there might be microscopy image\(s\) associated with each map.
 
-**"micrometer\_per\_pixel_fullres"** \(optional, only relevent to spatial map\) a floting point number. The physical size of a pixel in micrometer (µm) in a full-resolution image.
+**"micrometer\_per\_pixel\_fullres"** \(optional, only relevent to spatial map\) a floting point number. The physical size of a pixel in micrometer \(µm\) in a full-resolution image.
 
 **"spot\_diameter\_fullres"** \(optional, relevant to spatial map, visium platform\) a floting point number. The number of pixels that span the diameter of a tissue spot in the original, full-resolution image. The parameter will be used in rendering scale bar is the spatil map.
 

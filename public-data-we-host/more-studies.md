@@ -42,3 +42,7 @@ TARGET data is intended exclusively for biomedical research using pediatric data
 
 The goal of the Treehouse Childhood Cancer Initiative \(Treehouse\) is to evaluate the utility of comparative gene expression analysis for difficult-to-treat pediatric cancer patients. Approaching 2000 pediatric tumor data, Treehouse has now assembled a large collection of pediatric cancer RNA-Seq, which, added to adult data, results in a compendium of over 11,000 adult and pediatric tumor-derived gene expression data. Pediatric cancer expression data are from public repository samples and from clinical samples at partner institutions, including UC San Francisco, Stanford, Children’s Hospital of Orange County and British Columbia Cancer Agency. In line with UC Santa Cruz Genomics Institute’s commitment to sharing data and to furthering research everywhere, we have made this data available for all to download and use.
 
+## Interested in a dataset we don't have?
+
+Don't see a study or dataset that you are interested in? [Set up a hub,](../local-xena-hub/) for yourself or your group, with the data you need.
+
