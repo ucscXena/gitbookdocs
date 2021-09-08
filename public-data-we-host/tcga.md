@@ -9,7 +9,11 @@ TCGA is our most used data resource. We host several versions of the TCGA data.
 * [TCGA data in the UCSC RNA-seq Recompute Compendium](https://toil.xenahubs.net/) TCGA data has been co-analyzed with GTEx data using the UCSC bioinformatic pipeline \(TOIL RNA-seq\) and can be used to compare tumor vs normal gene and transcript expression from the matching tissue of origin. Xena hosts gene and transcript expression results of the UCSC RNA-seq recompute compendium.
 * [Legacy TCGA data](https://tcga.xenahubs.net/) Data generated and published by TCGA Research Network before the Pan-Cancer Atlas publications. Xena displays the level-3 data.
 
-This paper helps clarify the differences between the Legacy TCGA data and the TCGA data on the GDC
+{% hint style="info" %}
+### [Please see our help page on how to choose between these different versions of the TCGA data](choosing-a-study-cohort.md)
+{% endhint %}
+
+This paper helps clarify the differences between the Legacy TCGA data and the TCGA data on the GDC:
 
 {% embed url="https://gdc.cancer.gov/about-data/publications/HG38QC" %}
 

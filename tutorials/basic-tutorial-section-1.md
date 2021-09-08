@@ -13,8 +13,8 @@ This tutorial is intended for those who have never used Xena before. We will cov
 This tutorial assumes a basic understanding of 
 
 * cancer processes that can lead to altered gene expression, such as copy number variation or mutations
-* RNAseq gene expression, copy number variation, and mutational genomic sequencing data.
-* the Cancer Genome Atlas \(TCGA\)
+* RNAseq gene expression, copy number variation, and mutational genomic sequencing data
+* The Cancer Genome Atlas \(TCGA\)
 
 These resources can help you gain a basic understanding of these concepts:
 
@@ -47,7 +47,7 @@ These resources can help you gain a basic understanding of these concepts:
 
 ## Tutorial
 
-We are going to be examining _EGFR_ aberrations in lung adenocarcinomas using TCGA. We will be looking at mutation and copy number aberrations and how they affect gene expression.
+We are going to be examining _EGFR_ aberrations in lung adenocarcinomas using TCGA data. We will be looking at mutation and copy number aberrations and how they affect gene expression.
 
 {% embed url="https://docs.google.com/presentation/d/1wKUwb2ThTZ4joU5ExyDWPS7tuQ5keHnrpzJ7dMtMErA/edit?usp=sharing" %}
 
@@ -71,7 +71,7 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 
 #### How to read a Visual Spreadsheet
 
-Samples are on the y-axis and your columns of data are on the x-axis. We line up all columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
+Samples are on the y-axis and your columns of data are on the x-axis. We line up columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
 
 #### Biological interpretation
 
@@ -83,6 +83,12 @@ More information
 * [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/#after-you-made-a-visual-spreadsheet)
 * [Colors and values in columns](../overview-of-features/visual-spreadsheet/#data-values)
 * [Sample sorting](../overview-of-features/visual-spreadsheet/#sample-sorting)
+{% endhint %}
+
+{% hint style="info" %}
+**Making your own Visual Spreadsheet: Choosing a TCGA study**
+
+[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we arbitrarily selected the TCGA data from the GDC. [This page can help you decide which version of TCGA data to use for your own analysis.](../public-data-we-host/choosing-a-study-cohort.md)
 {% endhint %}
 
 ### Part B
