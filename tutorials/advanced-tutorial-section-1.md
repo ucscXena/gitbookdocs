@@ -24,9 +24,9 @@ Create a visual spreadsheet that include a chromosome-wide column and data from 
 
 ## Tutorial <a id="tutorial"></a>
 
-We will investigate the _ERG-TMPRSS2_ gene fusion and _TMPRSS2_ promoter hijacking in TCGA Prostate Cancer.
+We will investigate the _ERG-TMPRSS2_ gene fusion and _TMPRSS2_ promoter hijacking in patients from the TCGA Prostate Cancer study.
 
-_ERG_ is an oncogene that expressed at low levels in normal prostate tissue. Some prostate cancer samples have higher expression of _ERG_. These samples tend to have an intra-chromosomal deletion that fuses _ERG_ to _TMPRSS2_. As _TMPRSS2_ is expressed at high levels in normal prostate tissue, this allows _ERG_ to hijack the _TMPRSS2_ promoter which leads to increased _ERG_ expression.
+_ERG_ is an oncogene that expressed at low levels in normal prostate tissue. Some patient's prostate cancer samples have higher expression of _ERG_. These samples tend to have an intra-chromosomal deletion that fuses _ERG_ to _TMPRSS2_. As _TMPRSS2_ is expressed at high levels in normal prostate tissue, this allows _ERG_ to hijack the _TMPRSS2_ promoter which leads to increased _ERG_ expression.
 
 {% embed url="https://docs.google.com/presentation/d/1kiGz-L6Z2Qm4PwMs3Sbtvtr1tF-xd3PXOUAetamt\_6k/edit?usp=sharing" %}
 
@@ -38,7 +38,7 @@ Note that column D may look slight different, depending on how resize and zoom t
 
 ![](../.gitbook/assets/screen-shot-2021-06-10-at-12.46.32-pm.png)
 
-We can now see that there are many samples with relatively high expression of _ERG_ \(column B\), and that if we look more closely that this relatively high expression is not uniform across the exons of _ERG_, but instead is in the exons closer to the 3' end of the gene \(column C\). Looking at column D, we can see that these samples that have relatively high expression also have an interchromosomal deletion of part of chromosome 21. If we hover over the genes at either end of the deletion, we can see that the end points fall within _ERG_ and _TMPRSS2_. 
+We can now see that there are many patient's samples with relatively high expression of _ERG_ \(column B\), and that if we look more closely that this relatively high expression is not uniform across the exons of _ERG_, but instead is in the exons closer to the 3' end of the gene \(column C\). Looking at column D, we can see that these samples that have relatively high expression also have an interchromosomal deletion of part of chromosome 21. If we hover over the genes at either end of the deletion, we can see that the end points fall within _ERG_ and _TMPRSS2_. 
 
 #### Steps <a id="steps"></a>
 

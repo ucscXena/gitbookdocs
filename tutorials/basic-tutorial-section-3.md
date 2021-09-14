@@ -32,11 +32,11 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Tutorial
 
-In the Basic Tutorial: Section 1 we found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
+In the Basic Tutorial: Section 1 we found that patient's samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
 
-In the Basic Tutorial: Section 2 we created two subgroups: those with aberrations and those without aberrations in _EGFR_. We ran a Kaplan Meier survival analysis and found that there was no survival difference between these two groups.
+In the Basic Tutorial: Section 2 we created two subgroups: those patient's samples with aberrations and those without aberrations in _EGFR_. We ran a Kaplan Meier survival analysis and found that there was no survival difference between these two groups.
 
-Now we are going to use the subgroups created in the Basic Tutorial: Section 2 to see if there is a statistical difference in expression between the two subgroups and whether males or females have more aberrations.
+Now we are going to use the subgroups created in the Basic Tutorial: Section 2 to see if there is a statistical difference in expression between the two subgroups and whether samples from males or females have more aberrations.
 
 {% hint style="warning" %}
 To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
@@ -44,13 +44,13 @@ To ensure your columns are sorted the same as those in this tutorial, please sta
 
 ### Part A
 
-We found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression. Now we are going to investigate if this difference in expression statistically significant.
+We found that patient's samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression. Now we are going to investigate if this difference in expression statistically significant.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=dc05bbdcf590f7df4506fbcd721f60b5)
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
 
-We can now see that samples with _EGFR_ aberrations have statistically higher expression.
+We can now see that patient's samples with _EGFR_ aberrations have statistically higher expression.
 
 #### Steps
 
@@ -72,13 +72,13 @@ More information
 
 ### Part B
 
-We will now investigate how _EGFR_ aberrations compare between men and women.
+We will now investigate how _EGFR_ aberrations compare between men's and women's samples.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=8ac908b928e0332e8dfa3e306488d543)
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-12.01.47-pm.png)
 
-We can now see that _EGFR_ aberrations are more common in females.
+We can now see that _EGFR_ aberrations are more common in samples from females.
 
 **Steps**
 
@@ -109,7 +109,7 @@ More information
 
 {% tabs %}
 {% tab title="Question 1" %}
-Starting at the end of Part A, create a violin plot that compares copy number variation between samples that have _EGFR_ aberrations and those that do not.
+Starting at the end of Part A, create a violin plot that compares copy number variation between patient's samples that have _EGFR_ aberrations and those that do not.
 {% endtab %}
 
 {% tab title="Answer 1" %}

@@ -114,7 +114,7 @@ TFAC30 gene expression signature:
 =E2F3 + MELK + RRM2 + BTG3 - CTNND2 - GAMT - METRN - ERBB4 - ZNF552 - CA12 - KDM4B - NKAIN1 - SCUBE2 - KIAA1467 - MAPT - FLJ10916 - BECN1 - RAMP1 - GFRA1 - IGFBP4 - FGFR1OP - MDM2 - KIF3A - AMFR - MED13L - BBS4
 {% endhint %}
 
-We can see that samples that are labeled as 'Her2' and 'Basal' are predicted to be more likely to achieve pCR on TFAC chemotherapy.
+We can see that patient's samples that are labeled as 'Her2' and 'Basal' are predicted to be more likely to achieve pCR on TFAC chemotherapy.
 
 #### Video of step 1
 

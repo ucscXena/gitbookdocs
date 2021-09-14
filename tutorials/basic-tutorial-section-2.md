@@ -41,9 +41,9 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Tutorial
 
-In the Basic Tutorial Section 1 we found that we found that samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
+In the Basic Tutorial Section 1 we found that we found that samples from patients that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
 
-Now we are going to investigate whether those samples with aberrations have a worse survival prognosis.
+Now we are going to investigate whether those patient with aberrations in their samples also have a worse survival prognosis.
 
 {% hint style="warning" %}
 To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
@@ -51,7 +51,7 @@ To ensure your columns are sorted the same as those in this tutorial, please sta
 
 ### Part A
 
-Our goal is to remove samples with no data \(i.e. null\) from the view. This will make the view look cleaner and remove irrelevant samples from our Kaplan Meier survival analysis.
+Our goal is to remove patient's samples with no data \(i.e. null\) from the view. This will make the view look cleaner and remove irrelevant samples from our Kaplan Meier survival analysis.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=1420a515a2cd26f4bf12d267a857e5f8)
 
@@ -82,7 +82,7 @@ Instead of typing 'null' and removing those samples from the view, you can also 
 
 ### Part B
 
-Our goal is to create two subgroups, those samples with aberrations in _EGFR_ and those samples without aberrations in _EGFR_. We will then name the subgroups.
+Our goal is to create two subgroups, those patient's with samples with aberrations in _EGFR_ and those patient's samples without aberrations in _EGFR_. We will then name the subgroups.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=38be4e92f265543aa88f058bd618945d)
 
@@ -124,7 +124,7 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
 
-We can now see that there is no survival difference between samples with _EGFR_ aberrations and those without.
+We can now see that there is no survival difference between patients with _EGFR_ aberrations and those without.
 
 #### Steps
 
@@ -147,7 +147,7 @@ More information
 
 {% tabs %}
 {% tab title="Question 1" %}
-Starting at the end of Part A, filter down to only those samples that have a missense mutation.
+Starting at the end of Part A, filter down to only those patient's samples that have a missense mutation.
 {% endtab %}
 
 {% tab title="Answer 1" %}
@@ -161,7 +161,7 @@ Search term: "missense"
 
 {% tabs %}
 {% tab title="Question 2" %}
-Starting at the end of Part A, create two subgroups: those with _EGFR_ expression greater than 17 and those with _EGFR_ expression less than 17.
+Starting at the end of Part A, create two subgroups: those patient's samples with _EGFR_ expression greater than 17 and those with _EGFR_ expression less than 17.
 {% endtab %}
 
 {% tab title="Answer 2" %}
@@ -175,7 +175,7 @@ Search term: "B:&gt;17"
 
 {% tabs %}
 {% tab title="Question 3" %}
-Starting at the end of Part A, run a Kaplan Meier analysis on _EGFR_ expression column.
+Starting at the end of Part A, run a Kaplan Meier analysis on the _EGFR_ expression column.
 {% endtab %}
 
 {% tab title="Answer 3" %}

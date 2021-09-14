@@ -37,7 +37,7 @@ Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
 ## Request a workshop
 
-Workshops are a great way to teach a group of people how to use Xena. They can be 1-hour, 1/2-day, or 1-day in length. While we find that inn person workshops are the most effective, they can also be given remotely via Webex or a similar technology. We give workshops both within the USA and internationally. Please contact us for more information: [genome-cancer@soe.ucsc.edu](mailto:genome-cancer@soe.ucsc.edu)
+Workshops are a great way to teach a group of people how to use Xena. They can be 1-hour, 1/2-day, or 1-day in length. Currently we are only giving workshops remotely via Zoom or a similar technology. We give workshops both within the USA and internationally. Please contact us for more information: [genome-cancer@soe.ucsc.edu](mailto:genome-cancer@soe.ucsc.edu)
 
 ## 
 

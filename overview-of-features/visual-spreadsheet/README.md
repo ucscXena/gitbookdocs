@@ -80,7 +80,7 @@ If the entire column is gray this means we did not recognize your gene, probe, o
 
 More information about a dataset can be found in the dataset details page. To get there, click on the column menu and choose 'About'.
 
-![](../../.gitbook/assets/aboutmenu%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.gif)
+![](../../.gitbook/assets/aboutmenu%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.gif)
 
 ### Sample sorting
 

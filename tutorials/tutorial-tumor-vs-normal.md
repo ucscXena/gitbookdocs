@@ -8,7 +8,7 @@ description: >-
 
 ## Description
 
-This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to view tumor and normal samples side by side and how to compare gene expression for one or more genes between tumor and normal samples. 
+This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to view tumor and normal samples from healthy and diseased individuals side by side, and how to compare gene expression for one or more genes between tumor and normal samples. 
 
 We will be using both GTEx samples as our normal samples as well as TCGA matched normal samples. More information on GTEx normal samples can be found here:
 
@@ -37,7 +37,7 @@ This tutorial assumes a basic understanding of how to build and read a [Visual S
 
 ## Tutorial
 
-We will compare _MYC_ gene expression between TCGA and GTEx normal colon samples and TCGA colon adenocarcinoma tumor samples.
+We will compare _MYC_ gene expression between patient's samples in TCGA colon adenocarcinoma tumor samples and individuals normal colon tissue in GTEx.
 
 ### Part A
 
@@ -71,7 +71,7 @@ Our goal is to see if the difference in gene expression, where normal samples te
 
 ![](../.gitbook/assets/screen-shot-2021-06-08-at-2.02.19-pm.png)
 
-We can now see that tumor samples, both recurrent, primary, and metastatic, have higher expression compared to normal tissue, both matched normal tissue from TCGA and unmatched normal tissue from GTEx.
+We can now see that patient's tumor samples, both recurrent, primary, and metastatic, have higher expression compared to normal tissue, both patient's matched normal tissue from TCGA and unmatched individual's normal tissue from GTEx.
 
 #### Steps
 
@@ -88,7 +88,7 @@ We can now see that tumor samples, both recurrent, primary, and metastatic, have
 
 {% tabs %}
 {% tab title="Question" %}
-Compare EGFR gene expression between tumor and normal lung samples.
+Compare EGFR gene expression between patient's tumor samples and individual's normal lung tissue.
 {% endtab %}
 
 {% tab title="Answer" %}

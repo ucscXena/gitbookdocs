@@ -47,13 +47,13 @@ These resources can help you gain a basic understanding of these concepts:
 
 ## Tutorial
 
-We are going to be examining _EGFR_ aberrations in lung adenocarcinomas using TCGA data. We will be looking at mutation and copy number aberrations and how they affect gene expression.
+We are going to be examining _EGFR_ aberrations in patients with lung adenocarcinomas using TCGA data. We will be looking at mutation and copy number aberrations and how they affect gene expression.
 
 {% embed url="https://docs.google.com/presentation/d/1wKUwb2ThTZ4joU5ExyDWPS7tuQ5keHnrpzJ7dMtMErA/edit?usp=sharing" %}
 
 ### Part A
 
-Our goal is to build a Visual Spreadsheet and understand the relationship between the columns
+Our goal is to build a Visual Spreadsheet and understand the relationship between the columns of data.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
 
@@ -75,7 +75,7 @@ Samples are on the y-axis and your columns of data are on the x-axis. We line up
 
 #### Biological interpretation
 
-We can see that samples that have high expression of _EGFR_ \(red, column B\) tend to either have amplifications of _EGFR_ \(red,  column C\) or mutations in _EGFR_ \(blue tick marks, column D\)
+We can see that samples from TCGA patients that have high expression of _EGFR_ \(red, column B\) tend to either have amplifications of _EGFR_ \(red,  column C\) or mutations in _EGFR_ \(blue tick marks, column D\)
 
 {% hint style="success" %}
 More information
@@ -86,9 +86,9 @@ More information
 {% endhint %}
 
 {% hint style="info" %}
-**Making your own Visual Spreadsheet: Choosing a TCGA study**
+**Making your own Visual Spreadsheet: Which TCGA study to choose**
 
-[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we arbitrarily selected the TCGA data from the GDC. [This page can help you decide which version of TCGA data to use for your own analysis.](../public-data-we-host/choosing-a-study-cohort.md)
+[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we selected the TCGA data from the GDC. [**This page can help you decide which version of TCGA data to use for your own analysis.**](../public-data-we-host/choosing-a-study-cohort.md)\*\*\*\*
 {% endhint %}
 
 ### Part B
@@ -126,7 +126,7 @@ More information
 
 {% tabs %}
 {% tab title="Question 1" %}
-Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GDC TCGA Lower Grade Glioma.
+Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in samples from patients in the GDC TCGA Lower Grade Glioma study.
 {% endtab %}
 
 {% tab title="Answer 1" %}
@@ -138,7 +138,7 @@ Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in GD
 
 {% tabs %}
 {% tab title="Question 2" %}
-Change the Visual Spreadsheet from Question 1 so that the samples are sorted by mutations rather than gene expression.
+Change the Visual Spreadsheet from Question 1 so that the patient's samples are sorted by mutations rather than gene expression.
 {% endtab %}
 
 {% tab title="Answer 2" %}
