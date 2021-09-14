@@ -4,9 +4,9 @@ You will use the find samples feature \(highlighted below\) to make subgroups:
 
 ![](../.gitbook/assets/screen-shot-2021-01-19-at-3.36.32-pm.png)
 
-First, search for all the samples you want in one of your subgroups. Next, click the Filter + Subgroup menu and choose 'New subgroup column'.
+First, search for all the patient's samples you want in one of your subgroups. Next, click the Filter + Subgroup menu and choose 'New subgroup column'.
 
-This will create a new column will be created with your subgroups. All the samples that matched your search term will be in one subgroup and all the samples that did not match your search term will in the other subgroup. The samples that matched your search term will be labeled as 'true' and those that did not will be labeled as 'false'.
+This will create a new column will be created with your subgroups. All the patient's samples that matched your search term will be in one subgroup and all the samples that did not match your search term will in the other subgroup. The patient's samples that matched your search term will be labeled as 'true' and those that did not will be labeled as 'false'.
 
 Your new column can be used for a [KM analysis](how-do-i-make-a-km-plot.md) or to [compare gene expression](https://ucsc-xena.gitbook.io/project/how-to-pages-1/how-do-i-compare-gene-expression-between-subgroups).
 
@@ -19,7 +19,7 @@ More information:
 
 ## Example
 
-In this example we are creating two subgroups: those that have EGFR aberrations \(either mutations or copy number amplifications\) and those that do not in TCGA Lung Adenocarcinoma. 
+In this example we are creating two subgroups: those patient's samples that have EGFR aberrations \(either mutations or copy number amplifications\) and those that do not in the TCGA Lung Adenocarcinoma study. 
 
 ![](../.gitbook/assets/makesubgroups.gif)
 

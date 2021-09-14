@@ -4,7 +4,7 @@ description: For users who wish to compare data across different types of cancer
 
 # How do I view multiple types of cancer together?
 
-To view multiple types of cancer side-by-side, such as ovarian and breast together, you will need to start with a Pan-Cancer dataset and then filter down to just the cancer types you want to see. 
+To view multiple types of cancer patients side-by-side, such as ovarian cancer patients and breast cancer patients, you will need to start with a Pan-Cancer dataset and then filter down to just the cancer types you want to see. 
 
 There are 2 main Pan-Cancer studies:
 

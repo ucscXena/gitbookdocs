@@ -4,7 +4,7 @@ This page builds upon the basics of making subgroups:
 
 {% page-ref page="how-do-i-make-subgroups.md" %}
 
-To make more than 2 subgroups, enter multiple search terms, such as 'C:&gt;15' into the search box and separate each search term with a ';'.
+To make more than 2 sample subgroups, enter multiple search terms, such as 'C:&gt;15' into the search box and separate each search term with a ';'.
 
 {% hint style="info" %}
 Enter multiple search terms and separate each search term with a **';'**.
