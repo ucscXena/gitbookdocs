@@ -131,3 +131,25 @@ example
 }
 ```
 
+## COLUMN DISPLAY NORMALIZATION\
+
+For genomic data matrix, the optional metadata parameter *colNormalization* sets the default display scale. If not specified, the browser automatically determines the scale. 
+
+**colNormalization**: ‘true’ | ‘log2’ | ‘normal2’
+
+* true: display centerred by column mean, x - column average, example usage is gene expression matrix that already log transformed. 
+* log2: display in log2(x+1) scale, example usage is count matrix 
+* normal2: display value of 2 in the background color (i.e. white), typically used for copy number data where the normal = 2
+
+example
+
+```javascript
+{
+     "cohort": "TCGA Acute Myeloid Leukemia (LAML)",
+     "dataSubType": "gene expression RNAseq",
+     "label": "IlluminaHiSeq",
+     "colNormalization": true,
+     "type": "genomicMatrix",
+     "unit": "log2(norm_count+1)"
+}
+```
