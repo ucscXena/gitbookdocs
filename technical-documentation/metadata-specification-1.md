@@ -40,10 +40,11 @@ For each image
 
 **"offset"** an array of intergers. Image offset in pixel unit in this image in x and y dimension. See below for conversion from spatial coordinate values in map to pixel position in this image.
 
-**"image\_scalef"**: floating point number. A scaling factor that converts spatial coordinate values in the spatial map (e.g. pixel or micrometer) to the pixel unit in this image.  It works together with the "offset" parameter to convert spatial coordinate values in the spatial map to the actual pixel positions in this image. 
-* pixel_in_image_x =  image_scalef * spatial_coordinate_x + offset_x
-* pixel_in_image_y =  image_scalef * spatial_coordinate_y + offset_y
-     
+**"image\_scalef"**: floating point number. A scaling factor that converts spatial coordinate values in the spatial map \(e.g. pixel or micrometer\) to the pixel unit in this image. It works together with the "offset" parameter to convert spatial coordinate values in the spatial map to the actual pixel positions in this image.
+
+* pixel\_in\_image\_x =  image\_scalef \* spatial\_coordinate\_x + offset\_x
+* pixel\_in\_image\_y =  image\_scalef \* spatial\_coordinate\_y + offset\_y
+
 Example, map without image
 
 ```javascript
@@ -133,13 +134,13 @@ example
 
 ## COLUMN DISPLAY NORMALIZATION\
 
-For genomic data matrix, the optional metadata parameter *colNormalization* sets the default display scale. If not specified, the browser automatically determines the scale. 
+For genomic data matrix, the optional metadata parameter _colNormalization_ sets the default display scale. If not specified, the browser automatically determines the scale.
 
-**colNormalization**: ‘true’ | ‘log2(x)’ | ‘normal2’
+**colNormalization**: ‘true’ \| ‘log2\(x\)’ \| ‘normal2’
 
 * true: display centerred by column mean, x - column average, example usage is gene expression matrix that already log transformed. 
-* log2(x): display in log2(x+1) scale, example usage is count matrix 
-* normal2: display value of 2 in the background color (i.e. white), typically used for copy number data where the normal = 2
+* log2\(x\): display in log2\(x+1\) scale, example usage is count matrix 
+* normal2: display value of 2 in the background color \(i.e. white\), typically used for copy number data where the normal = 2
 
 example
 
@@ -153,3 +154,4 @@ example
      "unit": "log2(norm_count+1)"
 }
 ```
+

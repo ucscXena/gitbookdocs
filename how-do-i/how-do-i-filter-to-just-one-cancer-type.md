@@ -16,7 +16,7 @@ Please see the study specific instructions for which column
 
 Using the filter search bar:
 
-![](../.gitbook/assets/highlightlocation%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../.gitbook/assets/highlightlocation%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 Search for the cancer type you are interested in, making sure that it is listed in the phenotype column.
 

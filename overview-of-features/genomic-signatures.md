@@ -1,3 +1,7 @@
+---
+description: Enter a genomic signature over a set of genes for a particular dataset
+---
+
 # Genomic Signatures
 
 Genomic signatures, sometimes expressed as a weighted sum of genes, are an algebra over genes, such as "ESR1 + 0.5\*ERBB2 - GRB7". Once a signature is entered, the value for each gene name for each sample are substituted and the algebraic expression is evaluated.
