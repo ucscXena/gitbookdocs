@@ -38,7 +38,7 @@ For each image
 
 **"size"** an array of intergers. Image size in pixels.
 
-**"offset"** an array of intergers. Image offset in pixel unit in this image in x and y dimention. See below for conversion from spatial coordinate values in map to pixel position in this image.
+**"offset"** an array of intergers. Image offset in pixel unit in this image in x and y dimension. See below for conversion from spatial coordinate values in map to pixel position in this image.
 
 **"image\_scalef"**: floating point number. A scaling factor that converts spatial coordinate values in the spatial map (e.g. pixel or micrometer) to the pixel unit in this image.  It works together with the "offset" parameter to convert spatial coordinate values in the spatial map to the actual pixel positions in this image. 
 * pixel_in_image_x =  image_scalef * spatial_coordinate_x + offset_x
