@@ -4,7 +4,7 @@
 
 ## About <a id="about"></a>
 
-The Transcript View shows transcript-specific expression or isoform percentage for 'tumor' TCGA data and 'normal' GTEX data. It allows you to compare the distribution of these values for two groups of samples.
+The Transcript View shows transcript-specific expression or isoform percentage for 'tumor' TCGA data and 'normal' GTEX data. It allows you to compare the distribution of these values for two groups of patient samples.
 
 This tool was created by Akhil Kamath as part of Google Summer of Code 2017. Akhil was advised by [Angela Brooks](https://brookslab.soe.ucsc.edu/) and [Brian Craft](https://github.com/acthp). Thank you Akhil for all your work!
 

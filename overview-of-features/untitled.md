@@ -8,9 +8,9 @@ We use the [MuPIT 3D protein viewer](http://mupit.icm.jhu.edu/) from [Rachel Kar
 
 > MuPIT interactive is an online tool that allows you to map sequence variants from their genomic position onto protein structures. Viewing a variant on protein structure can be useful in interpreting its potential biological consequences. After mapping, the variants are displayed on an interactive 3d structure. The user may turn variants on and off, and display annotations on the protein structure.
 
-Access this tool by going to our [Visualization tab](https://xenabrowser.net/heatmap/) and following the wizard to select your samples. Next, enter your gene of interest, click 'somatic mutation' and then click 'Done'. You may need to choose another variable such as 'gene expression'.
+Access this tool by going to our [Visualization tab](https://xenabrowser.net/heatmap/) and following the wizard to select samples. Next, enter your gene of interest, click 'somatic mutation' and then click 'Done'. You may need to choose another variable such as 'gene expression'.
 
-Once you have the mutation data you're interested in, click the caret menu at the top of the column and chose 'MuPIT View'. This will send your mutation data to MuPIT and open their viewer in a new tab.
+Once you have the mutation data you're interested in, click the menu at the top of the column and chose 'MuPIT View'. This will send your mutation data to MuPIT and open their viewer in a new tab.
 
 MuPIT Help: [http://mupit.icm.jhu.edu/MuPIT\_Interactive/Help.html](http://mupit.icm.jhu.edu/MuPIT_Interactive/Help.html)
 
