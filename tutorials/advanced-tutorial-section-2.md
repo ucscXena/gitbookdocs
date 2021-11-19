@@ -55,7 +55,7 @@ We will make a visual spreadsheet where we can explore the relationship between 
 
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu) and click on 'Launch Xena' or go to [https://xenabrowser.net/](https://xenabrowser.net)
+1. Start at [https://xenabrowser.net/](https://xenabrowser.net)
 2. Type 'TCGA Breast Cancer (BRCA)', select this study from the drop down menu, and click 'Done'.
 3. Choose 'Phenotypic', select 'sample\_type' from the dropdown menu, and click 'Done'.
 4. Choose 'Phenotypic', type 'pam' into the search bar, select 'PAM50Call\_RNAseq' from the dropdown menu, and click 'Done'. This will exit the wizard.

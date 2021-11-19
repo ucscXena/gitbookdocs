@@ -42,7 +42,7 @@ We can now see that there are many patient's samples with relatively high expres
 
 #### Steps <a href="steps" id="steps"></a>
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu) and click on 'Launch Xena' or go to [https://xenabrowser.net/](https://xenabrowser.net)
+1. Start at [https://xenabrowser.net/](https://xenabrowser.net)
 2. Type 'TCGA Prostate Cancer (PRAD)', select this study from the drop down menu, and click 'Done'.
 3. Type '_ERG_', select the checkbox for Gene Expression and click 'Done'.
 4. Type '_ERG_', click 'Show Advanced', select the checkbox for 'IlluminaHiSeq' under 'exon expression RNAseq', and click 'Done'.
