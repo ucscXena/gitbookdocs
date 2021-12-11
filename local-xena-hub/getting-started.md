@@ -13,12 +13,12 @@ Get started viewing your own data:
 3. [Load the data you want to view](getting-started.md#loading-data-into-a-local-xena-hub)
 4. [View the data](getting-started.md#viewing-data-from-a-local-xena-hub)
 
-We support most types of [genomic and/or phenotypic/clinical/annotation data](data-format-specifications.md). Genomic data needs to be values called on genes, transcripts, exons, probes or some other identifier. Phenotypic/clinical/annotation data can be almost anything, including patient data \(e.g. age, set, etc\), clinical data \([survival data for a KM plot](km-plots-using-data-from-a-local-xena-hub.md)\), and other data such as gene fusion calls, regulon activity, immune scores, and more. Samples can be bulk tissue, cell lines, cells, and more. We do not visualize raw data such as FASTQs or BAMs.
+We support most types of [genomic and/or phenotypic/clinical/annotation data](data-format-specifications.md). Genomic data needs to be values called on genes, transcripts, exons, probes or some other identifier. Phenotypic/clinical/annotation data can be almost anything, including patient data (e.g. age, set, etc), clinical data ([survival data for a KM plot](km-plots-using-data-from-a-local-xena-hub.md)), and other data such as gene fusion calls, regulon activity, immune scores, and more. Samples can be bulk tissue, cell lines, cells, and more. We do not visualize raw data such as FASTQs or BAMs.
 
 Data can be your own or from another source, like [GEO](https://www.ncbi.nlm.nih.gov/geo/) or a publication.
 
-We support tab-delimited \(.tsv and .txt\) and Microsoft Excel files \(.xlsx and .xls\).   
-  
+We support tab-delimited (.tsv and .txt) and Microsoft Excel files (.xlsx and .xls). \
+\
 Data on a Local Xena Hub can only be viewed or accessed by the same computer on which it is running, keeping private data secure.
 
 The Local Xena Hub must be installed and running in order to load data, as well as any time you want to view data. The Local Xena Hub will remember previously loaded data.
@@ -29,7 +29,7 @@ Please use Chrome to view your own data.
 
 ## **Installing a Local Xena Hub**
 
-Click on [**VIEW MY DATA**](https://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223)**. Y**ou will be prompted to download and install a local Xena Hub. 
+Click on [**VIEW MY DATA**](https://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223\&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223)**. Y**ou will be prompted to download and install a local Xena Hub.&#x20;
 
 Double click on the download to begin the installation of the Xena Hub. Follow the wizard to finish the install.
 
@@ -45,13 +45,13 @@ After installing a local Xena Hub, go back to [**VIEW MY DATA**](https://xenabro
 
 ## **Loading data into a Local Xena Hub**
 
-Most people load data into their Local Xena Hub through our [website wizard](http://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223), which leads you through the loading process step by step. Note that you will want to make sure your data is [properly formatted](data-format-specifications.md) ahead of time.
+Most people load data into their Local Xena Hub through our [website wizard](http://xenabrowser.net/datapages/?addHub=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223\&host=https%3A%2F%2Flocal.xena.ucsc.edu%3A7223), which leads you through the loading process step by step. Note that you will want to make sure your data is [properly formatted](data-format-specifications.md) ahead of time.
 
 You can also load data [via the command line](loading-data-from-the-command-line.md).
 
 ## **Viewing data from a Local Xena Hub**
 
-Click on [**VISUALIZATION**](https://xenabrowser.net/). If your study is not already selected as step 1 of the wizard, then select it from the drop down and click 'Done'. Note that if you did not enter a study name your data will be under 'My Study'.
+Click on [**VISUALIZATION**](https://xenabrowser.net). If your study is not already selected as step 1 of the wizard, then select it from the drop down and click 'Done'. Note that if you did not enter a study name your data will be under 'My Study'.
 
 ### Gene names and identifiers for genomic data
 
@@ -67,11 +67,10 @@ You Local Xena Hub must be running to view any data that you have loaded into it
 
 Xena does not utilize a central rendering service, or require hubs to be publicly accessible on the internet like, for example, the UCSC Genome Browser does.  Data flows in one direction, from hubs to the user agent. If the user installs a Xena Hub on their laptop, the hub is as secure as the laptop. If the user installs a Xena Hub on a local network, behind a firewall, the hub is as secure as the local network.
 
-The Xena Browser accesses data from a local Xena Hub on the same computer by requesting data from http://127.0.0.1. The local Xena Hub will make the data within it available at this address. The local Xena Hub will only answer requests made form the user's own computer. 
+The Xena Browser accesses data from a local Xena Hub on the same computer by requesting data from http://127.0.0.1. The local Xena Hub will make the data within it available at this address. The local Xena Hub will only answer requests made form the user's own computer.&#x20;
 
 Users will need to use a web browser that supports this if they wish to use a Xena Hub on the loopback interface. At the time of writing, this includes Chrome, and Firefox, but not Safari.
 
 ### Is there any data that is considered to not be secure?
 
-A very limited set of metadata is considered to be not secure in the Xena architecture model. This includes cohort names and samples names. This metadata is visible to other hubs in the following scenarios. When the user selects a cohort, all hubs are queried for samples on that cohort. When the user selects a data field, the hub holding that field is queried with the field ID \(e.g. gene, probe, transcript, phenotype\) and all cohort sample IDs. This means, for example, that two hubs holding data on the same cohort will see the union of sample IDs from that cohort. While data queries are not made available publicly, a malicious person could gain entry to a Xena Hub and comb through logs for these queries. For these reasons, these metadata fields should not contain private information.
-
+A very limited set of metadata is considered to be not secure in the Xena architecture model. This includes cohort names and samples names. This metadata is visible to other hubs in the following scenarios. When the user selects a cohort, all hubs are queried for samples on that cohort. When the user selects a data field, the hub holding that field is queried with the field ID (e.g. gene, probe, transcript, phenotype) and all cohort sample IDs. This means, for example, that two hubs holding data on the same cohort will see the union of sample IDs from that cohort. While data queries are not made available publicly, a malicious person could gain entry to a Xena Hub and comb through logs for these queries. For these reasons, these metadata fields should not contain private information.

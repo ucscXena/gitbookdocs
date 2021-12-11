@@ -4,4 +4,6 @@ Sometimes not all samples in a dataset have data. This can happen for a variety 
 
 To remove null data use the 'Remove samples with nulls' shortcut in the filter menu.
 
+## Example
+
 ![](../.gitbook/assets/removenullsshortcut.gif)

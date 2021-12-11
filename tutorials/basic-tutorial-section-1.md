@@ -10,11 +10,11 @@ This tutorial is intended for those who have never used Xena before. We will cov
 
 ## Prerequisites
 
-This tutorial assumes a basic understanding of 
+This tutorial assumes a basic understanding of&#x20;
 
 * cancer processes that can lead to altered gene expression, such as copy number variation or mutations
 * RNAseq gene expression, copy number variation, and mutational genomic sequencing data
-* The Cancer Genome Atlas \(TCGA\)
+* The Cancer Genome Atlas (TCGA)
 
 These resources can help you gain a basic understanding of these concepts:
 
@@ -61,8 +61,8 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
-2. Type 'GDC TCGA Lung Adenocarcinoma \(LUAD\)', select this study from the drop down menu, and click 'Done'.
+1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
+2. Type 'GDC TCGA Lung Adenocarcinoma (LUAD)', select this study from the drop down menu, and click 'Done'.
 3. Type '_EGFR_', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'Done'.
 
 #### Video of steps
@@ -75,7 +75,7 @@ Samples are on the y-axis and your columns of data are on the x-axis. We line up
 
 #### Biological interpretation
 
-We can see that samples from TCGA patients that have high expression of _EGFR_ \(red, column B\) tend to either have amplifications of _EGFR_ \(red,  column C\) or mutations in _EGFR_ \(blue tick marks, column D\)
+We can see that samples from TCGA patients that have high expression of _EGFR_ (red, column B) tend to either have amplifications of _EGFR_ (red,  column C) or mutations in _EGFR_ (blue tick marks, column D)
 
 {% hint style="success" %}
 More information
@@ -88,7 +88,7 @@ More information
 {% hint style="info" %}
 **Making your own Visual Spreadsheet: Which TCGA study to choose**
 
-[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we selected the TCGA data from the GDC. [**This page can help you decide which version of TCGA data to use for your own analysis.**](../public-data-we-host/choosing-a-study-cohort.md)\*\*\*\*
+[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we selected the TCGA data from the GDC. [**This page can help you decide which version of TCGA data to use for your own analysis.**](../public-data-we-host/choosing-a-study-cohort.md)****
 {% endhint %}
 
 ### Part B
@@ -97,8 +97,8 @@ To further explore the relationship between the gene expression, mutation, and c
 
 #### Steps
 
-1. **Move columns.** Click column C, copy number variation, and drag it to the left so that it becomes the first column after the samples column \(i.e. column B\). Note that the samples are now sorted by the values in this column.
-2. **Resize columns.** Click the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger. 
+1. **Move columns.** Click column C, copy number variation, and drag it to the left so that it becomes the first column after the samples column (i.e. column B). Note that the samples are now sorted by the values in this column.
+2. **Resize columns.** Click the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger.&#x20;
 3. **Zoom in on a column.** Click and drag within column D. Release to zoom.
 4. **Zoom out on a column.** Click the red zoom out text at the top of column D.
 5. **Zoom in on samples.** Click and drag vertically in any column in the Visual Spreadsheet to zoom in on these samples.
@@ -130,7 +130,7 @@ Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in sa
 {% endtab %}
 
 {% tab title="Answer 1" %}
-\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)\*\*\*\*
+****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)****
 
 ![](../.gitbook/assets/screen-shot-2020-12-29-at-2.42.24-pm.png)
 {% endtab %}
@@ -142,9 +142,8 @@ Change the Visual Spreadsheet from Question 1 so that the patient's samples are 
 {% endtab %}
 
 {% tab title="Answer 2" %}
-\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)\*\*\*\*
+****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)****
 
 ![](../.gitbook/assets/screen-shot-2020-12-29-at-2.44.52-pm.png)
 {% endtab %}
 {% endtabs %}
-

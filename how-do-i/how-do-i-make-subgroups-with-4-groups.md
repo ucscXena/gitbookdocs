@@ -19,7 +19,13 @@ This page details how to create subgroups based on the expression of 2 genes so 
 
 To do this enter a search terms for each gene, such as 'C:>15' or 'D:<0.6' into the search box and separate each search term with a ';'.
 
-[Here is an example](https://xenabrowser.net/?bookmark=5a20f78764f8cf07ac93ae4a998913e1). You can see in the search bar the expression used to make column A using the example genes of CD44 and CD24.&#x20;
+## Example
+
+You can see in the search bar the expression used to make column A using the example genes of CD44 and CD24.&#x20;
+
+****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=0b24e983e5054a64d2de0bd6821f1c9c)****
+
+![](<../.gitbook/assets/Screen Shot 2021-12-10 at 3.30.37 PM.png>)
 
 Also note that you can use this feature on columns besides gene expression, such as copy number variation, etc. You can also use it on categorical features, for instance to compare expression of a gene and the patient's gender (male or female). Simply add the gender column to the Visual Spreadsheet and enter 'female' for one of the search terms above.&#x20;
 

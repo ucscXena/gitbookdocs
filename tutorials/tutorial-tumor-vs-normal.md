@@ -8,11 +8,13 @@ description: >-
 
 ## Description
 
-This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to view tumor and normal samples from healthy and diseased individuals side by side, and how to compare gene expression for one or more genes between tumor and normal samples. 
+This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to view tumor and normal samples from healthy and diseased individuals side by side, and how to compare gene expression for one or more genes between tumor and normal samples.&#x20;
 
 We will be using both GTEx samples as our normal samples as well as TCGA matched normal samples. More information on GTEx normal samples can be found here:
 
-{% page-ref page="../how-do-i/tumor-vs-normal.md" %}
+{% content-ref url="../how-do-i/tumor-vs-normal.md" %}
+[tumor-vs-normal.md](../how-do-i/tumor-vs-normal.md)
+{% endcontent-ref %}
 
 ## Prerequisites
 
@@ -49,7 +51,7 @@ Our goal is to build a visual spreadsheet with the columns 'primary site', 'samp
 
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
+1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
 2. Type 'TCGA TARGET GTEx', select this study from the drop down menu, and click 'Done'.
 3. Type '_MYC_', select the checkbox for Gene Expression and click 'Done'.
 4. Choose 'Phenotypic' and select the checkboxes for 'sample type', 'study' and 'Primary site', and click 'Done'.
@@ -57,11 +59,11 @@ Our goal is to build a visual spreadsheet with the columns 'primary site', 'samp
 
 #### Video of steps 1-4
 
-![](../.gitbook/assets/tvn_make_vs.gif)
+![](../.gitbook/assets/tvn\_make\_vs.gif)
 
 #### Video of step 5
 
-![](../.gitbook/assets/tvn_filter_colon.gif)
+![](../.gitbook/assets/tvn\_filter\_colon.gif)
 
 ### Part B
 
@@ -75,14 +77,14 @@ We can now see that patient's tumor samples, both recurrent, primary, and metast
 
 #### Steps
 
-1. Click the column menu for column B \(_MYC_ gene expression\) and choose 'Charts & Stats'
+1. Click the column menu for column B (_MYC_ gene expression) and choose 'Charts & Stats'
 2. Click 'Compare subgroups', click the dropdown for 'Show data from' and choose 'column B: MYC - gene expression RNAseq - RSEM norm\_count' if it is not already selected
 3. Click the dropdown for 'Subgroup samples by' and choose 'column C: Sample Type'.
-4. Leave the chart type as 'box plot', and click 'Done'. 
+4. Leave the chart type as 'box plot', and click 'Done'.&#x20;
 
 #### Video of steps 1-4
 
-![](../.gitbook/assets/tvn_chart.gif)
+![](../.gitbook/assets/tvn\_chart.gif)
 
 ## Test your knowledge
 
@@ -92,9 +94,8 @@ Compare EGFR gene expression between patient's tumor samples and individual's no
 {% endtab %}
 
 {% tab title="Answer" %}
-\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)\*\*\*\*
+****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)****
 
 ![](../.gitbook/assets/screen-shot-2021-06-09-at-11.57.59-am.png)
 {% endtab %}
 {% endtabs %}
-

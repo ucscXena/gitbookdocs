@@ -10,7 +10,7 @@ First, download the ucsc\_xena\_xxx.tar.gz file to your server, here:
 
 [https://genome-cancer.ucsc.edu/download/public/get-xena/index.html](https://genome-cancer.ucsc.edu/download/public/get-xena/index.html)
 
-The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**". Uncompress and extract the .jar file \(cavm-xxx-standalone.jar\). The current version is 0.25.0.
+The file to download is the one called "**Tar archive, no updater or JRE - recommended for linux server** **developments**". Uncompress and extract the .jar file (cavm-xxx-standalone.jar). The current version is 0.25.0.
 
 ## Start the hub
 
@@ -18,19 +18,19 @@ The hub can be started with "java -jar cavm-xxx-standalone.jar". Passing option 
 
 There are several options you will want to set.
 
-To bind an external interface \(instead of loopback\), use "--host 0.0.0.0".
+To bind an external interface (instead of loopback), use "--host 0.0.0.0".
 
 There are three paths that can be configured: the database file, the log file, and the root directory for data files to be served. These are set by --database, --logfile, and --root. If you don't set these, they will default to paths under ${HOME}/xena.
 
-```text
+```
 --database -d default to ${HOME}/xena/database
 ```
 
-```text
+```
 --logfile default to ${HOME}/xena/xena.log
 ```
 
-```text
+```
 --root -r default to ${HOME}/xena/files/
 ```
 
@@ -38,7 +38,7 @@ There are three paths that can be configured: the database file, the log file, a
 
 Copy the content below to a file "start\_script"
 
-```text
+```
 #!/bin/bash
 
 PORT=7222
@@ -53,19 +53,19 @@ disown
 
 Link server.jar to cavm-x.xx.x-standalone.jar
 
-```text
+```
 ln -sf cavm-0.xx.0-standalone.jar server.jar
 ```
 
 Make "start\_script" executable
 
-```text
+```
 chmod u+x start_script
 ```
 
 Run "./start\_script"
 
-```text
+```
 ./start_script
 ```
 
@@ -73,35 +73,35 @@ Your hub is now running on "http:computer-external-ip:7222" and "[https://comput
 
 Go [here](https://xenabrowser.net/hub/), add "http:computer-external-ip:7222"
 
-* This will connect your hub to the Xena Browser. Because you try to connect to the hub through http, you will have to clear your browser's \(Chrome, Firefox, etc\) security warning on "load unsafe scripts" to connect.
+* This will connect your hub to the Xena Browser. Because you try to connect to the hub through http, you will have to clear your browser's (Chrome, Firefox, etc) security warning on "load unsafe scripts" to connect.
 
 ![](../.gitbook/assets/chromesecuritywarning-01-01.png)
 
-Alternatively, you can connect your hub through https \([https://computer-external-ip:7223\](https://computer-external-ip:7223\)\) to avoid the browser warning, and you need a certificate. See HTTPS section on --certfile and --keyfile options to start a hub with a certificate.
+Alternatively, you can connect your hub through https ([https://computer-external-ip:7223\\](https://computer-external-ip:7223)) to avoid the browser warning, and you need a certificate. See HTTPS section on --certfile and --keyfile options to start a hub with a certificate.
 
 ## Make your data ready
 
 You will need to make your data file ready just like for local Xena hub on your laptop. Please see instructions on [data format specifications](https://ucsc-xena.gitbook.io/project/local-xena-hub/data-format-specifications).
 
-You will also need to make your data's meta-data file \(xxx.json\) ready. Please see [loading data from the command line](loading-data-from-the-command-line.md) for instructions.
+You will also need to make your data's meta-data file (xxx.json) ready. Please see [loading data from the command line](loading-data-from-the-command-line.md) for instructions.
 
 ## Load data through command line
 
 Once the hub is running, and input files have been placed in the --root directory, a file can be loaded by running the jar a second time, with the -l option, like
 
-```text
+```
 ln -sf cavm-x.xx.x-standalone.jar server.jar
 ```
 
 If your hub is run on the default 7222 port, you can load data with
 
-```text
+```
 java -jar server.jar -l /path/to/root/file.tsv
 ```
 
 If your hub is running on a different port, you load data with
 
-```text
+```
 java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 ```
 
@@ -111,13 +111,13 @@ Please contact us at genome-cancer@soe.ucsc.edu for more assistance.
 
 If your hub is run on the default 7222 port, you can delete data with
 
-```text
+```
 java -jar server.jar -x /path/to/root/file.tsv
 ```
 
 If your hub is running on a different port, you delete data with
 
-```text
+```
 java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 ```
 
@@ -133,13 +133,13 @@ If you connect to the hub through https, you will need an HTTPS certificate and 
 
 ## How to set up my hub to have a url like [https://tcga.xenahubs.net](https://tcga.xenahubs.net)
 
-Alternatively, you can run the hub behind a reverse proxy, and attach the certificate to apache configuration. In this scenario, you start the hub without using --certfile and --keyfile options. This is useful if you want your hub to have a url like "[https://tcga.xenahubs.net](https://tcga.xenahubs.net)". You set up your DNS to point the hostname \(tcga.xenahubs.net\) to ip address of the server on which the hub is running.
+Alternatively, you can run the hub behind a reverse proxy, and attach the certificate to apache configuration. In this scenario, you start the hub without using --certfile and --keyfile options. This is useful if you want your hub to have a url like "[https://tcga.xenahubs.net](https://tcga.xenahubs.net)". You set up your DNS to point the hostname (tcga.xenahubs.net) to ip address of the server on which the hub is running.
 
 An example apache configuration on AWS VM
 
 in /etc/httpd/conf/httpd.conf
 
-```text
+```
 <VirtualHost *:443>
     ServerName tcga.xenahubs.net
     SSLEngine on
@@ -159,7 +159,7 @@ in /etc/httpd/conf/httpd.conf
 
 ## A landing page for my hub
 
-If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the _UCSC Toil RNA-seq Recompute_ hub: [https://toil.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown).
+If you have a markdown file called $DOCROOT/data/meta/info.mdown in your hub's document root directory, the markdown file will serve as a splash page for your hub. An example is the _UCSC Toil RNA-seq Recompute_ hub: [https://toil.xenahubs.net](https://atacseq.xenahubs.net). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub\_toil.xenahubs.net/info.mdown).
 
 ### How do I add a 'Launch Xena' button like the _TOIL_ landing page
 
@@ -169,11 +169,10 @@ To add a clickable button in the hub landing page, make sure the button has clas
 
 ## A landing page for my cohort
 
-You can also have a landing page for a study cohort. An example is the _TCGA TARGET GTEx_ cohort: [https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx](https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub_toil.xenahubs.net/info.mdown). The study cohort landing page is also a markdown file, which must be hosted in the [https://github.com/ucscXena/cohortMetaData](https://github.com/ucscXena/cohortMetaData) repository on github. The markdown file called https://github.com/ucscXena/cohortMetaData/cohort\_$cohortName/info.mdown.
+You can also have a landing page for a study cohort. An example is the _TCGA TARGET GTEx_ cohort: [https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx](https://xenabrowser.net/datapages/?cohort=TCGA%20TARGET%20GTEx\&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443). The corresponding markdown file is [this](https://github.com/ucscXena/cohortMetaData/blob/master/hub\_toil.xenahubs.net/info.mdown). The study cohort landing page is also a markdown file, which must be hosted in the [https://github.com/ucscXena/cohortMetaData](https://github.com/ucscXena/cohortMetaData) repository on github. The markdown file called https://github.com/ucscXena/cohortMetaData/cohort\_$cohortName/info.mdown.
 
 ### How do I add a "Launch" button like the _TCGA TARGET GTEx_  landing page
 
 `<button class="cohortButton" data-bookmark="bc7f3f46b042bcf5c099439c2816ff01">Example: compare FOXM1 expression</button>`
 
-The button must has a classname **'cohortButton'**. If you have the data parameter '**data-bookmark**', clicking the button will take the user to the bookmark view.  If you don't have the '**data-bookmark**' parameter, clicking the button will take the user to the visualization wizard with an empty spreadsheet. You can change the button label. You can as many button as you want. 
-
+The button must has a classname **'cohortButton'**. If you have the data parameter '**data-bookmark**', clicking the button will take the user to the bookmark view.  If you don't have the '**data-bookmark**' parameter, clicking the button will take the user to the visualization wizard with an empty spreadsheet. You can change the button label. You can as many button as you want.&#x20;
