@@ -20,6 +20,8 @@ There are several options you will want to set.
 
 To bind an external interface (instead of loopback), use "--host 0.0.0.0".
 
+The connection between your hub and the Xena Browser is through https, use "--certfile" and "--keyfile" options to set them.
+
 There are three paths that can be configured: the database file, the log file, and the root directory for data files to be served. These are set by --database, --logfile, and --root. If you don't set these, they will default to paths under ${HOME}/xena.
 
 ```
@@ -46,7 +48,7 @@ LOGFILE=xena/xena7222.log
 DOCROOT=xena/files
 DB=xena/myHub
 
-java -jar server.jar -r ${DOCROOT} -d ${DB} --no-gui -p ${PORT} -H 0.0.0.0 --logfile ${LOGFILE} > log 2>&1 &
+java -jar server.jar -r ${DOCROOT} -d ${DB} --no-gui -p ${PORT} -H 0.0.0.0 --logfile ${LOGFILE} --certfile ${CERTFILE} --keyfile ${KEYFILE}> log 2>&1 &
 
 disown
 ```
@@ -77,7 +79,7 @@ When a Xena Hub starts, it opens two consecutive ports, for http and https conne
 
 [http://ip:7222](http://ip:7222) or [https://ip:7223](https://ip:7223)&#x20;
 
-Connecting via HTTP is no longer supported by modern browsers in this instance, thus you will need to connect via HTTPS. To do this you will need an HTTPS certificate and private key. Paths to the cert and key are set with --certfile and --keyfile. This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon.
+**Connecting via HTTP is no longer supported by modern browsers in this instance, thus you will need to connect via HTTPS**. To do this you will need an HTTPS certificate and private key. Paths to the cert and key are set with --certfile and --keyfile. This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon.
 
 ## Make your data ready
 
@@ -123,13 +125,13 @@ java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 
 ## Viewing data from the hub
 
-Go [here](https://xenabrowser.net/hub/), add "https:computer-external-ip:7222"
+Go to Data Hub page [here](https://xenabrowser.net/hub/), add "https:computer-external-ip:7223"
 
 You can now go to the visualization and add a cohort or study listed in your hub.
 
 ## How to set up my hub to have a url like [https://tcga.xenahubs.net](https://tcga.xenahubs.net)
 
-Alternatively, you can run the hub behind a reverse proxy, and attach the certificate to apache configuration. In this scenario, you start the hub without using --certfile and --keyfile options. This is useful if you want your hub to have a url like "[https://tcga.xenahubs.net](https://tcga.xenahubs.net)". You set up your DNS to point the hostname (tcga.xenahubs.net) to ip address of the server on which the hub is running.
+Alternatively, you can run the hub behind a reverse proxy, and attach the certificate and keyfile to Apache, Nginx or AWS load balancer configurations. In this scenario, you start the hub without using --certfile and --keyfile options. This is useful if you want your hub to have a url like "[https://tcga.xenahubs.net](https://tcga.xenahubs.net)". You set up your DNS to point the hostname (tcga.xenahubs.net) to ip address of the server on which the hub is running.&#x20;
 
 An example apache configuration on AWS VM
 
