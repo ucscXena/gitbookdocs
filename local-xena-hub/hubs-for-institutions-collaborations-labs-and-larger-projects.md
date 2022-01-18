@@ -69,15 +69,15 @@ Run "./start\_script"
 ./start_script
 ```
 
-Your hub is now running on "http:computer-external-ip:7222" and "[https://computer-external-ip:7223](https://computer-external-ip:7223)".
+Your hub is now running on "https://computer-external-ip:7223".
 
-Go [here](https://xenabrowser.net/hub/), add "http:computer-external-ip:7222"
+## Getting a security certificate
 
-* This will connect your hub to the Xena Browser. Because you try to connect to the hub through http, you will have to clear your browser's (Chrome, Firefox, etc) security warning on "load unsafe scripts" to connect.
+When a Xena Hub starts, it opens two consecutive ports, for http and https connections, e.g. 7222 and 7223. HTTP is always the lower number, and HTTPS is always the higher number. This means your hub has two urls
 
-![](../.gitbook/assets/chromesecuritywarning-01-01.png)
+[http://ip:7222](http://ip:7222) or [https://ip:7223](https://ip:7223)&#x20;
 
-Alternatively, you can connect your hub through https ([https://computer-external-ip:7223\\](https://computer-external-ip:7223)) to avoid the browser warning, and you need a certificate. See HTTPS section on --certfile and --keyfile options to start a hub with a certificate.
+Connecting via HTTP is no longer supported by modern browsers in this instance, thus you will need to connect via HTTPS. To do this you will need an HTTPS certificate and private key. Paths to the cert and key are set with --certfile and --keyfile. This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon.
 
 ## Make your data ready
 
@@ -93,6 +93,8 @@ Once the hub is running, and input files have been placed in the --root director
 ln -sf cavm-x.xx.x-standalone.jar server.jar
 ```
 
+## Delete data through command line
+
 If your hub is run on the default 7222 port, you can load data with
 
 ```
@@ -107,8 +109,6 @@ java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 
 Please contact us at genome-cancer@soe.ucsc.edu for more assistance.
 
-## Delete data through command line
-
 If your hub is run on the default 7222 port, you can delete data with
 
 ```
@@ -121,15 +121,11 @@ If your hub is running on a different port, you delete data with
 java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 ```
 
-## HTTP vs. HTTPS
+## Viewing data from the hub
 
-When a Xena Hub starts, it opens two consecutive ports, for http and https connections, e.g. 7222 and 7223. HTTP is always the lower number, and HTTPS is always the higher number. This means your hub has two urls
+Go [here](https://xenabrowser.net/hub/), add "https:computer-external-ip:7222"
 
-[http://ip:7222](http://ip:7222) or [https://ip:7223](https://ip:7223)
-
-If you use the hub through http, web browsers will block connections to the hub unless the user clicks on the "shield" icon and approves a security exception.
-
-If you connect to the hub through https, you will need an HTTPS certificate and private key, to avoid browser security errors. Paths to the cert and key are set with --certfile and --keyfile. This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon.
+You can now go to the visualization and add a cohort or study listed in your hub.
 
 ## How to set up my hub to have a url like [https://tcga.xenahubs.net](https://tcga.xenahubs.net)
 
