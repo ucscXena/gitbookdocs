@@ -16,6 +16,8 @@ The file to download is the one called "**Tar archive, no updater or JRE - recom
 
 The hub can be started with "java -jar cavm-xxx-standalone.jar". Passing option --help will display usage information.
 
+Note that you need to use Java 8 to run the hub.&#x20;
+
 There are several options you will want to set.
 
 To bind an external interface (instead of loopback), use "--host 0.0.0.0".
