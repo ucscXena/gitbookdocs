@@ -135,7 +135,7 @@ You can now go to the visualization and add a cohort or study listed in your hub
 
 ### If you don't have a security certificate yet
 
-If you don't have a security certificate yet but you would like to verify that the hub is working you can use ssh tunneling. An example of how to do this for AWS is below where it is assumed that the xena hub is running on port 7222 (http), 7223 (https)
+If you don't have a security certificate yet but you would like to verify that the hub is working you can use ssh tunneling. An example of how to do this for AWS is below where it is assumed that the xena hub is running on port 7222 (http), 7223 (https). In this scenario, you start the hub without using --certfile and --keyfile options.
 
 Assuming that you typically ssh into EC2 on AWS like this
 
