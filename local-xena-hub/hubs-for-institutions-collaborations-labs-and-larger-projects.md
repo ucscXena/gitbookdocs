@@ -83,6 +83,8 @@ When a Xena Hub starts, it opens two consecutive ports, for http and https conne
 
 **Connecting via HTTP to the hub is no longer supported by modern web browsers, thus you will need to connect via HTTPS**. To do this you will need an HTTPS certificate and private key. Paths to the cert and key are set with --certfile and --keyfile. This might seem redundant for a hub behind a firewall, but the web app has no influence over the security policies of the web browser. HTTPS certificates can be acquired from free public Certificate Authorities, or via NIH InCommon.
 
+Note that [the section below detailing a way to utilize ssh tunneling to get around this](hubs-for-institutions-collaborations-labs-and-larger-projects.md#if-you-dont-have-a-security-certificate-yet), which can be used for testing purposes only.
+
 ## Make your data ready
 
 You will need to make your data file ready just like for local Xena hub on your laptop. Please see instructions on [data format specifications](https://ucsc-xena.gitbook.io/project/local-xena-hub/data-format-specifications).
