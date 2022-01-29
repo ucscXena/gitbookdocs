@@ -135,23 +135,23 @@ You can now go to the visualization and add a cohort or study listed in your hub
 
 ### If you don't have a security certificate yet
 
-If you don't have a security certificate yet but you would like to verify that the hub is working you can use ssh tunneling. An example of how to do this for AWS is below where it is assumed that the xena hub is running on port 7222 (http), 7223 (https). In this scenario, you start the hub without using --certfile and --keyfile options.
+If you don't have a security certificate yet but you would like to verify that the hub is working you can use ssh tunneling. An example of how to do this for AWS is below, where it is assumed that the xena hub is running on port 7222 for http and 7223 for https. In this scenario, you start the hub without using --certfile and --keyfile options.
 
-Assuming that you typically ssh into EC2 on AWS like this
+Assuming that you typically ssh into EC2 on AWS like this,
 
 ```
 ssh -i "xena.pem" ec2-user@ec2-11-111-11-111.compute-1.amazonaws.com
 ```
 
-Now we set up an ssh tunnel to port 8000 on your computer. To do this we add the -L option:
+you will now set up an ssh tunnel to port 8000 on your computer. To do this we add the -L option:
 
 ```
 ssh -i "xena.pem" -L 8000:localhost:7222 ec2-user@ec2-11-111-11-111.compute-1.amazonaws.com
 ```
 
-Now on your computer, http://localhost:8000 is the same as the http://aws-ip:7222.  Chrome Browser does not allow connection to http://aws-ip:7222 anymore, but it allows connection to http://localhost:8000.
+Now on your computer, http://localhost:8000 is the same as the http://aws-ip:7222.  Chrome Browser does not allow a connection to http://aws-ip:7222, but it will allow a connection to http://localhost:8000.
 
-After setting this up go to Data Hub page [here](https://xenabrowser.net/hub/), add "http://localhost:8000"
+After setting up the ssh tunnel go to Data Hub page [here](https://xenabrowser.net/hub/), add "http://localhost:8000".
 
 ## How to set up my hub to have a url like [https://tcga.xenahubs.net](https://tcga.xenahubs.net)
 
