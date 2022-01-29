@@ -75,7 +75,7 @@ Run "./start\_script"
 
 Your hub is now running on "https://computer-external-ip:7223".
 
-## Getting a security certificate
+## Getting a security certificate for an open-access hub
 
 When a Xena Hub starts, it opens two consecutive ports, for http and https connections, e.g. 7222 and 7223. HTTP is always the lower number, and HTTPS is always the higher number. This means your hub has two urls
 
@@ -130,6 +130,26 @@ java -jar server.jar -p ${PORT} -l /path/to/root/file.tsv
 Go to Data Hub page [here](https://xenabrowser.net/hub/), add "https:computer-external-ip:7223"
 
 You can now go to the visualization and add a cohort or study listed in your hub.
+
+### If you don't have a security certificate yet
+
+If you don't have a security certificate yet but you would like to verify that the hub is working you can use ssh tunneling. An example of how to do this for AWS is below where it is assumed that the xena hub is running on port 7222 (http), 7223 (https)
+
+Assuming that you typically ssh into EC2 on AWS like this
+
+```
+ssh -i "xena.pem" ec2-user@ec2-11-111-11-111.compute-1.amazonaws.com
+```
+
+Now we set up an ssh tunnel to port 8000 on your computer. To do this we add the -L option:
+
+```
+ssh -i "xena.pem" -L 8000:localhost:7222 ec2-user@ec2-11-111-11-111.compute-1.amazonaws.com
+```
+
+Now on your computer, http://localhost:8000 is the same as the http://aws-ip:7222.  Chrome Browser does not allow connection to http://aws-ip:7222 anymore, but it allows connection to http://localhost:8000.
+
+After setting this up go to Data Hub page [here](https://xenabrowser.net/hub/), add "http://localhost:8000"
 
 ## How to set up my hub to have a url like [https://tcga.xenahubs.net](https://tcga.xenahubs.net)
 
