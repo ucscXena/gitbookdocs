@@ -152,7 +152,7 @@ Below is an example for adding "clinicalFeature" reference in the phenotype file
 ```
 {% endcode %}
 
-Below is an example for clinical feature file. This file is tab-delimitated, with headers "feature", "attribute", "value". The keywords are "valueType", "category", "float", "state", "stateOrder".
+Below is an example for clinical feature file. This file is tab-delimitated, with headers "feature", "attribute", "value". The attributes are "valueType", "state", and "stateOrder". The values for the attribute "valueType" can be "category" or "float".
 
 {% code title="clinicalFeature.txt" %}
 ```
