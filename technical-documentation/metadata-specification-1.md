@@ -134,9 +134,12 @@ example
 
 ## CUSTOM CATEGORICAL PHENOTYPE
 
-You can do many customizations to control the phenotype file ("type": "clinicalMatrix") by adding "clinicalFeature" specifications. You will do that by doing two things together. 1) add a **"clinicalFeature" reference** in the phenotype .json file. Note the colon notation in example below. 2) **compose the clinicalFeaure file** (tab delimitated) and its .json file).
+You customize the display of features in a phenotype file ("type": "clinicalMatrix") by adding a "clinicalFeature" file and accompanying .json file. To do this there are two steps&#x20;
 
-example for adding "clinicalFeature" reference in the phenotype file .json metadata
+1. Add a **"clinicalFeature" reference** to the .json file that accompanies the phenotype file. Note the colon notation in example below.&#x20;
+2. **Compose the clinicalFeaure file** (tab delimitated) and its .json file.
+
+Below is an example for adding "clinicalFeature" reference in the phenotype file .json metadata
 
 {% code title="phenotypeFile.json" %}
 ```
@@ -149,7 +152,7 @@ example for adding "clinicalFeature" reference in the phenotype file .json metad
 ```
 {% endcode %}
 
-example for clinical feature file. This file is tab-delimitated, with headers "feature", "attribute", "value"
+Below is an example for clinical feature file. This file is tab-delimitated, with headers "feature", "attribute", "value"
 
 {% code title="clinicalFeature.txt" %}
 ```
@@ -161,7 +164,7 @@ alcohol_history_intensity    stateOrder    "no","yes"
 ```
 {% endcode %}
 
-example clinicalFeature file .json file (clinicalFeature.txt.json)
+Below is an example clinicalFeature file .json file (clinicalFeature.txt.json)
 
 {% code title="clinicalFeature.txt.json" %}
 ```
@@ -171,9 +174,9 @@ example clinicalFeature file .json file (clinicalFeature.txt.json)
 ```
 {% endcode %}
 
-#### Set binary 0/1 variables as categorical (rather than numeric) data in the phenotype file
+#### An example of setting binary 0/1 variables as categorical data in the phenotype file. Xena automatically assumes 0/1 is numerical data when it is loaded, so if you want this data to be displayed as categorical you need to indicate it in the clinicalFeature file.
 
-Specify this in the clinicalFeature file. Example&#x20;
+Below is an example of how you would do this for a feature called "your\_featureName".
 
 | feature           | attribute  | value    |
 | ----------------- | ---------- | -------- |
