@@ -1,5 +1,5 @@
 ---
-description: metadata (.json file) specification for maps and survival time unit
+description: metadata (.json file) specification
 ---
 
 # Metadata Specification
@@ -18,15 +18,15 @@ For each map
 
 **"dimension"** a list of strings. They are the column headers of the dimention columns in the data file. They are used to retrieve data from db.
 
-If it is a spatial map, there might be microscopy image\(s\) associated with each map.
+If it is a spatial map, there might be microscopy image(s) associated with each map.
 
-**"unit"** \(optional, only relevent to spatial map\) a string. The unit of map values, e.g. pixel, micrometer
+**"unit"** (optional, only relevent to spatial map) a string. The unit of map values, e.g. pixel, micrometer
 
-**"micrometer\_per\_unit"** \(optional, only relevent to spatial map\) a floting point number. The physical size in micrometer \(µm\) of value =1 . The parameter will be used in rendering scale bar is the spatil map. If not specified, scale will not be shown.
+**"micrometer\_per\_unit"** (optional, only relevent to spatial map) a floting point number. The physical size in micrometer (µm) of value =1 . The parameter will be used in rendering scale bar is the spatil map. If not specified, scale will not be shown.
 
-**"spot\_diameter"** \(optional, relevant to spatial map\) a floting point number. The parameter will be used to determine sphere size shown in spatial map. If not specified, the size of the sphere will be dertermined by the browser.
+**"spot\_diameter"** (optional, relevant to spatial map) a floting point number. The parameter will be used to determine sphere size shown in spatial map. If not specified, the size of the sphere will be dertermined by the browser.
 
-**"image"** \(optional, only relevant to a spatial map\) an array of images, each image is a json object. See below.
+**"image"** (optional, only relevant to a spatial map) an array of images, each image is a json object. See below.
 
 For each image
 
@@ -40,7 +40,7 @@ For each image
 
 **"offset"** an array of intergers. Image offset in pixel unit in this image in x and y dimension. See below for conversion from spatial coordinate values in map to pixel position in this image.
 
-**"image\_scalef"**: floating point number. A scaling factor that converts spatial coordinate values in the spatial map \(e.g. pixel or micrometer\) to the pixel unit in this image. It works together with the "offset" parameter to convert spatial coordinate values in the spatial map to the actual pixel positions in this image.
+**"image\_scalef"**: floating point number. A scaling factor that converts spatial coordinate values in the spatial map (e.g. pixel or micrometer) to the pixel unit in this image. It works together with the "offset" parameter to convert spatial coordinate values in the spatial map to the actual pixel positions in this image.
 
 * pixel\_in\_image\_x =  image\_scalef \* spatial\_coordinate\_x + offset\_x
 * pixel\_in\_image\_y =  image\_scalef \* spatial\_coordinate\_y + offset\_y
@@ -132,15 +132,21 @@ example
 }
 ```
 
-## COLUMN DISPLAY NORMALIZATION\
+## CUSTOM CATEGORICAL PHENOTYPE
+
+#### Set binary 0/1 variables as categorical (rather than numeric)&#x20;
+
+
+
+## COLUMN DISPLAY NORMALIZATION
 
 For genomic data matrix, the optional metadata parameter _colNormalization_ sets the default display scale. If not specified, the browser automatically determines the scale.
 
-**colNormalization**: ‘true’ \| ‘log2\(x\)’ \| ‘normal2’
+**colNormalization**: ‘true’ | ‘log2(x)’ | ‘normal2’
 
-* true: display centerred by column mean, x - column average, example usage is gene expression matrix that already log transformed. 
-* log2\(x\): display in log2\(x+1\) scale, example usage is count matrix 
-* normal2: display value of 2 in the background color \(i.e. white\), typically used for copy number data where the normal = 2
+* true: display centerred by column mean, x - column average, example usage is gene expression matrix that already log transformed.&#x20;
+* log2(x): display in log2(x+1) scale, example usage is count matrix&#x20;
+* normal2: display value of 2 in the background color (i.e. white), typically used for copy number data where the normal = 2
 
 example
 
@@ -154,4 +160,3 @@ example
      "unit": "log2(norm_count+1)"
 }
 ```
-
