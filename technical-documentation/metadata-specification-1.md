@@ -134,9 +134,53 @@ example
 
 ## CUSTOM CATEGORICAL PHENOTYPE
 
-#### Set binary 0/1 variables as categorical (rather than numeric)&#x20;
+You can do many customizations to control the phenotype file ("type": "clinicalMatrix") by adding "clinicalFeature" specifications. You will do that by doing two things together. 1) add a **"clinicalFeature" reference** in the phenotype .json file. Note the colon notation in example below. 2) **compose the clinicalFeaure file** (tab delimitated) and its .json file).
 
+example for adding "clinicalFeature" reference in the phenotype file .json metadata
 
+{% code title="phenotypeFile.json" %}
+```
+{
+    "cohort": "TCGA Breast Cancer (BRCA)",
+    "label": "label of you dataset", 
+    "type": "clinicalMatrix",
+    ":clinialFeature": "clinicalFeature.txt"
+}
+```
+{% endcode %}
+
+example for clinical feature file. This file is tab-delimitated, with headers "feature", "attribute", "value"
+
+{% code title="clinicalFeature.txt" %}
+```
+feature    attribute    value
+alcohol_history    valueType    category
+alcohol_history    state    no
+alcohol_history    state    yes
+alcohol_history_intensity    stateOrder    "no","yes"
+```
+{% endcode %}
+
+example clinicalFeature file .json file (clinicalFeature.txt.json)
+
+{% code title="clinicalFeature.txt.json" %}
+```
+{    
+    "type":"clinicalFeature"
+}
+```
+{% endcode %}
+
+#### Set binary 0/1 variables as categorical (rather than numeric) data in the phenotype file
+
+Specify this in the clinicalFeature file. Example&#x20;
+
+| feature           | attribute  | value    |
+| ----------------- | ---------- | -------- |
+| your\_featureName | valueType  | category |
+| your\_featureName | state      | 0        |
+| your\_featureName | state      | 1        |
+| your\_featureName | stateOrder | "0","1"  |
 
 ## COLUMN DISPLAY NORMALIZATION
 
@@ -144,7 +188,7 @@ For genomic data matrix, the optional metadata parameter _colNormalization_ sets
 
 **colNormalization**: ‘true’ | ‘log2(x)’ | ‘normal2’
 
-* true: display centerred by column mean, x - column average, example usage is gene expression matrix that already log transformed.&#x20;
+* true: display centered by column mean, x - column average, example usage is gene expression matrix that already log transformed.&#x20;
 * log2(x): display in log2(x+1) scale, example usage is count matrix&#x20;
 * normal2: display value of 2 in the background color (i.e. white), typically used for copy number data where the normal = 2
 
