@@ -43,3 +43,18 @@ For the GDC TCGA PanCan (PANCAN), you will want to add the phenotype column:
 {% hint style="info" %}
 [Here is a bookmark ](https://xenabrowser.net/heatmap/?bookmark=647fda97e21e3626d17788770855bd3c)that will take you to the GDC TCGA PanCan (PANCAN) Study with that phenotype column already selected.
 {% endhint %}
+
+## For TCGA TARGET GTEx ...
+
+For the TCGA TARGET GTEx, you will want to add the phenotype columns:
+
+> main category
+>
+> study
+>
+> primary\_site
+
+{% hint style="info" %}
+[Here is a bookmark](https://xenabrowser.net/?bookmark=96a9f803a168169ce223cb17d05c600d) that will take you to the TCGA TARGET GTEx Study with those phenotype columns already selected.
+{% endhint %}
+
