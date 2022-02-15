@@ -24,7 +24,7 @@ The phenotype column will vary depending on which study you choose. See below fo
 [More information on filtering](../overview-of-features/filter-and-subgrouping/)
 {% endhint %}
 
-## For TCGA Pan-Cancer (PANCAN) ...&#x20;
+## For TCGA Pan-Cancer (PANCAN)&#x20;
 
 For the TCGA PanCan (PANCAN), you will want to add the phenotype column:
 
@@ -34,7 +34,7 @@ For the TCGA PanCan (PANCAN), you will want to add the phenotype column:
 [Here is a bookmark ](https://xenabrowser.net/heatmap/?bookmark=d34a38000eca5f2bfcf936d5e06066dc)that will take you to the TCGA PanCan (PANCAN) Study with that phenotype column already selected.
 {% endhint %}
 
-## For GDC TCGA PanCan (PANCAN) ...&#x20;
+## For GDC TCGA PanCan (PANCAN)&#x20;
 
 For the GDC TCGA PanCan (PANCAN), you will want to add the phenotype column:
 
@@ -44,7 +44,7 @@ For the GDC TCGA PanCan (PANCAN), you will want to add the phenotype column:
 [Here is a bookmark ](https://xenabrowser.net/heatmap/?bookmark=647fda97e21e3626d17788770855bd3c)that will take you to the GDC TCGA PanCan (PANCAN) Study with that phenotype column already selected.
 {% endhint %}
 
-## For TCGA TARGET GTEx ...
+## For TCGA TARGET GTEx
 
 For the TCGA TARGET GTEx, you will want to add the phenotype columns:
 
