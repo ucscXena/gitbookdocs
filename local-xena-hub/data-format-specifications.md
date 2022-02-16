@@ -10,9 +10,7 @@ We support tab-delimited and Microsoft Excel files (.xlsx and .xls). Tab-delimit
 
 Please do not have any duplicate genes/probes/identifiers or samples. We will allow you to load with duplicates but will only display the first one encountered in the file.
 
-Please use a blank or ‘NA’ for no data.
-
-We assume you use a '.' to indicate a decimal place as opposed to a ',' , which is used in some languages.
+We assume you use a '.' to indicate a decimal place as opposed to a ',' .
 
 Here is a[ folder](https://drive.google.com/file/d/0BxeGFxkAhivXVkwyMmh2cVZ6U00) with example data in addition to the examples below.
 
@@ -83,6 +81,8 @@ An example of a phenotype matrix file:
 ## **Advanced Segmented data**
 
 For segmented data, we require the following 5 columns: sample, chr, start, end, and value. Note that your column headers must be these names exactly!
+
+Please use 'NA' to indicate no data.
 
 ### Supported data types
 
