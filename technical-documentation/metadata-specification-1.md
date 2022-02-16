@@ -185,6 +185,10 @@ Below is an example of how you would do this for a feature called "your\_feature
 | your\_featureName | state      | 1        |
 | your\_featureName | stateOrder | "0","1"  |
 
+{% hint style="info" %}
+More information about how to specify missing data as well as how Xena decides if a column is categorical or numerical, see our [Data Format Specifications](../local-xena-hub/data-format-specifications.md#basic-phenotypic-data-categories-or-non-genomic-in-a-rectangle-matrix-spreadsheet).
+{% endhint %}
+
 ## COLUMN DISPLAY NORMALIZATION
 
 For genomic data matrix, the optional metadata parameter _colNormalization_ sets the default display scale. If not specified, the browser automatically determines the scale.
