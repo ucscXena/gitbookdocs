@@ -6,7 +6,7 @@ This page assumes you have a column on screen that has the groups you would like
 
 1. First, make sure that the gene or genes that you want to compare across your groups are on screen.&#x20;
 2. Click on the charts icon in the top right and choose 'Compare subgroups'.&#x20;
-3. Click the dropdown for 'Show data from' and choose you gene expression column.&#x20;
+3. Click the dropdown for 'Show data from' and choose your gene expression column.&#x20;
 4. Click the dropdown for 'Subgroup samples by' and choose your subgroup column.&#x20;
 5. Choose if you would like a box plot or violin plot and click 'Done'.&#x20;
 

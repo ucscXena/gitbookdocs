@@ -19,6 +19,7 @@
   * [How do I make more than 2 subgroups?](how-do-i/how-do-i-make-more-than-2-subgroups.md)
   * [How do I make subgroups with geneA high and geneB high?](how-do-i/how-do-i-make-subgroups-with-4-groups.md)
   * [How do I compare gene expression between subgroups?](how-do-i/how-do-i-compare-gene-expression-between-subgroups.md)
+  * [How do I compare gene expression between different cancer types?](how-do-i/how-do-i-compare-gene-expression-between-different-cancer-types.md)
   * [How do I remove duplicate samples from a KM plot?](how-do-i/how-do-i-remove-duplicate-samples-from-a-km-plot.md)
   * [How do I view multiple types of cancer together?](how-do-i/how-do-i-view-more-than-one-type-of-cancer-together.md)
   * [How do I filter to just one cancer type](how-do-i/how-do-i-filter-to-just-one-cancer-type.md)
