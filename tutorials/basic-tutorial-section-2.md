@@ -16,7 +16,7 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Estimated time needed
 
-**Part A**: 15 min
+**Part A**: 7 min
 
 **Part B**: 15 min
 
