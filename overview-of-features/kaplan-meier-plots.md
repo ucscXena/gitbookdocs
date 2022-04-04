@@ -16,7 +16,7 @@ For numerical or continuous features, you will have the option of having 2 group
 
 When viewing the upper vs lower quartile, note that we only include samples that are greater than (not greater than or equal to) the upper quartile, and the same for the lower quartile.
 
-Note that only the samples that have survival data are used to calculate the median and other dividing values. To see which samples have survival data, add the column 'OS' from the phenotype data.
+Note that all are used to calculate the median and other dividing values, whether or not they have survival data. To see which samples have survival data, add the column 'OS' from the phenotype data.
 
 If more than one sample has the same value, we put the samples in a group together, even if this means the groups end up being unequal in size.
 
