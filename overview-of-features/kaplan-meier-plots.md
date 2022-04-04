@@ -12,13 +12,17 @@ To generate a KM plot, click on the column menu at the top of a column and choos
 
 ### Sample groups
 
-For numerical or continuous features, you will have the option of having 2 groups of samples, 3 groups of samples, or viewing the upper vs lower quartile. For 2 groups, we divide the samples on the median. For 3 groups, we divide samples into the upper third, middle third, and lower third. When viewing the upper vs lower quartile, note that we only include samples that are greater than (not greater than or equal to) the upper quartile, and the same for the lower quartile.
+For numerical or continuous features, you will have the option of having 2 groups of samples, 3 groups of samples, or viewing the upper vs lower quartile. For 2 groups, we divide the samples on the median. For 3 groups, we divide samples into the upper third, middle third, and lower third.&#x20;
+
+When viewing the upper vs lower quartile, note that we only include samples that are greater than (not greater than or equal to) the upper quartile, and the same for the lower quartile.
+
+Note that only the samples that have survival data are used to calculate the median and other dividing values. To see which samples have survival data, add the column 'OS' from the phenotype data.
 
 If more than one sample has the same value, we put the samples in a group together, even if this means the groups end up being unequal in size.
 
 For categorical features, we only show the first 10 categories.
 
-For mutation features, we divide samples into those with any mutation and those without. To make more refined groups (e.g. samples with nonsense mutations vs those without), [create your own subgroups ](filter-and-subgrouping/)and run a KM plot on the new column
+For mutation features, we divide samples into those with any mutation and those without. To make different groups (e.g. samples with nonsense mutations vs those without), [create your own subgroups ](filter-and-subgrouping/)and run a KM plot on the new column
 
 We remove samples with 'null' data for all plots.
 
