@@ -1,9 +1,3 @@
----
-description: >-
-  Instead of making just subgroups with geneA high vs low, this page will show
-  you how to make subgroups with geneA high & geneB high
----
-
 # How do I make subgroups with geneA high and geneB high?
 
 {% hint style="warning" %}

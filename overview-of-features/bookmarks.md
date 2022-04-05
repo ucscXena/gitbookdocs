@@ -8,9 +8,11 @@ description: >-
 
 ## Creating a bookmark
 
-To bookmark a view, click on 'Bookmark' in the top navigation bar. From here you can either click 'Bookmark' to create a bookmark URL or click 'Export' to export a file that can then be imported back to the browser. 
+To bookmark a view, click on 'Bookmark' in the top navigation bar. From here you can either click 'Bookmark' to create a bookmark URL or click 'Export' to export a file that can then be imported back to the browser.&#x20;
 
 When you click 'Bookmark' you will then need to click 'Copy Bookmark' to copy the bookmark URL to your copy buffer. Large views may take a second or two to generate a URL.
+
+![](../.gitbook/assets/Making\_bookmarks.gif)
 
 {% hint style="info" %}
 Note that your filter and subgroup history, as well as the last Chart View you created, if any, will be saved as part of the bookmark.
@@ -35,4 +37,3 @@ The 'Recent Bookmarks' option will temporarily show the 15 most recent bookmarks
 ### How do I make a bookmark with private data in view?
 
 When you create a bookmark link, we save the data in view on our servers. To protect user data privacy, we have disabled this option when private data is in view. Please use the Export/Import option instead.
-
