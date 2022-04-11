@@ -74,14 +74,14 @@ Example, spatial map with matching microscopy image
     "map": [
     {
         "label": "display label of the map",
-        "dataSubType": "embedding",
-        "dimension": ["UMAP_1","UMAP_2","UMAP_3"],
+        "dataSubType": "spatial",
+        "dimension": ["X","Y"],
         "unit": "pixel",
         "spot_diameter": 178.37655999999998,
         "micrometer_per_unit": 0.3083364764966877,
         "image": [
             {
-                "label": "display label of the image",
+            "label": "display label of the image",
             "channel":
             {
                 "red":"CD45",
