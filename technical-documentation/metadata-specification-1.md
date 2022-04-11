@@ -14,17 +14,17 @@ For each map
 
 **"label"** free text. Display label of the map, should be easily readable by users
 
-**"dataSubType"** a string. Describe the natur of the map, must be **embedding**, **spatial** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file
+**"dataSubType"** a string. Describe the nature of the map, must be **embedding**, **spatial** . Note this is the dataSubType attribute for the map, not the dataSubType attribute for the file
 
-**"dimension"** a list of strings. They are the column headers of the dimention columns in the data file. They are used to retrieve data from db.
+**"dimension"** a list of strings. They are the column headers of the dimension columns in the data file. They are used to retrieve data from db.
 
 If it is a spatial map, there might be microscopy image(s) associated with each map.
 
-**"unit"** (optional, only relevent to spatial map) a string. The unit of map values, e.g. pixel, micrometer
+**"unit"** (optional, only relevant to spatial map) a string. The unit of map values, e.g. pixel, micrometer
 
-**"micrometer\_per\_unit"** (optional, only relevent to spatial map) a floting point number. The physical size in micrometer (µm) of value =1 . The parameter will be used in rendering scale bar is the spatil map. If not specified, scale will not be shown.
+**"micrometer\_per\_unit"** (optional, only relevant to spatial map) a floating point number. The physical size in micrometer (µm) of value =1 in spatial map. The parameter will be used in rendering scale bar is the spatial map. If not specified, scale will not be shown.
 
-**"spot\_diameter"** (optional, relevant to spatial map) a floting point number. The parameter will be used to determine sphere size shown in spatial map. If not specified, the size of the sphere will be dertermined by the browser.
+**"spot\_diameter"** (optional, relevant to spatial map) a floating point number of the size of spot in map unit (not image unit).  The parameter will be used to determine sphere size shown in spatial map. If not specified, the size of the sphere will be determined by the browser.
 
 **"image"** (optional, only relevant to a spatial map) an array of images, each image is a json object. See below.
 
@@ -36,9 +36,9 @@ For each image
 
 **"path"** file path to the image file
 
-**"size"** an array of intergers. Image size in pixels.
+**"size"** an array of integers. Image size in image pixels.
 
-**"offset"** an array of intergers. Image offset in pixel unit in this image in x and y dimension. See below for conversion from spatial coordinate values in map to pixel position in this image.
+**"offset"** an array of integers. Image offset in pixel in x and y dimension. See below for conversion from spatial coordinate values in map to pixel position in this image.
 
 **"image\_scalef"**: floating point number. A scaling factor that converts spatial coordinate values in the spatial map (e.g. pixel or micrometer) to the pixel unit in this image. It works together with the "offset" parameter to convert spatial coordinate values in the spatial map to the actual pixel positions in this image.
 
