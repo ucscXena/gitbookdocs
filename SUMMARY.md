@@ -30,6 +30,7 @@
 * [Overview of features](overview-of-features/README.md)
   * [Visual Spreadsheet](overview-of-features/visual-spreadsheet/README.md)
     * [Coloring for Mutation Columns](overview-of-features/visual-spreadsheet/mutation-columns.md)
+    * [Coloring for Segmented Copy Number Columns](overview-of-features/visual-spreadsheet/coloring-for-segmented-copy-number-columns.md)
   * [Kaplan Meier Plots](overview-of-features/kaplan-meier-plots.md)
   * [Chart & Statistics View](overview-of-features/chart-view.md)
   * [Filtering and subgrouping](overview-of-features/filter-and-subgrouping/README.md)
