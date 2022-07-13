@@ -1,10 +1,10 @@
 ---
-description: 'This dynamic, powerful, and flexible view is our default view into the data.'
+description: This dynamic, powerful, and flexible view is our default view into the data.
 ---
 
 # Visual Spreadsheet
 
-The Visual Spreadsheet allows you to add an arbitrary number of columns of any data type \(mutation, copy number, expression, protein, phenotype, methylation, etc\) on any number of patient's samples into a spreadsheet-like view. We line up all columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
+The Visual Spreadsheet allows you to add an arbitrary number of columns of any data type (mutation, copy number, expression, protein, phenotype, methylation, etc) on any number of patient's samples into a spreadsheet-like view. We line up all columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
 
 Get started by going to the [Xena Browser](https://xenabrowser.net/heatmap/) and following the wizard to enter your data of interest.
 
@@ -22,17 +22,17 @@ You can select a cohort either by choosing 'Help me select a cohort' and searchi
 
 ### Adding a Gene or Position
 
-Enter a HUGO gene name or a dataset-specific probe names \(e.g. a CpG island\). You can enter one gene or multiple genes. Separate multiple genes with a space, comma, tab, or new line.
+Enter a HUGO gene name or a dataset-specific probe names (e.g. a CpG island). You can enter one gene or multiple genes. Separate multiple genes with a space, comma, tab, or new line.
 
-To display a genomic region, enter the genomic region, choose your dataset and click 'done'. We recongize chromosomes \(e.g. chr1\), arms of chromosomes \(e.g. chr19q\), are chromosomes coordinates \(e.g. chr1:100-4,000\). 
+To display a genomic region, enter the genomic region, choose your dataset and click 'done'. We recongize chromosomes (e.g. chr1), arms of chromosomes (e.g. chr19q), and chromosomes coordinates (e.g. chr1:100-4,000).&#x20;
 
 ### Selecting a Dataset
 
-After entering a gene or probe name, you will need to select one or more datasets. 
+After entering a gene or probe name, you will need to select one or more datasets.&#x20;
 
 #### Basic Datasets
 
-We have pre-selected default datasets for most cohorts. These datasets are selected based because they are the most used datasets. Typically there is a default mutation, copy number, and expression dataset. 
+We have pre-selected default datasets for most cohorts. These datasets are selected based because they are the most used datasets. Typically there is a default mutation, copy number, and expression dataset.&#x20;
 
 #### Advanced Datasets
 
@@ -42,7 +42,7 @@ Xena also has more datasets than those listed in the Basic Menu. Depending on th
 
 #### **More information on basic datasets**
 
-We annotate datasets used in the basic Visual Spreadsheet wizard with a red asterisk in our datasets pages. For an example see: [https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20\(LAML\)](https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20%28LAML%29)
+We annotate datasets used in the basic Visual Spreadsheet wizard with a red asterisk in our datasets pages. For an example see: [https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20(LAML)](https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20\(LAML\))
 
 ![Red asterisk indicating this dataset is the one used in the Basic Wizard](../../.gitbook/assets/redasterisk.png)
 
@@ -64,7 +64,7 @@ If you selected a positional dataset, such as segmented copy number variation or
 
 #### If you entered multiple genes
 
-If you entered multiple genes, each gene will be listed as a subcolumn for that dataset. If there are multiple probes mapped to that gene in the dataset \(i.e. if you entered a single gene then you would see the probes as subcolumns\), then the probes are averaged for a single value per gene. 
+If you entered multiple genes, each gene will be listed as a subcolumn for that dataset. If there are multiple probes mapped to that gene in the dataset (i.e. if you entered a single gene then you would see the probes as subcolumns), then the probes are averaged for a single value per gene.&#x20;
 
 Note that if you entered more than one gene and selected a mutation dataset, we will only show the first gene. If you wish to see multiple mutation columns, please enter each gene individually and click 'done'
 
@@ -80,19 +80,19 @@ If the entire column is gray this means we did not recognize the gene, probe, or
 
 More information about a dataset can be found in the dataset details page. To get there, click on the column menu and choose 'About'.
 
-![](../../.gitbook/assets/aboutmenu%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.gif)
+![](<../../.gitbook/assets/aboutmenu (2) (2) (2) (2) (2) (2) (2) (2) (2).gif>)
 
 ### Sample sorting
 
-The Xena Browser uses the y-axis for samples and the x-axis/columns for genomic/phenotypic features. Data from a single sample is always on the same horizontal line across all columns, allowing you to see screen-wide trends. The Xena Browser orders samples left to right first by the first columns, then the second, etc. If there are multiple genes, identifiers, probes within in a column, samples is ordered from left to right by 1st sub-column, then 2nd sub-column, and so on. 
+The Xena Browser uses the y-axis for samples and the x-axis/columns for genomic/phenotypic features. Data from a single sample is always on the same horizontal line across all columns, allowing you to see screen-wide trends. The Xena Browser orders samples left to right first by the first columns, then the second, etc. If there are multiple genes, identifiers, probes within in a column, samples is ordered from left to right by 1st sub-column, then 2nd sub-column, and so on.&#x20;
 
-Numerical data are ordered in descending order \(e.g. 3.5, 1.2, ...\). Categorical data \(e.g. stage, tumor type, etc\) are ordered by categories. CNV data is sorted by the average of the entire column. Positional mutation data is ordered by genomic coordinates \(from 5'-&gt;3'\) and then by the predicted impact of the mutation. Both CNV and positional mutation data has the option to instead sort by the zoomed region. Click the column menu at the top of the column and choose  'Sort by zoom region avg'.
+Numerical data are ordered in descending order (e.g. 3.5, 1.2, ...). Categorical data (e.g. stage, tumor type, etc) are ordered by categories. CNV data is sorted by the average of the entire column. Positional mutation data is ordered by genomic coordinates (from 5'->3') and then by the predicted impact of the mutation. Both CNV and positional mutation data has the option to instead sort by the zoomed region. Click the column menu at the top of the column and choose  'Sort by zoom region avg'.
 
 To reverse the ordering, click the column menu at the top of the column and chose 'Reverse sort'
 
 ### Move a column/change the sample sorting
 
-As the sample sort order is controlled by the left most columns, it can be useful to explore the data by moving a different column to the left. 
+As the sample sort order is controlled by the left most columns, it can be useful to explore the data by moving a different column to the left.&#x20;
 
 To move a column click on the column header and drag a column to the right or left.
 
@@ -119,4 +119,3 @@ You can change the size of a column by clicking on the bottom right corner of a 
 You can add another column of data by clicking on 'Click to add column' either on the right edge of the visual spreadsheet or by hovering between columns until 'Click to insert column' displays'.
 
 ![](../../.gitbook/assets/addgender.gif)
-

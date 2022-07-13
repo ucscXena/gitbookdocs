@@ -64,6 +64,6 @@
   * [Setting up Xena for your institution](technical-documentation/setting-up-xena-for-your-institution.md)
   * [Deep Linking Into Xena](technical-documentation/deep-linking-into-xena.md)
   * [Metadata Specification](technical-documentation/metadata-specification-1.md)
-* [Publication Page](https://ucscxena.github.io)
+* [Publication Page](https://ucscxena.github.io/)
 * [Contact us](contact-us.md)
 * [Cite us](cite-us.md)
