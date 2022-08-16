@@ -86,5 +86,5 @@ Please note that in this case we are reporting the log(fold change). Biologists 
 
 ## Can I get access to the raw TOIL data?
 
-Yes! We host it on AWS. Note that due to how large the files are, you will need to pay the egress fees to download the files. To get started, first look through the manifests for TCGA: s3://cgl-rnaseq-recompute-toil/tcga-manifest , TARGET: s3://cgl-rnaseq-recompute-toil/target-manifest , and GTEx s3://cgl-rnaseq-recompute-toil/gtex-manifest and decide which files you want. Then using your AWS account, download the files. [Contact us](../contact-us.md) if you run into any issues.
+Yes! We host it on AWS. Note that due to how large the files are, you will need to pay the egress fees to download the files. To get started, first look through the manifests for TCGA: [s3://cgl-rnaseq-recompute-toil/tcga-manifest](s3://cgl-rnaseq-recompute-toil/tcga-manifest) , TARGET: [s3://cgl-rnaseq-recompute-toil/target-manifest](s3://cgl-rnaseq-recompute-toil/target-manifest) , and GTEx [s3://cgl-rnaseq-recompute-toil/gtex-manifest](s3://cgl-rnaseq-recompute-toil/gtex-manifest) and decide which files you want. Then using your AWS account, download the files. [Contact us](../contact-us.md) if you run into any issues.
 
