@@ -1,8 +1,5 @@
 ---
-description: >-
-  Step-by-step tutorials, videos, and other materials to get you started using
-  UCSC Xena. If you have a specific question, check out our 'How do I ...'
-  Guides
+description: Step-by-step tutorials, videos, and other materials to get you started.
 ---
 
 # Tutorials
@@ -13,15 +10,15 @@ description: >-
 
 ## Video Tutorials
 
-### Overview of Xena \(2 min\)
+### Overview of Xena (2 min)
 
 {% embed url="https://vimeo.com/592993410" %}
 
-### Beginner Tutorial \(17 min\)
+### Beginner Tutorial (17 min)
 
 {% embed url="https://www.youtube.com/watch?v=m36vtNmxnzI" %}
 
-### Advanced Tutorial \(55 min\)
+### Advanced Tutorial (55 min)
 
 Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
@@ -29,7 +26,7 @@ Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
 ## Workshop Cheatsheet/Handout
 
-{% file src="../.gitbook/assets/xena\_workshop\_handout \(1\).pdf" %}
+{% file src="../.gitbook/assets/xena_workshop_handout (1).pdf" %}
 
 ## How do I ...
 
@@ -39,5 +36,4 @@ Recording of tutorial given for NCI in May 2021. Includes closed captioning.
 
 Workshops are a great way to teach a group of people how to use Xena. They can be 1-hour, 1/2-day, or 1-day in length. Currently we are only giving workshops remotely via Zoom or a similar technology. We give workshops both within the USA and internationally. Please contact us for more information: [genome-cancer@soe.ucsc.edu](mailto:genome-cancer@soe.ucsc.edu)
 
-## 
-
+##

@@ -6,17 +6,17 @@ description: Learn to create your first views in Xena
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before. We will cover how to create your first Visual Spreadsheet with gene expression, mutation, and copy number variation data.
+This tutorial is made for those who have never used Xena. We will cover how to create a Visual Spreadsheet with gene expression, mutation, and copy number variation data.
 
 ## Prerequisites
 
-This tutorial assumes a basic understanding of&#x20;
+This tutorial assumes basic knowledge of
 
-* cancer processes that can lead to altered gene expression, such as copy number variation or mutations
-* RNAseq gene expression, copy number variation, and mutational genomic sequencing data
+* gene expression, copy number variation, and mutational genomic sequencing data
+* how a change in copy number variation or mutations can lead to a change in gene expression
 * The Cancer Genome Atlas (TCGA)
 
-These resources can help you gain a basic understanding of these concepts:
+These resources can help you gain basic knowledge of these concepts:
 
 {% embed url="https://connect.springerpub.com/content/book/978-0-8261-6868-9/chapter/ch01" %}
 
@@ -47,7 +47,7 @@ These resources can help you gain a basic understanding of these concepts:
 
 ## Tutorial
 
-We are going to be examining _EGFR_ aberrations in patients with lung adenocarcinomas using TCGA data. We will be looking at mutation and copy number aberrations and how they affect gene expression.
+We are going to look at _EGFR_ aberrations in patients with lung adenocarcinomas using TCGA data. We will be looking at mutations and copy number aberrations and how they change gene expression.
 
 {% embed url="https://docs.google.com/presentation/d/1wKUwb2ThTZ4joU5ExyDWPS7tuQ5keHnrpzJ7dMtMErA/edit?usp=sharing" %}
 
@@ -61,7 +61,7 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
+1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
 2. Type 'GDC TCGA Lung Adenocarcinoma (LUAD)', select this study from the drop down menu, and click 'Done'.
 3. Type '_EGFR_', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'Done'.
 
@@ -75,7 +75,7 @@ Samples are on the y-axis and your columns of data are on the x-axis. We line up
 
 #### Biological interpretation
 
-We can see that samples from TCGA patients that have high expression of _EGFR_ (red, column B) tend to either have amplifications of _EGFR_ (red,  column C) or mutations in _EGFR_ (blue tick marks, column D)
+We can see that samples from TCGA patients that have high expression of _EGFR_ (red, column B) tend to either have amplifications of _EGFR_ (red,  column C) or mutations in _EGFR_ (blue tick marks, column D).
 
 {% hint style="success" %}
 More information
@@ -93,7 +93,7 @@ More information
 
 ### Part B
 
-To further explore the relationship between the gene expression, mutation, and copy number variation data for _EGFR_, we will move columns to change the sort order, resize columns, and zoom in both for the entire Visual Spreadsheet and within a column.
+We will now move the columns to change the sort order and resize columns. We will zoom in to the whole Visual Spreadsheet and also within a column.
 
 #### Steps
 

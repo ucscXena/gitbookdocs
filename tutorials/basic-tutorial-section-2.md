@@ -8,7 +8,7 @@ description: >-
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial. We will cover how to filter to just the samples you are interested in, how to create subgroups, and how to run a Kaplan Meier survival analysis.
+This tutorial is made for those who have never used Xena but who have completed Section 1 of the Basic Tutorial. We will cover how to filter to just the samples you are interested in, how to create subgroups, and how to run a Kaplan Meier survival analysis.
 
 ## Prerequisites
 
@@ -41,9 +41,9 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Tutorial
 
-In the Basic Tutorial Section 1 we found that we found that samples from patients that have aberrations in _EGFR_ (mutations or amplifications) have higher expression.
+In the Basic Tutorial Section 1 we found that we found that samples from patients that have aberrations in _EGFR_ have relatively higher expression. These aberrations could be mutations or copy number amplifications.&#x20;
 
-Now we are going to investigate whether those patient with aberrations in their samples also have a worse survival prognosis.
+Now we are going to look at whether those patient with aberrations in their samples also have a worse survival prognosis.
 
 {% hint style="warning" %}
 To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
@@ -124,7 +124,7 @@ Now that we have our subgroups we will run a Kaplan Meier survival analysis. Not
 
 ![](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
 
-We can now see that there is no survival difference between patients with _EGFR_ aberrations and those without.
+We can now see that there is no difference in survival between patients with _EGFR_ aberrations and those without.
 
 #### Steps
 

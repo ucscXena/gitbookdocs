@@ -6,11 +6,11 @@ description: Learn how to use Chart View and add new columns of data to a view
 
 ## Description
 
-This tutorial is intended for those who have never used Xena before but who have completed Section 1 of the Basic Tutorial. We will cover how to make box plots and bar charts using our Charts and Statistics View and how to add another column of data, in particular phenotype data, to the view.
+This tutorial is made for those who have never used Xena but who have completed Section 1 of the Basic Tutorial. We will cover how to make box plots and bar charts using our Charts and Statistics View and how to add another column of data, in particular phenotype data, to the view.
 
 ## Prerequisites
 
-This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutorial-section-1.md). Completion of [Basic Tutorial: Section 2](basic-tutorial-section-2.md) is recommended but not required. This tutorial begins where the Basic Tutorial: Section 2 ends. A live link to the end of Basic Tutorial: Section 2 is provided at the beginning of this tutorial.
+This tutorial assumes you have done [Basic Tutorial: Section 1](basic-tutorial-section-1.md). [Basic Tutorial: Section 2](basic-tutorial-section-2.md) is recommended but not required. This tutorial begins where the Basic Tutorial: Section 2 ends. A live link to the end of Basic Tutorial: Section 2 is at the beginning of this tutorial.
 
 ## Estimated time needed
 
@@ -32,11 +32,11 @@ This tutorial assumes completion of the [Basic Tutorial: Section 1](basic-tutori
 
 ## Tutorial
 
-In the Basic Tutorial: Section 1 we found that patient's samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression.
+In the [Basic Tutorial: Section 1](basic-tutorial-section-1.md) we found that patient's samples that have aberrations in EGFR have higher expression. These aberrations could be mutations or copy number amplifications.&#x20;
 
-In the Basic Tutorial: Section 2 we created two subgroups: those patient's samples with aberrations and those without aberrations in _EGFR_. We ran a Kaplan Meier survival analysis and found that there was no survival difference between these two groups.
+In the [Basic Tutorial: Section 2](basic-tutorial-section-2.md) we created two subgroups: patient's samples that have aberrations in _EGFR_ and those without. We ran a Kaplan Meier survival analysis and found that there was no difference in survival between these two groups.&#x20;
 
-Now we are going to use the subgroups created in the Basic Tutorial: Section 2 to see if there is a statistical difference in expression between the two subgroups and whether samples from males or females have more aberrations.
+Now we are going to use the subgroups created in the [Basic Tutorial: Section 2](basic-tutorial-section-2.md) to see if there is a statistical difference in gene expression between the two subgroups. We will also look at whether samples from male or female patients have more aberrations.
 
 {% hint style="warning" %}
 To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
@@ -44,21 +44,21 @@ To ensure your columns are sorted the same as those in this tutorial, please sta
 
 ### Part A
 
-We found that patient's samples that have aberrations in _EGFR_ \(mutations or amplifications\) have higher expression. Now we are going to investigate if this difference in expression statistically significant.
+We found that patient's samples that have aberrations in _EGFR_ have higher gene expression. Now we are going to investigate if this difference in gene expression statistically significant.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=dc05bbdcf590f7df4506fbcd721f60b5)
 
 ![](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
 
-We can now see that patient's samples with _EGFR_ aberrations have statistically higher expression.
+We can now see that patient's samples with _EGFR_ aberrations have statistically higher gene expression.
 
 #### Steps
 
 1. Click the graph icon in the upper right corner to enter Chart View.
 2. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
 3. Click the dropdown for 'Show data from' and choose 'column C: EGFR - gene expression RNAseq - HTSeq - FPKM-UQ'.
-4. Click the dropdown for 'Subgroup samples by' and choose 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup'.
-5. Click 'Done'. 
+4. Click the dropdown for 'Subgroup samples by' and choose 'column B: (mis OR infra) OR C:>0.5 - Subgroup'.
+5. Click 'Done'.&#x20;
 
 #### Video of steps
 
@@ -72,7 +72,7 @@ More information
 
 ### Part B
 
-We will now investigate how _EGFR_ aberrations compare between men's and women's samples.
+We will now investigate how _EGFR_ aberrations compare between samples from men and women.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=8ac908b928e0332e8dfa3e306488d543)
 
@@ -88,8 +88,8 @@ We can now see that _EGFR_ aberrations are more common in samples from females.
 4. Click the column menu at the top of column C and choose 'Chart & Statistics'. Note that this is just another way to enter Chart View.
 5. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
 6. 'column C: gender.demographic' should already be selected for  'Show data from'. If not, select it.
-7. 'column B: \(mis OR infra\) OR C:&gt;0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
-8. Click 'Done'. 
+7. 'column B: (mis OR infra) OR C:>0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
+8. Click 'Done'.&#x20;
 
 #### Video of steps 1-3
 
@@ -134,4 +134,3 @@ Note that your column order may be different.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
