@@ -8,7 +8,7 @@ description: >-
 
 ## Description
 
-This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to load your own data into a Xena hub on your computer and view the data in the Xena Browser
+This tutorial is made for those who have basic knowledge of how to use Xena. We will cover how to load your own data into a Xena hub on your computer. We will then view the data in the Xena Browser
 
 We will be viewing RNAseq and clinical data from the Chinese Glioma Genome Atlas (CGGA).
 
@@ -18,9 +18,9 @@ We will be viewing RNAseq and clinical data from the Chinese Glioma Genome Atlas
 
 To format the datasets you will need access to a spreadsheet application, such as Microsoft Excel.
 
-To load the data into a Local Xena Hub you will need a computer over which you have installation privileges.&#x20;
+To load the data into a Local Xena Hub you will need a computer where you have installation privileges.&#x20;
 
-To visualize the data, you will need a basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/), how to [filter samples](../overview-of-features/filter-and-subgrouping/), how to [create a box plot in Chart View](../overview-of-features/chart-view.md), and how to [run a Kaplan Meier Analysis](../overview-of-features/kaplan-meier-plots.md). This can be achieved through completion of the Basic Tutorials, starting with [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
+To visualize the data, you will need basic knowledge of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/), how to [filter samples](../overview-of-features/filter-and-subgrouping/), how to [create a box plot in Chart View](../overview-of-features/chart-view.md), and how to [run a Kaplan Meier Analysis](../overview-of-features/kaplan-meier-plots.md). To get this go through the Basic Tutorials, starting with [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
 
 ## Estimated time needed
 
@@ -35,7 +35,7 @@ To visualize the data, you will need a basic understanding of how to build and r
 **Part A**
 
 * Download data from CGGA
-* Use Microsoft Excel or another spreadsheet application to make a minor formatting adjustment to enable Kaplan Meier analyses
+* Use Microsoft Excel or another spreadsheet application to make small formatting adjustments. These adjustments are only to enable Kaplan Meier analyses. Data can be visualized as is.
 
 **Part B**
 
@@ -52,7 +52,7 @@ To visualize the data, you will need a basic understanding of how to build and r
 
 ### Part A
 
-First we will start with the files downloaded from this study. These files already conform to our data file requirements, namely that they are matrices that have sample IDs along one axis and probe, gene, or clinical data names along the other. The files are tab-delimited (we accept both tab-delimited and Microsoft Excel files).&#x20;
+We will start with downloading the files from the CGGA. These files already conform to our data file requirements. This is because they are matrices that have sample IDs along one axis and probe, gene, or clinical data names along the other. Additionally, the files are tab-delimited.&#x20;
 
 For more information see:
 
@@ -60,9 +60,9 @@ For more information see:
 [data-format-specifications.md](../local-xena-hub/data-format-specifications.md)
 {% endcontent-ref %}
 
-While we can load the files exactly as is, we will perform a minor manipulation so that we can create a Kaplan Meier plot using the clinical data. Our Kaplan Meier analyses need two columns of clinical data to create a plot: the event/censor column and the time to that event/censor.  These columns need to be specially named so that our Kaplan Meier analysis recognizes them. In this case, for Overall Survival, the column names need to be 'OS' and 'OS.time'.&#x20;
+While we can load the files exactly as is, we will perform a small format adjustment so that we can create a Kaplan Meier plot. Our Kaplan Meier analyses need two columns of clinical data to create a plot: the event/censor column and the time to that event/censor.  These columns need to be specially named so that our Kaplan Meier analysis recognizes them. For Overall Survival, the column names need to be 'OS' and 'OS.time'.&#x20;
 
-For more information on other supported column headers for our Kaplan Meier analysis see:
+For more information on other supported columns for our Kaplan Meier analysis see:
 
 {% content-ref url="../local-xena-hub/km-plots-using-data-from-a-local-xena-hub.md" %}
 [km-plots-using-data-from-a-local-xena-hub.md](../local-xena-hub/km-plots-using-data-from-a-local-xena-hub.md)
@@ -86,7 +86,7 @@ There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is r
 {% endhint %}
 
 {% hint style="info" %}
-****[**Genomic and Clinical data to load into Xena** ](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)****
+****[**Copy of genomic and clinical data to load into Xena** ](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)****
 {% endhint %}
 
 ### Part B
@@ -95,7 +95,7 @@ There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is r
 
 #### **If this is your first time viewing your own data**
 
-1\. Click '[VIEW MY DATA](https://xenabrowser.net/datapages/?addHub=http%3A%2F%2F127.0.0.1%3A7222\&host=http%3A%2F%2F127.0.0.1%3A7222)' at the top of the screen. You should see a screen similar to this (details will vary with your browser and operating system):
+1\. Click '[VIEW MY DATA](https://xenabrowser.net/datapages/?addHub=http%3A%2F%2F127.0.0.1%3A7222\&host=http%3A%2F%2F127.0.0.1%3A7222)' at the top of the screen. You should see a screen similar to this:
 
 ![](../.gitbook/assets/screen-shot-2021-06-15-at-12.17.07-pm.png)
 
@@ -105,11 +105,11 @@ There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is r
 
 4\. Double-click the installer to install the Xena Hub on your computer. Follow onscreen instructions, which vary by operating system.&#x20;
 
-Please reference our [FAQ/Troubleshooting Guide](../local-xena-hub/faq-troubleshooting-guide.md) or [contact us](../contact-us.md) if you encounter any problems.
+Please see our [FAQ/Troubleshooting Guide](../local-xena-hub/faq-troubleshooting-guide.md) or [contact us](../contact-us.md) if you encounter any problems.
 
 #### **If you already have viewed your own data**
 
-1\. Click '[VIEW MY DATA](https://xenabrowser.net/datapages/?addHub=http%3A%2F%2F127.0.0.1%3A7222\&host=http%3A%2F%2F127.0.0.1%3A7222)' at the top of the screen. You should see a screen similar to this (details will vary with your browser and operating system):
+1\. Click '[VIEW MY DATA](https://xenabrowser.net/datapages/?addHub=http%3A%2F%2F127.0.0.1%3A7222\&host=http%3A%2F%2F127.0.0.1%3A7222)' at the top of the screen. You should see a screen similar to this:
 
 ![](../.gitbook/assets/screen-shot-2021-06-15-at-12.17.19-pm.png)
 
@@ -147,12 +147,12 @@ If you have already loaded data previously, you may see datasets and cohorts lis
 ![](../.gitbook/assets/load\_rnaseq\_cgga.gif)
 
 {% hint style="info" %}
-Note that it can take up to several minutes for the RNAseq data to load since it is relatively large.
+Note that it can take several minutes for the RNAseq data to load since it is larger.
 {% endhint %}
 
 ### Part C
 
-We will look at 1p-19q co-deletion  in Chinese glioma patients and compare this to IDH1 expression.
+We will look at the chromosome 1p-19q co-deletion in Chinese glioma patients and compare this to IDH1 expression.
 
 #### Ending Screenshot for Visual Spreadsheet (end of step 5)
 
@@ -167,7 +167,7 @@ We will look at 1p-19q co-deletion  in Chinese glioma patients and compare this 
 ![](../.gitbook/assets/screen-shot-2021-06-16-at-1.33.50-pm.png)
 
 {% hint style="info" %}
-Note that we are unable to provide links to these ending screenshots, similar to other tutorials, due to the fact that we do not allow users to create bookmarks when viewing data from their own Local Xena Hubs. This is to protect the privacy of your data. [For more information see our Bookmarks help section.](../overview-of-features/bookmarks.md)
+Note that we are unable to provide links to these ending screenshots because we do not allow users to create bookmarks when viewing data from their own Local Xena Hubs. This is to protect the privacy of your data. [For more information see our Bookmarks help section.](../overview-of-features/bookmarks.md)
 {% endhint %}
 
 #### Steps

@@ -8,7 +8,9 @@ description: >-
 
 ## Workshop cheatsheet/handout
 
-{% file src="../.gitbook/assets/xena\_workshop\_handout \(1\).pdf" caption="Xena Workshop Handout" %}
+{% file src="../.gitbook/assets/xena_workshop_handout (1).pdf" %}
+Xena Workshop Handout
+{% endfile %}
 
 ## [FOXM1a, FOXM1b, FOXM1c transcript expression in tumor vs. normal samples](https://xenabrowser.net/heatmap/?bookmark=bc7f3f46b042bcf5c099439c2816ff01)
 
@@ -20,7 +22,7 @@ description: >-
 
 
 
-## [MGMT gene expression ~ promoter DNA methylation in GBM](https://xenabrowser.net/heatmap/?bookmark=2dc4735dd97964b7c2a57afe053a9764)
+## [MGMT gene expression \~ promoter DNA methylation in GBM](https://xenabrowser.net/heatmap/?bookmark=2dc4735dd97964b7c2a57afe053a9764)
 
 ![https://xenabrowser.net/heatmap/?bookmark=2dc4735dd97964b7c2a57afe053a9764](../.gitbook/assets/dna-methylation-01.png)
 
@@ -34,7 +36,7 @@ description: >-
 
 ## [Genetic separation of lower grade gliomas: one characterized by loss of chromosomes 1p & 19q, the other by TP53 & ATRX mutations](https://xenabrowser.net/heatmap/?bookmark=6451afae2ee964475a2eb9c79d46900c)
 
-![https://xenabrowser.net/heatmap/?bookmark=6451afae2ee964475a2eb9c79d46900c](../.gitbook/assets/old_sfigure-3_lgg.png)
+![https://xenabrowser.net/heatmap/?bookmark=6451afae2ee964475a2eb9c79d46900c](../.gitbook/assets/old\_sfigure-3\_lgg.png)
 
 ## [Copy number for EGFR, PTEN, chromosome 1, 7, 10, 19 in TCGA brain tumors](https://xenabrowser.net/heatmap/?bookmark=0f9954a525987445ba7faef1e2081027)
 
@@ -44,11 +46,10 @@ description: >-
 
 ![https://xenabrowser.net/heatmap/?bookmark=27d8bc5b7904f768374a1eeae9baed81](../.gitbook/assets/icgcintronmutation.png)
 
-Xena mutation views supports examination of both coding and non-coding mutations from whole genome analysis. We support viewing mutations from both gene- or coordinate- centric perspective. In the gene-centric view, you can dynamically toggle to show or hide introns from the view. This figure shows the frequent intron mutations in 321 samples from the ICGC lymphoma cohorts. These 'pile-ups' would be not be visible if viewing mutations only in the exome. These intron mutations overlap with known enhancers regions \(Mathelier 2015\).‌
+Xena mutation views supports examination of both coding and non-coding mutations from whole genome analysis. We support viewing mutations from both gene- or coordinate- centric perspective. In the gene-centric view, you can dynamically toggle to show or hide introns from the view. This figure shows the frequent intron mutations in 321 samples from the ICGC lymphoma cohorts. These 'pile-ups' would be not be visible if viewing mutations only in the exome. These intron mutations overlap with known enhancers regions (Mathelier 2015).‌
 
-Mathelier A, Lefebvre C, Zhang AW, Arenillas DJ, Ding J, Wasserman WW, Shah SP. Cis-regulatory somatic mutations and gene-expression alteration in B-cell lymphomas Genome Biology. 2015; 16:84.
+{% embed url="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0648-7" %}
 
 ## [Stemness scores across TCGA cancer types](https://xenabrowser.net/?bookmark=7deeea053f221ba9fc506be855f353ac)
 
 ![https://xenabrowser.net/?bookmark=7deeea053f221ba9fc506be855f353ac](../.gitbook/assets/sfigure-5-stemness.png)
-
