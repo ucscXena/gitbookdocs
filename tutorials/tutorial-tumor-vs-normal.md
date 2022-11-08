@@ -8,7 +8,7 @@ description: >-
 
 ## Description
 
-This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to view tumor and normal samples from healthy and diseased individuals side by side, and how to compare gene expression for one or more genes between tumor and normal samples.&#x20;
+This tutorial is made for those who have basic knowledge of how to use Xena. We will cover how to view tumor and normal samples from healthy and diseased individuals together, and how to compare gene expression for one or more genes between tumor and normal samples.&#x20;
 
 We will be using both GTEx samples as our normal samples as well as TCGA matched normal samples. More information on GTEx normal samples can be found here:
 
@@ -18,7 +18,7 @@ We will be using both GTEx samples as our normal samples as well as TCGA matched
 
 ## Prerequisites
 
-This tutorial assumes a basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). This can be achieved through completion of the Basic Tutorials, especially the [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
+This tutorial assumes basic knowledge of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). To get this, go through [Basic Tutorial: Section 1](basic-tutorial-section-1.md).
 
 ## Estimated time needed
 
@@ -43,15 +43,17 @@ We will compare _MYC_ gene expression between patient's samples in TCGA colon ad
 
 ### Part A
 
-Our goal is to build a visual spreadsheet with the columns 'primary site', 'sample site', 'study', and gene expression for _MYC_ for the TCGA TARGET GTEx study. We will then filter to just samples in the colon.
+Our goal is to build a visual spreadsheet with the columns 'primary site', 'sample site', 'study', and gene expression for _MYC_ for the TCGA TARGET GTEx study. We will then filter to samples in the colon.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=1bd621010a99958b139840a83a49562d)
 
 ![](../.gitbook/assets/screen-shot-2021-06-08-at-1.59.21-pm.png)
 
+We can now see that normal samples tend to have lower _MYC_ gene expression.
+
 #### Steps
 
-1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
+1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
 2. Type 'TCGA TARGET GTEx', select this study from the drop down menu, and click 'Done'.
 3. Type '_MYC_', select the checkbox for Gene Expression and click 'Done'.
 4. Choose 'Phenotypic' and select the checkboxes for 'sample type', 'study' and 'Primary site', and click 'Done'.
@@ -67,7 +69,7 @@ Our goal is to build a visual spreadsheet with the columns 'primary site', 'samp
 
 ### Part B
 
-Our goal is to see if the difference in gene expression, where normal samples tend to have lower _MYC_ expression, is statistically significant.
+Our goal is to see if the difference in gene expression, where normal samples tend to have lower _MYC_ gene expression, is statistically significant.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=5037e150565a8331ca94d869dfb0a209)
 
@@ -90,7 +92,7 @@ We can now see that patient's tumor samples, both recurrent, primary, and metast
 
 {% tabs %}
 {% tab title="Question" %}
-Compare EGFR gene expression between patient's tumor samples and individual's normal lung tissue.
+Compare _EGFR_ gene expression between patient's tumor samples and individual's normal lung tissue.
 {% endtab %}
 
 {% tab title="Answer" %}
