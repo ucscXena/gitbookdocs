@@ -7,15 +7,15 @@ description: >-
 
 # Advanced Tutorial: Section 2
 
-## Description <a href="description" id="description"></a>
+## Description <a href="#description" id="description"></a>
 
-This tutorial is intended for those who have a basic understanding of how to use Xena. We will cover how to use the pick samples feature, how to view multiple genes in a single column, how to enter and view a signature, and how to run a differential expression analysis between your subgroups.&#x20;
+This tutorial is made for those who have basic knowledge of how to use Xena. We will cover how to use the pick samples feature, how to view multiple genes in a single column, how to enter and view a signature, and how to run a differential expression analysis.&#x20;
 
-## Prerequisites <a href="prerequisites" id="prerequisites"></a>
+## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-This tutorial assumes a basic understanding of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). This can be achieved through completion of the Basic Tutorials, especially the [Basic Tutorial: Section 1](basic-tutorial-section-1.md). It also assumes a basic understanding of filtering. This can be achieved through completion of the [Basic Tutorial: Section 2](basic-tutorial-section-2.md).
+This tutorial assumes basic knowledge of how to build and read a [Visual Spreadsheet](../overview-of-features/visual-spreadsheet/). To get this, go through [Basic Tutorial: Section 1](basic-tutorial-section-1.md). It also assumes basic knowledge of filtering. To get this, go through [Basic Tutorial: Section 2](basic-tutorial-section-2.md).
 
-## Estimated time needed <a href="estimated-time-needed" id="estimated-time-needed"></a>
+## Estimated time needed <a href="#estimated-time-needed" id="estimated-time-needed"></a>
 
 **Part A**: 10 min
 
@@ -23,7 +23,7 @@ This tutorial assumes a basic understanding of how to build and read a [Visual S
 
 **Part C**: 15 min
 
-## Learning goals <a href="learning-goals" id="learning-goals"></a>
+## Learning goals <a href="#learning-goals" id="learning-goals"></a>
 
 **Part A**
 
@@ -39,11 +39,11 @@ This tutorial assumes a basic understanding of how to build and read a [Visual S
 
 * Run a differential expression analysis.
 
-## Tutorial <a href="tutorial" id="tutorial"></a>
+## Tutorial <a href="#tutorial" id="tutorial"></a>
 
 We will investigate the PAM50 molecular subtypes in breast cancer. PAM50 is a 50-gene signature that classifies breast cancer into five molecular intrinsic subtypes: Luminal A, Luminal B, HER2-enriched, Basal-like, and Normal-like.&#x20;
 
-{% embed url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2667820/" %}
+{% embed url="https://ascopubs.org/doi/full/10.1200/JCO.2008.18.1370" %}
 
 ### Part A
 
@@ -55,7 +55,7 @@ We will make a visual spreadsheet where we can explore the relationship between 
 
 #### Steps
 
-1. Start at [https://xenabrowser.net/](https://xenabrowser.net)
+1. Start at [https://xenabrowser.net/](https://xenabrowser.net/)
 2. Type 'TCGA Breast Cancer (BRCA)', select this study from the drop down menu, and click 'Done'.
 3. Choose 'Phenotypic', select 'sample\_type' from the dropdown menu, and click 'Done'.
 4. Choose 'Phenotypic', type 'pam' into the search bar, select 'PAM50Call\_RNAseq' from the dropdown menu, and click 'Done'. This will exit the wizard.
@@ -63,7 +63,7 @@ We will make a visual spreadsheet where we can explore the relationship between 
 6. Click the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger.&#x20;
 
 {% hint style="info" %}
-List of 50 genes use to calculate the PAM50 subtype call:
+List of 50 genes used to calculate the PAM50 subtype call:
 
 UBE2T BIRC5 NUF2 CDC6 CCNB1 TYMS MYBL2 CEP55 MELK NDC80 RRM2 UBE2C CENPF PTTG1 EXO1 ORC6L ANLN CCNE1 CDC20 MKI67 KIF2C ACTR3B MYC EGFR KRT5 PHGDH CDH3 MIA KRT17 FOXC1 SFRP1 KRT14 ESR1 SLC39A6 BAG1 MAPT PGR CXXC5 MLPH BCL2 MDM2 NAT1 FOXA1 BLVRA MMP11 GPR160 FGFR4 GRB7 TMEM45B ERBB2
 {% endhint %}
@@ -98,7 +98,7 @@ More information:
 
 We will now look at the TFAC30 gene signature and see how it relates to the PAM50 subtype calls. This gene expression signature over 30 genes predicts pathologic complete response (pCR) to preoperative weekly paclitaxel and fluorouracil-doxorubicin-cyclophosphamide (T/FAC) chemotherapy.
 
-{% embed url="https://pubmed.ncbi.nlm.nih.gov/16896004/" %}
+{% embed url="https://ascopubs.org/doi/10.1200/JCO.2006.05.6861" %}
 
 #### [Ending Screenshot](https://xenabrowser.net/heatmap/?bookmark=1c8615e048533c516b9cba173e7f2db4)
 
@@ -114,7 +114,7 @@ TFAC30 gene expression signature:
 \=E2F3 + MELK + RRM2 + BTG3 - CTNND2 - GAMT - METRN - ERBB4 - ZNF552 - CA12 - KDM4B - NKAIN1 - SCUBE2 - KIAA1467 - MAPT - FLJ10916 - BECN1 - RAMP1 - GFRA1 - IGFBP4 - FGFR1OP - MDM2 - KIF3A - AMFR - MED13L - BBS4
 {% endhint %}
 
-We can see that patient's samples that are labeled as 'Her2' and 'Basal' are predicted to be more likely to achieve pCR on TFAC chemotherapy.
+We can now see that patient's samples that are labeled as 'Her2' and 'Basal' are predicted to be more likely to achieve pCR on TFAC chemotherapy.
 
 #### Video of step 1
 
