@@ -19,7 +19,7 @@ More information:
 
 ## Example
 
-In this example we are creating two subgroups: those patient's samples that have EGFR aberrations (either mutations or copy number amplifications) and those that do not in the TCGA Lung Adenocarcinoma study.&#x20;
+In this example we are creating two subgroups in the TCGA Lung Adenocarcinoma study: patient's samples with aberrations in _EGFR_ and those without. These aberrations could be mutations or copy number amplifications.
 
 ![](../.gitbook/assets/makesubgroups.gif)
 
@@ -35,10 +35,3 @@ For more information see our [Basic Tutorial: Section 2](../tutorials/basic-tuto
 {% hint style="info" %}
 [See our help on renaming the subgroup labels](https://ucsc-xena.gitbook.io/project/overview-of-features/filter-and-subgrouping#changing-subgroup-labels) from 'true' and 'false' to something more biologically meaningful.
 {% endhint %}
-
-
-
-
-
-
-
