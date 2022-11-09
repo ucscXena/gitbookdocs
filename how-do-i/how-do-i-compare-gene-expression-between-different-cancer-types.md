@@ -1,7 +1,7 @@
 # How do I compare gene expression between different cancer types?
 
 {% hint style="info" %}
-This page assumes that you are already viewing more than one cancer type together in the same view. Please see the help page '[How do I view multiple types of cancer together](how-do-i-view-more-than-one-type-of-cancer-together.md)' to get started with this.
+This page assumes that you are already viewing more than one cancer type in view. Please see the help page '[How do I view multiple types of cancer together](how-do-i-view-more-than-one-type-of-cancer-together.md)' to get started with this.
 
 
 

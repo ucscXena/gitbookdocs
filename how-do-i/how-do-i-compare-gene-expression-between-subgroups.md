@@ -12,7 +12,7 @@ This page assumes you have a column on screen that has the groups you would like
 
 ## Example
 
-Below we examine patient's samples that have aberrations in _EGFR_  in the TCGA Lung Adenocarcinoma study. We will investigate if patient's samples that have aberrations in _EGFR_ (mutations or copy number amplifications) have higher expression.
+Below we look at patient's samples that have aberrations in _EGFR_  in the TCGA Lung Adenocarcinoma study. We will investigate if patient's samples that have aberrations in _EGFR_ (mutations or copy number amplifications) have higher expression.
 
 #### [Ending Screenshot](https://xenabrowser.net/?bookmark=dc05bbdcf590f7df4506fbcd721f60b5)
 

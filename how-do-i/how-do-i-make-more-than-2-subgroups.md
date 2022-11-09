@@ -1,12 +1,12 @@
 # How do I make more than 2 subgroups?
 
 {% hint style="warning" %}
-This page assumes you are familiar with making 2 subgroups. If you are not, please see the ['How do I make subgroups'](how-do-i-make-subgroups.md) help page.
+This page assumes you are familiar with making 2 subgroups. If you are not, please see ['How do I make subgroups'](how-do-i-make-subgroups.md).
 {% endhint %}
 
-To make more than 2 sample subgroups, enter multiple search terms, such as 'C:>15' into the search box and separate each search term with a ';'.
+To make more than 2 sample subgroups, enter multiple search terms, such as 'C:>15' into the search box. Separate each search term with a ';'.
 
-This can be used for a number of tasks:
+This can be used for a number of situations:
 
 * To divide a single numerical column into more than 2 subgroups (e.g. geneA high, geneA mid, and geneA low)
 * To make subgroups over the expression of two genes such that you get 4 subgroups (e.g. geneA high + geneB high, geneA low + geneB high, geneA high + geneB low, geneA low + geneB low)
