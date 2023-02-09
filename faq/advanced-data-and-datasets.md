@@ -88,3 +88,12 @@ Please note that in this case we are reporting the log(fold change). Biologists 
 
 Yes! We host it on AWS. Note that due to how large the files are, you will need to pay the egress fees to download the files. To get started, first look through the manifests for TCGA: [s3://cgl-rnaseq-recompute-toil/tcga-manifest](s3://cgl-rnaseq-recompute-toil/tcga-manifest) , TARGET: [s3://cgl-rnaseq-recompute-toil/target-manifest](s3://cgl-rnaseq-recompute-toil/target-manifest) , and GTEx [s3://cgl-rnaseq-recompute-toil/gtex-manifest](s3://cgl-rnaseq-recompute-toil/gtex-manifest) and decide which files you want. Then using your AWS account, download the files. [Contact us](../contact-us.md) if you run into any issues.
 
+Example command to get the manifest
+
+aws s3 cp s3://cgl-rnaseq-recompute-toil/tcga-manifest . --request-pay
+
+Now you can take look of the manifest to see the TCGA files
+
+Example command to download a single TCGA file
+
+aws s3 cp s3://cgl-rnaseq-recompute-toil/tcga/0106d51d-d581-4be7-91f3-b2f0c84468d1.tar.gz . --request-pay
