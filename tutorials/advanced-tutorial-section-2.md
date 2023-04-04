@@ -7,7 +7,7 @@ description: >-
 
 # Advanced Tutorial: Section 2
 
-## Description <a href="#description" id="description"></a>
+Description
 
 This tutorial is made for those who have basic knowledge of how to use Xena. We will cover how to use the pick samples feature, how to view multiple genes in a single column, how to enter and view a signature, and how to run a differential expression analysis.&#x20;
 
@@ -56,9 +56,9 @@ We will make a visual spreadsheet where we can explore the relationship between 
 #### Steps
 
 1. Start at [https://xenabrowser.net/](https://xenabrowser.net/)
-2. Type 'TCGA Breast Cancer (BRCA)', select this study from the drop down menu, and click 'Done'.
-3. Choose 'Phenotypic', select 'sample\_type' from the dropdown menu, and click 'Done'.
-4. Choose 'Phenotypic', type 'pam' into the search bar, select 'PAM50Call\_RNAseq' from the dropdown menu, and click 'Done'. This will exit the wizard.
+2. Type 'TCGA Breast Cancer (BRCA)', select this study from the drop down menu, and click 'To first variable'.
+3. Choose 'Phenotypic', select 'sample\_type' from the dropdown menu, and click 'To second variable'.
+4. Choose 'Phenotypic', click on 'advanced', type 'pam' into the search bar, select 'PAM50Call\_RNAseq' from the dropdown menu, and click 'Done'. This will exit the wizard.
 5. Click on 'Click to insert a column' after column C. Copy and paste the 50 genes, choose 'Gene Expression', and click 'Done'.
 6. Click the handle in the lower right corner of column D, mutation. Move it to the right to make the column bigger.&#x20;
 
@@ -70,11 +70,11 @@ UBE2T BIRC5 NUF2 CDC6 CCNB1 TYMS MYBL2 CEP55 MELK NDC80 RRM2 UBE2C CENPF PTTG1 E
 
 #### Video of steps 1-4
 
-![](../.gitbook/assets/advanced\_section2\_1.gif)
+<figure><img src="../.gitbook/assets/pam50first.gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of steps 5-6
 
-![](../.gitbook/assets/advanced\_section2\_2.gif)
+<figure><img src="../.gitbook/assets/pam50second.gif" alt=""><figcaption></figcaption></figure>
 
 #### Steps continued
 
@@ -118,7 +118,7 @@ We can now see that patient's samples that are labeled as 'Her2' and 'Basal' are
 
 #### Video of step 1
 
-![](../.gitbook/assets/advanced\_section2\_4.gif)
+<figure><img src="../.gitbook/assets/pam50third.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information

@@ -38,9 +38,9 @@ We have pre-selected default datasets for most cohorts. These datasets are selec
 
 Xena also has more datasets than those listed in the Basic Menu. Depending on the cohort, these can include DNA methylation, exon expression, thresholded CNV data and more. To access them, click on 'Show Advanced' below:
 
-![Creating a column with the Advanced Dataset selection highlighted](../../.gitbook/assets/advancedmenu.png)
+<figure><img src="../../.gitbook/assets/AdvancedMenu.png" alt=""><figcaption></figcaption></figure>
 
-#### **More information on basic datasets**
+**More information on basic datasets**
 
 We annotate datasets used in the basic Visual Spreadsheet wizard with a red asterisk in our datasets pages. For an example see: [https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20(LAML)](https://xenabrowser.net/datapages/?cohort=TCGA%20Acute%20Myeloid%20Leukemia%20\(LAML\))
 
@@ -48,9 +48,9 @@ We annotate datasets used in the basic Visual Spreadsheet wizard with a red aste
 
 ### Video of making a Visual Spreadsheet
 
-![](../../.gitbook/assets/basictutorialpart1a.gif)
+<figure><img src="../../.gitbook/assets/VisualSpreadsheetEGFR.gif" alt=""><figcaption></figcaption></figure>
 
-## After you made a Visual Spreadsheet
+### After you made a Visual Spreadsheet
 
 ### Overview
 
@@ -118,4 +118,4 @@ You can change the size of a column by clicking on the bottom right corner of a 
 
 You can add another column of data by clicking on 'Click to add column' either on the right edge of the visual spreadsheet or by hovering between columns until 'Click to insert column' displays'.
 
-![](../../.gitbook/assets/addgender.gif)
+<figure><img src="../../.gitbook/assets/AddGender2.gif" alt=""><figcaption></figcaption></figure>

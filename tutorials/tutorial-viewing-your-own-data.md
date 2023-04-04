@@ -173,27 +173,26 @@ Note that we are unable to provide links to these ending screenshots because we 
 #### Steps
 
 1. Click on 'Visualization' in the top menu bar.
-2. Close the Welcome banner at the top of the screen to make the wizard bigger.
-3. Choose 'CGGA' as the study and click 'Done'.
-4. Enter the gene 'IDH1', choose 'CGGA.mRNAseq\_693.RSEM-genes.20200506.txt', and click 'Done'
-5. Choose 'Phenotypic', click '1p19q\_codeletion\_status', and click 'Done'
-6. The dataset authors annotated samples without a 1p/19q co-deletion status with 'NA'. To remove these samples, type 'NA' in the samples search bar and choose 'Remove Samples' from the filter actions menu drop down.
-7. Compare IDH1 expression between samples with a 1p/19q co-deletion and those that do not. To do this, click on the column menu for column B (IDH1 expression) and choose 'Charts & Stats'.
-8. Choose 'Compare Subgroups'.
-9. Click the dropdown for 'Show data from' and choose 'column B: IDH1 - CGGA.mRNAseq\_693.RSEM-genes.20200506.txt'.
-10. Click the dropdown for 'Subgroup samples by' and choose 'column C: 1p19q\_codeletion\_status - CGGA.mRNAseq\_693\_clinical.20200506.txt'.
-11. Click 'Done'.&#x20;
-12. Close the chart using the 'x' in the upper left corner.
-13. Run a Kaplan Meier analysis comparing patients with high IDH1 expression to those with low IDH1 expression. To do this, click on the column menu for column B (IDH1 expression) and choose 'KM plot'
+2. Type 'CGGA', choose 'CGGA' as the study and click 'To first variable'.
+3. Enter the gene 'IDH1', choose 'CGGA.mRNAseq\_693.RSEM-genes.20200506.txt', and click 'To second variable'
+4. Choose 'Phenotypic', click '1p19q\_codeletion\_status', and click 'Done'
+5. The dataset authors annotated samples without a 1p/19q co-deletion status with 'NA'. To remove these samples, type 'NA' in the samples search bar and choose 'Remove Samples' from the filter actions menu drop down.
+6. Compare IDH1 expression between samples with a 1p/19q co-deletion and those that do not. To do this, click on the column menu for column B (IDH1 expression) and choose 'Charts & Stats'.
+7. Choose 'Compare Subgroups'.
+8. Click the dropdown for 'Show data from' and choose 'column B: IDH1 - CGGA.mRNAseq\_693.RSEM-genes.20200506.txt'.
+9. Click the dropdown for 'Subgroup samples by' and choose 'column C: 1p19q\_codeletion\_status - CGGA.mRNAseq\_693\_clinical.20200506.txt'.
+10. Click 'Done'.&#x20;
+11. Close the chart using the 'x' in the upper left corner.
+12. Run a Kaplan Meier analysis comparing patients with high IDH1 expression to those with low IDH1 expression. To do this, click on the column menu for column B (IDH1 expression) and choose 'KM plot'
 
-#### Video of steps 1-5
+#### Video of steps 2-4
 
-![](../.gitbook/assets/view\_own\_data\_vs.gif)
+<figure><img src="../.gitbook/assets/viewowndatafirst.gif" alt=""><figcaption></figcaption></figure>
 
-#### Video of steps 6-11
+#### Video of steps 5-10
 
 ![](../.gitbook/assets/view\_own\_data\_2.gif)
 
-#### Video of steps 12-13
+#### Video of steps 11-12
 
 ![](../.gitbook/assets/view\_own\_data\_3.gif)

@@ -43,8 +43,8 @@ We can now see that there are many patient's samples with relatively high expres
 #### Steps <a href="#steps" id="steps"></a>
 
 1. Start at [https://xenabrowser.net/](https://xenabrowser.net/)
-2. Type 'TCGA Prostate Cancer (PRAD)', select this study from the drop down menu, and click 'Done'.
-3. Type '_ERG_', select the checkbox for Gene Expression and click 'Done'.
+2. Type 'TCGA Prostate Cancer (PRAD)', select this study from the drop down menu, and click 'To first variable'.
+3. Type '_ERG_', select the checkbox for Gene Expression and click 'To second variable'.
 4. Type '_ERG_', click 'Show Advanced', select the checkbox for 'IlluminaHiSeq' under 'exon expression RNAseq', and click 'Done'.
 5. Click the text 'Click to insert a column' after column C. Type 'chr21', select the checkbox for Copy Number and click 'Done'.
 6. Click on the filter menu and select 'Remove samples with nulls'
@@ -53,11 +53,11 @@ We can now see that there are many patient's samples with relatively high expres
 
 #### Video of steps 1-4 <a href="#video-of-steps" id="video-of-steps"></a>
 
-![](../.gitbook/assets/advanced\_1.gif)
+<figure><img src="../.gitbook/assets/ProstateERGbeginning.gif" alt=""><figcaption></figcaption></figure>
 
 #### ‌**Video of steps 5-8**
 
-![](../.gitbook/assets/advanced\_2.gif)
+<figure><img src="../.gitbook/assets/prostateERGsecond.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 More information:

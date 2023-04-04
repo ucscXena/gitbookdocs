@@ -62,14 +62,14 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 #### Steps
 
 1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
-2. Type 'GDC TCGA Lung Adenocarcinoma (LUAD)', select this study from the drop down menu, and click 'Done'.
-3. Type '_EGFR_', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'Done'.
+2. Type 'GDC TCGA Lung Adenocarcinoma (LUAD)', select this study from the drop down menu, and click 'To first variable'.
+3. Type '_EGFR_', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'To second variable'.
 
 #### Video of steps
 
-![](../.gitbook/assets/basictutorialpart1a.gif)
+<figure><img src="../.gitbook/assets/VisualSpreadsheetEGFR.gif" alt=""><figcaption></figcaption></figure>
 
-#### How to read a Visual Spreadsheet
+How to read a Visual Spreadsheet
 
 Samples are on the y-axis and your columns of data are on the x-axis. We line up columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
 

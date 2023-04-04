@@ -51,7 +51,7 @@ You can also load data [via the command line](loading-data-from-the-command-line
 
 ## **Viewing data from a Local Xena Hub**
 
-Click on [**VISUALIZATION**](https://xenabrowser.net). If your study is not already selected as step 1 of the wizard, then select it from the drop down and click 'Done'. Note that if you did not enter a study name your data will be under 'My Study'.
+Click on [**VISUALIZATION**](https://xenabrowser.net/). If your study is not already selected as step 1 of the wizard, then select it from the drop down and click 'Done'. Note that if you did not enter a study name your data will be under 'My Study'.
 
 ### Gene names and identifiers for genomic data
 

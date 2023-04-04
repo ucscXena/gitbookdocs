@@ -84,18 +84,19 @@ We can now see that _EGFR_ aberrations are more common in samples from females.
 
 1. Click the 'x' in the upper right corner to exit Chart View.
 2. Hover between columns B and C until 'Click to insert a column' becomes visible. Click on it.
-3. Choose 'Phenotypic', type 'gender' into the search bar, select 'gender.demographic' from the dropdown menu, and click 'Done'.
-4. Click the column menu at the top of column C and choose 'Chart & Statistics'. Note that this is just another way to enter Chart View.
-5. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
-6. 'column C: gender.demographic' should already be selected for  'Show data from'. If not, select it.
-7. 'column B: (mis OR infra) OR C:>0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
-8. Click 'Done'.&#x20;
+3. Choose 'Phenotypic', click in the search bar, and choose 'Advanced'.
+4. Type 'gender' into the search bar, select 'gender.demographic' from the dropdown menu, and click 'Done'.
+5. Click the column menu at the top of column C and choose 'Chart & Statistics'. Note that this is just another way to enter Chart View.
+6. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
+7. 'column C: gender.demographic' should already be selected for  'Show data from'. If not, select it.
+8. 'column B: (mis OR infra) OR C:>0.5 - Subgroup' should already be selected for 'Subgroup samples by'. If not, select it.
+9. Click 'Done'.&#x20;
 
-#### Video of steps 1-3
+#### Video of steps 1-4
 
-![](../.gitbook/assets/addgender.gif)
+<figure><img src="../.gitbook/assets/AddGender2.gif" alt=""><figcaption></figcaption></figure>
 
-#### Video of steps 4-8
+#### Video of steps 5-9
 
 ![](../.gitbook/assets/barchart.gif)
 

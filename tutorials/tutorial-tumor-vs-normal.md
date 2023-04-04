@@ -54,14 +54,14 @@ We can now see that normal samples tend to have lower _MYC_ gene expression.
 #### Steps
 
 1. Start at our home page [http://xena.ucsc.edu/](http://xena.ucsc.edu/) and click on 'Launch Xena'. You are now in our Visual Spreadsheet Wizard.
-2. Type 'TCGA TARGET GTEx', select this study from the drop down menu, and click 'Done'.
-3. Type '_MYC_', select the checkbox for Gene Expression and click 'Done'.
+2. Type 'TCGA TARGET GTEx', select this study from the drop down menu, and click 'To first variable'.
+3. Type '_MYC_', select the checkbox for Gene Expression and click 'To second variable'.
 4. Choose 'Phenotypic' and select the checkboxes for 'sample type', 'study' and 'Primary site', and click 'Done'.
 5. Type 'colon' in the samples search bar and choose 'Keep samples'.
 
 #### Video of steps 1-4
 
-![](../.gitbook/assets/tvn\_make\_vs.gif)
+<figure><img src="../.gitbook/assets/tumorvsnormalfirst.gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of step 5
 
