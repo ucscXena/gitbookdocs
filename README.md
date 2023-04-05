@@ -4,8 +4,10 @@ description: Tutorials, Live Examples, and How to pages for UCSC Xena
 
 # Welcome to the Help Pages for UCSC Xena
 
-{% embed url="https://ucsc-xena.gitbook.io/project/tutorials" %}
+{% content-ref url="contact-us.md" %}
+[contact-us.md](contact-us.md)
+{% endcontent-ref %}
 
-{% embed url="https://ucsc-xena.gitbook.io/project/how-do-i" %}
-
-{% embed url="https://ucsc-xena.gitbook.io/project/contact-us" %}
+{% content-ref url="cite-us.md" %}
+[cite-us.md](cite-us.md)
+{% endcontent-ref %}
