@@ -36,6 +36,7 @@
   * [Filtering and subgrouping](overview-of-features/filter-and-subgrouping/README.md)
     * [Supported search terms for finding samples](overview-of-features/filter-and-subgrouping/supported-search-terms-for-finding-samples.md)
   * [Differential Gene Expression](overview-of-features/differential-gene-expression.md)
+  * [GSEA](overview-of-features/gsea.md)
   * [Genomic Signatures](overview-of-features/genomic-signatures.md)
   * [Bookmarks](overview-of-features/bookmarks.md)
   * [Download Data](overview-of-features/download-data.md)
