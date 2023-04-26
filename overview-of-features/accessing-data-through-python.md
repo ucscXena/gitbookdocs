@@ -4,20 +4,20 @@ You can use the python API, [**xenaPython**](https://github.com/ucscXena/xenaPyt
 
 ## Installation
 
-```text
-pip install xenaPython 
-pip install --upgrade xenaPython
+```
+pip install 'git+https://github.com/ucscXena/xenaPython'
+pip install --upgrade 'git+https://github.com/ucscXena/xenaPython'
 ```
 
 ## Usage
 
-```text
+```
 import xenaPython as xena  
 ```
 
 ## Example
 
-```text
+```
 import xenaPython as xena
 
 hub = "https://toil.xenahubs.net"
@@ -33,7 +33,7 @@ ENSG00000282740_1
 
 ## Help
 
-```text
+```
 import xenaPython
 help(xenaPython)
 ```
@@ -43,4 +43,3 @@ help(xenaPython)
 ## More Information
 
 [https://github.com/ucscXena/xenaPython](https://github.com/ucscXena/xenaPython)
-
