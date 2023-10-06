@@ -23,3 +23,7 @@ The gene expression dataset chosen for a specific study/cohort is the same gene 
 The Advanced Visualization parameters apply to the PCA or t-SNE plot, as well as the blitzGSEA analysis itself.&#x20;
 
 Note that the GSEA analysis runs [blitzGSEA](https://academic.oup.com/bioinformatics/article/38/8/2356/6526383), a faster implementation of a traditional GSEA analysis.
+
+## Running it on your own data
+
+We disable running our GSEA analysis on your own data since we send the data in the analysis to various websites, which may not be secure. Currently we only offer a [docker image](https://gallery.ecr.aws/f8e3p8q3/xenablitzgsea) as a method for running this pipeline on your own data. Please contact us if you need help setting this up.&#x20;
