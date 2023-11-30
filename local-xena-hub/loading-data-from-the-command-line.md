@@ -4,7 +4,7 @@ In addition to the data itself, we require some metadata about your file. When y
 
 ## **Metadata file requirements**
 
-The metadata file is a .json file and follows[ json formatting](http://www.w3schools.com/json/). The metadata .json file needs to be in the same directory as the data file. The metadata file and the data file need to have the same base name (e.g. my\_data and my\_data.json).
+The metadata file is a .json file and follows[ json formatting](http://www.w3schools.com/json/). The metadata .json file needs to be in the same directory as the data file. The metadata file and the data file need to have the same base name, including any file extensions (e.g. my\_first\_dataset and my\_first\_dataset.json OR my\_second\_dataset.txt and my\_second\_dataset.txt.json).
 
 There are two required fields: type and cohort.
 
