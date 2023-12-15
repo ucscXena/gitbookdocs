@@ -6,7 +6,7 @@ This page will guide you on how to remove duplicates due to A. If there are dupl
 
 ### Example of error icon
 
-****[**Ending Screenshot**](https://xenabrowser.net/heatmap/?bookmark=93a89b4749b93a0288d9c2ea23045fae)****
+[**Ending Screenshot**](https://xenabrowser.net/heatmap/?bookmark=93a89b4749b93a0288d9c2ea23045fae)
 
 ![](../.gitbook/assets/idh1km.png)
 
@@ -22,7 +22,9 @@ We are adding a column of data that indicates the sample type such as 'Primary T
 
 2\. Filter to only samples that are 'Primary tumor' by typing 'primary' into the filter search box. Next, click the filter icon next to the filter search box and chose 'Filter'. This will filter out all samples that are not primary tumor.
 
-{% hint style="info" %}
+{% hint style="warning" %}
+Note that if you are viewing a mostly metastatic cancer like melanoma you may instead need to filter on 'metastatic' instead of 'primary'
+
 [More help on filtering](../overview-of-features/filter-and-subgrouping/)
 {% endhint %}
 
@@ -32,7 +34,7 @@ We are adding a column of data that indicates the sample type such as 'Primary T
 
 Removing duplicate samples from TCGA Lower Grade Glioma KM analysis
 
-****[**Ending Screenshot**](https://xenabrowser.net/heatmap/?bookmark=a56b47aefabb74042622547395a6b0a0)****
+[**Ending Screenshot**](https://xenabrowser.net/heatmap/?bookmark=a56b47aefabb74042622547395a6b0a0)
 
 ![](../.gitbook/assets/filtertoprimary.gif)
 
