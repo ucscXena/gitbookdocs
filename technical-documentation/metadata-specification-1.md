@@ -32,8 +32,6 @@ For each image
 
 **"label"** free text. Display label of the image, should be easily readable by users
 
-**"channel"** json object. Key-value pairs. Key is color, value is of each color channel is represented, such as DAPI.
-
 **"path"** file path to the image file
 
 **"size"** an array of integers. Image size in image pixels.
@@ -82,12 +80,6 @@ Example, spatial map with matching microscopy image
         "image": [
             {
             "label": "display label of the image",
-            "channel":
-            {
-                "red":"CD45",
-                "green":"Pan-Cytokeratin",
-                "blue":"DAPI"
-            },
             "path": "image file path",
             "size": [24240, 24240],
             "offset": [0,0],
@@ -95,11 +87,6 @@ Example, spatial map with matching microscopy image
             },
             {
             "label": "display label of the image",
-            "channel":
-            {
-                "red":"CD45",
-                "green":"Pan-Cytokeratin"
-            },
             "path": "image file path",
             "size": [2000, 2000],
             "offset": [0,0],
