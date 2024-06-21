@@ -105,7 +105,7 @@ For positional data, we require 6 columns: sample, chr, start, end, reference, a
 Other columns that may follow are: gene, effect, DNA\_VAF, RNA\_VAF, and Amino\_Acid\_Change. These other columns are not required but will enhance the visualization of this data, such as the "gene" column will enable displaying mutations when queried by gene names in addition to queried by genomic coordinates. The “effect” column will color the mutations by effect (the default color is gray). The effect terms are "Nonsense" (color red), "Frameshift" (red), "Splice" (orange), "missense" (blue), "Silent" (green), and etc. The full list of accepted terms can be found [here in our code](https://github.com/ucscXena/ucsc-xena-client/blob/master/js/models/mutationVector.js#L85).
 
 {% hint style="info" %}
-Note that Xena will not call the gene, variant effect, etc for you. All metadata must be included in the file
+Note that Xena will not call the gene, variant effect, etc for you. All gene annotation information must be included in the file
 {% endhint %}
 
 ### Supported data types
