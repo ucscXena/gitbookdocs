@@ -122,6 +122,8 @@ Example mutation data with the six required columns, plus the gene column:
 | **TCGA-AB-2802-03** | **chr1** | **119270684** | **119270687** | **TTAAA**     | **T**   | **MYC**   |
 | **TCGA-AB-2867-03** | **chr1** | **150324146** | **150324146** | **T**         | **G**   | **PRPF3** |
 
+To specify a sample is assayed but no mutation is detected, you need a line in the file with three columns filled: sample, start, end. "start" and "end" needs to be integer, so use -1 to indicate that these are bogus coordinates. The rest of the columns are empty strings.
+
 ## **Advanced Other data**
 
 We support a number of other specialty data types such as structural variants. Please [contact us](../contact-us.md) if you have this data so we can help you load it.
