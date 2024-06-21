@@ -114,7 +114,7 @@ Note that Xena will not call the gene, variant effect, etc for you. All metadata
 
 We currently accept hg38, hg19, hg18 coordinates.
 
-Example mutation data with required columns:
+Example mutation data with the six required columns, plus the gene column:
 
 | **sample**          | **chr**  | **start**     | **end**       | **reference** | **alt** | **gene**  |
 | ------------------- | -------- | ------------- | ------------- | ------------- | ------- | --------- |
