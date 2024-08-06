@@ -49,7 +49,7 @@ Note. The transcript coordinate must be in the same unit and scale as the map. T
 
 **"path"** file path to the transcript datafile
 
-**"dimension"** a list of strings. They are the column headers of the dimension columns in the transcript file. They are used to retrieve data from db.
+**"dimension"** a list of strings. Must have the same number of dimensions as the map. They are the column headers of the dimension columns in the transcript file. They are used to retrieve data from db.
 
 ### Map examples
 
