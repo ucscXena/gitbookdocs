@@ -26,7 +26,7 @@ If it is a spatial map, there might be microscopy image(s) associated with each 
 
 **"spot\_diameter"** (optional, relevant to spatial map) a floating point number of the size of spot in map unit (not image unit).  The parameter will be used to determine sphere size shown in spatial map. If not specified, the size of the sphere will be determined by the browser.
 
-### **"image"** (optional, only relevant to a spatial map) an array of images, each image is a json object. See below.
+### **"image"** (optional, only relevant to a spatial map) an array of images, each image has its own parameters. See below.
 
 For each image
 
@@ -41,7 +41,7 @@ For each image
 * pixel\_in\_image\_x =  image\_scalef \* spatial\_coordinate\_x + offset\_x
 * pixel\_in\_image\_y =  image\_scalef \* spatial\_coordinate\_y + offset\_y
 
-### **"transcript"** (optional, only relevant to a spatial transcriptomics map) an array of transcript data, each is a json object. See below.&#x20;
+### **"transcript"** (optional, only relevant to a spatial transcriptomics map) an array of transcript data, each transcript data has its own parameters. See below.&#x20;
 
 Note. The transcript coordinate must be in the same unit and scale as the map. Therefore no scaling or offset are needed to convert transcript coordinate and map coordinate.
 
