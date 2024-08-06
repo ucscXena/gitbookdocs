@@ -30,7 +30,7 @@ If it is a spatial map, there might be microscopy image(s) associated with each 
 
 For each image
 
-**"label"** free text. Display label of the image, should be easily readable by users
+**"label"** free text. Display label of the image, should be easily readable
 
 **"path"** file path to the image file
 
@@ -43,7 +43,7 @@ For each image
 
 **"transcript"** (optional, only relevant to a spatial transcriptomics map) an array of transcript data, each is a json object. See below.
 
-**"label"** free text. Display label of the transcript data, should be easily readable by users
+**"label"** free text. Display label of the transcript data, should be easily readable
 
 **"path"** file path to the transcript datafile
 
@@ -69,7 +69,7 @@ Example, map without image
 
 Example, spatial map with matching microscopy image
 
-```javascript
+```json
 {
     "type": "clinicalMatrix",
     "cohort": "name of the cohort",
@@ -100,6 +100,43 @@ Example, spatial map with matching microscopy image
             }]
       }]
 }
+```
+
+Example, spatial map with matching microscopy image and transcript data
+
+```json
+{
+    "type": "clinicalMatrix",
+    "dataSubtype": "phenotype",
+    "label": "display label of the file",
+    "cohort": "name of the cohort",
+    "bioentity":"cell",
+    "map":[
+        {
+            "label":"mIF H&E coregistered",
+            "type":"spatial",
+            "dimension":["CenterX", "CenterY"],
+            "unit":"pixel",
+            "micrometer_per_unit":0.120280945,
+            "spot_diameter":84,
+            "image":[
+                {
+                    "label":"morphology 2D image, coregistered H&E",
+                    "path":"/CosMx/img",
+                    "offset": [0, 0],
+                    "image_scalef": 1
+                }
+            ],
+            "transcript":[
+                {
+                    "label":"CosMx transcript data",
+                    "path":"transcripts.tsv"
+		}
+            ]
+        }
+    ]
+}
+
 ```
 
 ## SURVIVAL TIME UNIT
