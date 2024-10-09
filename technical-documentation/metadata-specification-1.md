@@ -233,6 +233,7 @@ For genomic data matrix, the optional metadata parameter _colNormalization_ sets
 * true: display centered by column mean, x - column average, example usage is gene expression matrix that already log transformed.&#x20;
 * log2(x): display in log2(x+1) scale, example usage is gene expression count matrix&#x20;
 * normal2: display value of 2 in the background color (i.e. white), typically used for copy number data where the normal = 2
+* for segmented copy number data, if you don't specify **colNormalization**, display defaults to normal=0, display value of 0 in background color (i.e. white)
 
 example
 
