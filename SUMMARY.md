@@ -48,6 +48,7 @@
 * [Overview of public data](public-data-we-host/README.md)
   * [Types of data we have](public-data-we-host/types-of-data-we-have.md)
   * [TCGA](public-data-we-host/tcga.md)
+  * [GDC](public-data-we-host/gdc.md)
   * [More studies](public-data-we-host/more-studies.md)
   * [Choosing a study/cohort](public-data-we-host/choosing-a-study-cohort.md)
 * [FAQ](faq/README.md)
