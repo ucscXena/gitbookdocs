@@ -1,5 +1,5 @@
 ---
-description: Information on data from the Genomic Data Commons v41.0
+description: Information on Xena data from GDC release v41.0
 ---
 
 # GDC
