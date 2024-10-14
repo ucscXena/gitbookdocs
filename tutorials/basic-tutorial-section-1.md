@@ -88,7 +88,7 @@ More information
 {% hint style="info" %}
 **Making your own Visual Spreadsheet: Which TCGA study to choose**
 
-[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we selected the TCGA data from the GDC. [**This page can help you decide which version of TCGA data to use for your own analysis.**](../public-data-we-host/choosing-a-study-cohort.md)****
+[There are 4 versions of the TCGA data in Xena.](../public-data-we-host/tcga.md) In this example we selected the TCGA data from the GDC. [**This page can help you decide which version of TCGA data to use for your own analysis.**](../public-data-we-host/choosing-a-study-cohort.md)
 {% endhint %}
 
 ### Part B
@@ -130,7 +130,7 @@ Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in sa
 {% endtab %}
 
 {% tab title="Answer 1" %}
-****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)****
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)
 
 ![](../.gitbook/assets/screen-shot-2020-12-29-at-2.42.24-pm.png)
 {% endtab %}
@@ -142,7 +142,7 @@ Change the Visual Spreadsheet from Question 1 so that the patient's samples are 
 {% endtab %}
 
 {% tab title="Answer 2" %}
-****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)****
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)
 
 ![](../.gitbook/assets/screen-shot-2020-12-29-at-2.44.52-pm.png)
 {% endtab %}
