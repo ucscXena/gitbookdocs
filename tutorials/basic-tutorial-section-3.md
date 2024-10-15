@@ -39,22 +39,22 @@ In the [Basic Tutorial: Section 2](basic-tutorial-section-2.md) we created two s
 Now we are going to use the subgroups created in the [Basic Tutorial: Section 2](basic-tutorial-section-2.md) to see if there is a statistical difference in gene expression between the two subgroups. We will also look at whether samples from male or female patients have more aberrations.
 
 {% hint style="warning" %}
-To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045](https://xenabrowser.net/?bookmark=2862e84d66d5c2e1a99a44fd4e2c4045)
+To ensure your columns are sorted the same as those in this tutorial, [please start at this link](https://xenabrowser.net/?bookmark=466a1efdac90d411d979c2f576c6845c).
 {% endhint %}
 
 ### Part A
 
 We found that patient's samples that have aberrations in _EGFR_ have higher gene expression. Now we are going to investigate if this difference in gene expression statistically significant.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=dc05bbdcf590f7df4506fbcd721f60b5)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=b18df76113c70e72297e87c6d0b9de2f)
 
-![](../.gitbook/assets/screen-shot-2021-01-13-at-11.43.35-am.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.47.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 We can now see that patient's samples with _EGFR_ aberrations have statistically higher gene expression.
 
 #### Steps
 
-1. Click the graph icon in the upper right corner to enter Chart View.
+1. Click the 3-dot column menu at the top of the gene expression column (don't worry if you start with another column - you will be selecting the correct columns in the steps ahead).
 2. Click 'Compare subgroups', since we want to compare the group of samples who have aberrations in _EGFR_ to the group of samples that do not.
 3. Click the dropdown for 'Show data from' and choose 'column C: EGFR - gene expression RNAseq - HTSeq - FPKM-UQ'.
 4. Click the dropdown for 'Subgroup samples by' and choose 'column B: (mis OR infra) OR C:>0.5 - Subgroup'.
@@ -62,7 +62,7 @@ We can now see that patient's samples with _EGFR_ aberrations have statistically
 
 #### Video of steps
 
-![](../.gitbook/assets/makeboxplot.gif)
+<figure><img src="../.gitbook/assets/tutorial3.1.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -74,9 +74,9 @@ More information
 
 We will now investigate how _EGFR_ aberrations compare between samples from men and women.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=8ac908b928e0332e8dfa3e306488d543)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=00dfb92a2515e87ab0397ea71a7ffe7d)
 
-![](../.gitbook/assets/screen-shot-2021-01-13-at-12.01.47-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.53.35 AM.png" alt=""><figcaption></figcaption></figure>
 
 We can now see that _EGFR_ aberrations are more common in samples from females.
 
@@ -94,11 +94,11 @@ We can now see that _EGFR_ aberrations are more common in samples from females.
 
 #### Video of steps 1-4
 
-<figure><img src="../.gitbook/assets/AddGender2.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tutorial3.2.gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of steps 5-9
 
-![](../.gitbook/assets/barchart.gif)
+<figure><img src="../.gitbook/assets/tutorial3.3.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -114,21 +114,21 @@ Starting at the end of Part A, create a violin plot that compares copy number va
 {% endtab %}
 
 {% tab title="Answer 1" %}
-\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=07b189f18423721b05c23fe4a1f0b0aa)\*\*\*\*
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=bfa684729ba0574bb6338bff698135c0)
 
-![](../.gitbook/assets/screen-shot-2021-01-13-at-2.20.27-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.55.22 AM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Question 2" %}
-Starting at the end of Part B, add the phenotype data 'age\_at\_initial\_pathologic\_diagnosis' to the plot.
+Starting at the end of Part B, add the phenotype data 'age\_at\_earliest\_diagnosis\_in\_years.diagnoses.xena\_derived' to the plot.
 {% endtab %}
 
 {% tab title="Answer 2" %}
-\*\*\*\*[**Ending Screenshot**](https://xenabrowser.net/?bookmark=e3a364e74e74a9dbeb7f23b8c286456e)\*\*\*\*
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=5b2da5f5d3056beb6b20ab4e3e4ce7af)
 
-![](../.gitbook/assets/screen-shot-2021-01-13-at-2.17.07-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.57.00 AM.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Note that your column order may be different.

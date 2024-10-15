@@ -16,8 +16,8 @@ description: There are 4 ways to download data
 
 4\. Via our APIs:
 
-* ****[**Python**](accessing-data-through-python.md) &#x20;
-* ****[**R**](https://cran.r-project.org/web/packages/UCSCXenaTools/vignettes/USCSXenaTools.html) &#x20;
+* [**Python**](accessing-data-through-python.md) &#x20;
+* [**R**](https://cran.r-project.org/web/packages/UCSCXenaTools/vignettes/USCSXenaTools.html) &#x20;
 
 ## **How do I open the download files?**
 

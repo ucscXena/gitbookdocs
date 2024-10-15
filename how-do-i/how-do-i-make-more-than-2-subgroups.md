@@ -25,7 +25,7 @@ In the screenshot below you can see that column D that ranges from 7.3 to 12. If
 
 into the search bar and then choose 'New subgroup column' from the filter/subgroup drop down menu.
 
-****[**Ending Screenshot**](https://xenabrowser.net/heatmap/?bookmark=325cfbf706d253e29253ea430a4fabd1)****
+[**Ending Screenshot**](https://xenabrowser.net/heatmap/?bookmark=325cfbf706d253e29253ea430a4fabd1)
 
 ![](../.gitbook/assets/screen-shot-2021-03-01-at-1.21.09-pm.png)
 
@@ -45,7 +45,7 @@ In the screenshot below you can see that column E (ERBB2 gene expression) that r
 
 into the search bar and then choose 'New subgroup column' from the filter/subgroup drop down menu.
 
-[**Ending screenshot**](https://xenabrowser.net/heatmap/?bookmark=ce392a796505576a74715f6ac94efdb3)****
+[**Ending screenshot**](https://xenabrowser.net/heatmap/?bookmark=ce392a796505576a74715f6ac94efdb3)
 
 ![](../.gitbook/assets/4subgroupsERstatusAndERBB2expression.png)
 
@@ -61,7 +61,7 @@ In the screenshot below, if you wanted to have 4 groups: Estrogen Receptor posit
 
 into the search bar and then choose 'New subgroup column' from the filter/subgroup drop down menu.
 
-[**Ending bookmark**](https://xenabrowser.net/heatmap/?bookmark=9a9f5ef512650adf702bd3b374ced7ba)****
+[**Ending bookmark**](https://xenabrowser.net/heatmap/?bookmark=9a9f5ef512650adf702bd3b374ced7ba)
 
 ![](../.gitbook/assets/4subgroupsERstatusAndHER2status.png)
 

@@ -46,16 +46,16 @@ In the Basic Tutorial Section 1 we found that we found that samples from patient
 Now we are going to look at whether those patient with aberrations in their samples also have a worse survival prognosis.
 
 {% hint style="warning" %}
-To ensure your columns are sorted the same as those in this tutorial, please start at this link: [https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
+To ensure your columns are sorted the same as those in this tutorial, [please start at this link](https://xenabrowser.net/?bookmark=373e6aac9ce49ce3420c95e81d1eb686)
 {% endhint %}
 
 ### Part A
 
 Our goal is to remove patient's samples with no data (i.e. null) from the view. This will make the view look cleaner and remove irrelevant samples from our Kaplan Meier survival analysis.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=1420a515a2cd26f4bf12d267a857e5f8)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=c892731ed5eb7dfe875146d0aca87bc3)
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-1.22.29-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 5.05.09 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Steps
 
@@ -65,7 +65,7 @@ Our goal is to remove patient's samples with no data (i.e. null) from the view. 
 
 #### Video of steps
 
-![](../.gitbook/assets/filteringoutnull.gif)
+<figure><img src="../.gitbook/assets/tutorial2.1.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -78,22 +78,22 @@ More information
 
 Instead of typing 'null' and removing those samples from the view, you can also use the 'Remove samples with nulls' shortcut in the filter menu.
 
-![](../.gitbook/assets/removenullsshortcut.gif)
+<figure><img src="../.gitbook/assets/tutorial2.2.gif" alt=""><figcaption></figcaption></figure>
 
 ### Part B
 
 Our goal is to create two subgroups, those patient's with samples with aberrations in _EGFR_ and those patient's samples without aberrations in _EGFR_. We will then name the subgroups.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=38be4e92f265543aa88f058bd618945d)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=d29d9b70671ac2af3dda01a7448be38f)
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-1.28.28-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 5.19.03 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Steps
 
-1. Type **'**(mis OR infra) OR C:>0.5'  into the samples search bar. This will select samples that either have a missense or inframe deletion '(mis OR infra)', or where copy number variation (column C) is greater than 0.5. Note that I arbitrarily choose a cutoff of 0.5.
+1. Type **'**(mis OR inframe) OR B:>0.5'  into the samples search bar. This will select samples that either have a missense or inframe deletion '(mis OR inframe)', or where copy number variation (column B) is greater than 0.5. Note that I arbitrarily choose a cutoff of 0.5.
 
 {% hint style="danger" %}
-You must have the **copy number variation column as column C** for the search term  **'**(mis OR infra) OR C:>0.5' to work. The 'C' in 'C:>0.5' is instructing Xena to search in column C for values that are greater than 0.5.
+You must have the **copy number variation column as column B** for the search term  **'**(mis OR inframe) OR B:>0.5' to work. The 'B' in 'B:>0.5' is instructing Xena to search in column B for values that are greater than 0.5.
 {% endhint %}
 
 1. Click the filter menu and select 'New subgroup column'. This will create a new column that has samples that met our search term marked as 'true' (ie. those that have an _EGFR_ aberration) and those that did not meet our search term as 'false' (ie. those that do not have an _EGFR_ aberration).
@@ -103,11 +103,11 @@ You must have the **copy number variation column as column C** for the search te
 
 #### Video of steps 1
 
-![](../.gitbook/assets/makesubgroups.gif)
+<figure><img src="../.gitbook/assets/tutorial2.3.gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of steps 2-4
 
-![](../.gitbook/assets/renamesubgroups.gif)
+<figure><img src="../.gitbook/assets/tutorial2.4.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -120,9 +120,9 @@ More information
 
 Now that we have our subgroups we will run a Kaplan Meier survival analysis. Note that TCGA survival data is in days, hence the x-axis will be in days.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=9e55264b9bd8b70efea1fc680a3bbf39)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=6787986724f81fd87d64980ff8ef85e9)
 
-![](../.gitbook/assets/screen-shot-2020-12-30-at-1.30.31-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 5.22.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 We can now see that there is no difference in survival between patients with _EGFR_ aberrations and those without.
 
@@ -135,7 +135,7 @@ We can now see that there is no difference in survival between patients with _EG
 
 #### Video of steps
 
-![](<../.gitbook/assets/kmplot (1).gif>)
+<figure><img src="../.gitbook/assets/tutorial2.5.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -153,23 +153,23 @@ Starting at the end of Part A, filter down to only those patient's samples that 
 {% tab title="Answer 1" %}
 Search term: "missense"
 
-****[**Ending screenshot**](https://xenabrowser.net/?bookmark=52eb484ac43599d8e06737f92982e735)****
+[**Ending screenshot**](https://xenabrowser.net/?bookmark=14d3d143685004f3c61e40c3cdaa4855)
 
-![](../.gitbook/assets/screen-shot-2021-01-19-at-3.26.47-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 5.25.12 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Question 2" %}
-Starting at the end of Part A, create two subgroups: those patient's samples with _EGFR_ expression greater than 17 and those with _EGFR_ expression less than 17.
+Starting at the end of Part A, create two subgroups: those patient's samples with _EGFR_ expression greater than 4 and those with _EGFR_ expression less than 4.
 {% endtab %}
 
 {% tab title="Answer 2" %}
-Search term: "B:>17"
+Search term: "C:>4"
 
-****[**Ending screenshot**](https://xenabrowser.net/?bookmark=bc3a2db67aaf68ba269948505c10c6a6)****
+[**Ending screenshot**](https://xenabrowser.net/?bookmark=5bc9a8c614a34134a56b51df73c9aaa2)
 
-![](../.gitbook/assets/screen-shot-2021-01-19-at-3.29.27-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 5.27.19 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -179,8 +179,8 @@ Starting at the end of Part A, run a Kaplan Meier analysis on the _EGFR_ express
 {% endtab %}
 
 {% tab title="Answer 3" %}
-****[**Ending screenshot**](https://xenabrowser.net/?bookmark=fdd47d50c1c538d8112aabc24d540132)****
+[**Ending screenshot**](https://xenabrowser.net/?bookmark=8c5344fd189aa168bd4e8495e2c42963)
 
-![](../.gitbook/assets/screen-shot-2021-01-13-at-9.26.07-am.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 5.28.48 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}

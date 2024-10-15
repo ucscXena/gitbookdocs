@@ -55,9 +55,9 @@ We are going to look at _EGFR_ aberrations in patients with lung adenocarcinomas
 
 Our goal is to build a Visual Spreadsheet and understand the relationship between the columns of data.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=6b1057b1103e9995069e3dbdd7da83ba)
+#### [Link to Ending Screenshot](https://xenabrowser.net/?bookmark=0a2f8f629a7b30e5aa3e1d82ec6c34b5)
 
-![](../.gitbook/assets/screen-shot-2020-12-29-at-1.08.37-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 4.50.00 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Steps
 
@@ -65,13 +65,15 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 2. Type 'GDC TCGA Lung Adenocarcinoma (LUAD)', select this study from the drop down menu, and click 'To first variable'.
 3. Type '_EGFR_', select the checkboxes for Gene Expression, Copy Number, and Somatic Mutation, and click 'To second variable'.
 
-#### Video of steps
+#### Video of steps:
 
-<figure><img src="../.gitbook/assets/VisualSpreadsheetEGFR.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tutorial1.1 (1).gif" alt=""><figcaption></figcaption></figure>
 
-How to read a Visual Spreadsheet
+{% hint style="info" %}
+**How to read a Visual Spreadsheet**
 
 Samples are on the y-axis and your columns of data are on the x-axis. We line up columns so that each row is the same sample, allowing you to easily see trends in the data. Data is always sorted left to right and sub-sorted on columns thereafter.
+{% endhint %}
 
 #### Biological interpretation
 
@@ -106,15 +108,15 @@ We will now move the columns to change the sort order and resize columns. We wil
 
 #### Video of step 1
 
-![](../.gitbook/assets/basictutorials1ba.gif)
+<figure><img src="../.gitbook/assets/tutorial1.2 (1).gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of step 2
 
-![](../.gitbook/assets/basictutorials1bb.gif)
+<figure><img src="../.gitbook/assets/tutorial1.3.gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of steps 3-6
 
-![](../.gitbook/assets/basictutorials1bc.gif)
+<figure><img src="../.gitbook/assets/tutorial1.4.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -130,9 +132,9 @@ Create a Visual Spreadsheet looking at _TP53_ gene expression and mutation in sa
 {% endtab %}
 
 {% tab title="Answer 1" %}
-[**Ending Screenshot**](https://xenabrowser.net/?bookmark=047f1e992294275ea871bc09d4971903)
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=26888d6aa531efaf71075464a22023e8)
 
-![](../.gitbook/assets/screen-shot-2020-12-29-at-2.42.24-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 4.58.02 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -142,8 +144,8 @@ Change the Visual Spreadsheet from Question 1 so that the patient's samples are 
 {% endtab %}
 
 {% tab title="Answer 2" %}
-[**Ending Screenshot**](https://xenabrowser.net/?bookmark=48a5b8fdbb425670cc1f9aad893c4a53)
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=1a821878ea8730d2d86849568f188b2c)
 
-![](../.gitbook/assets/screen-shot-2020-12-29-at-2.44.52-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 4.59.24 PM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
