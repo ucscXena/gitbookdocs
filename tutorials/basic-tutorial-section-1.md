@@ -57,7 +57,7 @@ Our goal is to build a Visual Spreadsheet and understand the relationship betwee
 
 #### [Link to Ending Screenshot](https://xenabrowser.net/?bookmark=0a2f8f629a7b30e5aa3e1d82ec6c34b5)
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-10-14 at 4.50.00 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 12.48.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Steps
 
