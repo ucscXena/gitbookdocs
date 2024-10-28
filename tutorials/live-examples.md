@@ -22,9 +22,9 @@ Xena Workshop Handout
 
 
 
-## [MGMT gene expression \~ promoter DNA methylation in GBM](https://xenabrowser.net/heatmap/?bookmark=2dc4735dd97964b7c2a57afe053a9764)
+## [MGMT gene expression \~ promoter DNA methylation in GBM](https://xenabrowser.net/?bookmark=048e461b1819bc84808edc16b34e974b)
 
-![https://xenabrowser.net/heatmap/?bookmark=2dc4735dd97964b7c2a57afe053a9764](../.gitbook/assets/dna-methylation-01.png)
+![https://xenabrowser.net/?bookmark=048e461b1819bc84808edc16b34e974b](../.gitbook/assets/dna-methylation-01.png)
 
 ## [ERG-TMPRSS2 fusion in prostate cancer ](https://xenabrowser.net/heatmap/?bookmark=cd6d8adead7d720fea7df197dc807147)
 
@@ -34,9 +34,9 @@ Xena Workshop Handout
 
 ![https://xenabrowser.net/heatmap/?bookmark=ff06e17b50faa9ec3045ab174dd19907](../.gitbook/assets/xenadownload-01.png)
 
-## [Genetic separation of lower grade gliomas: one characterized by loss of chromosomes 1p & 19q, the other by TP53 & ATRX mutations](https://xenabrowser.net/heatmap/?bookmark=6451afae2ee964475a2eb9c79d46900c)
+## [Genetic separation of lower grade gliomas: one characterized by loss of chromosomes 1p & 19q, the other by TP53 & ATRX mutations](https://xenabrowser.net/?bookmark=873b5bdf3633ce8c57598d7052b13c7b)
 
-![https://xenabrowser.net/heatmap/?bookmark=6451afae2ee964475a2eb9c79d46900c](../.gitbook/assets/old\_sfigure-3\_lgg.png)
+![https://xenabrowser.net/?bookmark=873b5bdf3633ce8c57598d7052b13c7b](../.gitbook/assets/old\_sfigure-3\_lgg.png)
 
 ## [Copy number for EGFR, PTEN, chromosome 1, 7, 10, 19 in TCGA brain tumors](https://xenabrowser.net/heatmap/?bookmark=0f9954a525987445ba7faef1e2081027)
 
