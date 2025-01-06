@@ -68,7 +68,7 @@ For more information on other supported columns for our Kaplan Meier analysis se
 [km-plots-using-data-from-a-local-xena-hub.md](../local-xena-hub/km-plots-using-data-from-a-local-xena-hub.md)
 {% endcontent-ref %}
 
-****[**Genomic and Clinical data to load into Xena**](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)****
+[**Genomic and Clinical data to load into Xena**](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)
 
 #### Steps to format the file
 
@@ -86,7 +86,7 @@ There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is r
 {% endhint %}
 
 {% hint style="info" %}
-****[**Copy of genomic and clinical data to load into Xena** ](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)****
+[**Copy of genomic and clinical data to load into Xena** ](https://drive.google.com/file/d/1iiu0yM-XHV2KVHW1ixIMLSvHvTAkXF5l/view)
 {% endhint %}
 
 ### Part B
@@ -126,7 +126,7 @@ If you have already loaded data previously, you may see datasets and cohorts lis
 #### Steps to load the data files
 
 1. Click the 'Load Data' button.
-2. Click 'Select Data File', choose 'CGGA.mRNAseq\_693\_**clinical.**20200506.txt', and click 'Next'.
+2. Click 'Select Data File', choose 'CGGA.mRNAseq\_693\_**clinical.**&#x32;0200506.txt', and click 'Next'.
 3. Choose 'Phenotypic Data' and click 'Next'.
 4. Choose 'The first column is sample IDs' and click 'Next'
 5. Choose 'These are the first data on these samples.', change the study name to 'CGGA', and click 'Import'.
@@ -140,11 +140,11 @@ If you have already loaded data previously, you may see datasets and cohorts lis
 
 #### Video of steps 1-6
 
-![](../.gitbook/assets/load\_clinical\_cgga.gif)
+![](../.gitbook/assets/load_clinical_cgga.gif)
 
 #### Video of steps 7-10
 
-![](../.gitbook/assets/load\_rnaseq\_cgga.gif)
+![](../.gitbook/assets/load_rnaseq_cgga.gif)
 
 {% hint style="info" %}
 Note that it can take several minutes for the RNAseq data to load since it is larger.
@@ -191,8 +191,8 @@ Note that we are unable to provide links to these ending screenshots because we 
 
 #### Video of steps 5-10
 
-![](../.gitbook/assets/view\_own\_data\_2.gif)
+![](../.gitbook/assets/view_own_data_2.gif)
 
 #### Video of steps 11-12
 
-![](../.gitbook/assets/view\_own\_data\_3.gif)
+![](../.gitbook/assets/view_own_data_3.gif)

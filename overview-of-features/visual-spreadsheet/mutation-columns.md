@@ -22,7 +22,7 @@ Samples for which there is no mutation data are gray with no dot or line, and ar
 
 **Green** --> synonymous\_variant, 5\_prime\_UTR\_variant, 3\_prime\_UTR\_variant, 5'Flank, 3'Flank, 3'UTR, 5'UTR, Silent, stop\_retained\_variant
 
-**Orange** --> others, SV, upstream_gene_variant, downstream\_gene\_variant, intron\_variant, intergenic\_region
+**Orange** --> others, SV, upstrea&#x6D;_&#x67;en&#x65;_&#x76;ariant, downstream\_gene\_variant, intron\_variant, intergenic\_region
 
 Note that we are case insensitive when we color for these terms.
 

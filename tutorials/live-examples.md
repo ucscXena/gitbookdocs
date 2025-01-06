@@ -22,7 +22,7 @@ Xena Workshop Handout
 
 
 
-## [MGMT gene expression \~ promoter DNA methylation in GBM](https://xenabrowser.net/?bookmark=048e461b1819bc84808edc16b34e974b)
+## [MGMT gene expression \~ promoter DNA methylation in GBM](https://xenabrowser.net/heatmap/?bookmark=3547cb283a111e68991e9b8a8d5f8b42)
 
 ![https://xenabrowser.net/?bookmark=048e461b1819bc84808edc16b34e974b](../.gitbook/assets/dna-methylation-01.png)
 
@@ -34,9 +34,9 @@ Xena Workshop Handout
 
 ![https://xenabrowser.net/heatmap/?bookmark=ff06e17b50faa9ec3045ab174dd19907](../.gitbook/assets/xenadownload-01.png)
 
-## [Genetic separation of lower grade gliomas: one characterized by loss of chromosomes 1p & 19q, the other by TP53 & ATRX mutations](https://xenabrowser.net/?bookmark=873b5bdf3633ce8c57598d7052b13c7b)
+## [Genetic separation of lower grade gliomas: one characterized by loss of chromosomes 1p & 19q, the other by TP53 & ATRX mutations](https://xenabrowser.net/heatmap/?bookmark=873b5bdf3633ce8c57598d7052b13c7b)
 
-![https://xenabrowser.net/?bookmark=873b5bdf3633ce8c57598d7052b13c7b](../.gitbook/assets/old\_sfigure-3\_lgg.png)
+![https://xenabrowser.net/?bookmark=873b5bdf3633ce8c57598d7052b13c7b](<../.gitbook/assets/Screenshot 2024-12-19 at 11.32.52 AM.png>)
 
 ## [Copy number for EGFR, PTEN, chromosome 1, 7, 10, 19 in TCGA brain tumors](https://xenabrowser.net/heatmap/?bookmark=0f9954a525987445ba7faef1e2081027)
 

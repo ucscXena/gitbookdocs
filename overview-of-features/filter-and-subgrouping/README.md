@@ -16,6 +16,8 @@ The bar highlighted above allows you to search **all data on the screen** for yo
 
 You can search for samples by either typing in the search bar or by clicking on the dropper icon to enter the pick samples mode. The pick samples mode will allow you to click on a column to select samples. The search term for your picked samples will appear in the search bar. To exit the pick samples mode, click on the dropper icon again.
 
+Note the pick samples mode tends to work best if the column you are selecting from is the first column.
+
 {% hint style="info" %}
 More information on [supported search terms](supported-search-terms-for-finding-samples.md)
 {% endhint %}
@@ -28,7 +30,7 @@ More information on [supported search terms](supported-search-terms-for-finding-
 
 ## Filter + Subgroup menu
 
-Once you have your sample\(s\) of interest, click on the filter + subgroup menu and choose to:
+Once you have your sample(s) of interest, click on the filter + subgroup menu and choose to:
 
 **Keep samples:** Keep only the samples which match your criteria.
 
@@ -57,4 +59,3 @@ Note this search history will be preserved in [bookmarks](../bookmarks.md).
 ## Changing subgroup labels
 
 Once the subgroup column is created, users can change the labels from "true" or "false" to, for example, "wild type" or "_EGFR_ mutant" by adjusting the column display settings. To access these select the three dot menu at the top of the column and choose 'Display'
-
