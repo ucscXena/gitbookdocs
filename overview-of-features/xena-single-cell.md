@@ -2,17 +2,17 @@
 description: Overview of how to view single cell data
 ---
 
-# Single Cell Portal
+# Xena Single Cell
 
-## Entering the Single Cell Portal
+## Entering Xena Single Cell
 
-To enter the single cell portal click on 'SINGLECELL' in the top navigation bar. This will welcome you to the portal where you can then click 'Enter'.
+To enter Xena Single Cell click on 'SINGLECELL' in the top navigation bar. This will welcome you to where you can then click 'Enter'.
 
 ## Selecting a study
 
 You can either double-click to select a study or click on a study and click next.
 
-Note that we do not yet support users loading their own data. If there is data that you'd like to see on the Single Cell Portal, public or private, [contact us](../contact-us.md).
+Note that we do not yet support users loading their own data. If there is data that you'd like to see on Xena Single Cell, public or private, [contact us](../contact-us.md).
 
 For many of the studies we generated data on top of what was provided by the authors, such as the coordinates for a 3D UMAP. Note that these Xena-derived data are in beta and are subject to change at any point.
 
@@ -32,4 +32,4 @@ Each of these options will also have an advanced options menu, where you can cho
 
 ## Viewing single cell data in the Visual Spreadsheet or Chart View
 
-In addition to viewing single cell data in the Single Cell Portal, you can also view it in the [Visual Spreasheet](visual-spreadsheet/) or [Chart View](chart-view.md). Select the study and columns or data you are interested in in the Visual Spreasheet, similar to the bulk data.&#x20;
+In addition to viewing single cell data in Xena Single Cell, you can also view it in the [Visual Spreasheet](visual-spreadsheet/) or [Chart View](chart-view.md). Select the study and columns or data you are interested in in the Visual Spreasheet, similar to the bulk data.&#x20;
