@@ -39,6 +39,7 @@
   * [Genomic Signatures](overview-of-features/genomic-signatures.md)
   * [Bookmarks](overview-of-features/bookmarks.md)
   * [Download Data](overview-of-features/download-data.md)
+  * [Single Cell Portal](overview-of-features/single-cell-portal.md)
   * [TumorMap](overview-of-features/tumormap.md)
   * [MuPIT](overview-of-features/untitled.md)
   * [Accessing data through python](overview-of-features/accessing-data-through-python.md)
