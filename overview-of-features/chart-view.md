@@ -22,9 +22,11 @@ If an option is grayed out, this means that you do not have enough or the right 
 
 ## After building a chart
 
-If you are viewing a distribution of a continuous feature, such as gene expression for a single gene, you can lines to the graph that indicate the mean/median or percentiles.
+If you are viewing a distribution of a continuous feature, such as gene expression for a single gene, you can add lines to the graph that indicate the mean/median or percentiles.
 
-If you are viewing a scatterplot it will also allow you to color the points by a column of data.
+If you are viewing a scatterplot, you can color the points by a third column of data.
+
+If you are viewing a dot plot, you can select if you would like to view the data as 'continuous value' where the size of the dot reflects the mean, same as the intensity of the color, or if you would like to view the data as 'single cell count data' where the size of the dot reflects the percent of cells/samples that have a non-zero value.
 
 Advanced options available under the graph will allow you to change the scales of the axes.&#x20;
 
