@@ -12,7 +12,7 @@ To get to the chart view click on the icon indicated below by the red box or use
 
 Once you enter Chart View, it will ask you a series of questions about what type of graph you are trying to make.
 
-**Compare subgroups** will allow you to compare groups of patient's samples, either those that you have made or via a categorical feature, such as sample type. It will build the appropriate graph depending on whether you have selected a continuous numerical or categorical column. This option will let you make box plots, violin plots, and bar charts.
+**Compare subgroups** will allow you to compare groups of patient's samples, either those that you have made or via a categorical feature, such as sample type. It will build the appropriate graph depending on whether you have selected a continuous numerical or categorical column. This option will let you make box plots, violin plots, bar charts, and dot plots.
 
 **See a distribution** will let you see a histogram distribution of the data in a single column. You can view the mean, median, and various standard deviations on the distribution. The column can have sub-columns, either multiple probes or multiple genes, which will instead create a plot with multiple box plots.
 
@@ -22,11 +22,13 @@ If an option is grayed out, this means that you do not have enough or the right 
 
 ## After building a chart
 
-We show statistics in the upper right corner of the screen for most graphs. If we detect it will take some time run the statistics we may instead show a button with 'run stats', so that you can decide if you would like to run the statistical test.
+If you are viewing a distribution of a continuous feature, such as gene expression for a single gene, you can lines to the graph that indicate the mean/median or percentiles.
 
 If you are viewing a scatterplot it will also allow you to color the points by a column of data.
 
 Advanced options available under the graph will allow you to change the scales of the axes.&#x20;
+
+We show statistics in the bottom right corner of the screen for most graphs. If we detect it will take some time run the statistics we may instead show a button with 'run stats', so that you can decide if you would like to run the statistical test.
 
 {% hint style="warning" %}
 Note that for violin plots, the width of each plot is does not relate to the number of samples in the plot.
