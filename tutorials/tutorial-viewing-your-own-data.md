@@ -6,7 +6,7 @@ description: >-
 
 # Tutorial: Viewing your own data
 
-## Description
+Description
 
 This tutorial is made for those who have basic knowledge of how to use Xena. We will cover how to load your own data into a Xena hub on your computer. We will then view the data in the Xena Browser
 
@@ -160,7 +160,7 @@ We will look at the chromosome 1p-19q co-deletion in Chinese glioma patients and
 
 #### Ending Screenshot for Box plot (end of step 11)
 
-![](../.gitbook/assets/screen-shot-2021-06-16-at-1.32.44-pm.png)
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-07 at 3.57.39 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Ending Screenshot for Kaplan Meier Analysis (end of step 13)
 
