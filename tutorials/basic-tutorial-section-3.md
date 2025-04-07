@@ -62,7 +62,7 @@ We can now see that patient's samples with _EGFR_ aberrations have statistically
 
 #### Video of steps
 
-<figure><img src="../.gitbook/assets/tutorial3.1.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/basic_tutorial_3_step_1.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
@@ -98,7 +98,7 @@ We can now see that _EGFR_ aberrations are more common in samples from females.
 
 #### Video of steps 5-9
 
-<figure><img src="../.gitbook/assets/tutorial3.3.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/basic_tutorial_3_step_4.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information

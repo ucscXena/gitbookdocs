@@ -65,7 +65,7 @@ We can now see that normal samples tend to have lower _MYC_ gene expression.
 
 #### Video of step 5
 
-![](../.gitbook/assets/tvn\_filter\_colon.gif)
+![](../.gitbook/assets/tvn_filter_colon.gif)
 
 ### Part B
 
@@ -86,7 +86,7 @@ We can now see that patient's tumor samples, both recurrent, primary, and metast
 
 #### Video of steps 1-4
 
-![](../.gitbook/assets/tvn\_chart.gif)
+<figure><img src="../.gitbook/assets/tumor_normal_tutorial_step_2.gif" alt=""><figcaption></figcaption></figure>
 
 ## Test your knowledge
 
@@ -96,7 +96,7 @@ Compare _EGFR_ gene expression between patient's tumor samples and individual's 
 {% endtab %}
 
 {% tab title="Answer" %}
-****[**Ending Screenshot**](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)****
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=6b6103b8e6dab4eb31d2008891b59814)
 
 ![](../.gitbook/assets/screen-shot-2021-06-09-at-11.57.59-am.png)
 {% endtab %}

@@ -191,7 +191,7 @@ Note that we are unable to provide links to these ending screenshots because we 
 
 #### Video of steps 5-10
 
-![](../.gitbook/assets/view_own_data_2.gif)
+<figure><img src="../.gitbook/assets/View_own_data_tutorial_step_4.gif" alt=""><figcaption></figcaption></figure>
 
 #### Video of steps 11-12
 
