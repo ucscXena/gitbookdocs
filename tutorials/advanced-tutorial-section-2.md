@@ -86,7 +86,7 @@ UBE2T BIRC5 NUF2 CDC6 CCNB1 TYMS MYBL2 CEP55 MELK NDC80 RRM2 UBE2C CENPF PTTG1 E
 
 #### Video of steps 1-5
 
-![](../.gitbook/assets/advanced\_section2\_3.gif)
+![](../.gitbook/assets/advanced_section2_3.gif)
 
 {% hint style="success" %}
 More information:
@@ -142,7 +142,7 @@ Note it can take a while for the analysis to run. Wait until it says 'Success' a
 
 #### Video of steps 1-3
 
-![](../.gitbook/assets/advanced\_section2\_5.gif)
+<figure><img src="../.gitbook/assets/Advanced_tutorial_2.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 More information
