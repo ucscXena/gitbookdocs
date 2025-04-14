@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Welcome to the Help Pages for UCSC Xena](README.md)
-* [Tutorials](tutorials/README.md)
+* [Tutorials and webinars](tutorials/README.md)
+  * [Webinars](tutorials/webinars.md)
   * [Basic Tutorial: Section 1](tutorials/basic-tutorial-section-1.md)
   * [Basic Tutorial: Section 2](tutorials/basic-tutorial-section-2.md)
   * [Basic Tutorial: Section 3](tutorials/basic-tutorial-section-3.md)

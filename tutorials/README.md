@@ -1,8 +1,10 @@
 ---
-description: Step-by-step tutorials, videos, and other materials to get you started.
+description: >-
+  Step-by-step tutorials to get you started and our schedule of upcoming
+  webinars
 ---
 
-# Tutorials
+# Tutorials and webinars
 
 ## [Basic Step-by-Step Tutorial](basic-tutorial-section-1.md)
 
