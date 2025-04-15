@@ -6,7 +6,7 @@ description: Our upcoming and past webinars
 
 ## Upcoming Webinars
 
-There are no upcoming webinars. Please check back soon.
+New webinar series coming soon! Stay tuned for updates — and be the first to know by signing up below.
 
 ## Past Webinars
 
@@ -14,5 +14,5 @@ There are no past webinars.
 
 ## Sign up for updates
 
-To keep updated on upcoming webinars please [sign up for our newsletter](https://xena.ucsc.edu/#whatsnew).
+To stay updated on upcoming webinars please [subscribe to our newsletter](https://xena.ucsc.edu/#whatsnew).
 
