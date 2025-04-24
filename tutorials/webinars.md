@@ -1,18 +1,28 @@
 ---
-description: Our upcoming and past webinars
+description: Upcoming webinars and how to keep updated about future ones
 ---
 
 # Webinars
 
-## Upcoming Webinars
+## Basic Xena Webinar: June 5th, 2025 10am-12pm PT
 
-New webinar series coming soon! Stay tuned for updates — and be the first to know by signing up below.
+This webinar will be on **June 5th, 2025, 10am-12pm PT.**
 
-## Past Webinars
+In this webinar we will explore the basic functionalities of Xena including&#x20;
 
-There are no past webinars.
+* Visualizing mutation, expression, and copy number variation for a gene, group of genes, or chromosome
+* Visualizing clinical/phenotype data
+* Running a Kaplan-Meier survival analysis
+* Creating charts and analyses with accompanying statistics
+* Running a Differential Gene Expression analysis
 
-## Sign up for updates
+All analyses will be done on publicly available data. As time permits, we’ll also do a brief demonstration of how to explore your own data within Xena.
 
-To stay updated on upcoming webinars please [subscribe to our newsletter](https://xena.ucsc.edu/#whatsnew).
+The webinar will run for 1.5 hours, followed by 30 minutes for Q\&A.
+
+**Sign up here:** [**https://ucsc.zoom.us/meeting/register/VnLfFkaPS26Uj22AyVyMfA**](https://ucsc.zoom.us/meeting/register/VnLfFkaPS26Uj22AyVyMfA)
+
+## More webinars coming soon!
+
+[Subscribe to our newsletter](https://xena.ucsc.edu/#whatsnew) for updates.
 
