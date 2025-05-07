@@ -1,5 +1,5 @@
 ---
-description: Upcoming webinars and how to keep updated about future ones
+description: Explore upcoming webinars and sign up to stay in the loop on new dates.
 ---
 
 # Webinars
