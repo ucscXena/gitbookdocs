@@ -4,11 +4,11 @@ description: Upcoming webinars and how to keep updated about future ones
 
 # Webinars
 
-## Basic Xena Webinar: June 5th, 2025 10am-12pm PT
+## Basic Xena Webinar for bulk sequencing data: June 5th, 2025 10am-12pm PT
 
 This webinar will be on **June 5th, 2025, 10am-12pm PT.**
 
-In this webinar we will explore the basic functionalities of Xena including&#x20;
+In this webinar we will explore Xena's basic functionalities for bulk sequencing data including&#x20;
 
 * Visualizing mutation, expression, and copy number variation for a gene, group of genes, or chromosome
 * Visualizing clinical/phenotype data
@@ -16,7 +16,7 @@ In this webinar we will explore the basic functionalities of Xena including&#x20
 * Creating charts and analyses with accompanying statistics
 * Running a Differential Gene Expression analysis
 
-All analyses will be done on publicly available data. As time permits, we’ll also do a brief demonstration of how to explore your own data within Xena.
+All analyses will be done on publicly available data. As time permits, we’ll also do a brief demonstration of how to explore your own bulk sequencing data within Xena.
 
 The webinar will run for 1.5 hours, followed by 30 minutes for Q\&A.
 
