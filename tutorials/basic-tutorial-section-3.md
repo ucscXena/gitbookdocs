@@ -46,7 +46,7 @@ To ensure your columns are sorted the same as those in this tutorial, [please st
 
 We found that patient's samples that have aberrations in _EGFR_ have higher gene expression. Now we are going to investigate if this difference in gene expression statistically significant.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=b18df76113c70e72297e87c6d0b9de2f)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=3e8d1745074cc48ca2154a4a13e47b7b)
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.47.33 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -114,7 +114,7 @@ Starting at the end of Part A, create a violin plot that compares copy number va
 {% endtab %}
 
 {% tab title="Answer 1" %}
-[**Ending Screenshot**](https://xenabrowser.net/?bookmark=bfa684729ba0574bb6338bff698135c0)
+[**Ending Screenshot**](https://xenabrowser.net/?bookmark=854d9c0f001838a88ef2f6340fc6ec60)
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.55.22 AM.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
