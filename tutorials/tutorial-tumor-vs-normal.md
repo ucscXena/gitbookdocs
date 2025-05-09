@@ -71,7 +71,7 @@ We can now see that normal samples tend to have lower _MYC_ gene expression.
 
 Our goal is to see if the difference in gene expression, where normal samples tend to have lower _MYC_ gene expression, is statistically significant.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=5037e150565a8331ca94d869dfb0a209)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=e0c785d28f236a9c8e66b519f7b3f37d)
 
 ![](../.gitbook/assets/screen-shot-2021-06-08-at-2.02.19-pm.png)
 
