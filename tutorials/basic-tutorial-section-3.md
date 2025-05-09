@@ -74,7 +74,7 @@ More information
 
 We will now investigate how _EGFR_ aberrations compare between samples from men and women.
 
-#### [Ending Screenshot](https://xenabrowser.net/?bookmark=00dfb92a2515e87ab0397ea71a7ffe7d)
+#### [Ending Screenshot](https://xenabrowser.net/?bookmark=93296e5498a7b532149fbd6aeffe4896)
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 11.53.35 AM.png" alt=""><figcaption></figcaption></figure>
 
