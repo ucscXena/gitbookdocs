@@ -17,8 +17,12 @@ We support most types of [genomic and/or phenotypic/clinical/annotation data](da
 
 Data can be your own or from another source, like [GEO](https://www.ncbi.nlm.nih.gov/geo/) or a publication.
 
-We support tab-delimited (.tsv and .txt) and Microsoft Excel files (.xlsx and .xls). \
-\
+We support tab-delimited (.tsv and .txt) and Microsoft Excel files (.xlsx and .xls).&#x20;
+
+{% hint style="warning" %}
+Please be careful when using Microsoft Excel to open files with gene names as Microsoft Excel will automatically convert some gene names into dates. For more information see: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+{% endhint %}
+
 Data on a Local Xena Hub can only be viewed or accessed by the same computer on which it is running, keeping private data secure.
 
 The Local Xena Hub must be installed and running in order to load data, as well as any time you want to view data. The Local Xena Hub will remember previously loaded data.

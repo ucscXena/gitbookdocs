@@ -21,4 +21,10 @@ description: There are 4 ways to download data
 
 ## **How do I open the download files?**
 
-Our files are tab-delimited or '.tsv'. We recommend opening them in your favorite spreadsheet program, such as Microsoft Excel, which will automatically convert the tabs into new columns. Please note that if you have many thousands of samples, Microsoft Excel will likely have difficulty opening the file. In this case, the command line may work better for you.
+Our files are tab-delimited or '.tsv'. We recommend opening them on the command line if you hare able.
+
+If you not able to use the command line then we recommend using your favorite spreadsheet program, such as Microsoft Excel, which will automatically convert the tabs into new columns. Please note that if you have many thousands of samples, Microsoft Excel will likely have difficulty opening the file.&#x20;
+
+{% hint style="warning" %}
+Please be careful when opening files that have gene names in Microsoft Excel as Microsoft Excel will automatically convert some gene names into dates. For more information see: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+{% endhint %}
