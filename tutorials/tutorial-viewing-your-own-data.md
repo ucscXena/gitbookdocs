@@ -81,6 +81,10 @@ For more information on other supported columns for our Kaplan Meier analysis se
 5. Rename the column header 'Censor (alive=0; dead=1)' to be 'OS'.
 6. Save and close the file.
 
+{% hint style="warning" %}
+Please be careful when using Microsoft Excel to open files with gene names as Microsoft Excel will automatically convert some gene names into dates. For more information see: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+{% endhint %}
+
 {% hint style="success" %}
 There is no need to open CGGA.mRNAseq\_693.RSEM-genes.20200506.txt since it is ready to be loaded into the Local Xena Hub on your computer as is.
 {% endhint %}

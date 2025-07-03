@@ -2,7 +2,7 @@
 
 ## I ran into APPLE warning you about “unidentified developer” warning when installing Xena. What do I do?
 
-There are a couple of options. You can right-click the .dmg and chosen 'open'. You can also press the Control key, then click the app icon, then choose Open from the shortcut menu. These help pages might help:  [http://www.iclarified.com:8081/28180/how-to-open-applications-from-unidentified-developers-in-mac-os-x-mountain-lion](http://www.iclarified.com:8081/28180/how-to-open-applications-from-unidentified-developers-in-mac-os-x-mountain-lion) and from Apple: [https://support.apple.com/kb/PH25088?locale=en\_US](https://support.apple.com/kb/PH25088?locale=en\_US) .
+There are a couple of options. You can right-click the .dmg and chosen 'open'. You can also press the Control key, then click the app icon, then choose Open from the shortcut menu. These help pages might help:  [http://www.iclarified.com:8081/28180/how-to-open-applications-from-unidentified-developers-in-mac-os-x-mountain-lion](http://www.iclarified.com:8081/28180/how-to-open-applications-from-unidentified-developers-in-mac-os-x-mountain-lion) and from Apple: [https://support.apple.com/kb/PH25088?locale=en\_US](https://support.apple.com/kb/PH25088?locale=en_US) .
 
 ## I see my probes/genes/transcripts when loading my data, but I don't know whether to choose hg18, hg19 or hg38?
 
@@ -29,6 +29,10 @@ You might be able to load your file anyways, depending on the format. Give it a 
 ## How do I convert my .xls or .xlsx into a tab-delimited file?&#x20;
 
 You can export a Microsoft Excel file as a tab-delimited file using the 'Save as ...' function.
+
+{% hint style="warning" %}
+Please be careful when using Microsoft Excel to open files with gene names as Microsoft Excel will automatically convert some gene names into dates. For more information see: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+{% endhint %}
 
 ## Unix vs DOS
 
