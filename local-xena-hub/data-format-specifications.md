@@ -9,7 +9,7 @@ We support most types of genomic and phenotype/clinical/sample annotations. For 
 We support tab-delimited and Microsoft Excel files (.xlsx and .xls). Tab-delimited files generally have a file name ending in .tsv or .txt, though we do not require this. Note that we load tab-delimited files much faster than Excel files. You can export a Microsoft Excel file as a tab-delimited file using the 'Save as ...' function.
 
 {% hint style="warning" %}
-Please be careful opening files with gene names as Microsoft Excel will automatically convert some gene names into dates. For more information see: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+Please be careful when using Microsoft Excel to open files with gene names as Microsoft Excel will automatically convert some gene names into dates. For more information see: [https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
 {% endhint %}
 
 Please do not have any duplicate genes/probes/identifiers or samples. We will allow you to load with duplicates but will only display the first one encountered in the file.
